@@ -1,0 +1,32 @@
+{
+    "textGreet": "Hi, ",
+    "placeholderSearchBar": "Search ships",
+    "labelRecommendation": "Recommendation",
+    "textTopRatedShips": "Top Rated Ships",
+    "labelPopularShips": "Popular Ships",
+    "textViewAll": "View All",
+    "labelRecomendation": "Recommendation",
+    "failedTokenExpired": "Token expired, please re-sign in",
+    "textTopRentedShips": "Top Rented Ships",
+    "textRented": "Rented",
+    "ShipOwner": {
+        "buttonNext": "Next",
+        "buttonAddNewShip": "Add New Ship",
+        "textAddGeneralForm": "1. General Ship Information",
+        "textAddSpecificForm": "Ship Spesification",
+        "textSelectFile": "Please select a file",
+        "toastUploading": "Uploading Ship Document",
+        "textShipAddedSuccessfully": "Ship added successfully",
+        "textShipAddedFailedImage": "Ship added failed on image upload",
+        "toastUploadingImage": "Uploading Ship Image",
+        "textShipAddedFailedDocument": "Ship added failed on document upload",
+        "textShipAddedFailedShip": "Ship added failed on ship upload",
+        "textNoShipData": "No Ship Data",
+        "textSuccessAdd": "Ships are being added, please do not leave this page"
+    },
+    "textApproved": "Approved",
+    "textNotApproved": "Not Approved",
+    "textGuest": "Guest",
+    "textNoLocation": "Location not available"
+
+}

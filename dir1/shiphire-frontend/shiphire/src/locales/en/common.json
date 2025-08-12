@@ -1,0 +1,402 @@
+{
+    "MainScreenStack": {
+        "titleDetailShip": "Ship Detail",
+        "titleRequestForAQuoteStack": "Request For A Quote",
+        "titleTransactionStatusTabNav": "Transaction Status",
+        "titleTransactionDetail": "Transaction Detail",
+        "titleProposalPreview": "Proposal",
+        "titlePayment": "Payment",
+        "titlePaymentHistory": "History",
+        "titleCompanyRegister": "Company Register",
+        "titleSavedShips": "Saved Ships",
+        "titleAboutUs": "About Us",
+        "titleEditProfile": "Add Phone Number",
+        "titleVerifyEmail": "Verify Email",
+        "titleCompanyProfile": "Company Profile",
+        "titleRequestDetail": "Request",
+        "titleProposalDetail": "Proposal",
+        "titleContractDetail": "Contract",
+        "titleContractPreview": "Contract Preview",
+        "titleTrackTransaction": "Track Transaction",
+        "titleRemindedShips": "Reminded Ships",
+        "titleSearch": "Search",
+        "titleChangeLanguage": "Change Language",
+        "titleAddTransactionHistory": "Add Transaction History",
+        "titleManageTransactionHistory": "Manage Transaction History",
+        "titleEditShipHistory": "Edit Ship History",
+        "titleShipAvailability": "Ship Availability",
+        "titleVerifyPhoneNumber": "Verify Phone Number",
+        "titleAccountVerification": "Account Verification",
+        "titleShipOwnerCompany": "Company Profile",
+        "titleNegotiation": "Negotiation",
+        "titlePreview": "Preview",
+        "titlePaymentReceipt": "Payment Receipt",
+        "titleShipByCategory": "Ship By Category",
+        "titleDeleteAccount": "Delete Account",
+        "titleShipTrackingDetail": "Ship Tracking Detail",
+        "titleShipTrackingForm": "Ship Tracking Form",
+        "titleAddReview": "Review"
+    },
+    "MainScreenTabNav": {
+        "titleHome": "Home",
+        "titleNotification": "Notification",
+        "titleAccount": "Account",
+        "titleUsers": "Users"
+    },
+    "MainScreenOwnerStack": {
+        "titleDetailShip": "Ship Detail",
+        "OwnerDocumentPreview": "Document Preview",
+        "EditImageForm": "Editing Ship Image",
+        "titleEditGeneralForm": "Editing Ship",
+        "EditDocumentForm": "Editing Ship Document",
+        "titleAddShip": "Adding Ship",
+        "titleProposalPreview": "Proposal Preview",
+        "titlePaymentRenter": "Payment Renter",
+        "titlePaymentHistory": "History",
+        "titlePaymentReceipt": "Payment Receipt",
+        "titleTransactionStatus": "Transaction Status",
+        "titleOwnerContractPreview": "Owner Contract Preview",
+        "titleRFQTemplateManagement": "RFQ Template Management",
+        "titleRFQFormInputManagement": "RFQ Form Input Management",
+        "titleRFQInputForm": "RFQ Input Form",
+        "titleRFQFormInput": "RFQ Form Input",
+        "titleEditInputForm": "Edit Input Form",
+        "titleTransactionDetail": "Transaction Detail",
+        "titleShipPictures": "Ship Pictures",
+        "titleShipPicturesAfterRent": "Ship Pictures After Rent",
+        "titleSeeShipPictures": "See Ship Pictures",
+        "titleNegotiate": "Negotiate",
+        "titleDeleteAccount": "Delete Account",
+        "titleSendContract": "Send Contract",
+        "titleAboutUs": "About Us",
+        "titleDocumentPreview": "Document Preview",
+        "titleShipTrackingDetail": "Ship Tracking Detail"
+    },
+    "MainScreenOwnerTabNav": {
+        "titleShips": "Ships"
+    },
+    "RfqForm": {
+        "titleRfqForm": "Rent Information",
+        "descRfqForm": "Complete the following documents to complete the request",
+        "btnContinue": "Continue"
+    },
+    "TransactionStatusTabNav": {
+        "titleRFQ": "REQUEST FOR QUOTE",
+        "titleProposal": "PROPOSAL",
+        "titleContract": "CONTRACT",
+        "titleComplete": "COMPLETE",
+        "titleFailed": "FAILED",
+        "titlePaymentOwner": "ACCEPT PAYMENT",
+        "titlePaymentRenter": "PAYMENT",
+        "titleTracking": "TRACKING"
+    },
+    "TransactionCard": {
+        "completeFlagText": "Transaction Complete",
+        "failedFlagText": "Transaction Failed",
+        "textJustNow": "Just Now",
+        "textmAgo": "m ago",
+        "texthAgo": "h ago",
+        "textdAgo": "d ago",
+        "textCategory": "Category :",
+        "textSize": "Size :",
+        "textRentalId": "Rental ID",
+        "textNumber": "Number",
+        "textRentalPeriod": "Rental Period",
+        "textEmptyRFQ": "You don't have any RFQ on progress",
+        "textEmptyProposal": "You don't have any Proposal on progress",
+        "textEmptyContract": "You don't have any Contract on progress",
+        "textEmptyFailed": "You don't have any Failed Transaction",
+        "textEmptyComplete": "You don't have any Complete Transaction",
+        "textEmptyPayment": "You don't have any Payment on progress",
+        "textEmptyTracking": "You don't have any Tracking History",
+        "respondKeyProposal1": "Please complete your proposal negotiation!",
+        "respondKeyProposalWaiting1": "Waiting for shipowner respond",
+        "respondKeyProposal2": "Waiting for contract from ship owner",
+        "respondKeyProposal3": "Payment receipt sent!",
+        "respondKeyProposal4": "Payment approved!",
+        "respondKeyPayment1Owner": "Waiting payment from renter",
+        "respondKeyPayment2Owner": "Payment has been approved",
+        "respondKeyElse": "Ship owner response",
+        "respondValueProposal1": "Open proposal",
+        "respondValueProposal2": "Open proposal",
+        "respondValueProposal3/4": "Payment receipt",
+        "respondValueProposalElse": "undefined",
+        "respondValueProposalWaiting1": "See History",
+        "respondKeyContract1": "Please complete your contract signing!",
+        "respondKeyContract2": "Please complete your payment!",
+        "respondKeyContractElse": "Ship owner response",
+        "respondValueContract1": "Open contract",
+        "respondValueContract2": "Pay",
+        "respondValueContractElse": "undefined",
+        "respondKeyPayment1": "Payment receipt sent!",
+        "respondValuePayment1": "Open payment receipt",
+        "respondKeyPayment2": "Payment receipt approved",
+        "respondKeyTracking": "See Ship Tracking Details",
+        "respondKeyTracking2": "Update Ship Tracking Status",
+        "respondValueTracking": "Tracking Details",
+        "labelBadeNewRespond": "New",
+        "respondValueNegotiateOwner": "Respond Negotiate",
+        "respondValueHistoryNegotiate": "See History"
+    },
+    "StatusText": {
+        "rfq 1": "Waiting for ship owner to respond",
+        "rfq 2": "Waiting for proposal",
+        "proposal 1": "Waiting for deal",
+        "proposal 2": "Waiting for contract",
+        "proposal 3": "Waiting for payment approval",
+        "contract 1": "Waiting for your signature",
+        "contract 2": "Contract signed",
+        "payment 1": "Waiting for payment",
+        "payment 2": "Waiting for payment approval",
+        "payment 3": "Payment approved",
+        "sailing 1": "Ship ready to sail",
+        "sailing 2": "Ship sailing",
+        "sailing 3": "Ship returning",
+        "sailing 4": "Ship has returned",
+        "complete": "Transaction Complete"
+    },
+    "OwnerStatusText": {
+        "rfq 1": "Waiting for your response",
+        "rfq 2": "Waiting on your proposal",
+        "proposal 1": "Waiting for deal",
+        "proposal 2": "Waiting for your contract",
+        "proposal 3": "Waiting for renter payment",
+        "proposal 4": "Waiting for contract",
+        "contract 1": "Waiting for renter sign",
+        "contract 2": "Contract signed",
+        "payment 1": "Waiting for renter payment",
+        "payment 2": "Waiting for payment approval",
+        "payment 3": "Payment approved",
+        "sailing 1": "Ship ready to sail",
+        "sailing 2": "Ship sailing",
+        "sailing 3": "Ship returning",
+        "sailing 4": "Ship has returned",
+        "complete": "Transaction Complete",
+        "negotiate 1": "Waiting response",
+        "negotiate 2": "Waiting renter response"
+    },
+    "StatusDesc": {
+        "rfqSent": "RFQ sent",
+        "rfqAccept": "RFQ accepted",
+        "draftContractSent": "Draft contract sent",
+        "contractReceived": "Contract received",
+        "paymentApproved": "Payment approved",
+        "negotiateSent": "Negotiate draft contract sent"
+    },
+    "RenterDocPreview": {
+        "failedLoad": "Failed to load document. Please try again later"
+    },
+    "ContractPreview": {
+        "labelButtonNegotiate": "Negotiate",
+        "labelButtonAcceptContract": "Accept Contract"
+    },
+    "OTPModal": {
+        "successContractSign": "Contract signing success!",
+        "failedInvalidOTP": "Invalid OTP! Please re-check your email!",
+        "textOTPVerif": "OTP Verification",
+        "textEnterOTP": "Enter OTP Code sent to",
+        "textDidnt": "Didn't receive OTP code?",
+        "textResend": "Resend Code",
+        "textResendAgain": "Resend code again in",
+        "labelButtonVerify": "Verify OTP"
+    },
+    "ShipInformationCard": {
+        "textVisitCompany": "Visit Company",
+        "textType": "Type :",
+        "textSize": "Size :",
+        "textShipInformation": "Ship Information"
+    },
+    "TransactionProgress": {
+        "textRentalID": "Rental ID"
+    },
+    "DocumentPreview": {
+        "failedLoad": "Failed to load document. Please try again later"
+    },
+    "ContractStats": {
+        "respondKeyProposal4": "Please submit your contract",
+        "respondKeyContract1": "Contract sent",
+        "respondKeyProposal4NotOpened": "Please send your contract",
+        "respondValueProposal4": "Send Contract",
+        "respondValueContract1": "View Contract"
+    },
+    "RFQStats": {
+        "respondKey": "RFQ not Accepted",
+        "respondValue": "Respond to RFQ",
+        "btnAcceptRFQ": "Accept RFQ"
+    },
+    "ProposalStats": {
+        "respondKey": "Please create you proposal",
+        "respondValue": "Create Proposal"
+    },
+    "AcceptPaymentStats": {
+        "respondKey": "Payment not Accepted",
+        "respondValue": "Respond Payment",
+        "btnAcceptPayment": "Accept Payment",
+        "textUploadPictures": "Please upload before sailing pictures first before accepting payment.",
+        "textSuccessAcceptPayment": "Payment has been accepted, Please upload before sailing pictures!",
+        "textFailedAcceptPayment": "Failed to accept the payment. Please try again."
+    },
+    "ShipInformation": {
+        "textShipInformation": "Ship Information",
+        "textVisitCompany": "Visit Company",
+        "textType": "Type :",
+        "textSize": "Size :",
+        "textDocument": "Document :",
+        "textPrice": "Price per month:",
+        "textDraftContract": "Draft Contract"
+    },
+    "FormProposalOwner": {
+        "AdditionalDocument": {
+            "textDocumentName": "Document Name",
+            "validationDocumentName": "Document name is required.",
+            "textDocument": "Document.",
+            "validationDocument": "Document is required.",
+            "textSelectFile": "Select File",
+            "textAdditionalDocument": "Additional Document",
+            "textCancel": "Cancel",
+            "textAddDocument": "Add Document",
+            "textDocumentList": "Document List"
+        },
+        "textProposalSent": "Proposal Sent!",
+        "textFailedSentProposal": "Failed sent proposal. Please try again.",
+        "textProposalReply": "Proposal Reply",
+        "textProposalReplyDesc": "Complete this proposal to complete the renter request:",
+        "textOfferedPrice": "Offered Price",
+        "textInsertNote": "Insert notes for renter",
+        "textNote": "Note",
+        "textDraftContract": "Draft Contract",
+        "textSubmit": "Submit",
+        "textRequiredOfferPrice": "Rent fee is required",
+        "textRequiredNote": "Note is required"
+    },
+    "FormNegotiateRenter": {
+        "textNegotiate": "Negotiate",
+        "textDocument": "Document",
+        "textHistory": "History",
+        "NegotiateHistory": {
+            "textReadMore": "...Read more",
+            "textReadLess": "Read less",
+            "textAttachment": "Attachment",
+            "textImage": "Image",
+            "textDraftContract": "Draft Contract",
+            "textOfferPrice": "Offered Price"
+        },
+        "NegotiateDocument": {
+            "textShipDocument": "Ship Document",
+            "textAdditionalDocument": "Additional Document"
+        },
+        "NegotiateForm": {
+            "textHeaderNegotiate": "Negotiate Reply",
+            "textNegotiateReplyDesc": "Complete the negotiation form. you can add revision notes to the contract draft for the ship owner and attach screenshots to point out the revision.",
+            "placeholderNotes": "describe revision",
+            "labelNotes": "Notes",
+            "labelOfferPrice": "Offered Price",
+            "labelImageAttachment": "Image Attachment",
+            "textAddImage": "Add Image",
+            "textSend": "Send",
+            "textImageList": "Image list",
+            "placeholderImageCaption": "add image caption",
+            "labelimageCaption": "Image Caption",
+            "validationimageCaption": "Image caption is required",
+            "textUploadImage": "Upload Image",
+            "textSelectImage": "Select Image",
+            "validationSelectImage": "Image is required",
+            "textSuccessForm": "Negotiation was successfully sent",
+            "textErrorForm": "Failed to send revised draft contract",
+            "validateNote": "Notes is required",
+            "btnComplete": "Complete",
+            "textConfirmation": "Are you sure want to complete the negotiation ?",
+            "textConfirmDesc": "Please be careful because this action can only be done once and you won't be able negotiate again with ship owner",
+            "textCancel": "Cancel"
+        }
+    },
+    "FormNegotiateOwner": {
+        "textNegotiate": "Negotiate",
+        "textDocument": "Document",
+        "textHistory": "History",
+        "NegotiateHistory": {
+            "textReadMore": "...Read more",
+            "textReadLess": "Read less",
+            "textAttachment": "Attachment",
+            "textImage": "Image",
+            "textDraftContract": "Draft Contract",
+            "textOfferedPrice": "Offered Price"
+        },
+        "NegotiateDocument": {
+            "textShipDocument": "Ship Document",
+            "textAdditionalDocument": "Additional Document"
+        },
+        "NegotiateForm": {
+            "textHeaderNegotiate": "Negotiate Reply",
+            "textNegotiateReplyDesc": "This is a form to reply to a response from the renter. Please fill it out by attaching notes and the latest contract draft.",
+            "textOfferedPrice": "Offered Price",
+            "placeholderNotes": "Notes",
+            "labelNotes": "Notes",
+            "textSend": "Send",
+            "textSuccessForm": "Negotiation was successfully sent",
+            "textErrorForm": "Failed to send negotiation response",
+            "validateNote": "Must be filled",
+            "documentPickerButton": "Select Document",
+            "errorDocumentEmpty": "Draft document contract is required",
+            "errorSelectingPdf": "Error Selecting PDF",
+            "textLabelContract": "Draft Contract"
+        }
+    },
+    "OwnerContract": {
+        "labelAttachContract": "Attach Contract",
+        "labelContractFile": "Contract File",
+        "textSelectFile": "Select File",
+        "btnSubmit": "Submit",
+        "textSuccessContract": "Contract Sent! Check your transaction status frequently for renter response!",
+        "textFailedContract": "Failed to send contract! Please try again!"
+    },
+    "SaveShipPictures": {
+        "btnBefore": "Save Ship Pictures Before Rent",
+        "btnAfter": "Save Ship Pictures After Rent",
+        "btnDone": "See Ship Pictures"
+    },
+    "AddReview": {
+        "titleReview": "Review",
+        "btnReview": "Add Review",
+        "btnCancel": "Cancel",
+        "btnConfirm": "Add",
+        "textSuccessAddReview": "Review is submitted",
+        "textPlaceholder": "Write your review here...",
+        "veryBad": "Terrible",
+        "bad": "Bad",
+        "ok": "OK",
+        "good": "Good",
+        "awesome": "Awesome"
+    },
+    "RenterInformation": {
+        "textRenterInformation": "Renter Information",
+        "textRenterName": "Renter Name",
+        "textCompany": "Company",
+        "textCompanyAddress": "Company Address"
+    },
+    "DynamicCalendar": {
+        "textSelectDate": "Select Date",
+        "textSelect": "Select",
+        "errorDateNotAvail": "This date is not available",
+        "errorRequired": "You must choose Start Rent and End Rent",
+        "errorDateAvail": "Date is available",
+        "errorDateUnavailable": "This date is unavailable",
+        "errorDateMonthly": "Date end at least 2 month from start date",
+        "errordateBeforeStart": "Cannot choose date before start date"
+    },
+    "AddShip": {
+        "titleSpecificAdd": "Pick one or more",
+        "placeholderSpecificAdd": "Select your"
+    },
+    "PaymentHistory": {
+        "btnReceipt": "Receipt",
+        "titleOTR": "One time rent",
+        "titleRFOM": "Rent for 1 month"
+    },
+    "NetworkError": {
+        "textServerDownTitle": "Server Down!",
+        "textServerDownBody": "We're facing some technical issues. Please bear with us and try again in a few moments",
+        "textServerDownBtn": "Try Again!",
+        "textServerDownFail": "Server Down, Please try again later!"
+    }
+}

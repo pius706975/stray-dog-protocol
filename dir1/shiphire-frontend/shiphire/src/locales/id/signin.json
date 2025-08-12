@@ -1,0 +1,21 @@
+{
+    "successSignIn": "Berhasil masuk!",
+    "failedSignIn": "Email atau password salah",
+    "inactiveAccSignIn": "Akun belum diaktifkan",
+    "FormSignIn": {
+        "validationEmailInvalid": "Email tidak valid",
+        "validationEmailRequired": "Email diperlukan.",
+        "validationPasswordRequired": "Password diperlukan.",
+        "placeholderEmail": "Masukkan email anda",
+        "placeholderPassword": "Masukkan password anda",
+        "textForgotPassword": "Lupa password?",
+        "labelButtonSignIn": "Masuk",
+        "labelButtonSignInGoogle": "Masuk menggunakan Google"
+    },
+    "NewAccountSection": {
+        "textDontHaveAccount": "Belum punya akun?",
+        "textCreateOne": "Buat akun",
+        "textOr": "atau",
+        "textContinueGuest": "Lanjutkan sebagai tamu"
+    }
+}

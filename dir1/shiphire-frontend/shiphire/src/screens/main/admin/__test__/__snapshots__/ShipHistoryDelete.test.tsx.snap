@@ -1,0 +1,1005 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing ship history delete management Snapshot testing should render ship history delete screen correctly 1`] = `
+<RNCSafeAreaProvider
+  onInsetsChange={[Function]}
+  style={
+    {
+      "flex": 1,
+    }
+  }
+>
+  <RNSScreenStack
+    style={
+      {
+        "flex": 1,
+      }
+    }
+  >
+    <RNSScreen
+      collapsable={false}
+      forwardedRef={[Function]}
+      gestureResponseDistance={
+        {
+          "bottom": -1,
+          "end": -1,
+          "start": -1,
+          "top": -1,
+        }
+      }
+      nativeBackButtonDismissalEnabled={false}
+      onAppear={[Function]}
+      onDisappear={[Function]}
+      onDismissed={[Function]}
+      onGestureCancel={[Function]}
+      onHeaderBackButtonClicked={[Function]}
+      onNativeDismissCancelled={[Function]}
+      onTransitionProgress={[Function]}
+      onWillDisappear={[Function]}
+      replaceAnimation="push"
+      sheetAllowedDetents="large"
+      sheetCornerRadius={-1}
+      sheetExpandsWhenScrolledToEdge={true}
+      sheetGrabberVisible={false}
+      sheetLargestUndimmedDetent="all"
+      stackPresentation="push"
+      style={
+        {
+          "bottom": 0,
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        }
+      }
+      swipeDirection="horizontal"
+    >
+      <View
+        accessibilityElementsHidden={false}
+        importantForAccessibility="auto"
+        style={
+          {
+            "flex": 1,
+            "flexDirection": "column-reverse",
+          }
+        }
+      >
+        <View
+          collapsable={false}
+          style={
+            [
+              {
+                "flex": 1,
+              },
+              {
+                "backgroundColor": "rgb(242, 242, 242)",
+              },
+              undefined,
+            ]
+          }
+        >
+          <View
+            style={
+              [
+                undefined,
+                undefined,
+                undefined,
+                undefined,
+                undefined,
+                undefined,
+                undefined,
+                undefined,
+              ]
+            }
+          >
+            <RCTScrollView
+              collapsable={false}
+              data={
+                [
+                  "",
+                ]
+              }
+              getItem={[Function]}
+              getItemCount={[Function]}
+              handlerTag={1}
+              handlerType="NativeViewGestureHandler"
+              keyExtractor={[Function]}
+              onContentSizeChange={[Function]}
+              onGestureHandlerEvent={[Function]}
+              onGestureHandlerStateChange={[Function]}
+              onLayout={[Function]}
+              onMomentumScrollBegin={[Function]}
+              onMomentumScrollEnd={[Function]}
+              onScroll={[Function]}
+              onScrollBeginDrag={[Function]}
+              onScrollEndDrag={[Function]}
+              removeClippedSubviews={false}
+              renderItem={[Function]}
+              renderScrollComponent={[Function]}
+              scrollEventThrottle={50}
+              showsVerticalScrollIndicator={false}
+              stickyHeaderIndices={[]}
+              style={
+                {
+                  "height": "100%",
+                  "width": "100%",
+                }
+              }
+              viewabilityConfigCallbackPairs={[]}
+              waitFor={
+                [
+                  {
+                    "current": null,
+                  },
+                  {
+                    "current": null,
+                  },
+                ]
+              }
+            >
+              <View>
+                <View
+                  onFocusCapture={[Function]}
+                  onLayout={[Function]}
+                  style={null}
+                >
+                  <View
+                    style={
+                      [
+                        undefined,
+                        undefined,
+                        undefined,
+                        undefined,
+                        undefined,
+                        undefined,
+                        undefined,
+                        {
+                          "borderRadius": 8,
+                          "height": "100%",
+                          "margin": 6,
+                        },
+                      ]
+                    }
+                  >
+                    <RCTScrollView
+                      ItemSeparatorComponent={[Function]}
+                      collapsable={false}
+                      data={
+                        [
+                          {
+                            "__v": 0,
+                            "_id": "123",
+                            "deleteStatus": "pending",
+                            "genericDocument": [
+                              {
+                                "_id": "45",
+                                "fileName": "doc 1",
+                                "fileUrl": "http://doc.com",
+                              },
+                            ],
+                            "locationDeparture": "test keberangkatan",
+                            "locationDestination": "test tujuan",
+                            "price": 50000000,
+                            "rentEndDate": "2024-01-19T16:00:00.000Z",
+                            "rentStartDate": "2024-01-17T16:00:00.000Z",
+                            "shipId": {
+                              "__v": 0,
+                              "_id": "456",
+                              "category": "345",
+                              "desc": "Barge Hauler is a heavy-duty cargo barge designed to transport goods and materials across rivers, lakes, and coastal areas. Equipped with robust loading and unloading mechanisms, it can handle large and bulky items with ease. Barge Hauler plays a crucial role in facilitating the movement of essential commodities and equipment for various industries.",
+                              "facilities": [
+                                {
+                                  "_id": "2345",
+                                  "name": "Cranes",
+                                  "type": "567",
+                                  "typeName": "Cargo Handling Equipment",
+                                },
+                              ],
+                              "imageUrl": "http://image.com",
+                              "name": "Barge Hauler",
+                              "pricePerMonth": 900000000,
+                              "rating": 5,
+                              "rfqDynamicForm": "4657",
+                              "shipApproved": true,
+                              "shipDocuments": [
+                                {
+                                  "_id": "65a737c476517457909c4beb",
+                                  "documentExpired": "2100-12-30T16:00:00.000Z",
+                                  "documentName": "Ship Barge Hauler Owner CertificateOfRegister",
+                                  "documentUrl": "http://doc.com",
+                                },
+                              ],
+                              "shipOwnerId": "565",
+                              "size": {
+                                "height": 20,
+                                "length": 400,
+                                "width": 75,
+                              },
+                              "specifications": [
+                                {
+                                  "_id": "345",
+                                  "name": "Vehicle Capacity",
+                                  "spesificationId": "46",
+                                  "value": 100,
+                                },
+                              ],
+                              "tags": [],
+                              "totalRentalCount": 0,
+                            },
+                            "source": "manual",
+                          },
+                          {
+                            "__v": 0,
+                            "_id": "657",
+                            "deleteStatus": "pending",
+                            "genericDocument": [
+                              {
+                                "_id": "45",
+                                "fileName": "doc 1",
+                                "fileUrl": "http://doc.com",
+                              },
+                            ],
+                            "locationDeparture": "test keberangkatan",
+                            "locationDestination": "test tujuan",
+                            "price": 50000000,
+                            "rentEndDate": "2024-01-19T16:00:00.000Z",
+                            "rentStartDate": "2024-01-17T16:00:00.000Z",
+                            "shipId": {
+                              "__v": 0,
+                              "_id": "456",
+                              "category": "345",
+                              "desc": "Barge  is a heavy-duty cargo barge designed to transport goods and materials across rivers, lakes, and coastal areas. Equipped with robust loading and unloading mechanisms, it can handle large and bulky items with ease. Barge Hauler plays a crucial role in facilitating the movement of essential commodities and equipment for various industries.",
+                              "facilities": [
+                                {
+                                  "_id": "2345",
+                                  "name": "Cranes",
+                                  "type": "567",
+                                  "typeName": "Cargo Handling Equipment",
+                                },
+                              ],
+                              "imageUrl": "http://image.com",
+                              "name": "Barge ",
+                              "pricePerMonth": 900000000,
+                              "rating": 5,
+                              "rfqDynamicForm": "4657",
+                              "shipApproved": true,
+                              "shipDocuments": [
+                                {
+                                  "_id": "65a737c476517457909c4beb",
+                                  "documentExpired": "2100-12-30T16:00:00.000Z",
+                                  "documentName": "Ship Barge Hauler Owner CertificateOfRegister",
+                                  "documentUrl": "http://doc.com",
+                                },
+                              ],
+                              "shipOwnerId": "565",
+                              "size": {
+                                "height": 20,
+                                "length": 400,
+                                "width": 75,
+                              },
+                              "specifications": [
+                                {
+                                  "_id": "345",
+                                  "name": "Vehicle Capacity",
+                                  "spesificationId": "46",
+                                  "value": 100,
+                                },
+                              ],
+                              "tags": [],
+                              "totalRentalCount": 0,
+                            },
+                            "source": "manual",
+                          },
+                        ]
+                      }
+                      getItem={[Function]}
+                      getItemCount={[Function]}
+                      handlerTag={2}
+                      handlerType="NativeViewGestureHandler"
+                      keyExtractor={[Function]}
+                      onContentSizeChange={[Function]}
+                      onEndReachedThreshold={0.1}
+                      onGestureHandlerEvent={[Function]}
+                      onGestureHandlerStateChange={[Function]}
+                      onLayout={[Function]}
+                      onMomentumScrollBegin={[Function]}
+                      onMomentumScrollEnd={[Function]}
+                      onScroll={[Function]}
+                      onScrollBeginDrag={[Function]}
+                      onScrollEndDrag={[Function]}
+                      removeClippedSubviews={false}
+                      renderItem={[Function]}
+                      renderScrollComponent={[Function]}
+                      scrollEventThrottle={50}
+                      stickyHeaderIndices={[]}
+                      viewabilityConfigCallbackPairs={[]}
+                      waitFor={
+                        [
+                          {
+                            "current": null,
+                          },
+                          {
+                            "current": null,
+                          },
+                        ]
+                      }
+                    >
+                      <View>
+                        <View
+                          onFocusCapture={[Function]}
+                          onLayout={[Function]}
+                          style={null}
+                        >
+                          <View
+                            style={
+                              [
+                                undefined,
+                                undefined,
+                                undefined,
+                                undefined,
+                                undefined,
+                                undefined,
+                                undefined,
+                                {
+                                  "borderBottomWidth": 0.5,
+                                  "flexDirection": "row",
+                                },
+                              ]
+                            }
+                          >
+                            <View
+                              style={
+                                [
+                                  undefined,
+                                  undefined,
+                                  undefined,
+                                  undefined,
+                                  undefined,
+                                  undefined,
+                                  undefined,
+                                  {
+                                    "flex": 1,
+                                    "paddingLeft": 14,
+                                    "paddingRight": 10,
+                                    "paddingVertical": 14,
+                                  },
+                                ]
+                              }
+                            >
+                              <Text
+                                numberOfLines={0}
+                                style={
+                                  {
+                                    "borderBottomWidth": 0,
+                                    "borderColor": undefined,
+                                    "color": "#4d5963",
+                                    "fontFamily": "Kanit-SemiBold",
+                                    "fontSize": 14,
+                                    "lineHeight": undefined,
+                                    "textAlign": undefined,
+                                  }
+                                }
+                              >
+                                Ship Name:
+                              </Text>
+                              <Text
+                                numberOfLines={0}
+                                style={
+                                  {
+                                    "borderBottomWidth": 0,
+                                    "borderColor": undefined,
+                                    "color": "#4d5963",
+                                    "fontFamily": "Kanit-Regular",
+                                    "fontSize": 14,
+                                    "lineHeight": undefined,
+                                    "textAlign": undefined,
+                                  }
+                                }
+                              >
+                                Barge Hauler
+                              </Text>
+                              <Text
+                                numberOfLines={0}
+                                style={
+                                  {
+                                    "borderBottomWidth": 0,
+                                    "borderColor": undefined,
+                                    "color": "#4d5963",
+                                    "fontFamily": "Kanit-SemiBold",
+                                    "fontSize": 14,
+                                    "lineHeight": undefined,
+                                    "textAlign": undefined,
+                                  }
+                                }
+                              >
+                                Rent Period:
+                              </Text>
+                              <Text
+                                numberOfLines={0}
+                                style={
+                                  {
+                                    "borderBottomWidth": 0,
+                                    "borderColor": undefined,
+                                    "color": "#4d5963",
+                                    "fontFamily": "Kanit-Regular",
+                                    "fontSize": 14,
+                                    "lineHeight": undefined,
+                                    "textAlign": undefined,
+                                  }
+                                }
+                              >
+                                Jan 17, 2024
+                                 to
+                                 
+                                Jan 19, 2024
+                              </Text>
+                              <Text
+                                numberOfLines={0}
+                                style={
+                                  {
+                                    "borderBottomWidth": 0,
+                                    "borderColor": undefined,
+                                    "color": "#4d5963",
+                                    "fontFamily": "Kanit-SemiBold",
+                                    "fontSize": 14,
+                                    "lineHeight": undefined,
+                                    "textAlign": undefined,
+                                  }
+                                }
+                              >
+                                Location:
+                              </Text>
+                              <Text
+                                numberOfLines={0}
+                                style={
+                                  {
+                                    "borderBottomWidth": 0,
+                                    "borderColor": undefined,
+                                    "color": "#4d5963",
+                                    "fontFamily": "Kanit-Regular",
+                                    "fontSize": 14,
+                                    "lineHeight": undefined,
+                                    "textAlign": undefined,
+                                  }
+                                }
+                              >
+                                test keberangkatan
+                                 to 
+                                test tujuan
+                              </Text>
+                              <View
+                                style={
+                                  [
+                                    undefined,
+                                    undefined,
+                                    undefined,
+                                    undefined,
+                                    undefined,
+                                    undefined,
+                                    undefined,
+                                    undefined,
+                                  ]
+                                }
+                              >
+                                <Text
+                                  numberOfLines={0}
+                                  style={
+                                    {
+                                      "borderBottomWidth": 0,
+                                      "borderColor": undefined,
+                                      "color": "#4d5963",
+                                      "fontFamily": "Kanit-SemiBold",
+                                      "fontSize": 14,
+                                      "lineHeight": undefined,
+                                      "textAlign": undefined,
+                                    }
+                                  }
+                                >
+                                  Status:
+                                </Text>
+                                <Text
+                                  numberOfLines={0}
+                                  style={
+                                    {
+                                      "borderBottomWidth": 0,
+                                      "borderColor": undefined,
+                                      "color": "#cc1f12",
+                                      "fontFamily": "Kanit-Regular",
+                                      "fontSize": 14,
+                                      "lineHeight": undefined,
+                                      "textAlign": undefined,
+                                    }
+                                  }
+                                >
+                                  Waiting for Delete Approval
+                                </Text>
+                              </View>
+                            </View>
+                            <View
+                              style={
+                                [
+                                  undefined,
+                                  undefined,
+                                  undefined,
+                                  undefined,
+                                  undefined,
+                                  undefined,
+                                  undefined,
+                                  {
+                                    "alignItems": "center",
+                                    "flexDirection": "row",
+                                    "justifyContent": "space-between",
+                                  },
+                                ]
+                              }
+                            >
+                              <View
+                                marginR-5={true}
+                                style={
+                                  [
+                                    undefined,
+                                    undefined,
+                                    undefined,
+                                    undefined,
+                                    {},
+                                    {
+                                      "marginRight": 5,
+                                    },
+                                    {},
+                                    undefined,
+                                  ]
+                                }
+                              >
+                                <View
+                                  accessibilityState={
+                                    {
+                                      "busy": undefined,
+                                      "checked": undefined,
+                                      "disabled": undefined,
+                                      "expanded": undefined,
+                                      "selected": undefined,
+                                    }
+                                  }
+                                  accessibilityValue={
+                                    {
+                                      "max": undefined,
+                                      "min": undefined,
+                                      "now": undefined,
+                                      "text": undefined,
+                                    }
+                                  }
+                                  accessible={true}
+                                  collapsable={false}
+                                  focusable={true}
+                                  onBlur={[Function]}
+                                  onClick={[Function]}
+                                  onFocus={[Function]}
+                                  onResponderGrant={[Function]}
+                                  onResponderMove={[Function]}
+                                  onResponderRelease={[Function]}
+                                  onResponderTerminate={[Function]}
+                                  onResponderTerminationRequest={[Function]}
+                                  onStartShouldSetResponder={[Function]}
+                                  style={
+                                    {
+                                      "alignItems": "center",
+                                      "backgroundColor": "#1fcc44",
+                                      "borderRadius": 6,
+                                      "elevation": 2,
+                                      "flexDirection": "row",
+                                      "gap": 0,
+                                      "justifyContent": "center",
+                                      "paddingHorizontal": 10,
+                                      "paddingVertical": 6,
+                                    }
+                                  }
+                                  testID="item-0"
+                                >
+                                  <Text
+                                    numberOfLines={0}
+                                    style={
+                                      {
+                                        "borderBottomWidth": 0,
+                                        "borderColor": undefined,
+                                        "color": "#f0f6fb",
+                                        "fontFamily": "Kanit-Medium",
+                                        "fontSize": 18,
+                                        "lineHeight": undefined,
+                                        "textAlign": undefined,
+                                      }
+                                    }
+                                  >
+                                    Approve
+                                  </Text>
+                                  <View
+                                    style={
+                                      [
+                                        undefined,
+                                        undefined,
+                                        undefined,
+                                        undefined,
+                                        undefined,
+                                        undefined,
+                                        undefined,
+                                        {
+                                          "position": "absolute",
+                                          "right": 20,
+                                        },
+                                      ]
+                                    }
+                                  />
+                                </View>
+                              </View>
+                            </View>
+                          </View>
+                          <View
+                            style={
+                              [
+                                undefined,
+                                undefined,
+                                undefined,
+                                undefined,
+                                undefined,
+                                undefined,
+                                undefined,
+                                undefined,
+                              ]
+                            }
+                          />
+                        </View>
+                        <View
+                          onFocusCapture={[Function]}
+                          onLayout={[Function]}
+                          style={null}
+                        >
+                          <View
+                            style={
+                              [
+                                undefined,
+                                undefined,
+                                undefined,
+                                undefined,
+                                undefined,
+                                undefined,
+                                undefined,
+                                {
+                                  "borderBottomWidth": 0.5,
+                                  "flexDirection": "row",
+                                },
+                              ]
+                            }
+                          >
+                            <View
+                              style={
+                                [
+                                  undefined,
+                                  undefined,
+                                  undefined,
+                                  undefined,
+                                  undefined,
+                                  undefined,
+                                  undefined,
+                                  {
+                                    "flex": 1,
+                                    "paddingLeft": 14,
+                                    "paddingRight": 10,
+                                    "paddingVertical": 14,
+                                  },
+                                ]
+                              }
+                            >
+                              <Text
+                                numberOfLines={0}
+                                style={
+                                  {
+                                    "borderBottomWidth": 0,
+                                    "borderColor": undefined,
+                                    "color": "#4d5963",
+                                    "fontFamily": "Kanit-SemiBold",
+                                    "fontSize": 14,
+                                    "lineHeight": undefined,
+                                    "textAlign": undefined,
+                                  }
+                                }
+                              >
+                                Ship Name:
+                              </Text>
+                              <Text
+                                numberOfLines={0}
+                                style={
+                                  {
+                                    "borderBottomWidth": 0,
+                                    "borderColor": undefined,
+                                    "color": "#4d5963",
+                                    "fontFamily": "Kanit-Regular",
+                                    "fontSize": 14,
+                                    "lineHeight": undefined,
+                                    "textAlign": undefined,
+                                  }
+                                }
+                              >
+                                Barge 
+                              </Text>
+                              <Text
+                                numberOfLines={0}
+                                style={
+                                  {
+                                    "borderBottomWidth": 0,
+                                    "borderColor": undefined,
+                                    "color": "#4d5963",
+                                    "fontFamily": "Kanit-SemiBold",
+                                    "fontSize": 14,
+                                    "lineHeight": undefined,
+                                    "textAlign": undefined,
+                                  }
+                                }
+                              >
+                                Rent Period:
+                              </Text>
+                              <Text
+                                numberOfLines={0}
+                                style={
+                                  {
+                                    "borderBottomWidth": 0,
+                                    "borderColor": undefined,
+                                    "color": "#4d5963",
+                                    "fontFamily": "Kanit-Regular",
+                                    "fontSize": 14,
+                                    "lineHeight": undefined,
+                                    "textAlign": undefined,
+                                  }
+                                }
+                              >
+                                Jan 17, 2024
+                                 to
+                                 
+                                Jan 19, 2024
+                              </Text>
+                              <Text
+                                numberOfLines={0}
+                                style={
+                                  {
+                                    "borderBottomWidth": 0,
+                                    "borderColor": undefined,
+                                    "color": "#4d5963",
+                                    "fontFamily": "Kanit-SemiBold",
+                                    "fontSize": 14,
+                                    "lineHeight": undefined,
+                                    "textAlign": undefined,
+                                  }
+                                }
+                              >
+                                Location:
+                              </Text>
+                              <Text
+                                numberOfLines={0}
+                                style={
+                                  {
+                                    "borderBottomWidth": 0,
+                                    "borderColor": undefined,
+                                    "color": "#4d5963",
+                                    "fontFamily": "Kanit-Regular",
+                                    "fontSize": 14,
+                                    "lineHeight": undefined,
+                                    "textAlign": undefined,
+                                  }
+                                }
+                              >
+                                test keberangkatan
+                                 to 
+                                test tujuan
+                              </Text>
+                              <View
+                                style={
+                                  [
+                                    undefined,
+                                    undefined,
+                                    undefined,
+                                    undefined,
+                                    undefined,
+                                    undefined,
+                                    undefined,
+                                    undefined,
+                                  ]
+                                }
+                              >
+                                <Text
+                                  numberOfLines={0}
+                                  style={
+                                    {
+                                      "borderBottomWidth": 0,
+                                      "borderColor": undefined,
+                                      "color": "#4d5963",
+                                      "fontFamily": "Kanit-SemiBold",
+                                      "fontSize": 14,
+                                      "lineHeight": undefined,
+                                      "textAlign": undefined,
+                                    }
+                                  }
+                                >
+                                  Status:
+                                </Text>
+                                <Text
+                                  numberOfLines={0}
+                                  style={
+                                    {
+                                      "borderBottomWidth": 0,
+                                      "borderColor": undefined,
+                                      "color": "#cc1f12",
+                                      "fontFamily": "Kanit-Regular",
+                                      "fontSize": 14,
+                                      "lineHeight": undefined,
+                                      "textAlign": undefined,
+                                    }
+                                  }
+                                >
+                                  Waiting for Delete Approval
+                                </Text>
+                              </View>
+                            </View>
+                            <View
+                              style={
+                                [
+                                  undefined,
+                                  undefined,
+                                  undefined,
+                                  undefined,
+                                  undefined,
+                                  undefined,
+                                  undefined,
+                                  {
+                                    "alignItems": "center",
+                                    "flexDirection": "row",
+                                    "justifyContent": "space-between",
+                                  },
+                                ]
+                              }
+                            >
+                              <View
+                                marginR-5={true}
+                                style={
+                                  [
+                                    undefined,
+                                    undefined,
+                                    undefined,
+                                    undefined,
+                                    {},
+                                    {
+                                      "marginRight": 5,
+                                    },
+                                    {},
+                                    undefined,
+                                  ]
+                                }
+                              >
+                                <View
+                                  accessibilityState={
+                                    {
+                                      "busy": undefined,
+                                      "checked": undefined,
+                                      "disabled": undefined,
+                                      "expanded": undefined,
+                                      "selected": undefined,
+                                    }
+                                  }
+                                  accessibilityValue={
+                                    {
+                                      "max": undefined,
+                                      "min": undefined,
+                                      "now": undefined,
+                                      "text": undefined,
+                                    }
+                                  }
+                                  accessible={true}
+                                  collapsable={false}
+                                  focusable={true}
+                                  onBlur={[Function]}
+                                  onClick={[Function]}
+                                  onFocus={[Function]}
+                                  onResponderGrant={[Function]}
+                                  onResponderMove={[Function]}
+                                  onResponderRelease={[Function]}
+                                  onResponderTerminate={[Function]}
+                                  onResponderTerminationRequest={[Function]}
+                                  onStartShouldSetResponder={[Function]}
+                                  style={
+                                    {
+                                      "alignItems": "center",
+                                      "backgroundColor": "#1fcc44",
+                                      "borderRadius": 6,
+                                      "elevation": 2,
+                                      "flexDirection": "row",
+                                      "gap": 0,
+                                      "justifyContent": "center",
+                                      "paddingHorizontal": 10,
+                                      "paddingVertical": 6,
+                                    }
+                                  }
+                                  testID="item-1"
+                                >
+                                  <Text
+                                    numberOfLines={0}
+                                    style={
+                                      {
+                                        "borderBottomWidth": 0,
+                                        "borderColor": undefined,
+                                        "color": "#f0f6fb",
+                                        "fontFamily": "Kanit-Medium",
+                                        "fontSize": 18,
+                                        "lineHeight": undefined,
+                                        "textAlign": undefined,
+                                      }
+                                    }
+                                  >
+                                    Approve
+                                  </Text>
+                                  <View
+                                    style={
+                                      [
+                                        undefined,
+                                        undefined,
+                                        undefined,
+                                        undefined,
+                                        undefined,
+                                        undefined,
+                                        undefined,
+                                        {
+                                          "position": "absolute",
+                                          "right": 20,
+                                        },
+                                      ]
+                                    }
+                                  />
+                                </View>
+                              </View>
+                            </View>
+                          </View>
+                        </View>
+                      </View>
+                    </RCTScrollView>
+                  </View>
+                </View>
+              </View>
+            </RCTScrollView>
+            <Modal
+              animationType="slide"
+              hardwareAccelerated={false}
+              modifiers={
+                {
+                  "alignments": {},
+                  "backgroundColor": undefined,
+                  "borderRadius": undefined,
+                  "color": "transparent",
+                  "flexStyle": undefined,
+                  "margins": {},
+                  "paddings": {},
+                  "positionStyle": undefined,
+                  "typography": undefined,
+                }
+              }
+              testID="confirm-modal"
+              transparent={true}
+              visible={false}
+            />
+          </View>
+        </View>
+      </View>
+      <RNSScreenStackHeaderConfig
+        backButtonInCustomView={false}
+        backTitleVisible={true}
+        backgroundColor="rgb(255, 255, 255)"
+        color="rgb(0, 122, 255)"
+        direction="ltr"
+        disableBackButtonMenu={false}
+        hidden={false}
+        hideBackButton={false}
+        largeTitleHideShadow={false}
+        title="ShipHistoryDelete"
+        titleColor="rgb(28, 28, 30)"
+        topInsetEnabled={false}
+        translucent={false}
+      />
+    </RNSScreen>
+  </RNSScreenStack>
+</RNCSafeAreaProvider>
+`;

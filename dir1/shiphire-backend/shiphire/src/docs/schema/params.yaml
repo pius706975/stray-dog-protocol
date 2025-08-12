@@ -1,0 +1,27 @@
+parameters:
+    transactionId:
+        in: path
+        name: id
+        description: Transaction ID
+        required: true
+        schema:
+            type: string
+            default: SH-08242023-7e498541
+
+    shipId:
+        in: path
+        name: id
+        description: Ship ID
+        required: true
+        schema:
+            type: string
+            default: 64c764bbdb67b394e843b13b
+
+    userId:
+        in: path
+        name: id
+        description: User ID
+        required: true
+        schema:
+            type: string
+            default: 6526060c7123e4a3cff75e24

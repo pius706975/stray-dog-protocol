@@ -1,0 +1,1931 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing Edit Ship History Screen Snapshot Testing should render Edit Ship History correctly 1`] = `
+<RNCSafeAreaProvider
+  onInsetsChange={[Function]}
+  style={
+    {
+      "flex": 1,
+    }
+  }
+>
+  <RNSScreenStack
+    style={
+      {
+        "flex": 1,
+      }
+    }
+  >
+    <RNSScreen
+      collapsable={false}
+      forwardedRef={[Function]}
+      gestureResponseDistance={
+        {
+          "bottom": -1,
+          "end": -1,
+          "start": -1,
+          "top": -1,
+        }
+      }
+      nativeBackButtonDismissalEnabled={false}
+      onAppear={[Function]}
+      onDisappear={[Function]}
+      onDismissed={[Function]}
+      onGestureCancel={[Function]}
+      onHeaderBackButtonClicked={[Function]}
+      onNativeDismissCancelled={[Function]}
+      onTransitionProgress={[Function]}
+      onWillDisappear={[Function]}
+      replaceAnimation="push"
+      sheetAllowedDetents="large"
+      sheetCornerRadius={-1}
+      sheetExpandsWhenScrolledToEdge={true}
+      sheetGrabberVisible={false}
+      sheetLargestUndimmedDetent="all"
+      stackPresentation="push"
+      style={
+        {
+          "bottom": 0,
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        }
+      }
+      swipeDirection="horizontal"
+    >
+      <View
+        accessibilityElementsHidden={false}
+        importantForAccessibility="auto"
+        style={
+          {
+            "flex": 1,
+            "flexDirection": "column-reverse",
+          }
+        }
+      >
+        <View
+          collapsable={false}
+          style={
+            [
+              {
+                "flex": 1,
+              },
+              {
+                "backgroundColor": "rgb(242, 242, 242)",
+              },
+              undefined,
+            ]
+          }
+        >
+          <View
+            style={
+              [
+                undefined,
+                undefined,
+                {
+                  "flex": 1,
+                },
+                undefined,
+                {},
+                {},
+                {},
+                {
+                  "backgroundColor": "#f0f6fb",
+                  "justifyContent": "space-between",
+                  "position": "relative",
+                },
+              ]
+            }
+            testID="EditHistory"
+          >
+            <RCTScrollView
+              contentContainerStyle={
+                {
+                  "alignItems": undefined,
+                  "flex": undefined,
+                  "flexGrow": 1,
+                  "gap": 10,
+                  "justifyContent": undefined,
+                  "marginBottom": undefined,
+                  "padding": 10,
+                  "paddingVertical": undefined,
+                }
+              }
+            >
+              <View>
+                <View
+                  style={
+                    [
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      {
+                        "backgroundColor": "#dbdee0",
+                        "borderRadius": 6,
+                        "padding": 16,
+                      },
+                    ]
+                  }
+                >
+                  <View
+                    row={true}
+                    style={
+                      [
+                        undefined,
+                        undefined,
+                        undefined,
+                        undefined,
+                        {},
+                        {},
+                        {
+                          "flexDirection": "row",
+                        },
+                        {
+                          "alignItems": "center",
+                          "borderBottomWidth": 0.4,
+                          "gap": 16,
+                          "paddingBottom": 16,
+                        },
+                      ]
+                    }
+                  >
+                    <RNSVGSvgView
+                      align="xMidYMid"
+                      bbHeight="24"
+                      bbWidth="24"
+                      focusable={false}
+                      height={24}
+                      meetOrSlice={0}
+                      minX={0}
+                      minY={-960}
+                      style={
+                        [
+                          {
+                            "backgroundColor": "transparent",
+                            "borderWidth": 0,
+                          },
+                          {
+                            "flex": 0,
+                            "height": 24,
+                            "width": 24,
+                          },
+                        ]
+                      }
+                      vbHeight={960}
+                      vbWidth={960}
+                      width={24}
+                      xml="<svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M480-120q-138 0-240.5-91.5T122-440h82q14 104 92.5 172T480-200q117 0 198.5-81.5T760-480q0-117-81.5-198.5T480-760q-69 0-129 32t-101 88h110v80H120v-240h80v94q51-64 124.5-99T480-840q75 0 140.5 28.5t114 77q48.5 48.5 77 114T840-480q0 75-28.5 140.5t-77 114q-48.5 48.5-114 77T480-120Zm112-192L440-464v-216h80v184l128 128-56 56Z"/></svg>"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <RNSVGGroup
+                        fill={
+                          {
+                            "payload": 4278190080,
+                            "type": 0,
+                          }
+                        }
+                      >
+                        <RNSVGPath
+                          d="M480-120q-138 0-240.5-91.5T122-440h82q14 104 92.5 172T480-200q117 0 198.5-81.5T760-480q0-117-81.5-198.5T480-760q-69 0-129 32t-101 88h110v80H120v-240h80v94q51-64 124.5-99T480-840q75 0 140.5 28.5t114 77q48.5 48.5 77 114T840-480q0 75-28.5 140.5t-77 114q-48.5 48.5-114 77T480-120Zm112-192L440-464v-216h80v184l128 128-56 56Z"
+                          fill={
+                            {
+                              "payload": 4278190080,
+                              "type": 0,
+                            }
+                          }
+                        />
+                      </RNSVGGroup>
+                    </RNSVGSvgView>
+                    <Text
+                      style={
+                        [
+                          {
+                            "backgroundColor": "transparent",
+                            "color": "#20303C",
+                            "writingDirection": "ltr",
+                          },
+                          undefined,
+                          undefined,
+                          undefined,
+                          undefined,
+                          undefined,
+                          undefined,
+                          undefined,
+                          undefined,
+                          {
+                            "color": "#216dab",
+                            "fontFamily": "Kanit-Bold",
+                            "fontSize": 20,
+                          },
+                        ]
+                      }
+                    >
+                      ShipOwner.EditTransactionHistory.textTransactionHistory
+                    </Text>
+                  </View>
+                  <View
+                    style={
+                      [
+                        undefined,
+                        undefined,
+                        undefined,
+                        undefined,
+                        undefined,
+                        undefined,
+                        undefined,
+                        undefined,
+                      ]
+                    }
+                  >
+                    <Text
+                      style={
+                        [
+                          {
+                            "backgroundColor": "transparent",
+                            "color": "#20303C",
+                            "writingDirection": "ltr",
+                          },
+                          undefined,
+                          undefined,
+                          undefined,
+                          undefined,
+                          undefined,
+                          undefined,
+                          undefined,
+                          undefined,
+                          {
+                            "color": "#4d5963",
+                            "fontFamily": "Kanit-Regular",
+                            "fontSize": 20,
+                          },
+                        ]
+                      }
+                    >
+                      ShipOwner.EditTransactionHistory.textComplete
+                    </Text>
+                  </View>
+                  <View
+                    style={
+                      [
+                        undefined,
+                        undefined,
+                        undefined,
+                        undefined,
+                        undefined,
+                        undefined,
+                        undefined,
+                        undefined,
+                      ]
+                    }
+                    testID="edit-ship-history-form"
+                  >
+                    <View
+                      style={
+                        [
+                          undefined,
+                          undefined,
+                          undefined,
+                          undefined,
+                          undefined,
+                          undefined,
+                          undefined,
+                          undefined,
+                        ]
+                      }
+                    >
+                      <View
+                        style={
+                          [
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            {
+                              "paddingTop": 20,
+                            },
+                          ]
+                        }
+                      >
+                        <View
+                          style={
+                            [
+                              undefined,
+                              undefined,
+                              undefined,
+                              undefined,
+                              undefined,
+                              undefined,
+                              undefined,
+                              {
+                                "flexDirection": "row",
+                              },
+                            ]
+                          }
+                        >
+                          <View
+                            style={
+                              [
+                                undefined,
+                                undefined,
+                                undefined,
+                                undefined,
+                                undefined,
+                                undefined,
+                                undefined,
+                                {
+                                  "alignSelf": "center",
+                                },
+                              ]
+                            }
+                          >
+                            <Text
+                              style={
+                                [
+                                  {
+                                    "backgroundColor": "transparent",
+                                    "color": "#20303C",
+                                    "writingDirection": "ltr",
+                                  },
+                                  undefined,
+                                  undefined,
+                                  undefined,
+                                  undefined,
+                                  undefined,
+                                  undefined,
+                                  undefined,
+                                  undefined,
+                                  {
+                                    "color": "#216dab",
+                                    "fontFamily": "Kanit-Medium",
+                                    "fontSize": 22,
+                                    "paddingRight": 10,
+                                  },
+                                ]
+                              }
+                            >
+                              Rp
+                            </Text>
+                          </View>
+                          <View
+                            style={
+                              [
+                                undefined,
+                                undefined,
+                                undefined,
+                                undefined,
+                                undefined,
+                                undefined,
+                                undefined,
+                                {
+                                  "marginTop": 10,
+                                },
+                              ]
+                            }
+                            testID="numericInput"
+                          >
+                            <View
+                              style={
+                                [
+                                  {
+                                    "alignItems": "center",
+                                    "borderColor": "grey",
+                                    "borderWidth": 1,
+                                    "flexDirection": "row",
+                                    "justifyContent": "space-between",
+                                  },
+                                  {
+                                    "borderColor": "#216dab",
+                                    "height": 50,
+                                    "width": 210,
+                                  },
+                                  {
+                                    "borderRadius": 9,
+                                  },
+                                  {},
+                                ]
+                              }
+                            >
+                              <TextInput
+                                editable={true}
+                                keyboardType="numeric"
+                                onBlur={[Function]}
+                                onChangeText={[Function]}
+                                onFocus={[Function]}
+                                returnKeyType="done"
+                                style={
+                                  [
+                                    {
+                                      "padding": 0,
+                                      "textAlign": "center",
+                                    },
+                                    {
+                                      "borderRightColor": "#216dab",
+                                      "borderRightWidth": 2,
+                                      "color": "#4d5963",
+                                      "fontSize": 19,
+                                      "height": 50,
+                                      "width": 126,
+                                    },
+                                    {},
+                                  ]
+                                }
+                                underlineColorAndroid="rgba(0,0,0,0)"
+                                value="50000000"
+                              />
+                              <View
+                                style={
+                                  [
+                                    {
+                                      "alignItems": "center",
+                                      "backgroundColor": "#6499c4",
+                                      "borderRightColor": "#216dab",
+                                      "borderRightWidth": 1,
+                                      "width": 84,
+                                    },
+                                    {
+                                      "borderBottomRightRadius": 9,
+                                      "borderTopRightRadius": 9,
+                                    },
+                                  ]
+                                }
+                              >
+                                <View
+                                  accessibilityState={
+                                    {
+                                      "busy": undefined,
+                                      "checked": undefined,
+                                      "disabled": undefined,
+                                      "expanded": undefined,
+                                      "selected": undefined,
+                                    }
+                                  }
+                                  accessibilityValue={
+                                    {
+                                      "max": undefined,
+                                      "min": undefined,
+                                      "now": undefined,
+                                      "text": undefined,
+                                    }
+                                  }
+                                  accessible={true}
+                                  collapsable={false}
+                                  focusable={true}
+                                  onClick={[Function]}
+                                  onResponderGrant={[Function]}
+                                  onResponderMove={[Function]}
+                                  onResponderRelease={[Function]}
+                                  onResponderTerminate={[Function]}
+                                  onResponderTerminationRequest={[Function]}
+                                  onStartShouldSetResponder={[Function]}
+                                  style={
+                                    {
+                                      "alignItems": "center",
+                                      "flex": 1,
+                                      "opacity": 1,
+                                      "width": "100%",
+                                    }
+                                  }
+                                >
+                                  <Text
+                                    allowFontScaling={false}
+                                    selectable={false}
+                                    style={
+                                      [
+                                        {
+                                          "color": undefined,
+                                          "fontSize": 19,
+                                        },
+                                        [
+                                          {
+                                            "backgroundColor": "rgba(0,0,0,0)",
+                                            "fontWeight": "900",
+                                          },
+                                          {},
+                                          {},
+                                          {},
+                                        ],
+                                        {
+                                          "fontFamily": "Ionicons",
+                                          "fontStyle": "normal",
+                                          "fontWeight": "normal",
+                                        },
+                                        {},
+                                      ]
+                                    }
+                                  >
+                                    
+                                  </Text>
+                                </View>
+                                <View
+                                  accessibilityState={
+                                    {
+                                      "busy": undefined,
+                                      "checked": undefined,
+                                      "disabled": undefined,
+                                      "expanded": undefined,
+                                      "selected": undefined,
+                                    }
+                                  }
+                                  accessibilityValue={
+                                    {
+                                      "max": undefined,
+                                      "min": undefined,
+                                      "now": undefined,
+                                      "text": undefined,
+                                    }
+                                  }
+                                  accessible={true}
+                                  collapsable={false}
+                                  focusable={true}
+                                  onClick={[Function]}
+                                  onResponderGrant={[Function]}
+                                  onResponderMove={[Function]}
+                                  onResponderRelease={[Function]}
+                                  onResponderTerminate={[Function]}
+                                  onResponderTerminationRequest={[Function]}
+                                  onStartShouldSetResponder={[Function]}
+                                  style={
+                                    {
+                                      "alignItems": "center",
+                                      "flex": 1,
+                                      "opacity": 1,
+                                      "width": "100%",
+                                    }
+                                  }
+                                >
+                                  <Text
+                                    allowFontScaling={false}
+                                    selectable={false}
+                                    style={
+                                      [
+                                        {
+                                          "color": undefined,
+                                          "fontSize": 19,
+                                        },
+                                        [
+                                          {
+                                            "backgroundColor": "rgba(0,0,0,0)",
+                                            "fontWeight": "900",
+                                          },
+                                          {},
+                                          {},
+                                          {},
+                                        ],
+                                        {
+                                          "fontFamily": "Ionicons",
+                                          "fontStyle": "normal",
+                                          "fontWeight": "normal",
+                                        },
+                                        {},
+                                      ]
+                                    }
+                                  >
+                                    
+                                  </Text>
+                                </View>
+                              </View>
+                            </View>
+                          </View>
+                        </View>
+                      </View>
+                      <View
+                        style={
+                          [
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            {
+                              "margin": -10,
+                              "paddingTop": 20,
+                            },
+                          ]
+                        }
+                      >
+                        <View
+                          style={
+                            [
+                              undefined,
+                              undefined,
+                              undefined,
+                              undefined,
+                              undefined,
+                              undefined,
+                              undefined,
+                              undefined,
+                            ]
+                          }
+                        >
+                          <View
+                            accessibilityState={
+                              {
+                                "busy": undefined,
+                                "checked": undefined,
+                                "disabled": undefined,
+                                "expanded": undefined,
+                                "selected": undefined,
+                              }
+                            }
+                            accessibilityValue={
+                              {
+                                "max": undefined,
+                                "min": undefined,
+                                "now": undefined,
+                                "text": undefined,
+                              }
+                            }
+                            accessible={true}
+                            collapsable={false}
+                            focusable={true}
+                            onBlur={[Function]}
+                            onClick={[Function]}
+                            onFocus={[Function]}
+                            onResponderGrant={[Function]}
+                            onResponderMove={[Function]}
+                            onResponderRelease={[Function]}
+                            onResponderTerminate={[Function]}
+                            onResponderTerminationRequest={[Function]}
+                            onStartShouldSetResponder={[Function]}
+                            style={
+                              {
+                                "width": "100%",
+                              }
+                            }
+                          >
+                            <View
+                              style={
+                                {
+                                  "paddingLeft": 10,
+                                }
+                              }
+                            >
+                              <Text
+                                numberOfLines={0}
+                                style={
+                                  {
+                                    "borderBottomWidth": 0,
+                                    "borderColor": undefined,
+                                    "color": "#216dab",
+                                    "fontFamily": "Kanit-Medium",
+                                    "fontSize": 22,
+                                    "lineHeight": undefined,
+                                    "textAlign": undefined,
+                                  }
+                                }
+                              >
+                                Rental Start
+                              </Text>
+                            </View>
+                            <View>
+                              <View
+                                style={
+                                  {
+                                    "paddingHorizontal": 10,
+                                    "width": "100%",
+                                  }
+                                }
+                                testID="RNE__Input__view-wrapper"
+                              >
+                                <View
+                                  collapsable={false}
+                                  style={
+                                    {
+                                      "alignItems": "center",
+                                      "borderBottomWidth": 1,
+                                      "borderColor": "#216dab",
+                                      "borderRadius": 0,
+                                      "borderWidth": 0,
+                                      "flexDirection": "row",
+                                      "transform": [
+                                        {
+                                          "translateX": 0,
+                                        },
+                                      ],
+                                    }
+                                  }
+                                >
+                                  <View
+                                    style={
+                                      {
+                                        "alignItems": "center",
+                                        "height": 40,
+                                        "justifyContent": "center",
+                                        "marginVertical": 4,
+                                        "paddingRight": 4,
+                                      }
+                                    }
+                                  >
+                                    <View
+                                      style={
+                                        {
+                                          "overflow": "hidden",
+                                        }
+                                      }
+                                      testID="RNE__ICON__CONTAINER"
+                                    >
+                                      <View
+                                        accessibilityRole="button"
+                                        android_ripple={
+                                          {
+                                            "borderless": false,
+                                            "color": "rgba(0, 0, 0, 0.3)",
+                                            "radius": -5,
+                                          }
+                                        }
+                                        disabled={false}
+                                        testID="RNE__ICON__CONTAINER_ACTION"
+                                      >
+                                        <View
+                                          style={
+                                            {
+                                              "alignItems": "center",
+                                              "backgroundColor": "transparent",
+                                              "justifyContent": "center",
+                                            }
+                                          }
+                                          testID="RNE__ICON"
+                                        >
+                                          <Text
+                                            allowFontScaling={false}
+                                            selectable={false}
+                                            style={
+                                              [
+                                                {
+                                                  "color": "#242424",
+                                                  "fontSize": 24,
+                                                },
+                                                {
+                                                  "backgroundColor": "transparent",
+                                                },
+                                                {
+                                                  "fontFamily": "Material Icons",
+                                                  "fontStyle": "normal",
+                                                  "fontWeight": "normal",
+                                                },
+                                                {},
+                                              ]
+                                            }
+                                            testID="RNE__ICON__Component"
+                                          />
+                                        </View>
+                                      </View>
+                                    </View>
+                                  </View>
+                                  <TextInput
+                                    editable={false}
+                                    multiline={false}
+                                    placeholder="Rental Start"
+                                    placeholderTextColor="#86939e"
+                                    pointerEvents="none"
+                                    style={
+                                      {
+                                        "color": "#4d5963",
+                                        "flex": 1,
+                                        "fontFamily": "Kanit-Regular",
+                                        "fontSize": 18,
+                                        "minHeight": 40,
+                                      }
+                                    }
+                                    testID="RNE__Input__text-input"
+                                    underlineColorAndroid="transparent"
+                                    value="09 December 2023"
+                                  />
+                                </View>
+                                <Text
+                                  style={
+                                    {
+                                      "color": "#ff190c",
+                                      "fontSize": 12,
+                                      "margin": 5,
+                                    }
+                                  }
+                                />
+                              </View>
+                              <View
+                                accessibilityState={
+                                  {
+                                    "busy": undefined,
+                                    "checked": undefined,
+                                    "disabled": undefined,
+                                    "expanded": undefined,
+                                    "selected": undefined,
+                                  }
+                                }
+                                accessibilityValue={
+                                  {
+                                    "max": undefined,
+                                    "min": undefined,
+                                    "now": undefined,
+                                    "text": undefined,
+                                  }
+                                }
+                                accessible={true}
+                                collapsable={false}
+                                focusable={true}
+                                onBlur={[Function]}
+                                onClick={[Function]}
+                                onFocus={[Function]}
+                                onResponderGrant={[Function]}
+                                onResponderMove={[Function]}
+                                onResponderRelease={[Function]}
+                                onResponderTerminate={[Function]}
+                                onResponderTerminationRequest={[Function]}
+                                onStartShouldSetResponder={[Function]}
+                                style={
+                                  {
+                                    "position": "absolute",
+                                    "right": 14,
+                                    "top": 15,
+                                  }
+                                }
+                              />
+                            </View>
+                          </View>
+                          <Modal
+                            animationType="slide"
+                            hardwareAccelerated={false}
+                            onRequestClose={[Function]}
+                            testID="datePicker"
+                            transparent={true}
+                            visible={false}
+                          />
+                        </View>
+                        <View
+                          style={
+                            [
+                              undefined,
+                              undefined,
+                              undefined,
+                              undefined,
+                              undefined,
+                              undefined,
+                              undefined,
+                              undefined,
+                            ]
+                          }
+                        >
+                          <View
+                            accessibilityState={
+                              {
+                                "busy": undefined,
+                                "checked": undefined,
+                                "disabled": undefined,
+                                "expanded": undefined,
+                                "selected": undefined,
+                              }
+                            }
+                            accessibilityValue={
+                              {
+                                "max": undefined,
+                                "min": undefined,
+                                "now": undefined,
+                                "text": undefined,
+                              }
+                            }
+                            accessible={true}
+                            collapsable={false}
+                            focusable={true}
+                            onBlur={[Function]}
+                            onClick={[Function]}
+                            onFocus={[Function]}
+                            onResponderGrant={[Function]}
+                            onResponderMove={[Function]}
+                            onResponderRelease={[Function]}
+                            onResponderTerminate={[Function]}
+                            onResponderTerminationRequest={[Function]}
+                            onStartShouldSetResponder={[Function]}
+                            style={
+                              {
+                                "width": "100%",
+                              }
+                            }
+                          >
+                            <View
+                              style={
+                                {
+                                  "paddingLeft": 10,
+                                }
+                              }
+                            >
+                              <Text
+                                numberOfLines={0}
+                                style={
+                                  {
+                                    "borderBottomWidth": 0,
+                                    "borderColor": undefined,
+                                    "color": "#216dab",
+                                    "fontFamily": "Kanit-Medium",
+                                    "fontSize": 22,
+                                    "lineHeight": undefined,
+                                    "textAlign": undefined,
+                                  }
+                                }
+                              >
+                                Rental End
+                              </Text>
+                            </View>
+                            <View>
+                              <View
+                                style={
+                                  {
+                                    "paddingHorizontal": 10,
+                                    "width": "100%",
+                                  }
+                                }
+                                testID="RNE__Input__view-wrapper"
+                              >
+                                <View
+                                  collapsable={false}
+                                  style={
+                                    {
+                                      "alignItems": "center",
+                                      "borderBottomWidth": 1,
+                                      "borderColor": "#216dab",
+                                      "borderRadius": 0,
+                                      "borderWidth": 0,
+                                      "flexDirection": "row",
+                                      "transform": [
+                                        {
+                                          "translateX": 0,
+                                        },
+                                      ],
+                                    }
+                                  }
+                                >
+                                  <View
+                                    style={
+                                      {
+                                        "alignItems": "center",
+                                        "height": 40,
+                                        "justifyContent": "center",
+                                        "marginVertical": 4,
+                                        "paddingRight": 4,
+                                      }
+                                    }
+                                  >
+                                    <View
+                                      style={
+                                        {
+                                          "overflow": "hidden",
+                                        }
+                                      }
+                                      testID="RNE__ICON__CONTAINER"
+                                    >
+                                      <View
+                                        accessibilityRole="button"
+                                        android_ripple={
+                                          {
+                                            "borderless": false,
+                                            "color": "rgba(0, 0, 0, 0.3)",
+                                            "radius": -5,
+                                          }
+                                        }
+                                        disabled={false}
+                                        testID="RNE__ICON__CONTAINER_ACTION"
+                                      >
+                                        <View
+                                          style={
+                                            {
+                                              "alignItems": "center",
+                                              "backgroundColor": "transparent",
+                                              "justifyContent": "center",
+                                            }
+                                          }
+                                          testID="RNE__ICON"
+                                        >
+                                          <Text
+                                            allowFontScaling={false}
+                                            selectable={false}
+                                            style={
+                                              [
+                                                {
+                                                  "color": "#242424",
+                                                  "fontSize": 24,
+                                                },
+                                                {
+                                                  "backgroundColor": "transparent",
+                                                },
+                                                {
+                                                  "fontFamily": "Material Icons",
+                                                  "fontStyle": "normal",
+                                                  "fontWeight": "normal",
+                                                },
+                                                {},
+                                              ]
+                                            }
+                                            testID="RNE__ICON__Component"
+                                          />
+                                        </View>
+                                      </View>
+                                    </View>
+                                  </View>
+                                  <TextInput
+                                    editable={false}
+                                    multiline={false}
+                                    placeholder="Rental End"
+                                    placeholderTextColor="#86939e"
+                                    pointerEvents="none"
+                                    style={
+                                      {
+                                        "color": "#4d5963",
+                                        "flex": 1,
+                                        "fontFamily": "Kanit-Regular",
+                                        "fontSize": 18,
+                                        "minHeight": 40,
+                                      }
+                                    }
+                                    testID="RNE__Input__text-input"
+                                    underlineColorAndroid="transparent"
+                                    value="14 December 2023"
+                                  />
+                                </View>
+                                <Text
+                                  style={
+                                    {
+                                      "color": "#ff190c",
+                                      "fontSize": 12,
+                                      "margin": 5,
+                                    }
+                                  }
+                                />
+                              </View>
+                              <View
+                                accessibilityState={
+                                  {
+                                    "busy": undefined,
+                                    "checked": undefined,
+                                    "disabled": undefined,
+                                    "expanded": undefined,
+                                    "selected": undefined,
+                                  }
+                                }
+                                accessibilityValue={
+                                  {
+                                    "max": undefined,
+                                    "min": undefined,
+                                    "now": undefined,
+                                    "text": undefined,
+                                  }
+                                }
+                                accessible={true}
+                                collapsable={false}
+                                focusable={true}
+                                onBlur={[Function]}
+                                onClick={[Function]}
+                                onFocus={[Function]}
+                                onResponderGrant={[Function]}
+                                onResponderMove={[Function]}
+                                onResponderRelease={[Function]}
+                                onResponderTerminate={[Function]}
+                                onResponderTerminationRequest={[Function]}
+                                onStartShouldSetResponder={[Function]}
+                                style={
+                                  {
+                                    "position": "absolute",
+                                    "right": 14,
+                                    "top": 15,
+                                  }
+                                }
+                              />
+                            </View>
+                          </View>
+                          <Modal
+                            animationType="slide"
+                            hardwareAccelerated={false}
+                            onRequestClose={[Function]}
+                            testID="datePickerEnd"
+                            transparent={true}
+                            visible={false}
+                          />
+                        </View>
+                      </View>
+                      <View
+                        style={
+                          [
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            {
+                              "margin": -10,
+                              "paddingTop": 20,
+                            },
+                          ]
+                        }
+                      >
+                        <View
+                          accessibilityState={
+                            {
+                              "busy": undefined,
+                              "checked": undefined,
+                              "disabled": undefined,
+                              "expanded": undefined,
+                              "selected": undefined,
+                            }
+                          }
+                          accessibilityValue={
+                            {
+                              "max": undefined,
+                              "min": undefined,
+                              "now": undefined,
+                              "text": undefined,
+                            }
+                          }
+                          accessible={true}
+                          collapsable={false}
+                          focusable={true}
+                          onBlur={[Function]}
+                          onClick={[Function]}
+                          onFocus={[Function]}
+                          onResponderGrant={[Function]}
+                          onResponderMove={[Function]}
+                          onResponderRelease={[Function]}
+                          onResponderTerminate={[Function]}
+                          onResponderTerminationRequest={[Function]}
+                          onStartShouldSetResponder={[Function]}
+                          style={
+                            {
+                              "width": "100%",
+                            }
+                          }
+                        >
+                          <View
+                            style={
+                              {
+                                "paddingLeft": 10,
+                              }
+                            }
+                          >
+                            <Text
+                              numberOfLines={0}
+                              style={
+                                {
+                                  "borderBottomWidth": 0,
+                                  "borderColor": undefined,
+                                  "color": "#216dab",
+                                  "fontFamily": "Kanit-Medium",
+                                  "fontSize": 22,
+                                  "lineHeight": undefined,
+                                  "textAlign": undefined,
+                                }
+                              }
+                            >
+                              ShipOwner.EditTransactionHistory.textLabelDestination
+                            </Text>
+                          </View>
+                          <View>
+                            <View
+                              style={
+                                {
+                                  "paddingHorizontal": 10,
+                                  "width": "100%",
+                                }
+                              }
+                              testID="RNE__Input__view-wrapper"
+                            >
+                              <View
+                                collapsable={false}
+                                style={
+                                  {
+                                    "alignItems": "center",
+                                    "borderBottomWidth": 1,
+                                    "borderColor": "#216dab",
+                                    "borderRadius": 0,
+                                    "borderWidth": 0,
+                                    "flexDirection": "row",
+                                    "transform": [
+                                      {
+                                        "translateX": 0,
+                                      },
+                                    ],
+                                  }
+                                }
+                              >
+                                <View
+                                  style={
+                                    {
+                                      "alignItems": "center",
+                                      "height": 40,
+                                      "justifyContent": "center",
+                                      "marginVertical": 4,
+                                      "paddingRight": 4,
+                                    }
+                                  }
+                                >
+                                  <View
+                                    style={
+                                      {
+                                        "overflow": "hidden",
+                                      }
+                                    }
+                                    testID="RNE__ICON__CONTAINER"
+                                  >
+                                    <View
+                                      accessibilityRole="button"
+                                      android_ripple={
+                                        {
+                                          "borderless": false,
+                                          "color": "rgba(0, 0, 0, 0.3)",
+                                          "radius": -5,
+                                        }
+                                      }
+                                      disabled={false}
+                                      testID="RNE__ICON__CONTAINER_ACTION"
+                                    >
+                                      <View
+                                        style={
+                                          {
+                                            "alignItems": "center",
+                                            "backgroundColor": "transparent",
+                                            "justifyContent": "center",
+                                          }
+                                        }
+                                        testID="RNE__ICON"
+                                      >
+                                        <Text
+                                          allowFontScaling={false}
+                                          selectable={false}
+                                          style={
+                                            [
+                                              {
+                                                "color": "#242424",
+                                                "fontSize": 24,
+                                              },
+                                              {
+                                                "backgroundColor": "transparent",
+                                              },
+                                              {
+                                                "fontFamily": "Material Icons",
+                                                "fontStyle": "normal",
+                                                "fontWeight": "normal",
+                                              },
+                                              {},
+                                            ]
+                                          }
+                                          testID="RNE__ICON__Component"
+                                        />
+                                      </View>
+                                    </View>
+                                  </View>
+                                </View>
+                                <TextInput
+                                  editable={true}
+                                  multiline={false}
+                                  onBlur={[Function]}
+                                  onChangeText={[Function]}
+                                  placeholder="ShipOwner.EditTransactionHistory.textPlaceholderDestination"
+                                  placeholderTextColor="#86939e"
+                                  pointerEvents="auto"
+                                  style={
+                                    {
+                                      "color": "#4d5963",
+                                      "flex": 1,
+                                      "fontFamily": "Kanit-Regular",
+                                      "fontSize": 18,
+                                      "minHeight": 40,
+                                    }
+                                  }
+                                  testID="RNE__Input__text-input"
+                                  underlineColorAndroid="transparent"
+                                  value="Samarinda"
+                                />
+                              </View>
+                              <Text
+                                style={
+                                  {
+                                    "color": "#ff190c",
+                                    "fontSize": 12,
+                                    "margin": 5,
+                                  }
+                                }
+                              />
+                            </View>
+                            <View
+                              accessibilityState={
+                                {
+                                  "busy": undefined,
+                                  "checked": undefined,
+                                  "disabled": undefined,
+                                  "expanded": undefined,
+                                  "selected": undefined,
+                                }
+                              }
+                              accessibilityValue={
+                                {
+                                  "max": undefined,
+                                  "min": undefined,
+                                  "now": undefined,
+                                  "text": undefined,
+                                }
+                              }
+                              accessible={true}
+                              collapsable={false}
+                              focusable={true}
+                              onBlur={[Function]}
+                              onClick={[Function]}
+                              onFocus={[Function]}
+                              onResponderGrant={[Function]}
+                              onResponderMove={[Function]}
+                              onResponderRelease={[Function]}
+                              onResponderTerminate={[Function]}
+                              onResponderTerminationRequest={[Function]}
+                              onStartShouldSetResponder={[Function]}
+                              style={
+                                {
+                                  "position": "absolute",
+                                  "right": 14,
+                                  "top": 15,
+                                }
+                              }
+                            />
+                          </View>
+                        </View>
+                      </View>
+                      <View
+                        style={
+                          [
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            {
+                              "margin": -10,
+                              "paddingTop": 20,
+                            },
+                          ]
+                        }
+                      >
+                        <View
+                          accessibilityState={
+                            {
+                              "busy": undefined,
+                              "checked": undefined,
+                              "disabled": undefined,
+                              "expanded": undefined,
+                              "selected": undefined,
+                            }
+                          }
+                          accessibilityValue={
+                            {
+                              "max": undefined,
+                              "min": undefined,
+                              "now": undefined,
+                              "text": undefined,
+                            }
+                          }
+                          accessible={true}
+                          collapsable={false}
+                          focusable={true}
+                          onBlur={[Function]}
+                          onClick={[Function]}
+                          onFocus={[Function]}
+                          onResponderGrant={[Function]}
+                          onResponderMove={[Function]}
+                          onResponderRelease={[Function]}
+                          onResponderTerminate={[Function]}
+                          onResponderTerminationRequest={[Function]}
+                          onStartShouldSetResponder={[Function]}
+                          style={
+                            {
+                              "width": "100%",
+                            }
+                          }
+                        >
+                          <View
+                            style={
+                              {
+                                "paddingLeft": 10,
+                              }
+                            }
+                          >
+                            <Text
+                              numberOfLines={0}
+                              style={
+                                {
+                                  "borderBottomWidth": 0,
+                                  "borderColor": undefined,
+                                  "color": "#216dab",
+                                  "fontFamily": "Kanit-Medium",
+                                  "fontSize": 22,
+                                  "lineHeight": undefined,
+                                  "textAlign": undefined,
+                                }
+                              }
+                            >
+                              ShipOwner.EditTransactionHistory.textLabelDeparture
+                            </Text>
+                          </View>
+                          <View>
+                            <View
+                              style={
+                                {
+                                  "paddingHorizontal": 10,
+                                  "width": "100%",
+                                }
+                              }
+                              testID="RNE__Input__view-wrapper"
+                            >
+                              <View
+                                collapsable={false}
+                                style={
+                                  {
+                                    "alignItems": "center",
+                                    "borderBottomWidth": 1,
+                                    "borderColor": "#216dab",
+                                    "borderRadius": 0,
+                                    "borderWidth": 0,
+                                    "flexDirection": "row",
+                                    "transform": [
+                                      {
+                                        "translateX": 0,
+                                      },
+                                    ],
+                                  }
+                                }
+                              >
+                                <View
+                                  style={
+                                    {
+                                      "alignItems": "center",
+                                      "height": 40,
+                                      "justifyContent": "center",
+                                      "marginVertical": 4,
+                                      "paddingRight": 4,
+                                    }
+                                  }
+                                >
+                                  <View
+                                    style={
+                                      {
+                                        "overflow": "hidden",
+                                      }
+                                    }
+                                    testID="RNE__ICON__CONTAINER"
+                                  >
+                                    <View
+                                      accessibilityRole="button"
+                                      android_ripple={
+                                        {
+                                          "borderless": false,
+                                          "color": "rgba(0, 0, 0, 0.3)",
+                                          "radius": -5,
+                                        }
+                                      }
+                                      disabled={false}
+                                      testID="RNE__ICON__CONTAINER_ACTION"
+                                    >
+                                      <View
+                                        style={
+                                          {
+                                            "alignItems": "center",
+                                            "backgroundColor": "transparent",
+                                            "justifyContent": "center",
+                                          }
+                                        }
+                                        testID="RNE__ICON"
+                                      >
+                                        <Text
+                                          allowFontScaling={false}
+                                          selectable={false}
+                                          style={
+                                            [
+                                              {
+                                                "color": "#242424",
+                                                "fontSize": 24,
+                                              },
+                                              {
+                                                "backgroundColor": "transparent",
+                                              },
+                                              {
+                                                "fontFamily": "Material Icons",
+                                                "fontStyle": "normal",
+                                                "fontWeight": "normal",
+                                              },
+                                              {},
+                                            ]
+                                          }
+                                          testID="RNE__ICON__Component"
+                                        />
+                                      </View>
+                                    </View>
+                                  </View>
+                                </View>
+                                <TextInput
+                                  editable={true}
+                                  multiline={false}
+                                  onBlur={[Function]}
+                                  onChangeText={[Function]}
+                                  placeholder="ShipOwner.EditTransactionHistory.textPlaceholderDeparture"
+                                  placeholderTextColor="#86939e"
+                                  pointerEvents="auto"
+                                  style={
+                                    {
+                                      "color": "#4d5963",
+                                      "flex": 1,
+                                      "fontFamily": "Kanit-Regular",
+                                      "fontSize": 18,
+                                      "minHeight": 40,
+                                    }
+                                  }
+                                  testID="RNE__Input__text-input"
+                                  underlineColorAndroid="transparent"
+                                  value="Balikpapan"
+                                />
+                              </View>
+                              <Text
+                                style={
+                                  {
+                                    "color": "#ff190c",
+                                    "fontSize": 12,
+                                    "margin": 5,
+                                  }
+                                }
+                              />
+                            </View>
+                            <View
+                              accessibilityState={
+                                {
+                                  "busy": undefined,
+                                  "checked": undefined,
+                                  "disabled": undefined,
+                                  "expanded": undefined,
+                                  "selected": undefined,
+                                }
+                              }
+                              accessibilityValue={
+                                {
+                                  "max": undefined,
+                                  "min": undefined,
+                                  "now": undefined,
+                                  "text": undefined,
+                                }
+                              }
+                              accessible={true}
+                              collapsable={false}
+                              focusable={true}
+                              onBlur={[Function]}
+                              onClick={[Function]}
+                              onFocus={[Function]}
+                              onResponderGrant={[Function]}
+                              onResponderMove={[Function]}
+                              onResponderRelease={[Function]}
+                              onResponderTerminate={[Function]}
+                              onResponderTerminationRequest={[Function]}
+                              onStartShouldSetResponder={[Function]}
+                              style={
+                                {
+                                  "position": "absolute",
+                                  "right": 14,
+                                  "top": 15,
+                                }
+                              }
+                            />
+                          </View>
+                        </View>
+                      </View>
+                    </View>
+                    <View
+                      style={
+                        [
+                          undefined,
+                          undefined,
+                          undefined,
+                          undefined,
+                          undefined,
+                          undefined,
+                          undefined,
+                          undefined,
+                        ]
+                      }
+                    >
+                      <View
+                        marginB-20={true}
+                        style={
+                          [
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            {},
+                            {
+                              "marginBottom": 20,
+                            },
+                            {},
+                            {
+                              "justifyContent": "space-between",
+                            },
+                          ]
+                        }
+                      >
+                        <Text
+                          numberOfLines={0}
+                          style={
+                            {
+                              "borderBottomWidth": 0,
+                              "borderColor": undefined,
+                              "color": "#216dab",
+                              "fontFamily": "Kanit-Medium",
+                              "fontSize": 22,
+                              "lineHeight": undefined,
+                              "textAlign": undefined,
+                            }
+                          }
+                        >
+                          ShipOwner.EditTransactionHistory.textAdditionalDoc
+                        </Text>
+                        <View
+                          marginT-10={true}
+                          style={
+                            [
+                              undefined,
+                              undefined,
+                              undefined,
+                              undefined,
+                              {},
+                              {
+                                "marginTop": 10,
+                              },
+                              {},
+                              {
+                                "width": "50%",
+                              },
+                            ]
+                          }
+                        >
+                          <View
+                            accessibilityState={
+                              {
+                                "busy": undefined,
+                                "checked": undefined,
+                                "disabled": undefined,
+                                "expanded": undefined,
+                                "selected": undefined,
+                              }
+                            }
+                            accessibilityValue={
+                              {
+                                "max": undefined,
+                                "min": undefined,
+                                "now": undefined,
+                                "text": undefined,
+                              }
+                            }
+                            accessible={true}
+                            collapsable={false}
+                            focusable={true}
+                            onBlur={[Function]}
+                            onClick={[Function]}
+                            onFocus={[Function]}
+                            onResponderGrant={[Function]}
+                            onResponderMove={[Function]}
+                            onResponderRelease={[Function]}
+                            onResponderTerminate={[Function]}
+                            onResponderTerminationRequest={[Function]}
+                            onStartShouldSetResponder={[Function]}
+                            style={
+                              {
+                                "alignItems": "center",
+                                "backgroundColor": "#216dab",
+                                "borderRadius": 6,
+                                "elevation": 2,
+                                "flexDirection": "row",
+                                "gap": 0,
+                                "justifyContent": "center",
+                                "paddingHorizontal": 10,
+                                "paddingVertical": 6,
+                              }
+                            }
+                            testID="add-input-additional-doc"
+                          >
+                            <Text
+                              numberOfLines={0}
+                              style={
+                                {
+                                  "borderBottomWidth": 0,
+                                  "borderColor": undefined,
+                                  "color": "#f0f6fb",
+                                  "fontFamily": "Kanit-Medium",
+                                  "fontSize": 18,
+                                  "lineHeight": undefined,
+                                  "textAlign": undefined,
+                                }
+                              }
+                            >
+                              ShipOwner.EditTransactionHistory.textTitleAdditionalDoc
+                            </Text>
+                            <View
+                              style={
+                                [
+                                  undefined,
+                                  undefined,
+                                  undefined,
+                                  undefined,
+                                  undefined,
+                                  undefined,
+                                  undefined,
+                                  {
+                                    "position": "absolute",
+                                    "right": 20,
+                                  },
+                                ]
+                              }
+                            />
+                          </View>
+                        </View>
+                      </View>
+                      <View
+                        style={
+                          [
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            {
+                              "padding": 5,
+                            },
+                          ]
+                        }
+                      />
+                    </View>
+                    <View
+                      style={
+                        [
+                          undefined,
+                          undefined,
+                          undefined,
+                          undefined,
+                          undefined,
+                          undefined,
+                          undefined,
+                          {
+                            "marginTop": 12,
+                          },
+                        ]
+                      }
+                    >
+                      <View
+                        accessibilityState={
+                          {
+                            "busy": undefined,
+                            "checked": undefined,
+                            "disabled": undefined,
+                            "expanded": undefined,
+                            "selected": undefined,
+                          }
+                        }
+                        accessibilityValue={
+                          {
+                            "max": undefined,
+                            "min": undefined,
+                            "now": undefined,
+                            "text": undefined,
+                          }
+                        }
+                        accessible={true}
+                        collapsable={false}
+                        focusable={true}
+                        onBlur={[Function]}
+                        onClick={[Function]}
+                        onFocus={[Function]}
+                        onResponderGrant={[Function]}
+                        onResponderMove={[Function]}
+                        onResponderRelease={[Function]}
+                        onResponderTerminate={[Function]}
+                        onResponderTerminationRequest={[Function]}
+                        onStartShouldSetResponder={[Function]}
+                        style={
+                          {
+                            "alignItems": "center",
+                            "backgroundColor": "#216dab",
+                            "borderRadius": 6,
+                            "elevation": 2,
+                            "flexDirection": "row",
+                            "gap": 0,
+                            "justifyContent": "center",
+                            "paddingHorizontal": 10,
+                            "paddingVertical": 6,
+                          }
+                        }
+                      >
+                        <Text
+                          numberOfLines={0}
+                          style={
+                            {
+                              "borderBottomWidth": 0,
+                              "borderColor": undefined,
+                              "color": "#f0f6fb",
+                              "fontFamily": "Kanit-Medium",
+                              "fontSize": 18,
+                              "lineHeight": undefined,
+                              "textAlign": undefined,
+                            }
+                          }
+                        >
+                          ShipOwner.EditTransactionHistory.textButtonSubmit
+                        </Text>
+                        <View
+                          style={
+                            [
+                              undefined,
+                              undefined,
+                              undefined,
+                              undefined,
+                              undefined,
+                              undefined,
+                              undefined,
+                              {
+                                "position": "absolute",
+                                "right": 20,
+                              },
+                            ]
+                          }
+                        />
+                      </View>
+                    </View>
+                    <Modal
+                      animationType="slide"
+                      hardwareAccelerated={false}
+                      modifiers={
+                        {
+                          "alignments": {},
+                          "backgroundColor": undefined,
+                          "borderRadius": undefined,
+                          "color": "transparent",
+                          "flexStyle": undefined,
+                          "margins": {},
+                          "paddings": {},
+                          "positionStyle": undefined,
+                          "typography": undefined,
+                        }
+                      }
+                      onRequestClose={[Function]}
+                      transparent={true}
+                      visible={false}
+                    />
+                    <Modal
+                      animationType="slide"
+                      hardwareAccelerated={false}
+                      modifiers={
+                        {
+                          "alignments": {},
+                          "backgroundColor": undefined,
+                          "borderRadius": undefined,
+                          "color": "transparent",
+                          "flexStyle": undefined,
+                          "margins": {},
+                          "paddings": {},
+                          "positionStyle": undefined,
+                          "typography": undefined,
+                        }
+                      }
+                      onRequestClose={[Function]}
+                      testID="modalPdf"
+                      transparent={true}
+                      visible={false}
+                    />
+                  </View>
+                </View>
+              </View>
+            </RCTScrollView>
+          </View>
+        </View>
+      </View>
+      <RNSScreenStackHeaderConfig
+        backButtonInCustomView={false}
+        backTitleVisible={true}
+        backgroundColor="rgb(255, 255, 255)"
+        color="rgb(0, 122, 255)"
+        direction="ltr"
+        disableBackButtonMenu={false}
+        hidden={false}
+        hideBackButton={false}
+        largeTitleHideShadow={false}
+        title="EditShipHistory"
+        titleColor="rgb(28, 28, 30)"
+        topInsetEnabled={false}
+        translucent={false}
+      />
+    </RNSScreen>
+  </RNSScreenStack>
+</RNCSafeAreaProvider>
+`;

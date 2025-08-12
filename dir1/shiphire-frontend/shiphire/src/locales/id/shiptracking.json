@@ -1,0 +1,65 @@
+{
+    "ShipTrackingDetail": {
+        "textSuccessStatusUpdate": "Status pelacakan kapal berhasil diperbarui",
+        "textSuccessStatusUpdateDocked": "Silahkan isi foto kapal setelah disewa untuk menyelesaikan transaksi",
+        "textReturnShipButton": "Kembalikan kapal"
+    },
+    "UpdateStatusCard": {
+        "textBeforeSailingHeader": "Siap Berlayar?",
+        "textBeforeSailingButton": "Siap Berlayar",
+        "textBeforeSailingDesc": "Perbarui status kapal Anda di sini",
+        "textReturningHeader": "Apakah kapal Anda telah kembali?",
+        "textReturningButton": "Berlabuh",
+        "textReturningDesc": "Perbarui status untuk menyelesaikan transaksi",
+        "textSailingButton": "Tambah Pelacakan",
+        "textSailingDesc": "Klik tombol riwayat untuk memperbarui jejak kapal"
+    },
+    "TrackHistory": {
+        "textTrackHistory": "Riwayat Pelacakan",
+        "textViewPhotos": "Lihat Foto",
+        "textNoTrackHistory": "Tidak Ada Riwayat Pelacakan"
+    },
+    "ConfirmationModal": {
+        "textUpdateTrackStatusConfirm": "Apakah Anda yakin ingin Memperbarui status pelacakan?",
+        "textCancel": "Batal",
+        "textUpdate": "Perbarui"
+    },
+    "ShipPicturesModal": {
+        "textShipPictures": "Foto Kapal",
+        "textNoPictures": "Tidak ada foto",
+        "textClose": "Tutup"
+    },
+    "RentInformation": {
+        "textFormTitle": "Informasi Sewa",
+        "textDepartureLocation": "Lokasi Keberangkatan",
+        "textDestinationLocation": "Lokasi Tujuan",
+        "textRentType": "Jenis Sewa",
+        "textRentDuration": "Durasi Sewa",
+        "textStartDate": "Tanggal Mulai",
+        "textEndDate": "Tanggal Selesai",
+        "textDays": "Hari"
+    },
+    "ShipInformation": {
+        "textRenterBtnLabel": "Rincian Sewa"
+    },
+    "ImageInput": {
+        "textImage": "Gambar",
+        "textImageCaption": "Keterangan Gambar",
+        "textAttachImage": "Lampirkan Gambar",
+        "textAddImage": "Tambah Gambar"
+    },
+    "DateTimePickerModal": {
+        "textConfirmButton": "Konfirmasi",
+        "textCancelButton": "Batal"
+    },
+    "ShipTrackingForm": {
+        "textDatePlaceholder": "Pilih Tanggal",
+        "textTimePlaceholder": "Pilih Waktu",
+        "textSubmitButton": "Kirim",
+        "textTimeLabel": "Waktu",
+        "textDateLabel": "Tanggal",
+        "textStatusLabel": "Status",
+        "textStatusPlaceholder": "Posisi Kapal",
+        "textValidationStatus": "Status diperlukan"
+    }
+}

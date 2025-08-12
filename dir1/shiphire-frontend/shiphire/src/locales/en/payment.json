@@ -1,0 +1,36 @@
+{
+    "successSentPaymentReceipt": "Payment Receipt Sent! Check your transaction status frequently for ship owner response!",
+    "failedSentPaymentReceipt": "Failed to send payment receipt. Please try again.",
+    "btnUploadPayment":"Upload Payment Receipt",
+    "SelectedImageAccordion": {
+        "textPaymentReceipt": "Payment Receipt",
+        "labelButtonEditReceipt": "Re-upload",
+        "labelButtonSendReceipt": "Send Receipt"
+    },
+    "PaymentCD": {
+        "textRentalDate":"Rental Date",
+        "textPriceToPay": "Nominal",
+        "textPayIn": "Pay in"
+    },
+    "PaymentHistory": {
+        "cardDescription": "Press the history button to view previous payments",
+        "buttonHistory": "History",
+        "textOneTime":"One time rent",
+        "textMonthly":"Rent for 1 month",
+        "textReceipt":"Receipt"
+    },
+    "ShipOwnerAcc": {
+        "textBankName": "Bank Mandiri",
+        "textAccountName": "Account Name :",
+        "textAccountNumber": "Account Number :",
+        "textYourPayment1": "Your payment will be verified by ",
+        "textYourPayment2": ", no later than 7 days after sending payment receipt",
+        "textNote": "Note: Make sure you make the transfer to Virtual Account listed above"
+    },
+    "InstructionsAccordion": {
+        "textMBanking": "Transfer instructions mBanking",
+        "textIBanking": "Transfer instructions iBanking",
+        "textATM": "Transfer instructions ATM",
+        "textInstruction": "Transfer instructions"
+    }
+}

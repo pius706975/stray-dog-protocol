@@ -1,0 +1,12 @@
+{
+    "locationTitle": "Izin Akses Lokasi diperlukan untuk fitur pencarian kapal",
+    "locationBody": "Shiphire mengumpulkan data lokasi untuk mengaktifkan fitur pencarian kapal. Saat renter mengklik Tombol Izinkan Akses Lokasi, data lokasi digunakan untuk menentukan lokasi renter dan untuk melihat pencarian data kapal sesuai lokasi renter. Shiphire hanya mengumpulkan data lokasi hanya pada awal saat aplikasi dibuka",
+    "androidLocationTitle": "Izin Lokasi",
+    "androidLocationBody": "Shiphire membutuhkan akses ke lokasi Anda untuk Fitur pencarian kapal",
+    "androidLocationNeutral": "Nanti Saja",
+    "androidLocationPositive": "OK",
+    "androidLocationNegative": "Batal",
+    "locationButton": "Izinkan Akses Lokasi",
+    "enableGPSMessage": "Pastikan untuk mengaktifkan GPS di pengaturan perangkat Anda"
+
+}

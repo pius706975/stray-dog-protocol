@@ -1,0 +1,574 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Proposal Preview should render the screen correctly 1`] = `
+<RNCSafeAreaProvider
+  onInsetsChange={[Function]}
+  style={
+    {
+      "flex": 1,
+    }
+  }
+>
+  <RNSScreenStack
+    style={
+      {
+        "flex": 1,
+      }
+    }
+  >
+    <RNSScreen
+      collapsable={false}
+      forwardedRef={[Function]}
+      gestureResponseDistance={
+        {
+          "bottom": -1,
+          "end": -1,
+          "start": -1,
+          "top": -1,
+        }
+      }
+      nativeBackButtonDismissalEnabled={false}
+      onAppear={[Function]}
+      onDisappear={[Function]}
+      onDismissed={[Function]}
+      onGestureCancel={[Function]}
+      onHeaderBackButtonClicked={[Function]}
+      onNativeDismissCancelled={[Function]}
+      onTransitionProgress={[Function]}
+      onWillDisappear={[Function]}
+      replaceAnimation="push"
+      sheetAllowedDetents="large"
+      sheetCornerRadius={-1}
+      sheetExpandsWhenScrolledToEdge={true}
+      sheetGrabberVisible={false}
+      sheetLargestUndimmedDetent="all"
+      stackPresentation="push"
+      style={
+        {
+          "bottom": 0,
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        }
+      }
+      swipeDirection="horizontal"
+    >
+      <View
+        accessibilityElementsHidden={false}
+        importantForAccessibility="auto"
+        style={
+          {
+            "flex": 1,
+            "flexDirection": "column-reverse",
+          }
+        }
+      >
+        <View
+          collapsable={false}
+          style={
+            [
+              {
+                "flex": 1,
+              },
+              {
+                "backgroundColor": "rgb(242, 242, 242)",
+              },
+              undefined,
+            ]
+          }
+        >
+          <View
+            style={
+              [
+                undefined,
+                undefined,
+                {
+                  "flex": 1,
+                },
+                undefined,
+                {},
+                {},
+                {},
+                {
+                  "backgroundColor": "#f0f6fb",
+                  "justifyContent": "space-between",
+                  "position": "relative",
+                },
+              ]
+            }
+            testID="ProposalPreviewScreen"
+          >
+            <RCTScrollView
+              contentContainerStyle={
+                {
+                  "alignItems": undefined,
+                  "flex": undefined,
+                  "flexGrow": 1,
+                  "gap": undefined,
+                  "justifyContent": undefined,
+                  "marginBottom": undefined,
+                  "padding": 10,
+                  "paddingVertical": undefined,
+                }
+              }
+            >
+              <View>
+                <View
+                  center={true}
+                  row={true}
+                  spread={true}
+                  style={
+                    [
+                      undefined,
+                      undefined,
+                      {
+                        "flex": 1,
+                      },
+                      undefined,
+                      {},
+                      {},
+                      {
+                        "alignItems": "center",
+                        "flexDirection": "row",
+                        "justifyContent": "center",
+                      },
+                      {
+                        "bottom": 30,
+                        "position": "absolute",
+                      },
+                    ]
+                  }
+                >
+                  <View
+                    center={true}
+                    row={true}
+                    style={
+                      [
+                        undefined,
+                        undefined,
+                        {
+                          "flex": 1,
+                        },
+                        undefined,
+                        {},
+                        {},
+                        {
+                          "alignItems": "center",
+                          "flexDirection": "row",
+                          "justifyContent": "center",
+                        },
+                        undefined,
+                      ]
+                    }
+                  >
+                    <View
+                      accessibilityState={
+                        {
+                          "busy": undefined,
+                          "checked": undefined,
+                          "disabled": undefined,
+                          "expanded": undefined,
+                          "selected": undefined,
+                        }
+                      }
+                      accessibilityValue={
+                        {
+                          "max": undefined,
+                          "min": undefined,
+                          "now": undefined,
+                          "text": undefined,
+                        }
+                      }
+                      accessible={true}
+                      collapsable={false}
+                      focusable={true}
+                      onBlur={[Function]}
+                      onClick={[Function]}
+                      onFocus={[Function]}
+                      onResponderGrant={[Function]}
+                      onResponderMove={[Function]}
+                      onResponderRelease={[Function]}
+                      onResponderTerminate={[Function]}
+                      onResponderTerminationRequest={[Function]}
+                      onStartShouldSetResponder={[Function]}
+                      style={
+                        {
+                          "alignItems": "center",
+                          "backgroundColor": "#d9a318",
+                          "borderRadius": 6,
+                          "elevation": 2,
+                          "flexDirection": "row",
+                          "gap": 10,
+                          "justifyContent": "center",
+                          "paddingHorizontal": 10,
+                          "paddingVertical": 6,
+                        }
+                      }
+                    >
+                      <RNSVGSvgView
+                        align="xMidYMid"
+                        bbHeight="20"
+                        bbWidth="20"
+                        fill="none"
+                        focusable={false}
+                        height={20}
+                        meetOrSlice={0}
+                        minX={0}
+                        minY={0}
+                        style={
+                          [
+                            {
+                              "backgroundColor": "transparent",
+                              "borderWidth": 0,
+                            },
+                            {
+                              "flex": 0,
+                              "height": 20,
+                              "width": 20,
+                            },
+                          ]
+                        }
+                        vbHeight={20}
+                        vbWidth={20}
+                        width={20}
+                        xml="<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <g clip-path="url(#clip0_77_29270)">
+    <path d="M2.5 14.5501V17.0835C2.5 17.3168 2.68333 17.5001 2.91667 17.5001H5.45C5.55833 17.5001 5.66667 17.4585 5.74167 17.3751L14.8417 8.28346L11.7167 5.15846L2.625 14.2501C2.54167 14.3335 2.5 14.4335 2.5 14.5501ZM17.2583 5.8668C17.5833 5.5418 17.5833 5.0168 17.2583 4.6918L15.3083 2.7418C14.9833 2.4168 14.4583 2.4168 14.1333 2.7418L12.6083 4.2668L15.7333 7.3918L17.2583 5.8668V5.8668Z" fill=#f0f6fb/>
+    </g>
+    <defs>
+    <clipPath id="clip0_77_29270">
+    <rect width="20" height="20" fill="white"/>
+    </clipPath>
+    </defs>
+    </svg>    
+        "
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <RNSVGGroup
+                          fill={null}
+                          propList={
+                            [
+                              "fill",
+                            ]
+                          }
+                        >
+                          <RNSVGGroup
+                            clipPath="clip0_77_29270"
+                            fill={
+                              {
+                                "payload": 4278190080,
+                                "type": 0,
+                              }
+                            }
+                          >
+                            <RNSVGPath
+                              d="M2.5 14.5501V17.0835C2.5 17.3168 2.68333 17.5001 2.91667 17.5001H5.45C5.55833 17.5001 5.66667 17.4585 5.74167 17.3751L14.8417 8.28346L11.7167 5.15846L2.625 14.2501C2.54167 14.3335 2.5 14.4335 2.5 14.5501ZM17.2583 5.8668C17.5833 5.5418 17.5833 5.0168 17.2583 4.6918L15.3083 2.7418C14.9833 2.4168 14.4583 2.4168 14.1333 2.7418L12.6083 4.2668L15.7333 7.3918L17.2583 5.8668V5.8668Z"
+                              fill={
+                                {
+                                  "payload": 4293981947,
+                                  "type": 0,
+                                }
+                              }
+                              propList={
+                                [
+                                  "fill",
+                                ]
+                              }
+                            />
+                          </RNSVGGroup>
+                          <RNSVGDefs>
+                            <RNSVGClipPath
+                              fill={
+                                {
+                                  "payload": 4278190080,
+                                  "type": 0,
+                                }
+                              }
+                              name="clip0_77_29270"
+                            >
+                              <RNSVGRect
+                                fill={
+                                  {
+                                    "payload": 4294967295,
+                                    "type": 0,
+                                  }
+                                }
+                                height="20"
+                                propList={
+                                  [
+                                    "fill",
+                                  ]
+                                }
+                                width="20"
+                                x="0"
+                                y="0"
+                              />
+                            </RNSVGClipPath>
+                          </RNSVGDefs>
+                        </RNSVGGroup>
+                      </RNSVGSvgView>
+                      <Text
+                        numberOfLines={0}
+                        style={
+                          {
+                            "borderBottomWidth": 0,
+                            "borderColor": undefined,
+                            "color": "#f0f6fb",
+                            "fontFamily": "Kanit-Medium",
+                            "fontSize": 18,
+                            "lineHeight": undefined,
+                            "textAlign": undefined,
+                          }
+                        }
+                      >
+                        labelButtonNegotiate
+                      </Text>
+                      <View
+                        style={
+                          [
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            {
+                              "position": "absolute",
+                              "right": 20,
+                            },
+                          ]
+                        }
+                      />
+                    </View>
+                  </View>
+                  <View
+                    center={true}
+                    row={true}
+                    style={
+                      [
+                        undefined,
+                        undefined,
+                        {
+                          "flex": 1,
+                        },
+                        undefined,
+                        {},
+                        {},
+                        {
+                          "alignItems": "center",
+                          "flexDirection": "row",
+                          "justifyContent": "center",
+                        },
+                        undefined,
+                      ]
+                    }
+                  >
+                    <View
+                      accessibilityState={
+                        {
+                          "busy": undefined,
+                          "checked": undefined,
+                          "disabled": undefined,
+                          "expanded": undefined,
+                          "selected": undefined,
+                        }
+                      }
+                      accessibilityValue={
+                        {
+                          "max": undefined,
+                          "min": undefined,
+                          "now": undefined,
+                          "text": undefined,
+                        }
+                      }
+                      accessible={true}
+                      collapsable={false}
+                      focusable={true}
+                      onBlur={[Function]}
+                      onClick={[Function]}
+                      onFocus={[Function]}
+                      onResponderGrant={[Function]}
+                      onResponderMove={[Function]}
+                      onResponderRelease={[Function]}
+                      onResponderTerminate={[Function]}
+                      onResponderTerminationRequest={[Function]}
+                      onStartShouldSetResponder={[Function]}
+                      style={
+                        {
+                          "alignItems": "center",
+                          "backgroundColor": "#1fcc44",
+                          "borderRadius": 6,
+                          "elevation": 2,
+                          "flexDirection": "row",
+                          "gap": 10,
+                          "justifyContent": "center",
+                          "paddingHorizontal": 10,
+                          "paddingVertical": 6,
+                        }
+                      }
+                      testID="acceptButton"
+                    >
+                      <RNSVGSvgView
+                        align="xMidYMid"
+                        bbHeight="24"
+                        bbWidth="24"
+                        fill="none"
+                        focusable={false}
+                        height={24}
+                        meetOrSlice={0}
+                        minX={0}
+                        minY={0}
+                        style={
+                          [
+                            {
+                              "backgroundColor": "transparent",
+                              "borderWidth": 0,
+                            },
+                            {
+                              "flex": 0,
+                              "height": 24,
+                              "width": 24,
+                            },
+                          ]
+                        }
+                        vbHeight={24}
+                        vbWidth={24}
+                        width={24}
+                        xml="<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <g clip-path="url(#clip0_77_30622)">
+        <path d="M9.00001 16.1703L5.53001 12.7003C5.14002 12.3103 4.51001 12.3103 4.12001 12.7003C3.73001 13.0903 3.73001 13.7203 4.12001 14.1103L8.30001 18.2903C8.69001 18.6803 9.32001 18.6803 9.71001 18.2903L20.29 7.71031C20.68 7.32031 20.68 6.69031 20.29 6.30031C19.9 5.91031 19.27 5.91031 18.88 6.30031L9.00001 16.1703Z" fill="#f0f6fb"/>
+        </g>
+        <defs>
+        <clipPath id="clip0_77_30622">
+        <rect width="24" height="24" fill="white"/>
+        </clipPath>
+        </defs>
+        </svg>
+        "
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <RNSVGGroup
+                          fill={null}
+                          propList={
+                            [
+                              "fill",
+                            ]
+                          }
+                        >
+                          <RNSVGGroup
+                            clipPath="clip0_77_30622"
+                            fill={
+                              {
+                                "payload": 4278190080,
+                                "type": 0,
+                              }
+                            }
+                          >
+                            <RNSVGPath
+                              d="M9.00001 16.1703L5.53001 12.7003C5.14002 12.3103 4.51001 12.3103 4.12001 12.7003C3.73001 13.0903 3.73001 13.7203 4.12001 14.1103L8.30001 18.2903C8.69001 18.6803 9.32001 18.6803 9.71001 18.2903L20.29 7.71031C20.68 7.32031 20.68 6.69031 20.29 6.30031C19.9 5.91031 19.27 5.91031 18.88 6.30031L9.00001 16.1703Z"
+                              fill={
+                                {
+                                  "payload": 4293981947,
+                                  "type": 0,
+                                }
+                              }
+                              propList={
+                                [
+                                  "fill",
+                                ]
+                              }
+                            />
+                          </RNSVGGroup>
+                          <RNSVGDefs>
+                            <RNSVGClipPath
+                              fill={
+                                {
+                                  "payload": 4278190080,
+                                  "type": 0,
+                                }
+                              }
+                              name="clip0_77_30622"
+                            >
+                              <RNSVGRect
+                                fill={
+                                  {
+                                    "payload": 4294967295,
+                                    "type": 0,
+                                  }
+                                }
+                                height="24"
+                                propList={
+                                  [
+                                    "fill",
+                                  ]
+                                }
+                                width="24"
+                                x="0"
+                                y="0"
+                              />
+                            </RNSVGClipPath>
+                          </RNSVGDefs>
+                        </RNSVGGroup>
+                      </RNSVGSvgView>
+                      <Text
+                        numberOfLines={0}
+                        style={
+                          {
+                            "borderBottomWidth": 0,
+                            "borderColor": undefined,
+                            "color": "#f0f6fb",
+                            "fontFamily": "Kanit-Medium",
+                            "fontSize": 18,
+                            "lineHeight": undefined,
+                            "textAlign": undefined,
+                          }
+                        }
+                      >
+                        labelButtonAccept
+                      </Text>
+                      <View
+                        style={
+                          [
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            {
+                              "position": "absolute",
+                              "right": 20,
+                            },
+                          ]
+                        }
+                      />
+                    </View>
+                  </View>
+                </View>
+              </View>
+            </RCTScrollView>
+          </View>
+        </View>
+      </View>
+      <RNSScreenStackHeaderConfig
+        backButtonInCustomView={false}
+        backTitleVisible={true}
+        backgroundColor="rgb(255, 255, 255)"
+        color="rgb(0, 122, 255)"
+        direction="ltr"
+        disableBackButtonMenu={false}
+        hidden={false}
+        hideBackButton={false}
+        largeTitleHideShadow={false}
+        title="ProposalPreview"
+        titleColor="rgb(28, 28, 30)"
+        topInsetEnabled={false}
+        translucent={false}
+      />
+    </RNSScreen>
+  </RNSScreenStack>
+</RNCSafeAreaProvider>
+`;

@@ -1,0 +1,15 @@
+{
+    "textShipHireInfo": "ShipHire Info",
+    "appInfoWelcomeUser": "Welcome user",
+    "textWelcome": "To understand our app more, please read this guide",
+    "appInfoReminder": "Reminder",
+    "textReminder": "Dont forget to pay your Rental, your payment will be expired at",
+    "appInfoPayment": "Payment",
+    "textPayment": "Here's your payment status from this rental",
+    "textRentalStatus": "Rental status",
+    "textRFQ": "Your request has been sent to PT.Anjay! Please wait for their response",
+    "textProposal": "Your request has been replied! Here's the proposal from PT.Anjay",
+    "textContract": "Your payment has been accepted, here's the contract from PT.Anjay",
+    "textNoNotif": "No notification yet",
+    "textOpenedNotif": "Opened notification"
+}

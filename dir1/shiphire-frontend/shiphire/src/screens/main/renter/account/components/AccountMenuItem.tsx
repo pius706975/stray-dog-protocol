@@ -1,0 +1,52 @@
+import React from 'react';
+import { Pressable, View } from 'react-native';
+import { CustomText } from '../../../../../components';
+import { RightIcon } from '../../../../../configs';
+import { AccountMenuItemProps } from '../../../../../types';
+
+const AccountMenuItem: React.FC<AccountMenuItemProps> = ({
+    onClick,
+    label,
+    Icon,
+    testID,
+}) => {
+    return (
+        <Pressable onPress={onClick}>
+            <View
+                style={{
+                    padding: 10,
+                    paddingTop: 0,
+                    borderBottomWidth: 0.5,
+                    margin: 5,
+                    flexDirection: 'row',
+                    justifyContent: 'space-between',
+                    alignItems: 'center',
+                }}>
+                <View
+                    style={{
+                        flexDirection: 'row',
+                    }}>
+                    <View
+                        style={{
+                            justifyContent: 'flex-start',
+                            padding: 5,
+                            paddingRight: 10,
+                            paddingLeft: 0,
+                        }}>
+                        <Icon />
+                    </View>
+
+                    <CustomText
+                        fontFamily="regular"
+                        fontSize="md"
+                        color="darkTextColor">
+                        {label}
+                    </CustomText>
+                </View>
+                <RightIcon />
+            </View>
+        </Pressable>
+    );
+};
+
+export default AccountMenuItem;

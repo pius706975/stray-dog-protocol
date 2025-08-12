@@ -1,0 +1,1438 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing Payment Screen Snapshot Testing should render Payment screen correctly 1`] = `
+<RNCSafeAreaProvider
+  onInsetsChange={[Function]}
+  style={
+    {
+      "flex": 1,
+    }
+  }
+>
+  <RNSScreenStack
+    style={
+      {
+        "flex": 1,
+      }
+    }
+  >
+    <RNSScreen
+      collapsable={false}
+      forwardedRef={[Function]}
+      gestureResponseDistance={
+        {
+          "bottom": -1,
+          "end": -1,
+          "start": -1,
+          "top": -1,
+        }
+      }
+      nativeBackButtonDismissalEnabled={false}
+      onAppear={[Function]}
+      onDisappear={[Function]}
+      onDismissed={[Function]}
+      onGestureCancel={[Function]}
+      onHeaderBackButtonClicked={[Function]}
+      onNativeDismissCancelled={[Function]}
+      onTransitionProgress={[Function]}
+      onWillDisappear={[Function]}
+      replaceAnimation="push"
+      sheetAllowedDetents="large"
+      sheetCornerRadius={-1}
+      sheetExpandsWhenScrolledToEdge={true}
+      sheetGrabberVisible={false}
+      sheetLargestUndimmedDetent="all"
+      stackPresentation="push"
+      style={
+        {
+          "bottom": 0,
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        }
+      }
+      swipeDirection="horizontal"
+    >
+      <View
+        accessibilityElementsHidden={false}
+        importantForAccessibility="auto"
+        style={
+          {
+            "flex": 1,
+            "flexDirection": "column-reverse",
+          }
+        }
+      >
+        <View
+          collapsable={false}
+          style={
+            [
+              {
+                "flex": 1,
+              },
+              {
+                "backgroundColor": "rgb(242, 242, 242)",
+              },
+              undefined,
+            ]
+          }
+        >
+          <View
+            style={
+              [
+                undefined,
+                undefined,
+                {
+                  "flex": 1,
+                },
+                undefined,
+                {},
+                {},
+                {},
+                {
+                  "backgroundColor": "#f0f6fb",
+                  "justifyContent": "space-between",
+                  "position": "relative",
+                },
+              ]
+            }
+            testID="PaymentScreen"
+          >
+            <RCTScrollView
+              contentContainerStyle={
+                {
+                  "alignItems": undefined,
+                  "flex": undefined,
+                  "flexGrow": 1,
+                  "gap": undefined,
+                  "justifyContent": undefined,
+                  "marginBottom": undefined,
+                  "padding": 10,
+                  "paddingVertical": undefined,
+                }
+              }
+            >
+              <View>
+                <View
+                  style={
+                    [
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      {
+                        "gap": 10,
+                      },
+                    ]
+                  }
+                >
+                  <View
+                    style={
+                      [
+                        undefined,
+                        undefined,
+                        undefined,
+                        undefined,
+                        undefined,
+                        undefined,
+                        undefined,
+                        {
+                          "gap": 10,
+                        },
+                      ]
+                    }
+                  >
+                    <View
+                      row={true}
+                      spread={true}
+                      style={
+                        [
+                          undefined,
+                          undefined,
+                          {
+                            "flex": 1,
+                          },
+                          undefined,
+                          {},
+                          {},
+                          {
+                            "flexDirection": "row",
+                            "justifyContent": "space-between",
+                          },
+                          {
+                            "alignItems": "center",
+                            "backgroundColor": "#216dab",
+                            "borderRadius": 6,
+                            "padding": 16,
+                          },
+                        ]
+                      }
+                    >
+                      <View
+                        style={
+                          [
+                            undefined,
+                            undefined,
+                            {
+                              "flex": 1,
+                            },
+                            undefined,
+                            {},
+                            {},
+                            {},
+                            undefined,
+                          ]
+                        }
+                      >
+                        <View
+                          row={true}
+                          spread={true}
+                          style={
+                            [
+                              undefined,
+                              undefined,
+                              undefined,
+                              undefined,
+                              {},
+                              {},
+                              {
+                                "flexDirection": "row",
+                                "justifyContent": "space-between",
+                              },
+                              undefined,
+                            ]
+                          }
+                        >
+                          <Text
+                            numberOfLines={0}
+                            style={
+                              {
+                                "borderBottomWidth": 0,
+                                "borderColor": undefined,
+                                "color": "#f0f6fb",
+                                "fontFamily": "Kanit-Regular",
+                                "fontSize": 18,
+                                "lineHeight": undefined,
+                                "textAlign": undefined,
+                              }
+                            }
+                          >
+                            Rental date
+                          </Text>
+                          <Text
+                            numberOfLines={0}
+                            style={
+                              {
+                                "borderBottomWidth": 0,
+                                "borderColor": undefined,
+                                "color": "#9cd2ff",
+                                "fontFamily": "Kanit-Regular",
+                                "fontSize": 18,
+                                "lineHeight": undefined,
+                                "textAlign": undefined,
+                              }
+                            }
+                          >
+                            03 Feb - 03 Feb 2024
+                          </Text>
+                        </View>
+                        <View
+                          row={true}
+                          spread={true}
+                          style={
+                            [
+                              undefined,
+                              undefined,
+                              undefined,
+                              undefined,
+                              {},
+                              {},
+                              {
+                                "flexDirection": "row",
+                                "justifyContent": "space-between",
+                              },
+                              undefined,
+                            ]
+                          }
+                        >
+                          <Text
+                            numberOfLines={0}
+                            style={
+                              {
+                                "borderBottomWidth": 0,
+                                "borderColor": undefined,
+                                "color": "#f0f6fb",
+                                "fontFamily": "Kanit-Regular",
+                                "fontSize": 18,
+                                "lineHeight": undefined,
+                                "textAlign": undefined,
+                              }
+                            }
+                          >
+                            PaymentCD.textPriceToPay
+                          </Text>
+                          <Text
+                            numberOfLines={0}
+                            style={
+                              {
+                                "borderBottomWidth": 0,
+                                "borderColor": undefined,
+                                "color": "#9cd2ff",
+                                "fontFamily": "Kanit-Regular",
+                                "fontSize": 18,
+                                "lineHeight": undefined,
+                                "textAlign": undefined,
+                              }
+                            }
+                          >
+                            Rpundefined
+                          </Text>
+                        </View>
+                        <View
+                          row={true}
+                          spread={true}
+                          style={
+                            [
+                              undefined,
+                              undefined,
+                              undefined,
+                              undefined,
+                              {},
+                              {},
+                              {
+                                "flexDirection": "row",
+                                "justifyContent": "space-between",
+                              },
+                              undefined,
+                            ]
+                          }
+                        >
+                          <Text
+                            numberOfLines={0}
+                            style={
+                              {
+                                "borderBottomWidth": 0,
+                                "borderColor": undefined,
+                                "color": "#f0f6fb",
+                                "fontFamily": "Kanit-Regular",
+                                "fontSize": 18,
+                                "lineHeight": undefined,
+                                "textAlign": undefined,
+                              }
+                            }
+                          >
+                            PaymentCD.textPayIn
+                          </Text>
+                          <Text
+                            numberOfLines={0}
+                            style={
+                              {
+                                "borderBottomWidth": 0,
+                                "borderColor": undefined,
+                                "color": "#9cd2ff",
+                                "fontFamily": "Kanit-Regular",
+                                "fontSize": 18,
+                                "lineHeight": undefined,
+                                "textAlign": undefined,
+                              }
+                            }
+                          >
+                            0d 0hrs 0mnts 0scnds
+                          </Text>
+                        </View>
+                      </View>
+                    </View>
+                  </View>
+                  <View
+                    padding-10={true}
+                    paddingL-15={true}
+                    row={true}
+                    style={
+                      [
+                        undefined,
+                        undefined,
+                        undefined,
+                        undefined,
+                        {
+                          "padding": 10,
+                          "paddingLeft": 15,
+                        },
+                        {},
+                        {
+                          "flexDirection": "row",
+                        },
+                        {
+                          "backgroundColor": "#dbdee0",
+                          "borderRadius": 5,
+                        },
+                      ]
+                    }
+                  >
+                    <View
+                      style={
+                        [
+                          undefined,
+                          undefined,
+                          undefined,
+                          undefined,
+                          undefined,
+                          undefined,
+                          undefined,
+                          {
+                            "width": "70%",
+                          },
+                        ]
+                      }
+                    >
+                      <Text
+                        numberOfLines={0}
+                        style={
+                          {
+                            "borderBottomWidth": 0,
+                            "borderColor": undefined,
+                            "color": "#216dab",
+                            "fontFamily": "Kanit-Regular",
+                            "fontSize": 14,
+                            "lineHeight": undefined,
+                            "textAlign": undefined,
+                          }
+                        }
+                      >
+                        PaymentHistory.cardDescription
+                      </Text>
+                    </View>
+                    <View
+                      style={
+                        [
+                          undefined,
+                          undefined,
+                          undefined,
+                          undefined,
+                          undefined,
+                          undefined,
+                          undefined,
+                          {
+                            "width": "30%",
+                          },
+                        ]
+                      }
+                    >
+                      <View
+                        accessibilityState={
+                          {
+                            "busy": undefined,
+                            "checked": undefined,
+                            "disabled": undefined,
+                            "expanded": undefined,
+                            "selected": undefined,
+                          }
+                        }
+                        accessibilityValue={
+                          {
+                            "max": undefined,
+                            "min": undefined,
+                            "now": undefined,
+                            "text": undefined,
+                          }
+                        }
+                        accessible={true}
+                        collapsable={false}
+                        focusable={true}
+                        onBlur={[Function]}
+                        onClick={[Function]}
+                        onFocus={[Function]}
+                        onResponderGrant={[Function]}
+                        onResponderMove={[Function]}
+                        onResponderRelease={[Function]}
+                        onResponderTerminate={[Function]}
+                        onResponderTerminationRequest={[Function]}
+                        onStartShouldSetResponder={[Function]}
+                        style={
+                          {
+                            "alignItems": "center",
+                            "backgroundColor": "#216dab",
+                            "borderRadius": 6,
+                            "elevation": 2,
+                            "flexDirection": "row",
+                            "gap": 0,
+                            "justifyContent": "center",
+                            "paddingHorizontal": 10,
+                            "paddingVertical": 6,
+                          }
+                        }
+                        testID="historyButton"
+                      >
+                        <Text
+                          numberOfLines={0}
+                          style={
+                            {
+                              "borderBottomWidth": 0,
+                              "borderColor": undefined,
+                              "color": "#f0f6fb",
+                              "fontFamily": "Kanit-Medium",
+                              "fontSize": 18,
+                              "lineHeight": undefined,
+                              "textAlign": undefined,
+                            }
+                          }
+                        >
+                          PaymentHistory.buttonHistory
+                        </Text>
+                        <View
+                          style={
+                            [
+                              undefined,
+                              undefined,
+                              undefined,
+                              undefined,
+                              undefined,
+                              undefined,
+                              undefined,
+                              {
+                                "position": "absolute",
+                                "right": 20,
+                              },
+                            ]
+                          }
+                        />
+                      </View>
+                    </View>
+                  </View>
+                  <View
+                    centerV={true}
+                    padding-16={true}
+                    row={true}
+                    spread={true}
+                    style={
+                      [
+                        undefined,
+                        undefined,
+                        {
+                          "flex": 1,
+                        },
+                        undefined,
+                        {
+                          "padding": 16,
+                        },
+                        {},
+                        {
+                          "alignItems": "center",
+                          "flexDirection": "row",
+                          "justifyContent": "space-between",
+                        },
+                        {
+                          "backgroundColor": "#dbdee0",
+                          "borderRadius": 6,
+                        },
+                      ]
+                    }
+                  >
+                    <View
+                      style={
+                        [
+                          undefined,
+                          undefined,
+                          {
+                            "flex": 1,
+                          },
+                          undefined,
+                          {},
+                          {},
+                          {},
+                          undefined,
+                        ]
+                      }
+                    >
+                      <View
+                        paddingB-8={true}
+                        row={true}
+                        style={
+                          [
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            {
+                              "paddingBottom": 8,
+                            },
+                            {},
+                            {
+                              "flexDirection": "row",
+                            },
+                            {
+                              "borderBottomWidth": 0.6,
+                              "gap": 10,
+                            },
+                          ]
+                        }
+                      >
+                        <Image
+                          accessibilityRole="image"
+                          accessible={false}
+                          assetGroup="icons"
+                          onError={[Function]}
+                          source={
+                            {
+                              "uri": "https://logos-download.com/wp-content/uploads/2016/06/Bank_Mandiri_logo_fon.png",
+                            }
+                          }
+                          style={
+                            [
+                              undefined,
+                              undefined,
+                              undefined,
+                              undefined,
+                              undefined,
+                              undefined,
+                              undefined,
+                              undefined,
+                              false,
+                              {
+                                "height": 30,
+                                "width": 60,
+                              },
+                              false,
+                            ]
+                          }
+                        />
+                        <Text
+                          numberOfLines={0}
+                          style={
+                            {
+                              "borderBottomWidth": 0,
+                              "borderColor": undefined,
+                              "color": "#4d5963",
+                              "fontFamily": "Kanit-Medium",
+                              "fontSize": 18,
+                              "lineHeight": undefined,
+                              "textAlign": undefined,
+                            }
+                          }
+                        >
+                          Bank 
+                        </Text>
+                      </View>
+                      <View
+                        marginT-10={true}
+                        style={
+                          [
+                            undefined,
+                            undefined,
+                            {
+                              "flex": 1,
+                            },
+                            undefined,
+                            {},
+                            {
+                              "marginTop": 10,
+                            },
+                            {},
+                            undefined,
+                          ]
+                        }
+                      >
+                        <View
+                          row={true}
+                          spread={true}
+                          style={
+                            [
+                              undefined,
+                              undefined,
+                              undefined,
+                              undefined,
+                              {},
+                              {},
+                              {
+                                "flexDirection": "row",
+                                "justifyContent": "space-between",
+                              },
+                              undefined,
+                            ]
+                          }
+                        >
+                          <Text
+                            numberOfLines={0}
+                            style={
+                              {
+                                "borderBottomWidth": 0,
+                                "borderColor": undefined,
+                                "color": "#828b92",
+                                "fontFamily": "Kanit-Regular",
+                                "fontSize": 18,
+                                "lineHeight": undefined,
+                                "textAlign": undefined,
+                              }
+                            }
+                          >
+                            ShipOwnerAcc.textAccountName
+                          </Text>
+                          <Text
+                            numberOfLines={0}
+                            style={
+                              {
+                                "borderBottomWidth": 0,
+                                "borderColor": undefined,
+                                "color": "#216dab",
+                                "fontFamily": "Kanit-Medium",
+                                "fontSize": 18,
+                                "lineHeight": undefined,
+                                "textAlign": undefined,
+                              }
+                            }
+                          />
+                        </View>
+                      </View>
+                      <Text
+                        numberOfLines={0}
+                        style={
+                          {
+                            "borderBottomWidth": 0,
+                            "borderColor": undefined,
+                            "color": "#828b92",
+                            "fontFamily": "Kanit-Regular",
+                            "fontSize": 18,
+                            "lineHeight": undefined,
+                            "textAlign": undefined,
+                          }
+                        }
+                      >
+                        ShipOwnerAcc.textAccountNumber
+                      </Text>
+                      <View
+                        centerV={true}
+                        row={true}
+                        spread={true}
+                        style={
+                          [
+                            undefined,
+                            undefined,
+                            {
+                              "flex": 1,
+                            },
+                            undefined,
+                            {},
+                            {},
+                            {
+                              "alignItems": "center",
+                              "flexDirection": "row",
+                              "justifyContent": "space-between",
+                            },
+                            undefined,
+                          ]
+                        }
+                      >
+                        <Text
+                          numberOfLines={0}
+                          style={
+                            {
+                              "borderBottomWidth": 0,
+                              "borderColor": undefined,
+                              "color": "#216dab",
+                              "fontFamily": "Kanit-Bold",
+                              "fontSize": 26,
+                              "lineHeight": undefined,
+                              "textAlign": undefined,
+                            }
+                          }
+                        />
+                        <View
+                          accessibilityState={
+                            {
+                              "busy": undefined,
+                              "checked": undefined,
+                              "disabled": undefined,
+                              "expanded": undefined,
+                              "selected": undefined,
+                            }
+                          }
+                          accessibilityValue={
+                            {
+                              "max": undefined,
+                              "min": undefined,
+                              "now": undefined,
+                              "text": undefined,
+                            }
+                          }
+                          accessible={true}
+                          collapsable={false}
+                          focusable={true}
+                          onBlur={[Function]}
+                          onClick={[Function]}
+                          onFocus={[Function]}
+                          onResponderGrant={[Function]}
+                          onResponderMove={[Function]}
+                          onResponderRelease={[Function]}
+                          onResponderTerminate={[Function]}
+                          onResponderTerminationRequest={[Function]}
+                          onStartShouldSetResponder={[Function]}
+                          testID="copy-button"
+                        >
+                          <RNSVGSvgView
+                            align="xMidYMid"
+                            bbHeight="20"
+                            bbWidth="16"
+                            fill="none"
+                            focusable={false}
+                            height={20}
+                            meetOrSlice={0}
+                            minX={0}
+                            minY={0}
+                            style={
+                              [
+                                {
+                                  "backgroundColor": "transparent",
+                                  "borderWidth": 0,
+                                },
+                                {
+                                  "flex": 0,
+                                  "height": 20,
+                                  "width": 16,
+                                },
+                              ]
+                            }
+                            vbHeight={20}
+                            vbWidth={16}
+                            width={16}
+                            xml="<svg width="16" height="20" viewBox="0 0 16 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M11 0.833008H1.83334C0.916672 0.833008 0.166672 1.58301 0.166672 2.49967V13.333C0.166672 13.7913 0.541672 14.1663 1.00001 14.1663C1.45834 14.1663 1.83334 13.7913 1.83334 13.333V3.33301C1.83334 2.87467 2.20834 2.49967 2.66667 2.49967H11C11.4583 2.49967 11.8333 2.12467 11.8333 1.66634C11.8333 1.20801 11.4583 0.833008 11 0.833008ZM14.3333 4.16634H5.16667C4.25 4.16634 3.50001 4.91634 3.50001 5.83301V17.4997C3.50001 18.4163 4.25 19.1663 5.16667 19.1663H14.3333C15.25 19.1663 16 18.4163 16 17.4997V5.83301C16 4.91634 15.25 4.16634 14.3333 4.16634ZM13.5 17.4997H6C5.54167 17.4997 5.16667 17.1247 5.16667 16.6663V6.66634C5.16667 6.20801 5.54167 5.83301 6 5.83301H13.5C13.9583 5.83301 14.3333 6.20801 14.3333 6.66634V16.6663C14.3333 17.1247 13.9583 17.4997 13.5 17.4997Z" fill="#6499C4"/>
+        </svg>
+         "
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <RNSVGGroup
+                              fill={null}
+                              propList={
+                                [
+                                  "fill",
+                                ]
+                              }
+                            >
+                              <RNSVGPath
+                                d="M11 0.833008H1.83334C0.916672 0.833008 0.166672 1.58301 0.166672 2.49967V13.333C0.166672 13.7913 0.541672 14.1663 1.00001 14.1663C1.45834 14.1663 1.83334 13.7913 1.83334 13.333V3.33301C1.83334 2.87467 2.20834 2.49967 2.66667 2.49967H11C11.4583 2.49967 11.8333 2.12467 11.8333 1.66634C11.8333 1.20801 11.4583 0.833008 11 0.833008ZM14.3333 4.16634H5.16667C4.25 4.16634 3.50001 4.91634 3.50001 5.83301V17.4997C3.50001 18.4163 4.25 19.1663 5.16667 19.1663H14.3333C15.25 19.1663 16 18.4163 16 17.4997V5.83301C16 4.91634 15.25 4.16634 14.3333 4.16634ZM13.5 17.4997H6C5.54167 17.4997 5.16667 17.1247 5.16667 16.6663V6.66634C5.16667 6.20801 5.54167 5.83301 6 5.83301H13.5C13.9583 5.83301 14.3333 6.20801 14.3333 6.66634V16.6663C14.3333 17.1247 13.9583 17.4997 13.5 17.4997Z"
+                                fill={
+                                  {
+                                    "payload": 4284783044,
+                                    "type": 0,
+                                  }
+                                }
+                                propList={
+                                  [
+                                    "fill",
+                                  ]
+                                }
+                              />
+                            </RNSVGGroup>
+                          </RNSVGSvgView>
+                        </View>
+                      </View>
+                      <View
+                        marginT-16={true}
+                        style={
+                          [
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            {},
+                            {
+                              "marginTop": 16,
+                            },
+                            {},
+                            {
+                              "gap": 10,
+                            },
+                          ]
+                        }
+                      >
+                        <Text
+                          numberOfLines={0}
+                          style={
+                            {
+                              "borderBottomWidth": 0,
+                              "borderColor": undefined,
+                              "color": "#6499c4",
+                              "fontFamily": "Kanit-Medium",
+                              "fontSize": 16,
+                              "lineHeight": 18,
+                              "textAlign": undefined,
+                            }
+                          }
+                        >
+                          ShipOwnerAcc.textYourPayment1
+                          .
+                          ShipOwnerAcc.textYourPayment2
+                        </Text>
+                        <Text
+                          numberOfLines={0}
+                          style={
+                            {
+                              "borderBottomWidth": 0,
+                              "borderColor": undefined,
+                              "color": "#d64c41",
+                              "fontFamily": "Kanit-Medium",
+                              "fontSize": 16,
+                              "lineHeight": 18,
+                              "textAlign": undefined,
+                            }
+                          }
+                        >
+                          ShipOwnerAcc.textNote
+                        </Text>
+                      </View>
+                    </View>
+                  </View>
+                  <View
+                    accessibilityState={
+                      {
+                        "busy": undefined,
+                        "checked": undefined,
+                        "disabled": undefined,
+                        "expanded": undefined,
+                        "selected": undefined,
+                      }
+                    }
+                    accessibilityValue={
+                      {
+                        "max": undefined,
+                        "min": undefined,
+                        "now": undefined,
+                        "text": undefined,
+                      }
+                    }
+                    accessible={true}
+                    collapsable={false}
+                    focusable={true}
+                    onBlur={[Function]}
+                    onClick={[Function]}
+                    onFocus={[Function]}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    testID="instructions-accordion-1"
+                  >
+                    <View
+                      style={
+                        {
+                          "alignItems": "center",
+                          "backgroundColor": "#dbdee0",
+                          "borderColor": "#bcbbc1",
+                          "borderRadius": 6,
+                          "flex": 1,
+                          "flexDirection": "row",
+                          "justifyContent": "space-between",
+                          "padding": 16,
+                        }
+                      }
+                      testID="RNE__LISTITEM__padView"
+                    >
+                      <Text
+                        numberOfLines={0}
+                        style={
+                          {
+                            "borderBottomWidth": 0,
+                            "borderColor": undefined,
+                            "color": "#216dab",
+                            "fontFamily": "Kanit-Bold",
+                            "fontSize": 18,
+                            "lineHeight": undefined,
+                            "textAlign": undefined,
+                          }
+                        }
+                      >
+                        InstructionsAccordion.textMBanking
+                      </Text>
+                      <View
+                        style={
+                          {
+                            "paddingLeft": 16,
+                          }
+                        }
+                      />
+                      <View
+                        collapsable={false}
+                        style={
+                          {
+                            "transform": [
+                              {
+                                "rotate": "0deg",
+                              },
+                            ],
+                          }
+                        }
+                        testID="RNE__ListItem__Accordion__Icon"
+                      >
+                        <View
+                          style={
+                            {
+                              "overflow": "hidden",
+                            }
+                          }
+                          testID="RNE__ICON__CONTAINER"
+                        >
+                          <View
+                            accessibilityRole="button"
+                            android_ripple={
+                              {
+                                "borderless": false,
+                                "color": "rgba(0, 0, 0, 0.3)",
+                                "radius": -5,
+                              }
+                            }
+                            disabled={false}
+                            testID="RNE__ICON__CONTAINER_ACTION"
+                          >
+                            <View
+                              style={
+                                {
+                                  "alignItems": "center",
+                                  "backgroundColor": "transparent",
+                                  "justifyContent": "center",
+                                }
+                              }
+                              testID="RNE__ICON"
+                            >
+                              <Text
+                                allowFontScaling={false}
+                                selectable={false}
+                                style={
+                                  [
+                                    {
+                                      "color": "#242424",
+                                      "fontSize": 24,
+                                    },
+                                    {
+                                      "backgroundColor": "transparent",
+                                    },
+                                    {
+                                      "fontFamily": "Material Design Icons",
+                                      "fontStyle": "normal",
+                                      "fontWeight": "normal",
+                                    },
+                                    {},
+                                  ]
+                                }
+                                testID="RNE__ICON__Component"
+                              >
+                                󰅀
+                              </Text>
+                            </View>
+                          </View>
+                        </View>
+                      </View>
+                    </View>
+                  </View>
+                  <View
+                    accessibilityState={
+                      {
+                        "busy": undefined,
+                        "checked": undefined,
+                        "disabled": undefined,
+                        "expanded": undefined,
+                        "selected": undefined,
+                      }
+                    }
+                    accessibilityValue={
+                      {
+                        "max": undefined,
+                        "min": undefined,
+                        "now": undefined,
+                        "text": undefined,
+                      }
+                    }
+                    accessible={true}
+                    collapsable={false}
+                    focusable={true}
+                    onBlur={[Function]}
+                    onClick={[Function]}
+                    onFocus={[Function]}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    testID="instructions-accordion-2"
+                  >
+                    <View
+                      style={
+                        {
+                          "alignItems": "center",
+                          "backgroundColor": "#dbdee0",
+                          "borderColor": "#bcbbc1",
+                          "borderRadius": 6,
+                          "flex": 1,
+                          "flexDirection": "row",
+                          "justifyContent": "space-between",
+                          "padding": 16,
+                        }
+                      }
+                      testID="RNE__LISTITEM__padView"
+                    >
+                      <Text
+                        numberOfLines={0}
+                        style={
+                          {
+                            "borderBottomWidth": 0,
+                            "borderColor": undefined,
+                            "color": "#216dab",
+                            "fontFamily": "Kanit-Bold",
+                            "fontSize": 18,
+                            "lineHeight": undefined,
+                            "textAlign": undefined,
+                          }
+                        }
+                      >
+                        InstructionsAccordion.textIBanking
+                      </Text>
+                      <View
+                        style={
+                          {
+                            "paddingLeft": 16,
+                          }
+                        }
+                      />
+                      <View
+                        collapsable={false}
+                        style={
+                          {
+                            "transform": [
+                              {
+                                "rotate": "0deg",
+                              },
+                            ],
+                          }
+                        }
+                        testID="RNE__ListItem__Accordion__Icon"
+                      >
+                        <View
+                          style={
+                            {
+                              "overflow": "hidden",
+                            }
+                          }
+                          testID="RNE__ICON__CONTAINER"
+                        >
+                          <View
+                            accessibilityRole="button"
+                            android_ripple={
+                              {
+                                "borderless": false,
+                                "color": "rgba(0, 0, 0, 0.3)",
+                                "radius": -5,
+                              }
+                            }
+                            disabled={false}
+                            testID="RNE__ICON__CONTAINER_ACTION"
+                          >
+                            <View
+                              style={
+                                {
+                                  "alignItems": "center",
+                                  "backgroundColor": "transparent",
+                                  "justifyContent": "center",
+                                }
+                              }
+                              testID="RNE__ICON"
+                            >
+                              <Text
+                                allowFontScaling={false}
+                                selectable={false}
+                                style={
+                                  [
+                                    {
+                                      "color": "#242424",
+                                      "fontSize": 24,
+                                    },
+                                    {
+                                      "backgroundColor": "transparent",
+                                    },
+                                    {
+                                      "fontFamily": "Material Design Icons",
+                                      "fontStyle": "normal",
+                                      "fontWeight": "normal",
+                                    },
+                                    {},
+                                  ]
+                                }
+                                testID="RNE__ICON__Component"
+                              >
+                                󰅀
+                              </Text>
+                            </View>
+                          </View>
+                        </View>
+                      </View>
+                    </View>
+                  </View>
+                  <View
+                    accessibilityState={
+                      {
+                        "busy": undefined,
+                        "checked": undefined,
+                        "disabled": undefined,
+                        "expanded": undefined,
+                        "selected": undefined,
+                      }
+                    }
+                    accessibilityValue={
+                      {
+                        "max": undefined,
+                        "min": undefined,
+                        "now": undefined,
+                        "text": undefined,
+                      }
+                    }
+                    accessible={true}
+                    collapsable={false}
+                    focusable={true}
+                    onBlur={[Function]}
+                    onClick={[Function]}
+                    onFocus={[Function]}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    testID="instructions-accordion-3"
+                  >
+                    <View
+                      style={
+                        {
+                          "alignItems": "center",
+                          "backgroundColor": "#dbdee0",
+                          "borderColor": "#bcbbc1",
+                          "borderRadius": 6,
+                          "flex": 1,
+                          "flexDirection": "row",
+                          "justifyContent": "space-between",
+                          "padding": 16,
+                        }
+                      }
+                      testID="RNE__LISTITEM__padView"
+                    >
+                      <Text
+                        numberOfLines={0}
+                        style={
+                          {
+                            "borderBottomWidth": 0,
+                            "borderColor": undefined,
+                            "color": "#216dab",
+                            "fontFamily": "Kanit-Bold",
+                            "fontSize": 18,
+                            "lineHeight": undefined,
+                            "textAlign": undefined,
+                          }
+                        }
+                      >
+                        InstructionsAccordion.textATM
+                      </Text>
+                      <View
+                        style={
+                          {
+                            "paddingLeft": 16,
+                          }
+                        }
+                      />
+                      <View
+                        collapsable={false}
+                        style={
+                          {
+                            "transform": [
+                              {
+                                "rotate": "0deg",
+                              },
+                            ],
+                          }
+                        }
+                        testID="RNE__ListItem__Accordion__Icon"
+                      >
+                        <View
+                          style={
+                            {
+                              "overflow": "hidden",
+                            }
+                          }
+                          testID="RNE__ICON__CONTAINER"
+                        >
+                          <View
+                            accessibilityRole="button"
+                            android_ripple={
+                              {
+                                "borderless": false,
+                                "color": "rgba(0, 0, 0, 0.3)",
+                                "radius": -5,
+                              }
+                            }
+                            disabled={false}
+                            testID="RNE__ICON__CONTAINER_ACTION"
+                          >
+                            <View
+                              style={
+                                {
+                                  "alignItems": "center",
+                                  "backgroundColor": "transparent",
+                                  "justifyContent": "center",
+                                }
+                              }
+                              testID="RNE__ICON"
+                            >
+                              <Text
+                                allowFontScaling={false}
+                                selectable={false}
+                                style={
+                                  [
+                                    {
+                                      "color": "#242424",
+                                      "fontSize": 24,
+                                    },
+                                    {
+                                      "backgroundColor": "transparent",
+                                    },
+                                    {
+                                      "fontFamily": "Material Design Icons",
+                                      "fontStyle": "normal",
+                                      "fontWeight": "normal",
+                                    },
+                                    {},
+                                  ]
+                                }
+                                testID="RNE__ICON__Component"
+                              >
+                                󰅀
+                              </Text>
+                            </View>
+                          </View>
+                        </View>
+                      </View>
+                    </View>
+                  </View>
+                </View>
+                <View
+                  style={
+                    [
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      {
+                        "bottom": 30,
+                        "position": "absolute",
+                        "right": 20,
+                      },
+                    ]
+                  }
+                >
+                  <View
+                    accessibilityState={
+                      {
+                        "busy": undefined,
+                        "checked": undefined,
+                        "disabled": undefined,
+                        "expanded": undefined,
+                        "selected": undefined,
+                      }
+                    }
+                    accessibilityValue={
+                      {
+                        "max": undefined,
+                        "min": undefined,
+                        "now": undefined,
+                        "text": undefined,
+                      }
+                    }
+                    accessible={true}
+                    collapsable={false}
+                    focusable={true}
+                    onBlur={[Function]}
+                    onClick={[Function]}
+                    onFocus={[Function]}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      {
+                        "alignItems": "center",
+                        "backgroundColor": "#1fcc44",
+                        "borderRadius": 6,
+                        "elevation": 2,
+                        "flexDirection": "row",
+                        "gap": 0,
+                        "justifyContent": "center",
+                        "paddingHorizontal": 10,
+                        "paddingVertical": 6,
+                      }
+                    }
+                  >
+                    <Text
+                      numberOfLines={0}
+                      style={
+                        {
+                          "borderBottomWidth": 0,
+                          "borderColor": undefined,
+                          "color": "#f0f6fb",
+                          "fontFamily": "Kanit-Medium",
+                          "fontSize": 18,
+                          "lineHeight": undefined,
+                          "textAlign": undefined,
+                        }
+                      }
+                    >
+                      Upload payment receipt
+                    </Text>
+                    <View
+                      style={
+                        [
+                          undefined,
+                          undefined,
+                          undefined,
+                          undefined,
+                          undefined,
+                          undefined,
+                          undefined,
+                          {
+                            "position": "absolute",
+                            "right": 20,
+                          },
+                        ]
+                      }
+                    />
+                  </View>
+                </View>
+              </View>
+            </RCTScrollView>
+          </View>
+        </View>
+      </View>
+      <RNSScreenStackHeaderConfig
+        backButtonInCustomView={false}
+        backTitleVisible={true}
+        backgroundColor="rgb(255, 255, 255)"
+        color="rgb(0, 122, 255)"
+        direction="ltr"
+        disableBackButtonMenu={false}
+        hidden={false}
+        hideBackButton={false}
+        largeTitleHideShadow={false}
+        title="Payment"
+        titleColor="rgb(28, 28, 30)"
+        topInsetEnabled={false}
+        translucent={false}
+      />
+    </RNSScreen>
+  </RNSScreenStack>
+</RNCSafeAreaProvider>
+`;

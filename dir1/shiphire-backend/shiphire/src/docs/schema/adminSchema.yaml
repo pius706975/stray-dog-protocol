@@ -1,0 +1,11 @@
+components:
+    schemas:
+        userActivate:
+            type: object
+            required:
+                - isActive
+            properties:
+                isActive:
+                    type: boolean
+                    default: false
+                

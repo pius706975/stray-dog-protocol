@@ -1,0 +1,1108 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing add ship management screen Snapshot testing Should render add ship management screen correctly 1`] = `
+<RNCSafeAreaProvider
+  onInsetsChange={[Function]}
+  style={
+    {
+      "flex": 1,
+    }
+  }
+>
+  <RNSScreenStack
+    style={
+      {
+        "flex": 1,
+      }
+    }
+  >
+    <RNSScreen
+      collapsable={false}
+      forwardedRef={[Function]}
+      gestureResponseDistance={
+        {
+          "bottom": -1,
+          "end": -1,
+          "start": -1,
+          "top": -1,
+        }
+      }
+      nativeBackButtonDismissalEnabled={false}
+      onAppear={[Function]}
+      onDisappear={[Function]}
+      onDismissed={[Function]}
+      onGestureCancel={[Function]}
+      onHeaderBackButtonClicked={[Function]}
+      onNativeDismissCancelled={[Function]}
+      onTransitionProgress={[Function]}
+      onWillDisappear={[Function]}
+      replaceAnimation="push"
+      sheetAllowedDetents="large"
+      sheetCornerRadius={-1}
+      sheetExpandsWhenScrolledToEdge={true}
+      sheetGrabberVisible={false}
+      sheetLargestUndimmedDetent="all"
+      stackPresentation="push"
+      style={
+        {
+          "bottom": 0,
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        }
+      }
+      swipeDirection="horizontal"
+    >
+      <View
+        accessibilityElementsHidden={false}
+        importantForAccessibility="auto"
+        style={
+          {
+            "flex": 1,
+            "flexDirection": "column-reverse",
+          }
+        }
+      >
+        <View
+          collapsable={false}
+          style={
+            [
+              {
+                "flex": 1,
+              },
+              {
+                "backgroundColor": "rgb(242, 242, 242)",
+              },
+              undefined,
+            ]
+          }
+        >
+          <RCTScrollView
+            data={
+              [
+                "",
+              ]
+            }
+            getItem={[Function]}
+            getItemCount={[Function]}
+            keyExtractor={[Function]}
+            onContentSizeChange={[Function]}
+            onLayout={[Function]}
+            onMomentumScrollBegin={[Function]}
+            onMomentumScrollEnd={[Function]}
+            onScroll={[Function]}
+            onScrollBeginDrag={[Function]}
+            onScrollEndDrag={[Function]}
+            removeClippedSubviews={false}
+            renderItem={[Function]}
+            scrollEventThrottle={50}
+            showsVerticalScrollIndicator={false}
+            stickyHeaderIndices={[]}
+            style={
+              {
+                "height": "100%",
+                "width": "100%",
+              }
+            }
+            viewabilityConfigCallbackPairs={[]}
+          >
+            <View>
+              <View
+                onFocusCapture={[Function]}
+                onLayout={[Function]}
+                style={null}
+              >
+                <View
+                  style={
+                    [
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      {
+                        "borderRadius": 8,
+                        "margin": 6,
+                      },
+                    ]
+                  }
+                >
+                  <View
+                    ItemSeparatorComponent={[Function]}
+                    data={
+                      [
+                        {
+                          "id": "1",
+                          "templateType": "generalAddShip",
+                          "title": "General Ship Information",
+                        },
+                        {
+                          "id": "2",
+                          "templateType": "spesificAddShip",
+                          "title": "Specific Information",
+                        },
+                        {
+                          "id": "3",
+                          "templateType": "shipDoc",
+                          "title": "Ship Document Information",
+                        },
+                        {
+                          "id": "4",
+                          "templateType": "shipImage",
+                          "title": "Ship Image ",
+                        },
+                      ]
+                    }
+                    getItem={[Function]}
+                    getItemCount={[Function]}
+                    keyExtractor={[Function]}
+                    onContentSizeChange={[Function]}
+                    onEndReachedThreshold={0.1}
+                    onLayout={[Function]}
+                    onMomentumScrollBegin={[Function]}
+                    onMomentumScrollEnd={[Function]}
+                    onScroll={[Function]}
+                    onScrollBeginDrag={[Function]}
+                    onScrollEndDrag={[Function]}
+                    removeClippedSubviews={false}
+                    renderItem={[Function]}
+                    scrollEventThrottle={50}
+                    stickyHeaderIndices={[]}
+                    testID="flatlist"
+                    viewabilityConfigCallbackPairs={[]}
+                  >
+                    <View
+                      onFocusCapture={[Function]}
+                      onLayout={[Function]}
+                      style={null}
+                    >
+                      <View
+                        accessibilityState={
+                          {
+                            "busy": undefined,
+                            "checked": undefined,
+                            "disabled": undefined,
+                            "expanded": undefined,
+                            "selected": undefined,
+                          }
+                        }
+                        accessibilityValue={
+                          {
+                            "max": undefined,
+                            "min": undefined,
+                            "now": undefined,
+                            "text": undefined,
+                          }
+                        }
+                        accessible={true}
+                        collapsable={false}
+                        focusable={true}
+                        onBlur={[Function]}
+                        onClick={[Function]}
+                        onFocus={[Function]}
+                        onResponderGrant={[Function]}
+                        onResponderMove={[Function]}
+                        onResponderRelease={[Function]}
+                        onResponderTerminate={[Function]}
+                        onResponderTerminationRequest={[Function]}
+                        onStartShouldSetResponder={[Function]}
+                        testID="test-generalAddShip"
+                      >
+                        <View
+                          style={
+                            [
+                              undefined,
+                              undefined,
+                              undefined,
+                              undefined,
+                              undefined,
+                              undefined,
+                              undefined,
+                              {
+                                "alignItems": "center",
+                                "borderBottomWidth": 0.5,
+                                "flexDirection": "row",
+                                "justifyContent": "space-between",
+                                "margin": 5,
+                                "padding": 10,
+                              },
+                            ]
+                          }
+                        >
+                          <View
+                            style={
+                              [
+                                undefined,
+                                undefined,
+                                undefined,
+                                undefined,
+                                undefined,
+                                undefined,
+                                undefined,
+                                {
+                                  "flexDirection": "row",
+                                },
+                              ]
+                            }
+                          >
+                            <View
+                              style={
+                                [
+                                  undefined,
+                                  undefined,
+                                  undefined,
+                                  undefined,
+                                  undefined,
+                                  undefined,
+                                  undefined,
+                                  {
+                                    "justifyContent": "flex-start",
+                                    "padding": 5,
+                                    "paddingLeft": 0,
+                                    "paddingRight": 10,
+                                  },
+                                ]
+                              }
+                            />
+                            <Text
+                              numberOfLines={0}
+                              style={
+                                {
+                                  "borderBottomWidth": 0,
+                                  "borderColor": undefined,
+                                  "color": "#4d5963",
+                                  "fontFamily": "Kanit-Regular",
+                                  "fontSize": 18,
+                                  "lineHeight": undefined,
+                                  "textAlign": undefined,
+                                }
+                              }
+                            >
+                              General Ship Information
+                            </Text>
+                          </View>
+                          <RNSVGSvgView
+                            align="xMidYMid"
+                            bbHeight="24"
+                            bbWidth="24"
+                            fill="none"
+                            focusable={false}
+                            height={24}
+                            meetOrSlice={0}
+                            minX={0}
+                            minY={0}
+                            style={
+                              [
+                                {
+                                  "backgroundColor": "transparent",
+                                  "borderWidth": 0,
+                                },
+                                {
+                                  "flex": 0,
+                                  "height": 24,
+                                  "width": 24,
+                                },
+                              ]
+                            }
+                            vbHeight={24}
+                            vbWidth={24}
+                            width={24}
+                            xml="<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <g clip-path="url(#clip0_77_30628)">
+    <path d="M9.29 6.70978C8.9 7.09978 8.9 7.72978 9.29 8.11978L13.17 11.9998L9.29 15.8798C8.9 16.2698 8.9 16.8998 9.29 17.2898C9.68 17.6798 10.31 17.6798 10.7 17.2898L15.29 12.6998C15.68 12.3098 15.68 11.6798 15.29 11.2898L10.7 6.69978C10.32 6.31978 9.68 6.31978 9.29 6.70978Z" fill="#323232"/>
+    </g>
+    <defs>
+    <clipPath id="clip0_77_30628">
+    <rect width="24" height="24" fill="white"/>
+    </clipPath>
+    </defs>
+    </svg>
+             
+    "
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <RNSVGGroup
+                              fill={null}
+                              propList={
+                                [
+                                  "fill",
+                                ]
+                              }
+                            >
+                              <RNSVGGroup
+                                clipPath="clip0_77_30628"
+                                fill={
+                                  {
+                                    "payload": 4278190080,
+                                    "type": 0,
+                                  }
+                                }
+                              >
+                                <RNSVGPath
+                                  d="M9.29 6.70978C8.9 7.09978 8.9 7.72978 9.29 8.11978L13.17 11.9998L9.29 15.8798C8.9 16.2698 8.9 16.8998 9.29 17.2898C9.68 17.6798 10.31 17.6798 10.7 17.2898L15.29 12.6998C15.68 12.3098 15.68 11.6798 15.29 11.2898L10.7 6.69978C10.32 6.31978 9.68 6.31978 9.29 6.70978Z"
+                                  fill={
+                                    {
+                                      "payload": 4281479730,
+                                      "type": 0,
+                                    }
+                                  }
+                                  propList={
+                                    [
+                                      "fill",
+                                    ]
+                                  }
+                                />
+                              </RNSVGGroup>
+                              <RNSVGDefs>
+                                <RNSVGClipPath
+                                  fill={
+                                    {
+                                      "payload": 4278190080,
+                                      "type": 0,
+                                    }
+                                  }
+                                  name="clip0_77_30628"
+                                >
+                                  <RNSVGRect
+                                    fill={
+                                      {
+                                        "payload": 4294967295,
+                                        "type": 0,
+                                      }
+                                    }
+                                    height="24"
+                                    propList={
+                                      [
+                                        "fill",
+                                      ]
+                                    }
+                                    width="24"
+                                    x="0"
+                                    y="0"
+                                  />
+                                </RNSVGClipPath>
+                              </RNSVGDefs>
+                            </RNSVGGroup>
+                          </RNSVGSvgView>
+                        </View>
+                      </View>
+                      <View
+                        style={
+                          [
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                          ]
+                        }
+                      />
+                    </View>
+                    <View
+                      onFocusCapture={[Function]}
+                      onLayout={[Function]}
+                      style={null}
+                    >
+                      <View
+                        accessibilityState={
+                          {
+                            "busy": undefined,
+                            "checked": undefined,
+                            "disabled": undefined,
+                            "expanded": undefined,
+                            "selected": undefined,
+                          }
+                        }
+                        accessibilityValue={
+                          {
+                            "max": undefined,
+                            "min": undefined,
+                            "now": undefined,
+                            "text": undefined,
+                          }
+                        }
+                        accessible={true}
+                        collapsable={false}
+                        focusable={true}
+                        onBlur={[Function]}
+                        onClick={[Function]}
+                        onFocus={[Function]}
+                        onResponderGrant={[Function]}
+                        onResponderMove={[Function]}
+                        onResponderRelease={[Function]}
+                        onResponderTerminate={[Function]}
+                        onResponderTerminationRequest={[Function]}
+                        onStartShouldSetResponder={[Function]}
+                        testID="test-spesificAddShip"
+                      >
+                        <View
+                          style={
+                            [
+                              undefined,
+                              undefined,
+                              undefined,
+                              undefined,
+                              undefined,
+                              undefined,
+                              undefined,
+                              {
+                                "alignItems": "center",
+                                "borderBottomWidth": 0.5,
+                                "flexDirection": "row",
+                                "justifyContent": "space-between",
+                                "margin": 5,
+                                "padding": 10,
+                              },
+                            ]
+                          }
+                        >
+                          <View
+                            style={
+                              [
+                                undefined,
+                                undefined,
+                                undefined,
+                                undefined,
+                                undefined,
+                                undefined,
+                                undefined,
+                                {
+                                  "flexDirection": "row",
+                                },
+                              ]
+                            }
+                          >
+                            <View
+                              style={
+                                [
+                                  undefined,
+                                  undefined,
+                                  undefined,
+                                  undefined,
+                                  undefined,
+                                  undefined,
+                                  undefined,
+                                  {
+                                    "justifyContent": "flex-start",
+                                    "padding": 5,
+                                    "paddingLeft": 0,
+                                    "paddingRight": 10,
+                                  },
+                                ]
+                              }
+                            />
+                            <Text
+                              numberOfLines={0}
+                              style={
+                                {
+                                  "borderBottomWidth": 0,
+                                  "borderColor": undefined,
+                                  "color": "#4d5963",
+                                  "fontFamily": "Kanit-Regular",
+                                  "fontSize": 18,
+                                  "lineHeight": undefined,
+                                  "textAlign": undefined,
+                                }
+                              }
+                            >
+                              Specific Information
+                            </Text>
+                          </View>
+                          <RNSVGSvgView
+                            align="xMidYMid"
+                            bbHeight="24"
+                            bbWidth="24"
+                            fill="none"
+                            focusable={false}
+                            height={24}
+                            meetOrSlice={0}
+                            minX={0}
+                            minY={0}
+                            style={
+                              [
+                                {
+                                  "backgroundColor": "transparent",
+                                  "borderWidth": 0,
+                                },
+                                {
+                                  "flex": 0,
+                                  "height": 24,
+                                  "width": 24,
+                                },
+                              ]
+                            }
+                            vbHeight={24}
+                            vbWidth={24}
+                            width={24}
+                            xml="<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <g clip-path="url(#clip0_77_30628)">
+    <path d="M9.29 6.70978C8.9 7.09978 8.9 7.72978 9.29 8.11978L13.17 11.9998L9.29 15.8798C8.9 16.2698 8.9 16.8998 9.29 17.2898C9.68 17.6798 10.31 17.6798 10.7 17.2898L15.29 12.6998C15.68 12.3098 15.68 11.6798 15.29 11.2898L10.7 6.69978C10.32 6.31978 9.68 6.31978 9.29 6.70978Z" fill="#323232"/>
+    </g>
+    <defs>
+    <clipPath id="clip0_77_30628">
+    <rect width="24" height="24" fill="white"/>
+    </clipPath>
+    </defs>
+    </svg>
+             
+    "
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <RNSVGGroup
+                              fill={null}
+                              propList={
+                                [
+                                  "fill",
+                                ]
+                              }
+                            >
+                              <RNSVGGroup
+                                clipPath="clip0_77_30628"
+                                fill={
+                                  {
+                                    "payload": 4278190080,
+                                    "type": 0,
+                                  }
+                                }
+                              >
+                                <RNSVGPath
+                                  d="M9.29 6.70978C8.9 7.09978 8.9 7.72978 9.29 8.11978L13.17 11.9998L9.29 15.8798C8.9 16.2698 8.9 16.8998 9.29 17.2898C9.68 17.6798 10.31 17.6798 10.7 17.2898L15.29 12.6998C15.68 12.3098 15.68 11.6798 15.29 11.2898L10.7 6.69978C10.32 6.31978 9.68 6.31978 9.29 6.70978Z"
+                                  fill={
+                                    {
+                                      "payload": 4281479730,
+                                      "type": 0,
+                                    }
+                                  }
+                                  propList={
+                                    [
+                                      "fill",
+                                    ]
+                                  }
+                                />
+                              </RNSVGGroup>
+                              <RNSVGDefs>
+                                <RNSVGClipPath
+                                  fill={
+                                    {
+                                      "payload": 4278190080,
+                                      "type": 0,
+                                    }
+                                  }
+                                  name="clip0_77_30628"
+                                >
+                                  <RNSVGRect
+                                    fill={
+                                      {
+                                        "payload": 4294967295,
+                                        "type": 0,
+                                      }
+                                    }
+                                    height="24"
+                                    propList={
+                                      [
+                                        "fill",
+                                      ]
+                                    }
+                                    width="24"
+                                    x="0"
+                                    y="0"
+                                  />
+                                </RNSVGClipPath>
+                              </RNSVGDefs>
+                            </RNSVGGroup>
+                          </RNSVGSvgView>
+                        </View>
+                      </View>
+                      <View
+                        style={
+                          [
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                          ]
+                        }
+                      />
+                    </View>
+                    <View
+                      onFocusCapture={[Function]}
+                      onLayout={[Function]}
+                      style={null}
+                    >
+                      <View
+                        accessibilityState={
+                          {
+                            "busy": undefined,
+                            "checked": undefined,
+                            "disabled": undefined,
+                            "expanded": undefined,
+                            "selected": undefined,
+                          }
+                        }
+                        accessibilityValue={
+                          {
+                            "max": undefined,
+                            "min": undefined,
+                            "now": undefined,
+                            "text": undefined,
+                          }
+                        }
+                        accessible={true}
+                        collapsable={false}
+                        focusable={true}
+                        onBlur={[Function]}
+                        onClick={[Function]}
+                        onFocus={[Function]}
+                        onResponderGrant={[Function]}
+                        onResponderMove={[Function]}
+                        onResponderRelease={[Function]}
+                        onResponderTerminate={[Function]}
+                        onResponderTerminationRequest={[Function]}
+                        onStartShouldSetResponder={[Function]}
+                        testID="test-shipDoc"
+                      >
+                        <View
+                          style={
+                            [
+                              undefined,
+                              undefined,
+                              undefined,
+                              undefined,
+                              undefined,
+                              undefined,
+                              undefined,
+                              {
+                                "alignItems": "center",
+                                "borderBottomWidth": 0.5,
+                                "flexDirection": "row",
+                                "justifyContent": "space-between",
+                                "margin": 5,
+                                "padding": 10,
+                              },
+                            ]
+                          }
+                        >
+                          <View
+                            style={
+                              [
+                                undefined,
+                                undefined,
+                                undefined,
+                                undefined,
+                                undefined,
+                                undefined,
+                                undefined,
+                                {
+                                  "flexDirection": "row",
+                                },
+                              ]
+                            }
+                          >
+                            <View
+                              style={
+                                [
+                                  undefined,
+                                  undefined,
+                                  undefined,
+                                  undefined,
+                                  undefined,
+                                  undefined,
+                                  undefined,
+                                  {
+                                    "justifyContent": "flex-start",
+                                    "padding": 5,
+                                    "paddingLeft": 0,
+                                    "paddingRight": 10,
+                                  },
+                                ]
+                              }
+                            />
+                            <Text
+                              numberOfLines={0}
+                              style={
+                                {
+                                  "borderBottomWidth": 0,
+                                  "borderColor": undefined,
+                                  "color": "#4d5963",
+                                  "fontFamily": "Kanit-Regular",
+                                  "fontSize": 18,
+                                  "lineHeight": undefined,
+                                  "textAlign": undefined,
+                                }
+                              }
+                            >
+                              Ship Document Information
+                            </Text>
+                          </View>
+                          <RNSVGSvgView
+                            align="xMidYMid"
+                            bbHeight="24"
+                            bbWidth="24"
+                            fill="none"
+                            focusable={false}
+                            height={24}
+                            meetOrSlice={0}
+                            minX={0}
+                            minY={0}
+                            style={
+                              [
+                                {
+                                  "backgroundColor": "transparent",
+                                  "borderWidth": 0,
+                                },
+                                {
+                                  "flex": 0,
+                                  "height": 24,
+                                  "width": 24,
+                                },
+                              ]
+                            }
+                            vbHeight={24}
+                            vbWidth={24}
+                            width={24}
+                            xml="<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <g clip-path="url(#clip0_77_30628)">
+    <path d="M9.29 6.70978C8.9 7.09978 8.9 7.72978 9.29 8.11978L13.17 11.9998L9.29 15.8798C8.9 16.2698 8.9 16.8998 9.29 17.2898C9.68 17.6798 10.31 17.6798 10.7 17.2898L15.29 12.6998C15.68 12.3098 15.68 11.6798 15.29 11.2898L10.7 6.69978C10.32 6.31978 9.68 6.31978 9.29 6.70978Z" fill="#323232"/>
+    </g>
+    <defs>
+    <clipPath id="clip0_77_30628">
+    <rect width="24" height="24" fill="white"/>
+    </clipPath>
+    </defs>
+    </svg>
+             
+    "
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <RNSVGGroup
+                              fill={null}
+                              propList={
+                                [
+                                  "fill",
+                                ]
+                              }
+                            >
+                              <RNSVGGroup
+                                clipPath="clip0_77_30628"
+                                fill={
+                                  {
+                                    "payload": 4278190080,
+                                    "type": 0,
+                                  }
+                                }
+                              >
+                                <RNSVGPath
+                                  d="M9.29 6.70978C8.9 7.09978 8.9 7.72978 9.29 8.11978L13.17 11.9998L9.29 15.8798C8.9 16.2698 8.9 16.8998 9.29 17.2898C9.68 17.6798 10.31 17.6798 10.7 17.2898L15.29 12.6998C15.68 12.3098 15.68 11.6798 15.29 11.2898L10.7 6.69978C10.32 6.31978 9.68 6.31978 9.29 6.70978Z"
+                                  fill={
+                                    {
+                                      "payload": 4281479730,
+                                      "type": 0,
+                                    }
+                                  }
+                                  propList={
+                                    [
+                                      "fill",
+                                    ]
+                                  }
+                                />
+                              </RNSVGGroup>
+                              <RNSVGDefs>
+                                <RNSVGClipPath
+                                  fill={
+                                    {
+                                      "payload": 4278190080,
+                                      "type": 0,
+                                    }
+                                  }
+                                  name="clip0_77_30628"
+                                >
+                                  <RNSVGRect
+                                    fill={
+                                      {
+                                        "payload": 4294967295,
+                                        "type": 0,
+                                      }
+                                    }
+                                    height="24"
+                                    propList={
+                                      [
+                                        "fill",
+                                      ]
+                                    }
+                                    width="24"
+                                    x="0"
+                                    y="0"
+                                  />
+                                </RNSVGClipPath>
+                              </RNSVGDefs>
+                            </RNSVGGroup>
+                          </RNSVGSvgView>
+                        </View>
+                      </View>
+                      <View
+                        style={
+                          [
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                          ]
+                        }
+                      />
+                    </View>
+                    <View
+                      onFocusCapture={[Function]}
+                      onLayout={[Function]}
+                      style={null}
+                    >
+                      <View
+                        accessibilityState={
+                          {
+                            "busy": undefined,
+                            "checked": undefined,
+                            "disabled": undefined,
+                            "expanded": undefined,
+                            "selected": undefined,
+                          }
+                        }
+                        accessibilityValue={
+                          {
+                            "max": undefined,
+                            "min": undefined,
+                            "now": undefined,
+                            "text": undefined,
+                          }
+                        }
+                        accessible={true}
+                        collapsable={false}
+                        focusable={true}
+                        onBlur={[Function]}
+                        onClick={[Function]}
+                        onFocus={[Function]}
+                        onResponderGrant={[Function]}
+                        onResponderMove={[Function]}
+                        onResponderRelease={[Function]}
+                        onResponderTerminate={[Function]}
+                        onResponderTerminationRequest={[Function]}
+                        onStartShouldSetResponder={[Function]}
+                        testID="test-shipImage"
+                      >
+                        <View
+                          style={
+                            [
+                              undefined,
+                              undefined,
+                              undefined,
+                              undefined,
+                              undefined,
+                              undefined,
+                              undefined,
+                              {
+                                "alignItems": "center",
+                                "borderBottomWidth": 0.5,
+                                "flexDirection": "row",
+                                "justifyContent": "space-between",
+                                "margin": 5,
+                                "padding": 10,
+                              },
+                            ]
+                          }
+                        >
+                          <View
+                            style={
+                              [
+                                undefined,
+                                undefined,
+                                undefined,
+                                undefined,
+                                undefined,
+                                undefined,
+                                undefined,
+                                {
+                                  "flexDirection": "row",
+                                },
+                              ]
+                            }
+                          >
+                            <View
+                              style={
+                                [
+                                  undefined,
+                                  undefined,
+                                  undefined,
+                                  undefined,
+                                  undefined,
+                                  undefined,
+                                  undefined,
+                                  {
+                                    "justifyContent": "flex-start",
+                                    "padding": 5,
+                                    "paddingLeft": 0,
+                                    "paddingRight": 10,
+                                  },
+                                ]
+                              }
+                            />
+                            <Text
+                              numberOfLines={0}
+                              style={
+                                {
+                                  "borderBottomWidth": 0,
+                                  "borderColor": undefined,
+                                  "color": "#4d5963",
+                                  "fontFamily": "Kanit-Regular",
+                                  "fontSize": 18,
+                                  "lineHeight": undefined,
+                                  "textAlign": undefined,
+                                }
+                              }
+                            >
+                              Ship Image 
+                            </Text>
+                          </View>
+                          <RNSVGSvgView
+                            align="xMidYMid"
+                            bbHeight="24"
+                            bbWidth="24"
+                            fill="none"
+                            focusable={false}
+                            height={24}
+                            meetOrSlice={0}
+                            minX={0}
+                            minY={0}
+                            style={
+                              [
+                                {
+                                  "backgroundColor": "transparent",
+                                  "borderWidth": 0,
+                                },
+                                {
+                                  "flex": 0,
+                                  "height": 24,
+                                  "width": 24,
+                                },
+                              ]
+                            }
+                            vbHeight={24}
+                            vbWidth={24}
+                            width={24}
+                            xml="<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <g clip-path="url(#clip0_77_30628)">
+    <path d="M9.29 6.70978C8.9 7.09978 8.9 7.72978 9.29 8.11978L13.17 11.9998L9.29 15.8798C8.9 16.2698 8.9 16.8998 9.29 17.2898C9.68 17.6798 10.31 17.6798 10.7 17.2898L15.29 12.6998C15.68 12.3098 15.68 11.6798 15.29 11.2898L10.7 6.69978C10.32 6.31978 9.68 6.31978 9.29 6.70978Z" fill="#323232"/>
+    </g>
+    <defs>
+    <clipPath id="clip0_77_30628">
+    <rect width="24" height="24" fill="white"/>
+    </clipPath>
+    </defs>
+    </svg>
+             
+    "
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <RNSVGGroup
+                              fill={null}
+                              propList={
+                                [
+                                  "fill",
+                                ]
+                              }
+                            >
+                              <RNSVGGroup
+                                clipPath="clip0_77_30628"
+                                fill={
+                                  {
+                                    "payload": 4278190080,
+                                    "type": 0,
+                                  }
+                                }
+                              >
+                                <RNSVGPath
+                                  d="M9.29 6.70978C8.9 7.09978 8.9 7.72978 9.29 8.11978L13.17 11.9998L9.29 15.8798C8.9 16.2698 8.9 16.8998 9.29 17.2898C9.68 17.6798 10.31 17.6798 10.7 17.2898L15.29 12.6998C15.68 12.3098 15.68 11.6798 15.29 11.2898L10.7 6.69978C10.32 6.31978 9.68 6.31978 9.29 6.70978Z"
+                                  fill={
+                                    {
+                                      "payload": 4281479730,
+                                      "type": 0,
+                                    }
+                                  }
+                                  propList={
+                                    [
+                                      "fill",
+                                    ]
+                                  }
+                                />
+                              </RNSVGGroup>
+                              <RNSVGDefs>
+                                <RNSVGClipPath
+                                  fill={
+                                    {
+                                      "payload": 4278190080,
+                                      "type": 0,
+                                    }
+                                  }
+                                  name="clip0_77_30628"
+                                >
+                                  <RNSVGRect
+                                    fill={
+                                      {
+                                        "payload": 4294967295,
+                                        "type": 0,
+                                      }
+                                    }
+                                    height="24"
+                                    propList={
+                                      [
+                                        "fill",
+                                      ]
+                                    }
+                                    width="24"
+                                    x="0"
+                                    y="0"
+                                  />
+                                </RNSVGClipPath>
+                              </RNSVGDefs>
+                            </RNSVGGroup>
+                          </RNSVGSvgView>
+                        </View>
+                      </View>
+                    </View>
+                  </View>
+                </View>
+              </View>
+            </View>
+          </RCTScrollView>
+        </View>
+      </View>
+      <RNSScreenStackHeaderConfig
+        backButtonInCustomView={false}
+        backTitleVisible={true}
+        backgroundColor="rgb(255, 255, 255)"
+        color="rgb(0, 122, 255)"
+        direction="ltr"
+        disableBackButtonMenu={false}
+        hidden={false}
+        hideBackButton={false}
+        largeTitleHideShadow={false}
+        title="AddShipManagement"
+        titleColor="rgb(28, 28, 30)"
+        topInsetEnabled={false}
+        translucent={false}
+      />
+    </RNSScreen>
+  </RNSScreenStack>
+</RNCSafeAreaProvider>
+`;

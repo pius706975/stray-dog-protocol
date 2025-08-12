@@ -1,0 +1,65 @@
+{
+    "ShipTrackingDetail": {
+        "textSuccessStatusUpdate": "Ship tracking status updated successfully",
+        "textSuccessStatusUpdateDocked": "Please upload pictures of the ship after renting to complete the transaction",
+        "textReturnShipButton": "Return the ship"
+    },
+    "UpdateStatusCard": {
+        "textBeforeSailingHeader": "Ready to Sail?",
+        "textBeforeSailingButton": "Ready to Sail",
+        "textBeforeSailingDesc": "Update your ship status here",
+        "textReturningHeader": "Is your ship returned?",
+        "textReturningButton": "Docked",
+        "textReturningDesc": "Update status to complete transaction",
+        "textSailingButton": "Add Track",
+        "textSailingDesc": "Click the history button to update ship track"
+    },
+    "TrackHistory": {
+        "textTrackHistory": "Track History",
+        "textViewPhotos": "View Photos",
+        "textNoTrackHistory": "No Track History"
+    },
+    "ConfirmationModal": {
+        "textUpdateTrackStatusConfirm": "Are you sure want to Update track status?",
+        "textCancel": "Cancel",
+        "textUpdate": "Update"
+    },
+    "ShipPicturesModal": {
+        "textShipPictures": "Ship Pictures",
+        "textNoPictures": "There are no pictures",
+        "textClose": "Close"
+    },
+    "RentInformation": {
+        "textFormTitle": "Rent Information",
+        "textDepartureLocation": "Departure Location",
+        "textDestinationLocation": "Destination Location",
+        "textRentType": "Rent Type",
+        "textRentDuration": "Rent Duration",
+        "textStartDate": "Start Date",
+        "textEndDate": "End Date",
+        "textDays": "Days"
+    },
+    "ShipInformation": {
+        "textRenterBtnLabel": "Rent Detail"
+    },
+    "ImageInput": {
+        "textImage": "Image",
+        "textImageCaption": "Image Caption",
+        "textAttachImage": "Attach Image",
+        "textAddImage": "Add Image"
+    },
+    "DateTimePickerModal": {
+        "textConfirmButton": "Confirm",
+        "textCancelButton": "Cancel"
+    },
+    "ShipTrackingForm": {
+        "textDatePlaceholder": "Select Date",
+        "textTimePlaceholder": "Select Time",
+        "textSubmitButton": "Submit",
+        "textTimeLabel": "Time",
+        "textDateLabel": "Date",
+        "textStatusLabel": "Status",
+        "textStatusPlaceholder": "Ship Positions",
+        "textValidationStatus": "Status Required"
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "successSignIn": "Sign in successful!",
+    "failedSignIn": "Email or password wrong",
+    "inactiveAccSignIn": "Account not active yet",
+    "FormSignIn": {
+        "validationEmailInvalid": "Invalid email",
+        "validationEmailRequired": "Email is required.",
+        "validationPasswordRequired": "Password is required.",
+        "placeholderEmail": "Enter your email",
+        "placeholderPassword": "Enter your password",
+        "textForgotPassword": "Forgot password?",
+        "labelButtonSignIn": "Sign in",
+        "labelButtonSignInGoogle": "Sign in with Google"
+    },
+    "NewAccountSection": {
+        "textDontHaveAccount": "Don't have an account?",
+        "textCreateOne": "Create one",
+        "textOr": "or",
+        "textContinueGuest": "Continue as a guest"
+    }
+}

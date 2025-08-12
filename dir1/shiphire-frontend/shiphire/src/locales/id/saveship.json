@@ -1,0 +1,24 @@
+{
+    "SeeShipPictures": {
+        "PicturesHaveBeenSubmit": "Gambar yang telah disimpan",
+        "textBefore": "Sebelum",
+        "textAfter": "Sesudah"
+    },
+    "ShipPictures": {
+        "PleaseSubmit": "Silakan kirimkan gambar kapal Anda sebelum berlayar/disewa",
+        "PreviouslySubmitted": "Gambar kapal yang dikirimkan sebelumnya",
+        "Submit": "Kirim",
+        "textSuccessUpload": "Unggah Gambar kapal sebelum berlayar berhasil dikirimkan",
+        "textFailedUpload": "Unggah gagal saat mengirimkan gambar kapal",
+        "textDescription": "Deskripsi",
+        "textModal": "Harap berhati-hati karena tindakan ini hanya dapat dilakukan satu kali dan tidak dapat diubah",
+        "btnSubmit": "Kirim",
+        "btnCancel": "Batal"
+    },
+    "ShipPicturesAfterRent": {
+        "PleaseSubmit": "Silakan kirimkan gambar kapal Anda setelah berlayar/menyewa",
+        "textBefore": "Sebelum",
+        "textAfter": "Sesudah",
+        "Submit": "Kirim"
+    }
+}

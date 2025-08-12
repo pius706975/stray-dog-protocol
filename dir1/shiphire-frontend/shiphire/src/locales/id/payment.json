@@ -1,0 +1,36 @@
+{
+    "successSentPaymentReceipt": "Bukti Pembayaran Terkirim! Periksa status transaksi Anda secara berkala untuk tanggapan dari pemilik kapal!",
+    "failedSentPaymentReceipt": "Gagal mengirim Bukti pembayaran. Silakan coba lagi.",
+    "btnUploadPayment":"Unggah bukti pembayaran",
+    "SelectedImageAccordion": {
+        "textPaymentReceipt": "Bukti Pembayaran",
+        "labelButtonEditReceipt": "Unggah ulang",
+        "labelButtonSendReceipt": "Kirim bukti"
+    },
+    "PaymentCD": {
+        "textRentalDate":"Tanggal Sewa",
+        "textPriceToPay": "Nominal",
+        "textPayIn": "Bayar dalam"
+    },
+    "PaymentHistory": {
+        "cardDescription": "Tekan tombol riwayat untuk melihat pembayaran sebelumnya",
+        "buttonHistory": "Riwayat",
+        "textOneTime":"Sewa Sekali jalan",
+        "textMonthly":"Sewa 1 bulan",
+        "textReceipt":"Kuitansi"
+    },
+    "ShipOwnerAcc": {
+        "textBankName": "Bank Mandiri",
+        "textAccountName": "Nama Akun :",
+        "textAccountNumber": "Nomor Akun :",
+        "textYourPayment1": "Pembayaran Anda akan diverifikasi oleh ",
+        "textYourPayment2": ", paling lambat 7 hari setelah mengirimkan tanda terima pembayaran.",
+        "textNote": "Catatan: Pastikan Anda melakukan transfer ke Virtual Account yang tercantum di atas."
+    },
+    "InstructionsAccordion": {
+        "textMBanking": "Instruksi transfer melalui mBanking",
+        "textIBanking": "Instruksi transfer melalui iBanking",
+        "textATM": "Instruksi transfer melalui ATM",
+        "textInstruction": "Instruksi transfer"
+    }
+}

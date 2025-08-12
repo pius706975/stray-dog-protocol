@@ -1,0 +1,41 @@
+/api/auth/signUp:
+    post:
+        tags: [auth]
+        summary: Sign Up User
+        requestBody:
+            description: create a new user
+            content:
+                application/json:
+                    schema:
+                        $ref: "#/components/schemas/signUp"
+        responses:
+            200:
+                description: Success create an account
+
+/api/auth/signIn:
+    post:
+        tags: [auth]
+        summary: Sign In User
+        requestBody:
+            description: sign in user
+            content:
+                application/json:
+                    schema:
+                        $ref: "#/components/schemas/signIn"
+        responses:
+            200:    
+                description: Success sign in
+
+/api/auth/getNewToken:
+    post:
+        tags: [auth]
+        summary: Get new token
+        requestBody:
+            description: get new token
+            content:
+                application/json:
+                    schema:
+                        $ref: "#/components/schemas/signIn"
+        responses:
+            200:
+                description: Success get token

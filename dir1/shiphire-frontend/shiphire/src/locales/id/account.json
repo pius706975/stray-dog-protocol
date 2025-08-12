@@ -1,0 +1,115 @@
+{
+    "textDocumentStatus": "Status Dokumen",
+    "labelRequest": "Permintaan",
+    "labelProposal": "Proposal",
+    "labelContract": "Kontrak",
+    "labelCompanyProfile": "Profil Perusahaan",
+    "labelAccountVerification": "Verifikasi Akun",
+    "labelCompanyRegistration": "Registrasi Perusahaan",
+    "labelSavedShips": "Kapal yang Disimpan",
+    "labelEditProfile": "Tambah Nomor Telepon",
+    "labelAboutUs": "Tentang Kami",
+    "labelRemindedShips":"Pengingat Kapal",
+    "labelDeleteAccount":"Hapus Akun",
+    "labelChangeLanguage": "Pilih Bahasa",
+    "labelSignIn": "Masuk",
+    "buttonLogout": "Keluar",
+    "successSignOut": "Berhasil Keluar!",
+    "failedSignOut": "Gagal Keluar!",
+    "AccountHeader": {
+        "infoVerifyAccount": "Harap verifikasi akun Anda!",
+        "infoVerifyEmail": "Harap verifikasi email Anda!",
+        "failedSendEmailVerif": "Tidak dapat mengirim email verifikasi!, silakan coba lagi nanti",
+        "infoVerifyPhone": "Harap verifikasi nomor telepon Anda!",
+        "failedSendPhoneVerif": "Tidak dapat mengirim kode verifikasi nomor telepon!, silakan coba lagi nanti",
+        "infoVerifyPhoneAndEmail": "Harap verifikasi email dan nomor telepon Anda!",
+        "infoAddPhoneNumber": "Harap tambah nomor telepon Anda!"
+    },
+    "CompanyProfile": {
+        "labelCompanyName": "Nama Perusahaan",
+        "labelTypeofCompany": "Tipe Perusahaan",
+        "labelCompanyAddress": "Alamat Perusahaan",
+        "labelDocumentBusiness": "Dokumen Izin Usaha",
+        "labelDocumentDeed": "Dokumen NPWP",
+        "labelBankName": "Nama Bank",
+        "labelBankAccountName": "Nama Pemilik Rekening",
+        "labelDocumentTaxID": "Document Tax ID",
+        "btnView": "Lihat"
+    },
+    "SavedShips": {
+        "textSavedShips": "Ini berkaitan dengan 'Kapal yang Disimpan'."
+    },
+    "RemindedShips":{
+        "textReminderSetOn":"Pengingat disetel pada:"
+    },
+    
+    "DeleteAccount":{
+        "text1paragraph":"Akun ini tidak akan tersedia lagi dan semua data di akun ini akan dihapus secara permanen. tidak akan ada cara untuk memulihkan akun Anda.",
+        "text2paragraph":"Berikut data yang akan dihapus secara permanen dari database Aplikasi ShipHire",
+        "textAccount":"Akun",
+        "textTransaction":"Transaksi",
+        "textClosing1":"Jika Anda sudah paham, silahkan ketikkan password untuk membuktikan bahwa pemilik akun akan menghapus akun tersebut",
+        "textClosing2":"Ketikkan kata sandi untuk membuktikan bahwa pemilik akun ingin menghapus akunnya",
+        "placeholderPassword":"Ketikkan kata sandi anda disini",
+        "btnDelete":"Hapus Akun",
+        "textConfirmTitle":"Harap berhati-hati karena tindakan ini hanya dapat dilakukan satu kali dan tidak dapat diubah",
+        "btnCancel":"Batalkan",
+        "btnSubmit":"Kirim",
+        "textSuccessDelete":"Akun telah dihapus",
+        "textUnAuthorize":"Sign in terlebih dahulu untuk menghapus akun",
+        "textFailDelete":"Gagal hapus akun",
+        "textShipsData": "Data Kapal",
+        "textTransactionHistory":"Histori Transaksi",
+        "modalText": "Harap berhati-hati karena tindakan ini hanya dapat dilakukan satu kali dan tidak dapat diubah",
+        "btnConfirm": "Konfirmasi"
+    },
+    "EditProfile": {
+        "textName": "Nama",
+        "textEmail": "Email",
+        "TextAddress": "Alamat",
+        "textPhoneNumber": "Nomor Ponsel",
+        "buttonSave": "Simpan",
+        "successText": "Nomor telepon berhasil disimpan",
+        "failedText": "Gagal menyimpan nomor telepon"
+    },
+    "AboutUs": {
+        "textWelcome": "Selamat datang di ShipHire - Platform Penyewaan Kapal Terbaik",
+        "textTitleOurMission": "Misi Kami",
+        "textContentOurMission": "Di ShipHire, misi kami adalah merevolusi industri penyewaan kapal dengan menyediakan platform yang mulus dan efisien yang menghubungkan pemilik/operator kapal dengan pelanggan di seluruh dunia. Kami bertujuan untuk menyederhanakan proses penyewaan kapal untuk berbagai tujuan sambil menjamin keselamatan, keandalan, dan layanan pelanggan yang luar biasa.",
+        "textTitleOurValues": "Nilai-nilai Kami",
+        "textContentOurValues1": "Di ShipHire, nilai-nilai utama kami adalah:",
+        "textContentOurValues2": "- Berpusat pada Pelanggan: Kami berkomitmen untuk memberikan pengalaman yang luar biasa bagi pelanggan kami. Kebutuhan dan kepuasan Anda menjadi pusat dari operasi kami.",
+        "textContentOurValues3": "- Keselamatan Utama: Keselamatan Anda adalah yang utama. Kami secara ketat memeriksa setiap kapal di platform kami untuk memastikan bahwa mereka memenuhi standar keselamatan tertinggi.",
+        "textContentOurValues4": "- Transparansi dan Kepercayaan: Kami percaya dalam praktik bisnis yang transparan, membangun kepercayaan dengan pengguna dan mitra kami.",
+        "textTitleGetInTouch": "Hubungi Kami",
+        "textContentGetInTouch": "Kami akan senang mendengar dari Anda! Jika Anda memiliki pertanyaan, saran, atau memerlukan bantuan, jangan ragu untuk menghubungi tim dukungan pelanggan kami di"
+        
+    },
+    "ChangeLanguage": {
+        "textSelectLanguage": "Pilih Bahasa :",
+        "successLanguageChanged": "Bahasa telah diubah!",
+        "failedLanguageChanged": "Gagal mengganti bahasa!"
+    },
+    "RequestDetail": {
+        "textOnProgress": "Sedang Berlangsung",
+        "textCompleted": "Selesai",
+        "textFailed": "Gagal",
+        "textStatusTextOnProgress": "Menunggu respon pemilik kapal"
+    },
+    "ProposalDetail": {
+        "textOnProgress": "Sedang Berlangsung",
+        "textCompleted": "Selesai",
+        "textFailed": "Gagal",
+        "textStatusTextOnProgress": "Menunggu respon pemilik kapal"
+    },
+    "AccountVerification": {
+        "textAccountVerified": "Akun ini sudah terverifikasi",
+        "textSelectVerification": "Pilih Verifikasi",
+        "labelButtonVerify": "Verifikasi Email",
+        "labelButtonVerifyPhone": "Verifikasi Nomor Telepon",
+        "textContactAdminConfirm": "Kirim permintaan ke administrator untuk verifikasi nomor telepon",
+        "textCancel": "Batal",
+        "textSend": "Kirim",
+        "textVerificationReqSent": "Permintaan Verifikasi Dikirim ke Admin"
+    }
+}

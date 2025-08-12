@@ -1,0 +1,24 @@
+{
+    "SeeShipPictures": {
+        "PicturesHaveBeenSubmit": "Pictures that have been submitted",
+        "textBefore": "Before",
+        "textAfter": "After"
+    },
+    "ShipPictures": {
+        "PleaseSubmit": "Please submit your ship pictures before sailing/rented",
+        "PreviouslySubmitted": "Previously submitted ship pictures",
+        "Submit": "Submit",
+        "textSuccessUpload": "Ship pictures before sailing submitted successfully",
+        "textFailedUpload": "Error submitting ship pictures",
+        "textDescription": "Description",
+        "textModal": "Please be careful as this action can only be done once and cannot be changed",
+        "btnSubmit": "Submit",
+        "btnCancel": "Cancel"
+    },
+    "ShipPicturesAfterRent": {
+        "PleaseSubmit": "Please submit your ship pictures after sailing/rented",
+        "textBefore": "Before",
+        "textAfter": "After",
+        "Submit": "Submit"
+    }
+}

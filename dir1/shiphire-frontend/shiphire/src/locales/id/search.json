@@ -1,0 +1,19 @@
+{
+    "searchFieldPlaceholder": "Cari nama kapal atau perusahaan",
+    "emptyList": "Tidak ada kapal atau perusahaan yang ditemukan",
+    "filterModal": {
+        "title": "Kategori Kapal",
+        "location": "Lokasi Kapal",
+        "filterSubtitle": "Tanggal Ketersediaan Sewa",
+        "startDateLabel": "Pilih Tanggal Mulai",
+        "startDatePlaceholder": "Pilih Tanggal Mulai",
+        "endDateLabel": "Pilih Tanggal Akhir",
+        "endDatePlaceholder": "Pilih Tanggal Akhir",
+        "provincePlaceholder": "Pilih provinsi",
+        "cityPlaceholder": "Pilih Kota",
+        "searchPlaceholder": "Cari...",
+        "btnClose": "Tutup",
+        "btnApply": "Terapkan Filter"
+    },
+    "rentCount": "Disewa"
+}

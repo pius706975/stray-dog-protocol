@@ -1,0 +1,15 @@
+{
+    "textShipHireInfo": "Informasi ShipHire",
+    "appInfoWelcomeUser": "Selamat datang user",
+    "textWelcome": "Untuk memahami aplikasi ShipHire lebih lanjut, silakan membaca panduan ini",
+    "appInfoReminder": "Pengingat",
+    "textReminder": "Jangan lupa membayar Rental, pembayaran akan kedaluwarsa pada",
+    "appInfoPayment": "Pembayaran",
+    "textPayment": "Ini adalah status Pembayaran dari rental ini",
+    "textRentalStatus": "Status Penyewaan",
+    "textRFQ": "Permintaan anda terkirim ke PT.Anjay! Silakan tunggu respon mereka",
+    "textProposal": "Permintaan anda telah dijawab! Berikut proposal dari PT.Anjay",
+    "textContract": "Pembayaran anda telah diterima, berikut kontrak dari PT.Anjay",
+    "textNoNotif": "Belum ada notifikasi",
+    "textOpenedNotif": "Notifikasi yang sudah dibaca"
+}

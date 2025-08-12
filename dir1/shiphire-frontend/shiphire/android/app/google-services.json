@@ -1,0 +1,98 @@
+{
+    "project_info": {
+        "project_number": "577322848989",
+        "project_id": "shiphire-fdb0e",
+        "storage_bucket": "shiphire-fdb0e.appspot.com"
+    },
+    "client": [
+        {
+            "client_info": {
+                "mobilesdk_app_id": "1:577322848989:android:ec7edd0e9520f7f7320134",
+                "android_client_info": {
+                    "package_name": "id.smiteknologi.shiphire"
+                }
+            },
+            "oauth_client": [
+                {
+                    "client_id": "577322848989-ll2erp81ln71n8f95ru4ljmk3bf98o49.apps.googleusercontent.com",
+                    "client_type": 3
+                }
+            ],
+            "api_key": [
+                {
+                    "current_key": "AIzaSyCqNcMZHA8bvUg3aOPMAQhJf2VIy9mjC6w"
+                }
+            ],
+            "services": {
+                "appinvite_service": {
+                    "other_platform_oauth_client": [
+                        {
+                            "client_id": "577322848989-5h3t54gkqc4it43jhjj86k0u5to1ptal.apps.googleusercontent.com",
+                            "client_type": 3
+                        },
+                        {
+                            "client_id": "577322848989-3alqic3buhpn950ira4ocj68kfm1323k.apps.googleusercontent.com",
+                            "client_type": 2,
+                            "ios_info": {
+                                "bundle_id": "id.smiteknologi.shiphire"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "client_info": {
+                "mobilesdk_app_id": "1:577322848989:android:69100bd49df2fb51320134",
+                "android_client_info": {
+                    "package_name": "id.smiteknologi.shiphire"
+                }
+            },
+            "oauth_client": [
+                {
+                    "client_id": "577322848989-3qe90ao3jii599ki7hjj0pdsqeqd4gru.apps.googleusercontent.com",
+                    "client_type": 1,
+                    "android_info": {
+                        "package_name": "id.smiteknologi.shiphire",
+                        "certificate_hash": "a3f556c9ec38125d2c2efa00e6ff6f9376eb3383"
+                    }
+                },
+                {
+                    "client_id": "577322848989-mu7j0o7ipllo51cq1mpk73ht1f2n7ti6.apps.googleusercontent.com",
+                    "client_type": 1,
+                    "android_info": {
+                        "package_name": "id.smiteknologi.shiphire",
+                        "certificate_hash": "d9eadad9e3332ceaf5c66c6afa0a29dd1ad2eeda"
+                    }
+                },
+                {
+                    "client_id": "577322848989-ll2erp81ln71n8f95ru4ljmk3bf98o49.apps.googleusercontent.com",
+                    "client_type": 3
+                }
+            ],
+            "api_key": [
+                {
+                    "current_key": "AIzaSyCqNcMZHA8bvUg3aOPMAQhJf2VIy9mjC6w"
+                }
+            ],
+            "services": {
+                "appinvite_service": {
+                    "other_platform_oauth_client": [
+                        {
+                            "client_id": "577322848989-5h3t54gkqc4it43jhjj86k0u5to1ptal.apps.googleusercontent.com",
+                            "client_type": 3
+                        },
+                        {
+                            "client_id": "577322848989-3alqic3buhpn950ira4ocj68kfm1323k.apps.googleusercontent.com",
+                            "client_type": 2,
+                            "ios_info": {
+                                "bundle_id": "id.smiteknologi.shiphire"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ],
+    "configuration_version": "1"
+}

@@ -1,0 +1,41 @@
+/api/document-upload/submit-ship-owner-document:
+    post:
+        tags: [document-upload]
+        summary: document upload for ship owner
+        requestBody:
+            description: document upload for ship owner
+            content:
+                multipart/form-data:
+                    schema:
+                        $ref: "#/components/schemas/submitShipOwnerDocument"
+        responses:
+            200:
+                description: Success submit document for ship owner
+
+/api/document-upload/submit-ship-document:
+    post:
+        tags: [document-upload]
+        summary: submit ship document
+        requestBody:
+            description: submit ship document
+            content:
+                multipart/form-data:
+                    schema:
+                        $ref: "#/components/schemas/submitShipDocument"
+        responses:
+            200:
+                description: Success submit ship document
+
+/api/document-upload/submit-ship-image:
+    post:
+        tags: [document-upload]
+        summary: submit ship image
+        requestBody:
+            description: submit ship image
+            content:
+                multipart/form-data:
+                    schema:
+                        $ref: "#/components/schemas/submitShipImage"
+        responses:
+            200:
+                description: Success submit ship image

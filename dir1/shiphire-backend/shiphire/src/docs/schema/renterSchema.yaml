@@ -1,0 +1,109 @@
+components:
+    schemas:
+        submitRenterPreference:
+            type: object
+            required:
+                - renterPreference
+            properties:
+                renterPreference:
+                    type: string
+                    default: Certofocation and permits
+
+        submitRequestForQuote:
+            type: object
+            required:
+                - document
+                - categoryId
+                - shipId
+                - shipOwnerId
+                - rentalStartDate
+                - rentalDuration
+                - rentalEndDate
+            properties:
+                document:
+                    type: string
+                    format: binary
+                categoryId:
+                    type: string
+                    default: 64c769bddb67b394e843b16c
+                shipId:
+                    type: string
+                    default: 64c764bbdb67b394e843b13b
+                shipOwnerId:
+                    type: string
+                    default: 64c764b5db67b394e843b133
+                rentalStartDate:
+                    type: string
+                    format: date-time
+                    default: 2023-08-09T02:54:07.476Z
+                rentalEndDate:
+                    type: string
+                    format: date-time
+                    default: 2023-08-20T02:54:07.476Z
+                rentalDuration:
+                    type: string
+                    default: 11
+
+        submitCompanyProfile:
+            type: object
+            required:
+                - companyName
+                - typeOfCompany
+                - companyAddress
+                - files
+            properties:
+                companyName:
+                    type: string
+                    default: Silangkoo
+                typeOfCompany:
+                    type: string
+                    default: CV
+                companyAddress:
+                    type: string
+                    default: Jl Martapura
+                files:
+                    type: array
+                    description: List of files to be uploaded is BusinessDocument.pdf & DeedDocument.pdf.
+                    items:
+                        type: string
+                        format: binary
+                    example:
+                        - "BusinessDocument.pdf"
+                        - "DeedDocument.pdf"
+                    xml:
+                        name: file
+                        wrapped: true
+
+        sendOtpEmailVerif:
+            type: object
+            required:
+                - emailVerifOtp
+            properties:
+                emailVerifOtp:
+                    type: string
+                    default: 1292
+
+        verifyEmailOtp:
+            type: object
+            required:
+                - emailVeriOtp
+            properties:
+                emailVerifOtp:
+                    type: string
+                    default: 1932
+
+        sendOtpSignProposal:
+            type: object
+
+        verifySignProposalOtp:
+            type: object
+            required:
+                - signProposalOTP
+                - rentalId
+            properties:
+                signProposalOTP:
+                    type: string
+                    default: 1292
+                rentalId:
+                    type: string
+                    default: 123123

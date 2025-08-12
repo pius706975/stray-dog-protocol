@@ -1,0 +1,23 @@
+{
+    "infoSentOTPCode": "Kami telah mengirimkan Kode OTP ke email Anda untuk verifikasi email. Silakan periksa email Anda!",
+    "infoNewCodeSent": "Kode baru terkirim, silakan periksa email Anda!",
+    "successVerifyEmail": "Verifikasi Anda berhasil!",
+    "failedInvalidOTP": "OTP tidak valid! Silakan periksa kembali email Anda!",
+    "textEmailVerification": "Verifikasi Email",
+    "textEnterOTP": "Masukkan kode OTP yang dikirimkan ke",
+    "textToVerify": "untuk memverifikasi email Anda.",
+    "textDidnt": "Tidak menerima kode OTP?",
+    "textResend": "Kirim Ulang Kode",
+    "textResendAgain": "Kirim ulang kode lagi pada",
+    "labelButtonVerify": "Verifikasi OTP",
+    "successVerifyPhone": "Verifikasi Anda berhasil!",
+    "failedInvalidOTPVerifyPhone": "OTP tidak valid! Silakan periksa kembali Kode OTP Anda!",
+    "infoSentOTPCodeVerifyPhone": "Kami telah mengirimkan Kode OTP ke nomor telepon Anda untuk verifikasi nomor telepon. Silakan periksa ponsel Anda!",
+    "textPhoneNumberVerification": "Verifikasi Nomor Telepon",
+    "textToVerifyPhone": "untuk memverifikasi nomor telepon anda.",
+    "textOr": "atau",
+    "textContactAdmin": "Hubungi Admin",
+    "textVerificationReqSent": "Permintaan Verifikasi Dikirim ke Admin",
+    "textVerificationReqSentAgain": "Kirim ulang lagi permintaan pada",
+    "failedSendPhoneVerif": "Tidak dapat mengirim kode verifikasi nomor telepon!, silakan coba lagi nanti"
+}

@@ -1,0 +1,41 @@
+/api/ship/:
+    get:
+        tags: [ship]
+        summary: Ship Data
+        responses:
+            200:
+                description: Success get ship data
+
+/api/ship/get-top-rated-ships:
+    get:
+        tags: [ship]
+        summary: Top rated ship
+        responses:
+            200:
+                description: Success get top rated ship data
+
+/api/ship/get-popular-ships:
+    get:
+        tags: [ship]
+        summary: Popular ship
+        responses:
+            200:
+                description: Success get popular ship data
+
+/api/ship/get-ship-categories:
+    get:
+        tags: [ship]
+        summary: ship categories
+        responses:
+            200:
+                description: Success get ship categories
+
+/api/ship/get-ship-by-id/{id}:
+    get:
+        tags: [ship]
+        summary: ship by id
+        parameters:
+            - $ref: "#parameters/shipId"
+        responses:
+            200:
+                description: Success get ship by id

@@ -1,0 +1,35 @@
+/api/ship-owner/get-ship-owner-data:
+    get:
+        tags: [ship-owner]
+        summary: ship owner data
+        responses:
+            200:
+                description: Success get ship data from owner
+
+/api/ship-owner/submit-ship:
+    post:
+        tags: [ship-owner]
+        summary: Owner submit ship
+        requestBody:
+            description: Owner submit ship
+            content:
+                application/json:
+                    schema:
+                        $ref: "#/components/schemas/submitShip"
+        responses:
+            200:
+                description: Success submit ship by owner
+
+/api/ship-owner/submit-proposal:
+    post:
+        tags: [ship-owner]
+        summary: Owner submit proposal ship
+        requestBody:
+            description: Owner submit proposal ship
+            content:
+                multipart/form-data:
+                    schema:
+                        $ref: "#/components/schemas/submitProposal"
+        responses:
+            200:
+                description: Success submit proposal by owner

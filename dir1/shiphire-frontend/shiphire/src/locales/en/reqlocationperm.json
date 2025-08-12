@@ -1,0 +1,11 @@
+{
+    "locationTitle": "Location Access Permission Required for Ship Search Feature",
+    "locationBody": "Shiphire collects location data to activate the ship search feature. When the renter clicks the Allow Location Access Button, the location data is used to determine the renter's location and to view ship search data according to the renter's location. Shiphire only collects location data at the beginning when the application is opened.",
+    "androidLocationTitle": "Location Permission",
+    "androidLocationBody": "Shiphire requires access to your location for the Ship Search Feature",
+    "androidLocationNeutral": "Later",
+    "androidLocationPositive": "OK",
+    "androidLocationNegative": "Cancel",
+    "locationButton": "Allow Location Access",
+    "enableGPSMessage": "Please make sure to enable GPS in your device settings"
+}

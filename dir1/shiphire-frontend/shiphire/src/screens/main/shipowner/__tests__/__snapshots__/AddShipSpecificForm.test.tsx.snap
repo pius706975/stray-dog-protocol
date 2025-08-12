@@ -1,0 +1,1602 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`add ship specific form Snapshot testing should render add specific screen correctly 1`] = `
+<RNCSafeAreaProvider
+  onInsetsChange={[Function]}
+  style={
+    {
+      "flex": 1,
+    }
+  }
+>
+  <RNSScreenStack
+    style={
+      {
+        "flex": 1,
+      }
+    }
+  >
+    <RNSScreen
+      collapsable={false}
+      forwardedRef={[Function]}
+      gestureResponseDistance={
+        {
+          "bottom": -1,
+          "end": -1,
+          "start": -1,
+          "top": -1,
+        }
+      }
+      nativeBackButtonDismissalEnabled={false}
+      onAppear={[Function]}
+      onDisappear={[Function]}
+      onDismissed={[Function]}
+      onGestureCancel={[Function]}
+      onHeaderBackButtonClicked={[Function]}
+      onNativeDismissCancelled={[Function]}
+      onTransitionProgress={[Function]}
+      onWillDisappear={[Function]}
+      replaceAnimation="push"
+      sheetAllowedDetents="large"
+      sheetCornerRadius={-1}
+      sheetExpandsWhenScrolledToEdge={true}
+      sheetGrabberVisible={false}
+      sheetLargestUndimmedDetent="all"
+      stackPresentation="push"
+      style={
+        {
+          "bottom": 0,
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        }
+      }
+      swipeDirection="horizontal"
+    >
+      <View
+        accessibilityElementsHidden={false}
+        importantForAccessibility="auto"
+        style={
+          {
+            "flex": 1,
+            "flexDirection": "column-reverse",
+          }
+        }
+      >
+        <View
+          collapsable={false}
+          style={
+            [
+              {
+                "flex": 1,
+              },
+              {
+                "backgroundColor": "rgb(242, 242, 242)",
+              },
+              undefined,
+            ]
+          }
+        >
+          <View
+            style={
+              [
+                undefined,
+                undefined,
+                {
+                  "flex": 1,
+                },
+                undefined,
+                {},
+                {},
+                {},
+                {
+                  "backgroundColor": "#f0f6fb",
+                  "justifyContent": "space-between",
+                  "position": "relative",
+                },
+              ]
+            }
+            testID="spesificFormAddShip"
+          >
+            <RCTScrollView
+              contentContainerStyle={
+                {
+                  "alignItems": undefined,
+                  "flex": undefined,
+                  "flexGrow": 1,
+                  "gap": undefined,
+                  "justifyContent": undefined,
+                  "marginBottom": undefined,
+                  "padding": undefined,
+                  "paddingVertical": undefined,
+                }
+              }
+            >
+              <View>
+                <View
+                  marginH-20={true}
+                  marginV-26={true}
+                  style={
+                    [
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      {},
+                      {
+                        "marginHorizontal": 20,
+                        "marginVertical": 26,
+                      },
+                      {},
+                      {
+                        "gap": 20,
+                      },
+                    ]
+                  }
+                >
+                  <View
+                    accessibilityLabel="progress bar. 50%"
+                    accessible={true}
+                    onLayout={[Function]}
+                    style={
+                      [
+                        undefined,
+                        undefined,
+                        undefined,
+                        undefined,
+                        {},
+                        {},
+                        {},
+                        [
+                          {
+                            "backgroundColor": "#E8ECF0",
+                            "borderRadius": 999,
+                            "overflow": "hidden",
+                          },
+                          {
+                            "borderRadius": 999,
+                            "height": 8,
+                          },
+                          {
+                            "backgroundColor": "#9cd2ff",
+                            "height": 10,
+                          },
+                        ],
+                      ]
+                    }
+                  />
+                  <View
+                    style={
+                      [
+                        undefined,
+                        undefined,
+                        undefined,
+                        undefined,
+                        undefined,
+                        undefined,
+                        undefined,
+                        {
+                          "gap": 10,
+                        },
+                      ]
+                    }
+                  >
+                    <Text
+                      numberOfLines={0}
+                      style={
+                        {
+                          "borderBottomWidth": 0,
+                          "borderColor": undefined,
+                          "color": "#4d5963",
+                          "fontFamily": "Kanit-SemiBold",
+                          "fontSize": 26,
+                          "lineHeight": undefined,
+                          "textAlign": undefined,
+                        }
+                      }
+                    >
+                      2. 
+                      Barge
+                       
+                      ShipOwner.textAddSpecificForm
+                    </Text>
+                    <View
+                      style={
+                        [
+                          undefined,
+                          undefined,
+                          undefined,
+                          undefined,
+                          undefined,
+                          undefined,
+                          undefined,
+                          undefined,
+                        ]
+                      }
+                    >
+                      <View
+                        style={
+                          [
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                          ]
+                        }
+                      >
+                        <Text
+                          numberOfLines={0}
+                          style={
+                            {
+                              "borderBottomWidth": 0,
+                              "borderColor": undefined,
+                              "color": "#216dab",
+                              "fontFamily": "Kanit-Medium",
+                              "fontSize": 22,
+                              "lineHeight": undefined,
+                              "textAlign": undefined,
+                            }
+                          }
+                        >
+                          Ship Length
+                        </Text>
+                        <View
+                          centerV={true}
+                          marginT-16={true}
+                          row={true}
+                          style={
+                            [
+                              undefined,
+                              undefined,
+                              undefined,
+                              undefined,
+                              {},
+                              {
+                                "marginTop": 16,
+                              },
+                              {
+                                "alignItems": "center",
+                                "flexDirection": "row",
+                              },
+                              {
+                                "gap": 10,
+                              },
+                            ]
+                          }
+                        >
+                          <View
+                            style={
+                              [
+                                {
+                                  "alignItems": "center",
+                                  "borderColor": "grey",
+                                  "borderWidth": 1,
+                                  "flexDirection": "row",
+                                  "justifyContent": "space-between",
+                                },
+                                {
+                                  "borderColor": "#216dab",
+                                  "height": 50,
+                                  "width": 200,
+                                },
+                                {
+                                  "borderRadius": 9,
+                                },
+                                {},
+                              ]
+                            }
+                          >
+                            <TextInput
+                              editable={true}
+                              keyboardType="numeric"
+                              onBlur={[Function]}
+                              onChangeText={[Function]}
+                              onFocus={[Function]}
+                              returnKeyType="done"
+                              style={
+                                [
+                                  {
+                                    "padding": 0,
+                                    "textAlign": "center",
+                                  },
+                                  {
+                                    "borderRightColor": "#216dab",
+                                    "borderRightWidth": 2,
+                                    "color": "#4d5963",
+                                    "fontSize": 19,
+                                    "height": 50,
+                                    "width": 120,
+                                  },
+                                  {},
+                                ]
+                              }
+                              underlineColorAndroid="rgba(0,0,0,0)"
+                              value="0"
+                            />
+                            <View
+                              style={
+                                [
+                                  {
+                                    "alignItems": "center",
+                                    "backgroundColor": "#6499c4",
+                                    "borderRightColor": "#216dab",
+                                    "borderRightWidth": 1,
+                                    "width": 80,
+                                  },
+                                  {
+                                    "borderBottomRightRadius": 9,
+                                    "borderTopRightRadius": 9,
+                                  },
+                                ]
+                              }
+                            >
+                              <View
+                                accessibilityState={
+                                  {
+                                    "busy": undefined,
+                                    "checked": undefined,
+                                    "disabled": undefined,
+                                    "expanded": undefined,
+                                    "selected": undefined,
+                                  }
+                                }
+                                accessibilityValue={
+                                  {
+                                    "max": undefined,
+                                    "min": undefined,
+                                    "now": undefined,
+                                    "text": undefined,
+                                  }
+                                }
+                                accessible={true}
+                                collapsable={false}
+                                focusable={true}
+                                onClick={[Function]}
+                                onResponderGrant={[Function]}
+                                onResponderMove={[Function]}
+                                onResponderRelease={[Function]}
+                                onResponderTerminate={[Function]}
+                                onResponderTerminationRequest={[Function]}
+                                onStartShouldSetResponder={[Function]}
+                                style={
+                                  {
+                                    "alignItems": "center",
+                                    "flex": 1,
+                                    "opacity": 1,
+                                    "width": "100%",
+                                  }
+                                }
+                              >
+                                <Text
+                                  allowFontScaling={false}
+                                  selectable={false}
+                                  style={
+                                    [
+                                      {
+                                        "color": undefined,
+                                        "fontSize": 19,
+                                      },
+                                      [
+                                        {
+                                          "backgroundColor": "rgba(0,0,0,0)",
+                                          "fontWeight": "900",
+                                        },
+                                        {},
+                                        {},
+                                        {},
+                                      ],
+                                      {
+                                        "fontFamily": "Ionicons",
+                                        "fontStyle": "normal",
+                                        "fontWeight": "normal",
+                                      },
+                                      {},
+                                    ]
+                                  }
+                                >
+                                  
+                                </Text>
+                              </View>
+                              <View
+                                accessibilityState={
+                                  {
+                                    "busy": undefined,
+                                    "checked": undefined,
+                                    "disabled": undefined,
+                                    "expanded": undefined,
+                                    "selected": undefined,
+                                  }
+                                }
+                                accessibilityValue={
+                                  {
+                                    "max": undefined,
+                                    "min": undefined,
+                                    "now": undefined,
+                                    "text": undefined,
+                                  }
+                                }
+                                accessible={true}
+                                collapsable={false}
+                                focusable={true}
+                                onClick={[Function]}
+                                onResponderGrant={[Function]}
+                                onResponderMove={[Function]}
+                                onResponderRelease={[Function]}
+                                onResponderTerminate={[Function]}
+                                onResponderTerminationRequest={[Function]}
+                                onStartShouldSetResponder={[Function]}
+                                style={
+                                  {
+                                    "alignItems": "center",
+                                    "flex": 1,
+                                    "opacity": 1,
+                                    "width": "100%",
+                                  }
+                                }
+                              >
+                                <Text
+                                  allowFontScaling={false}
+                                  selectable={false}
+                                  style={
+                                    [
+                                      {
+                                        "color": undefined,
+                                        "fontSize": 19,
+                                      },
+                                      [
+                                        {
+                                          "backgroundColor": "rgba(0,0,0,0)",
+                                          "fontWeight": "900",
+                                        },
+                                        {},
+                                        {},
+                                        {},
+                                      ],
+                                      {
+                                        "fontFamily": "Ionicons",
+                                        "fontStyle": "normal",
+                                        "fontWeight": "normal",
+                                      },
+                                      {},
+                                    ]
+                                  }
+                                >
+                                  
+                                </Text>
+                              </View>
+                            </View>
+                          </View>
+                          <Text
+                            numberOfLines={0}
+                            style={
+                              {
+                                "borderBottomWidth": 0,
+                                "borderColor": undefined,
+                                "color": "#4d5963",
+                                "fontFamily": "Kanit-Regular",
+                                "fontSize": 18,
+                                "lineHeight": undefined,
+                                "textAlign": undefined,
+                              }
+                            }
+                          >
+                            meter
+                          </Text>
+                        </View>
+                      </View>
+                    </View>
+                    <View
+                      style={
+                        [
+                          undefined,
+                          undefined,
+                          undefined,
+                          undefined,
+                          undefined,
+                          undefined,
+                          undefined,
+                          undefined,
+                        ]
+                      }
+                    >
+                      <View
+                        style={
+                          [
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                          ]
+                        }
+                      >
+                        <Text
+                          numberOfLines={0}
+                          style={
+                            {
+                              "borderBottomWidth": 0,
+                              "borderColor": undefined,
+                              "color": "#216dab",
+                              "fontFamily": "Kanit-Medium",
+                              "fontSize": 22,
+                              "lineHeight": undefined,
+                              "textAlign": undefined,
+                            }
+                          }
+                        >
+                          Ship Width
+                        </Text>
+                        <View
+                          centerV={true}
+                          marginT-16={true}
+                          row={true}
+                          style={
+                            [
+                              undefined,
+                              undefined,
+                              undefined,
+                              undefined,
+                              {},
+                              {
+                                "marginTop": 16,
+                              },
+                              {
+                                "alignItems": "center",
+                                "flexDirection": "row",
+                              },
+                              {
+                                "gap": 10,
+                              },
+                            ]
+                          }
+                        >
+                          <View
+                            style={
+                              [
+                                {
+                                  "alignItems": "center",
+                                  "borderColor": "grey",
+                                  "borderWidth": 1,
+                                  "flexDirection": "row",
+                                  "justifyContent": "space-between",
+                                },
+                                {
+                                  "borderColor": "#216dab",
+                                  "height": 50,
+                                  "width": 200,
+                                },
+                                {
+                                  "borderRadius": 9,
+                                },
+                                {},
+                              ]
+                            }
+                          >
+                            <TextInput
+                              editable={true}
+                              keyboardType="numeric"
+                              onBlur={[Function]}
+                              onChangeText={[Function]}
+                              onFocus={[Function]}
+                              returnKeyType="done"
+                              style={
+                                [
+                                  {
+                                    "padding": 0,
+                                    "textAlign": "center",
+                                  },
+                                  {
+                                    "borderRightColor": "#216dab",
+                                    "borderRightWidth": 2,
+                                    "color": "#4d5963",
+                                    "fontSize": 19,
+                                    "height": 50,
+                                    "width": 120,
+                                  },
+                                  {},
+                                ]
+                              }
+                              underlineColorAndroid="rgba(0,0,0,0)"
+                              value="0"
+                            />
+                            <View
+                              style={
+                                [
+                                  {
+                                    "alignItems": "center",
+                                    "backgroundColor": "#6499c4",
+                                    "borderRightColor": "#216dab",
+                                    "borderRightWidth": 1,
+                                    "width": 80,
+                                  },
+                                  {
+                                    "borderBottomRightRadius": 9,
+                                    "borderTopRightRadius": 9,
+                                  },
+                                ]
+                              }
+                            >
+                              <View
+                                accessibilityState={
+                                  {
+                                    "busy": undefined,
+                                    "checked": undefined,
+                                    "disabled": undefined,
+                                    "expanded": undefined,
+                                    "selected": undefined,
+                                  }
+                                }
+                                accessibilityValue={
+                                  {
+                                    "max": undefined,
+                                    "min": undefined,
+                                    "now": undefined,
+                                    "text": undefined,
+                                  }
+                                }
+                                accessible={true}
+                                collapsable={false}
+                                focusable={true}
+                                onClick={[Function]}
+                                onResponderGrant={[Function]}
+                                onResponderMove={[Function]}
+                                onResponderRelease={[Function]}
+                                onResponderTerminate={[Function]}
+                                onResponderTerminationRequest={[Function]}
+                                onStartShouldSetResponder={[Function]}
+                                style={
+                                  {
+                                    "alignItems": "center",
+                                    "flex": 1,
+                                    "opacity": 1,
+                                    "width": "100%",
+                                  }
+                                }
+                              >
+                                <Text
+                                  allowFontScaling={false}
+                                  selectable={false}
+                                  style={
+                                    [
+                                      {
+                                        "color": undefined,
+                                        "fontSize": 19,
+                                      },
+                                      [
+                                        {
+                                          "backgroundColor": "rgba(0,0,0,0)",
+                                          "fontWeight": "900",
+                                        },
+                                        {},
+                                        {},
+                                        {},
+                                      ],
+                                      {
+                                        "fontFamily": "Ionicons",
+                                        "fontStyle": "normal",
+                                        "fontWeight": "normal",
+                                      },
+                                      {},
+                                    ]
+                                  }
+                                >
+                                  
+                                </Text>
+                              </View>
+                              <View
+                                accessibilityState={
+                                  {
+                                    "busy": undefined,
+                                    "checked": undefined,
+                                    "disabled": undefined,
+                                    "expanded": undefined,
+                                    "selected": undefined,
+                                  }
+                                }
+                                accessibilityValue={
+                                  {
+                                    "max": undefined,
+                                    "min": undefined,
+                                    "now": undefined,
+                                    "text": undefined,
+                                  }
+                                }
+                                accessible={true}
+                                collapsable={false}
+                                focusable={true}
+                                onClick={[Function]}
+                                onResponderGrant={[Function]}
+                                onResponderMove={[Function]}
+                                onResponderRelease={[Function]}
+                                onResponderTerminate={[Function]}
+                                onResponderTerminationRequest={[Function]}
+                                onStartShouldSetResponder={[Function]}
+                                style={
+                                  {
+                                    "alignItems": "center",
+                                    "flex": 1,
+                                    "opacity": 1,
+                                    "width": "100%",
+                                  }
+                                }
+                              >
+                                <Text
+                                  allowFontScaling={false}
+                                  selectable={false}
+                                  style={
+                                    [
+                                      {
+                                        "color": undefined,
+                                        "fontSize": 19,
+                                      },
+                                      [
+                                        {
+                                          "backgroundColor": "rgba(0,0,0,0)",
+                                          "fontWeight": "900",
+                                        },
+                                        {},
+                                        {},
+                                        {},
+                                      ],
+                                      {
+                                        "fontFamily": "Ionicons",
+                                        "fontStyle": "normal",
+                                        "fontWeight": "normal",
+                                      },
+                                      {},
+                                    ]
+                                  }
+                                >
+                                  
+                                </Text>
+                              </View>
+                            </View>
+                          </View>
+                          <Text
+                            numberOfLines={0}
+                            style={
+                              {
+                                "borderBottomWidth": 0,
+                                "borderColor": undefined,
+                                "color": "#4d5963",
+                                "fontFamily": "Kanit-Regular",
+                                "fontSize": 18,
+                                "lineHeight": undefined,
+                                "textAlign": undefined,
+                              }
+                            }
+                          >
+                            meter
+                          </Text>
+                        </View>
+                      </View>
+                    </View>
+                    <View
+                      style={
+                        [
+                          undefined,
+                          undefined,
+                          undefined,
+                          undefined,
+                          undefined,
+                          undefined,
+                          undefined,
+                          undefined,
+                        ]
+                      }
+                    >
+                      <View
+                        style={
+                          [
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                          ]
+                        }
+                      >
+                        <Text
+                          numberOfLines={0}
+                          style={
+                            {
+                              "borderBottomWidth": 0,
+                              "borderColor": undefined,
+                              "color": "#216dab",
+                              "fontFamily": "Kanit-Medium",
+                              "fontSize": 22,
+                              "lineHeight": undefined,
+                              "textAlign": undefined,
+                            }
+                          }
+                        >
+                          Ship Height
+                        </Text>
+                        <View
+                          centerV={true}
+                          marginT-16={true}
+                          row={true}
+                          style={
+                            [
+                              undefined,
+                              undefined,
+                              undefined,
+                              undefined,
+                              {},
+                              {
+                                "marginTop": 16,
+                              },
+                              {
+                                "alignItems": "center",
+                                "flexDirection": "row",
+                              },
+                              {
+                                "gap": 10,
+                              },
+                            ]
+                          }
+                        >
+                          <View
+                            style={
+                              [
+                                {
+                                  "alignItems": "center",
+                                  "borderColor": "grey",
+                                  "borderWidth": 1,
+                                  "flexDirection": "row",
+                                  "justifyContent": "space-between",
+                                },
+                                {
+                                  "borderColor": "#216dab",
+                                  "height": 50,
+                                  "width": 200,
+                                },
+                                {
+                                  "borderRadius": 9,
+                                },
+                                {},
+                              ]
+                            }
+                          >
+                            <TextInput
+                              editable={true}
+                              keyboardType="numeric"
+                              onBlur={[Function]}
+                              onChangeText={[Function]}
+                              onFocus={[Function]}
+                              returnKeyType="done"
+                              style={
+                                [
+                                  {
+                                    "padding": 0,
+                                    "textAlign": "center",
+                                  },
+                                  {
+                                    "borderRightColor": "#216dab",
+                                    "borderRightWidth": 2,
+                                    "color": "#4d5963",
+                                    "fontSize": 19,
+                                    "height": 50,
+                                    "width": 120,
+                                  },
+                                  {},
+                                ]
+                              }
+                              underlineColorAndroid="rgba(0,0,0,0)"
+                              value="0"
+                            />
+                            <View
+                              style={
+                                [
+                                  {
+                                    "alignItems": "center",
+                                    "backgroundColor": "#6499c4",
+                                    "borderRightColor": "#216dab",
+                                    "borderRightWidth": 1,
+                                    "width": 80,
+                                  },
+                                  {
+                                    "borderBottomRightRadius": 9,
+                                    "borderTopRightRadius": 9,
+                                  },
+                                ]
+                              }
+                            >
+                              <View
+                                accessibilityState={
+                                  {
+                                    "busy": undefined,
+                                    "checked": undefined,
+                                    "disabled": undefined,
+                                    "expanded": undefined,
+                                    "selected": undefined,
+                                  }
+                                }
+                                accessibilityValue={
+                                  {
+                                    "max": undefined,
+                                    "min": undefined,
+                                    "now": undefined,
+                                    "text": undefined,
+                                  }
+                                }
+                                accessible={true}
+                                collapsable={false}
+                                focusable={true}
+                                onClick={[Function]}
+                                onResponderGrant={[Function]}
+                                onResponderMove={[Function]}
+                                onResponderRelease={[Function]}
+                                onResponderTerminate={[Function]}
+                                onResponderTerminationRequest={[Function]}
+                                onStartShouldSetResponder={[Function]}
+                                style={
+                                  {
+                                    "alignItems": "center",
+                                    "flex": 1,
+                                    "opacity": 1,
+                                    "width": "100%",
+                                  }
+                                }
+                              >
+                                <Text
+                                  allowFontScaling={false}
+                                  selectable={false}
+                                  style={
+                                    [
+                                      {
+                                        "color": undefined,
+                                        "fontSize": 19,
+                                      },
+                                      [
+                                        {
+                                          "backgroundColor": "rgba(0,0,0,0)",
+                                          "fontWeight": "900",
+                                        },
+                                        {},
+                                        {},
+                                        {},
+                                      ],
+                                      {
+                                        "fontFamily": "Ionicons",
+                                        "fontStyle": "normal",
+                                        "fontWeight": "normal",
+                                      },
+                                      {},
+                                    ]
+                                  }
+                                >
+                                  
+                                </Text>
+                              </View>
+                              <View
+                                accessibilityState={
+                                  {
+                                    "busy": undefined,
+                                    "checked": undefined,
+                                    "disabled": undefined,
+                                    "expanded": undefined,
+                                    "selected": undefined,
+                                  }
+                                }
+                                accessibilityValue={
+                                  {
+                                    "max": undefined,
+                                    "min": undefined,
+                                    "now": undefined,
+                                    "text": undefined,
+                                  }
+                                }
+                                accessible={true}
+                                collapsable={false}
+                                focusable={true}
+                                onClick={[Function]}
+                                onResponderGrant={[Function]}
+                                onResponderMove={[Function]}
+                                onResponderRelease={[Function]}
+                                onResponderTerminate={[Function]}
+                                onResponderTerminationRequest={[Function]}
+                                onStartShouldSetResponder={[Function]}
+                                style={
+                                  {
+                                    "alignItems": "center",
+                                    "flex": 1,
+                                    "opacity": 1,
+                                    "width": "100%",
+                                  }
+                                }
+                              >
+                                <Text
+                                  allowFontScaling={false}
+                                  selectable={false}
+                                  style={
+                                    [
+                                      {
+                                        "color": undefined,
+                                        "fontSize": 19,
+                                      },
+                                      [
+                                        {
+                                          "backgroundColor": "rgba(0,0,0,0)",
+                                          "fontWeight": "900",
+                                        },
+                                        {},
+                                        {},
+                                        {},
+                                      ],
+                                      {
+                                        "fontFamily": "Ionicons",
+                                        "fontStyle": "normal",
+                                        "fontWeight": "normal",
+                                      },
+                                      {},
+                                    ]
+                                  }
+                                >
+                                  
+                                </Text>
+                              </View>
+                            </View>
+                          </View>
+                          <Text
+                            numberOfLines={0}
+                            style={
+                              {
+                                "borderBottomWidth": 0,
+                                "borderColor": undefined,
+                                "color": "#4d5963",
+                                "fontFamily": "Kanit-Regular",
+                                "fontSize": 18,
+                                "lineHeight": undefined,
+                                "textAlign": undefined,
+                              }
+                            }
+                          >
+                            meter
+                          </Text>
+                        </View>
+                      </View>
+                    </View>
+                    <View
+                      style={
+                        [
+                          undefined,
+                          undefined,
+                          undefined,
+                          undefined,
+                          undefined,
+                          undefined,
+                          undefined,
+                          undefined,
+                        ]
+                      }
+                    >
+                      <View>
+                        <Text
+                          numberOfLines={0}
+                          style={
+                            {
+                              "borderBottomWidth": 0,
+                              "borderColor": undefined,
+                              "color": "#216dab",
+                              "fontFamily": "Kanit-Medium",
+                              "fontSize": 22,
+                              "lineHeight": undefined,
+                              "textAlign": undefined,
+                            }
+                          }
+                        >
+                          Ship Facility
+                        </Text>
+                        <View
+                          style={
+                            [
+                              {
+                                "width": "100%",
+                              },
+                              {
+                                "zIndex": 5000,
+                              },
+                              {},
+                            ]
+                          }
+                        >
+                          <View
+                            accessibilityState={
+                              {
+                                "busy": undefined,
+                                "checked": undefined,
+                                "disabled": false,
+                                "expanded": undefined,
+                                "selected": undefined,
+                              }
+                            }
+                            accessibilityValue={
+                              {
+                                "max": undefined,
+                                "min": undefined,
+                                "now": undefined,
+                                "text": undefined,
+                              }
+                            }
+                            accessible={true}
+                            collapsable={false}
+                            focusable={true}
+                            forwardedRef={[Function]}
+                            onClick={[Function]}
+                            onLayout={[Function]}
+                            onResponderGrant={[Function]}
+                            onResponderMove={[Function]}
+                            onResponderRelease={[Function]}
+                            onResponderTerminate={[Function]}
+                            onResponderTerminationRequest={[Function]}
+                            onStartShouldSetResponder={[Function]}
+                            style={
+                              {
+                                "alignItems": "center",
+                                "backgroundColor": "#f0f6fb",
+                                "borderBottomWidth": 1,
+                                "borderColor": "#216dab",
+                                "borderRadius": 8,
+                                "borderWidth": 0,
+                                "flexDirection": "row",
+                                "justifyContent": "space-between",
+                                "marginBottom": 20,
+                                "marginStart": -4,
+                                "minHeight": 50,
+                                "opacity": 1,
+                                "paddingHorizontal": 10,
+                                "paddingVertical": 3,
+                                "width": "100%",
+                                "zIndex": 5000,
+                              }
+                            }
+                            testID="dropdown-shipFacility"
+                          >
+                            <Text
+                              style={
+                                [
+                                  {
+                                    "color": "#000",
+                                    "flex": 1,
+                                  },
+                                  {},
+                                  false,
+                                  {
+                                    "color": "#4D596399",
+                                    "fontFamily": "Kanit-Regular",
+                                    "fontSize": 18,
+                                  },
+                                ]
+                              }
+                            >
+                              Select your ship facility
+                            </Text>
+                            <View
+                              style={
+                                [
+                                  {
+                                    "marginLeft": 10,
+                                  },
+                                  {},
+                                ]
+                              }
+                            >
+                              <Image
+                                source={
+                                  {
+                                    "testUri": "../../react-native-dropdown-picker/src/themes/light/icons/arrow-down.png",
+                                  }
+                                }
+                                style={
+                                  [
+                                    {
+                                      "height": 20,
+                                      "width": 20,
+                                    },
+                                    {},
+                                  ]
+                                }
+                              />
+                            </View>
+                          </View>
+                          <Modal
+                            animationType="slide"
+                            hardwareAccelerated={false}
+                            onRequestClose={[Function]}
+                            presentationStyle="fullScreen"
+                            visible={false}
+                          />
+                        </View>
+                      </View>
+                    </View>
+                    <View
+                      style={
+                        [
+                          undefined,
+                          undefined,
+                          undefined,
+                          undefined,
+                          undefined,
+                          undefined,
+                          undefined,
+                          undefined,
+                        ]
+                      }
+                    >
+                      <View>
+                        <Text
+                          numberOfLines={0}
+                          style={
+                            {
+                              "borderBottomWidth": 0,
+                              "borderColor": undefined,
+                              "color": "#216dab",
+                              "fontFamily": "Kanit-Medium",
+                              "fontSize": 22,
+                              "lineHeight": undefined,
+                              "textAlign": undefined,
+                            }
+                          }
+                        >
+                          Ship Specification
+                        </Text>
+                        <View
+                          style={
+                            [
+                              {
+                                "width": "100%",
+                              },
+                              {
+                                "zIndex": 5000,
+                              },
+                              {},
+                            ]
+                          }
+                        >
+                          <View
+                            accessibilityState={
+                              {
+                                "busy": undefined,
+                                "checked": undefined,
+                                "disabled": false,
+                                "expanded": undefined,
+                                "selected": undefined,
+                              }
+                            }
+                            accessibilityValue={
+                              {
+                                "max": undefined,
+                                "min": undefined,
+                                "now": undefined,
+                                "text": undefined,
+                              }
+                            }
+                            accessible={true}
+                            collapsable={false}
+                            focusable={true}
+                            forwardedRef={[Function]}
+                            onClick={[Function]}
+                            onLayout={[Function]}
+                            onResponderGrant={[Function]}
+                            onResponderMove={[Function]}
+                            onResponderRelease={[Function]}
+                            onResponderTerminate={[Function]}
+                            onResponderTerminationRequest={[Function]}
+                            onStartShouldSetResponder={[Function]}
+                            style={
+                              {
+                                "alignItems": "center",
+                                "backgroundColor": "#f0f6fb",
+                                "borderBottomWidth": 1,
+                                "borderColor": "#216dab",
+                                "borderRadius": 8,
+                                "borderWidth": 0,
+                                "flexDirection": "row",
+                                "justifyContent": "space-between",
+                                "marginBottom": 20,
+                                "marginStart": -4,
+                                "minHeight": 50,
+                                "opacity": 1,
+                                "paddingHorizontal": 10,
+                                "paddingVertical": 3,
+                                "width": "100%",
+                                "zIndex": 5000,
+                              }
+                            }
+                            testID="dropdown-spec"
+                          >
+                            <Text
+                              style={
+                                [
+                                  {
+                                    "color": "#000",
+                                    "flex": 1,
+                                  },
+                                  {},
+                                  false,
+                                  {
+                                    "color": "#4D596399",
+                                    "fontFamily": "Kanit-Regular",
+                                    "fontSize": 18,
+                                  },
+                                ]
+                              }
+                            >
+                              Select your ship specification
+                            </Text>
+                            <View
+                              style={
+                                [
+                                  {
+                                    "marginLeft": 10,
+                                  },
+                                  {},
+                                ]
+                              }
+                            >
+                              <Image
+                                source={
+                                  {
+                                    "testUri": "../../react-native-dropdown-picker/src/themes/light/icons/arrow-down.png",
+                                  }
+                                }
+                                style={
+                                  [
+                                    {
+                                      "height": 20,
+                                      "width": 20,
+                                    },
+                                    {},
+                                  ]
+                                }
+                              />
+                            </View>
+                          </View>
+                          <Modal
+                            animationType="slide"
+                            hardwareAccelerated={false}
+                            onRequestClose={[Function]}
+                            presentationStyle="fullScreen"
+                            visible={false}
+                          />
+                        </View>
+                      </View>
+                    </View>
+                    <View
+                      marginT-16={true}
+                      style={
+                        [
+                          undefined,
+                          undefined,
+                          undefined,
+                          undefined,
+                          {},
+                          {
+                            "marginTop": 16,
+                          },
+                          {},
+                          undefined,
+                        ]
+                      }
+                    >
+                      <View
+                        accessibilityState={
+                          {
+                            "busy": undefined,
+                            "checked": undefined,
+                            "disabled": undefined,
+                            "expanded": undefined,
+                            "selected": undefined,
+                          }
+                        }
+                        accessibilityValue={
+                          {
+                            "max": undefined,
+                            "min": undefined,
+                            "now": undefined,
+                            "text": undefined,
+                          }
+                        }
+                        accessible={true}
+                        collapsable={false}
+                        focusable={true}
+                        onBlur={[Function]}
+                        onClick={[Function]}
+                        onFocus={[Function]}
+                        onResponderGrant={[Function]}
+                        onResponderMove={[Function]}
+                        onResponderRelease={[Function]}
+                        onResponderTerminate={[Function]}
+                        onResponderTerminationRequest={[Function]}
+                        onStartShouldSetResponder={[Function]}
+                        style={
+                          {
+                            "alignItems": "center",
+                            "backgroundColor": "#216dab",
+                            "borderRadius": 6,
+                            "elevation": 2,
+                            "flexDirection": "row",
+                            "gap": 0,
+                            "justifyContent": "center",
+                            "paddingHorizontal": 10,
+                            "paddingVertical": 6,
+                          }
+                        }
+                        testID="dynamic-button"
+                      >
+                        <Text
+                          numberOfLines={0}
+                          style={
+                            {
+                              "borderBottomWidth": 0,
+                              "borderColor": undefined,
+                              "color": "#f0f6fb",
+                              "fontFamily": "Kanit-Medium",
+                              "fontSize": 18,
+                              "lineHeight": undefined,
+                              "textAlign": undefined,
+                            }
+                          }
+                        >
+                          ShipOwner.buttonNext
+                        </Text>
+                        <View
+                          style={
+                            [
+                              undefined,
+                              undefined,
+                              undefined,
+                              undefined,
+                              undefined,
+                              undefined,
+                              undefined,
+                              {
+                                "position": "absolute",
+                                "right": 20,
+                              },
+                            ]
+                          }
+                        >
+                          <RNSVGSvgView
+                            align="xMidYMid"
+                            bbHeight="20"
+                            bbWidth="20"
+                            fill="none"
+                            focusable={false}
+                            height={20}
+                            meetOrSlice={0}
+                            minX={0}
+                            minY={0}
+                            style={
+                              [
+                                {
+                                  "backgroundColor": "transparent",
+                                  "borderWidth": 0,
+                                },
+                                {
+                                  "flex": 0,
+                                  "height": 20,
+                                  "width": 20,
+                                },
+                              ]
+                            }
+                            vbHeight={20}
+                            vbWidth={20}
+                            width={20}
+                            xml="<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <g clip-path="url(#clip0_382_280)">
+    <path d="M4.16666 10.8334H13.475L9.40833 14.9001C9.08333 15.2251 9.08333 15.7584 9.40833 16.0834C9.73333 16.4084 10.2583 16.4084 10.5833 16.0834L16.075 10.5917C16.4 10.2667 16.4 9.74172 16.075 9.41672L10.5917 3.91672C10.2667 3.59172 9.74166 3.59172 9.41666 3.91672C9.09166 4.24172 9.09166 4.76672 9.41666 5.09172L13.475 9.16672H4.16666C3.70833 9.16672 3.33333 9.54172 3.33333 10.0001C3.33333 10.4584 3.70833 10.8334 4.16666 10.8334Z" fill="#F0F6FB"/>
+    </g>
+    <defs>
+    <clipPath id="clip0_382_280">
+    <rect width="20" height="20" fill="white"/>
+    </clipPath>
+    </defs>
+    </svg>        
+    "
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <RNSVGGroup
+                              fill={null}
+                              propList={
+                                [
+                                  "fill",
+                                ]
+                              }
+                            >
+                              <RNSVGGroup
+                                clipPath="clip0_382_280"
+                                fill={
+                                  {
+                                    "payload": 4278190080,
+                                    "type": 0,
+                                  }
+                                }
+                              >
+                                <RNSVGPath
+                                  d="M4.16666 10.8334H13.475L9.40833 14.9001C9.08333 15.2251 9.08333 15.7584 9.40833 16.0834C9.73333 16.4084 10.2583 16.4084 10.5833 16.0834L16.075 10.5917C16.4 10.2667 16.4 9.74172 16.075 9.41672L10.5917 3.91672C10.2667 3.59172 9.74166 3.59172 9.41666 3.91672C9.09166 4.24172 9.09166 4.76672 9.41666 5.09172L13.475 9.16672H4.16666C3.70833 9.16672 3.33333 9.54172 3.33333 10.0001C3.33333 10.4584 3.70833 10.8334 4.16666 10.8334Z"
+                                  fill={
+                                    {
+                                      "payload": 4293981947,
+                                      "type": 0,
+                                    }
+                                  }
+                                  propList={
+                                    [
+                                      "fill",
+                                    ]
+                                  }
+                                />
+                              </RNSVGGroup>
+                              <RNSVGDefs>
+                                <RNSVGClipPath
+                                  fill={
+                                    {
+                                      "payload": 4278190080,
+                                      "type": 0,
+                                    }
+                                  }
+                                  name="clip0_382_280"
+                                >
+                                  <RNSVGRect
+                                    fill={
+                                      {
+                                        "payload": 4294967295,
+                                        "type": 0,
+                                      }
+                                    }
+                                    height="20"
+                                    propList={
+                                      [
+                                        "fill",
+                                      ]
+                                    }
+                                    width="20"
+                                    x="0"
+                                    y="0"
+                                  />
+                                </RNSVGClipPath>
+                              </RNSVGDefs>
+                            </RNSVGGroup>
+                          </RNSVGSvgView>
+                        </View>
+                      </View>
+                    </View>
+                  </View>
+                </View>
+              </View>
+            </RCTScrollView>
+          </View>
+        </View>
+      </View>
+      <RNSScreenStackHeaderConfig
+        backButtonInCustomView={false}
+        backTitleVisible={true}
+        backgroundColor="rgb(255, 255, 255)"
+        color="rgb(0, 122, 255)"
+        direction="ltr"
+        disableBackButtonMenu={false}
+        hidden={false}
+        hideBackButton={false}
+        largeTitleHideShadow={false}
+        title="SpecificForm"
+        titleColor="rgb(28, 28, 30)"
+        topInsetEnabled={false}
+        translucent={false}
+      />
+    </RNSScreen>
+  </RNSScreenStack>
+</RNCSafeAreaProvider>
+`;

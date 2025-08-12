@@ -1,0 +1,23 @@
+{
+    "infoSentOTPCode": "We've sent an OTP Code to your email for email verification. Please check your email!",
+    "infoNewCodeSent": "New code sent, please check your email!",
+    "successVerifyEmail": "Your verification success!",
+    "failedInvalidOTP": "Invalid OTP! Please re-check your email!",
+    "textEmailVerification": "Email Verification",
+    "textEnterOTP": "Enter OTP code sent to",
+    "textToVerify": "to verify your email.",
+    "textDidnt": "Didn't receive OTP code?",
+    "textResend": "Resend Code",
+    "textResendAgain": "Resend code again in",
+    "labelButtonVerify": "Verify OTP",
+    "successVerifyPhone": "Your verification success!",
+    "failedInvalidOTPVerifyPhone": "Invalid OTP! Please re-check your OTP!",
+    "infoSentOTPCodeVerifyPhone": "We've sent an OTP Code to your phone number for phone number verification. Please check your phone!",
+    "textPhoneNumberVerification": "Phone Number Verification",
+    "textToVerifyPhone": "to verify your phone number.",
+    "textOr": "or",
+    "textContactAdmin": "Contact Admin",
+    "textVerificationReqSent": "Verification Request Sent to Admin",
+    "textVerificationReqSentAgain": "Resend request again in",
+    "failedSendPhoneVerif": "Can't send verification phone number!, please try again later"
+}

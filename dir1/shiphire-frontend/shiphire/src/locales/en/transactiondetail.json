@@ -1,0 +1,40 @@
+{
+    "CompleteFlag": {
+        "textTransactionDone": "Transaction done!",
+        "textTransactionHistory": "Your transaction has been completed! Check your transaction history",
+        "textHere": "here."
+    },
+    "ShipInformationCard": {
+        "textShipInformation":"Ship Information",
+        "textVisitCompany": "Visit Company",
+        "textType": "Type :",
+        "textSize": "Size :"
+    },
+    "TransactionStatusCard": {
+        "textTransactionStatus": "Transaction Status",
+        "textTrack": "Track",
+        "textRentalID": "Rental ID",
+        "textRentalPeriod": "Rental Period",
+        "textTotalPrice": "Total Price",
+        "textReceiptSent": "Receipt Sent at",
+        "textReceiptApproved": "Receipt Approved at"
+    },
+    "DocumentCard": {
+        "textRFQ": "Request For Quote",
+        "textProposal": "Proposal",
+        "textContract": "Contract",
+        "textReceipt": "Payment Receipt",
+        "textOpen": "Open"
+    },
+    "ButtonTitle": {
+        "btnOpenProposal": "Open Proposal",
+        "btnPay": "Pay",
+        "btnOpenContract": "Open Contract",
+        "btnOpenRfq": "Open RFQ",
+        "btnCreateProposal": "Create Proposal",
+        "btnAcceptPayment": "Accept Payment",
+        "btnOpenResponse": "Open Response"
+    },
+    "textDay": "day",
+    "labelLegend": "New" 
+}

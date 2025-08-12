@@ -1,0 +1,765 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing Company Profile snapshot testing should match snapshot 1`] = `
+<RNCSafeAreaProvider
+  onInsetsChange={[Function]}
+  style={
+    {
+      "flex": 1,
+    }
+  }
+>
+  <RNSScreenStack
+    style={
+      {
+        "flex": 1,
+      }
+    }
+  >
+    <RNSScreen
+      collapsable={false}
+      forwardedRef={[Function]}
+      gestureResponseDistance={
+        {
+          "bottom": -1,
+          "end": -1,
+          "start": -1,
+          "top": -1,
+        }
+      }
+      nativeBackButtonDismissalEnabled={false}
+      onAppear={[Function]}
+      onDisappear={[Function]}
+      onDismissed={[Function]}
+      onGestureCancel={[Function]}
+      onHeaderBackButtonClicked={[Function]}
+      onNativeDismissCancelled={[Function]}
+      onTransitionProgress={[Function]}
+      onWillDisappear={[Function]}
+      replaceAnimation="push"
+      sheetAllowedDetents="large"
+      sheetCornerRadius={-1}
+      sheetExpandsWhenScrolledToEdge={true}
+      sheetGrabberVisible={false}
+      sheetLargestUndimmedDetent="all"
+      stackPresentation="push"
+      style={
+        {
+          "bottom": 0,
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        }
+      }
+      swipeDirection="horizontal"
+    >
+      <View
+        accessibilityElementsHidden={false}
+        importantForAccessibility="auto"
+        style={
+          {
+            "flex": 1,
+            "flexDirection": "column-reverse",
+          }
+        }
+      >
+        <View
+          collapsable={false}
+          style={
+            [
+              {
+                "flex": 1,
+              },
+              {
+                "backgroundColor": "rgb(242, 242, 242)",
+              },
+              undefined,
+            ]
+          }
+        >
+          <View
+            style={
+              [
+                undefined,
+                undefined,
+                {
+                  "flex": 1,
+                },
+                undefined,
+                {},
+                {},
+                {},
+                {
+                  "backgroundColor": "#f0f6fb",
+                  "justifyContent": "space-between",
+                  "position": "relative",
+                },
+              ]
+            }
+            testID="CompanyScreen"
+          >
+            <RCTScrollView
+              contentContainerStyle={
+                {
+                  "alignItems": undefined,
+                  "flex": 1,
+                  "flexGrow": 1,
+                  "gap": undefined,
+                  "justifyContent": undefined,
+                  "marginBottom": undefined,
+                  "padding": undefined,
+                  "paddingVertical": undefined,
+                }
+              }
+            >
+              <View>
+                <View
+                  style={
+                    [
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      {
+                        "backgroundColor": "#dbdee0",
+                        "borderRadius": 8,
+                        "margin": 6,
+                        "paddingBottom": 30,
+                        "paddingHorizontal": 10,
+                      },
+                    ]
+                  }
+                >
+                  <View
+                    style={
+                      [
+                        undefined,
+                        undefined,
+                        undefined,
+                        undefined,
+                        undefined,
+                        undefined,
+                        undefined,
+                        {
+                          "alignItems": "center",
+                          "flexDirection": "column",
+                          "paddingVertical": 30,
+                        },
+                      ]
+                    }
+                  />
+                  <View
+                    style={
+                      [
+                        undefined,
+                        undefined,
+                        undefined,
+                        undefined,
+                        undefined,
+                        undefined,
+                        undefined,
+                        {
+                          "alignItems": "flex-start",
+                          "borderBottomWidth": 1,
+                          "justifyContent": "flex-start",
+                          "padding": 5,
+                        },
+                      ]
+                    }
+                  >
+                    <Text
+                      style={
+                        [
+                          {
+                            "backgroundColor": "transparent",
+                            "color": "#20303C",
+                            "writingDirection": "ltr",
+                          },
+                          undefined,
+                          undefined,
+                          undefined,
+                          undefined,
+                          undefined,
+                          undefined,
+                          undefined,
+                          undefined,
+                          {
+                            "color": "#216dab",
+                            "fontFamily": "Kanit-Regular",
+                            "fontSize": 22,
+                          },
+                        ]
+                      }
+                    >
+                      CompanyProfile.labelCompanyName
+                    </Text>
+                    <Text
+                      style={
+                        [
+                          {
+                            "backgroundColor": "transparent",
+                            "color": "#20303C",
+                            "writingDirection": "ltr",
+                          },
+                          undefined,
+                          undefined,
+                          undefined,
+                          undefined,
+                          undefined,
+                          undefined,
+                          undefined,
+                          undefined,
+                          {
+                            "color": "#4d5963",
+                            "fontFamily": "Kanit-Regular",
+                            "fontSize": 20,
+                          },
+                        ]
+                      }
+                    />
+                  </View>
+                  <View
+                    style={
+                      [
+                        undefined,
+                        undefined,
+                        undefined,
+                        undefined,
+                        undefined,
+                        undefined,
+                        undefined,
+                        {
+                          "alignItems": "flex-start",
+                          "borderBottomWidth": 1,
+                          "justifyContent": "flex-start",
+                          "padding": 5,
+                        },
+                      ]
+                    }
+                  >
+                    <Text
+                      style={
+                        [
+                          {
+                            "backgroundColor": "transparent",
+                            "color": "#20303C",
+                            "writingDirection": "ltr",
+                          },
+                          undefined,
+                          undefined,
+                          undefined,
+                          undefined,
+                          undefined,
+                          undefined,
+                          undefined,
+                          undefined,
+                          {
+                            "color": "#216dab",
+                            "fontFamily": "Kanit-Regular",
+                            "fontSize": 22,
+                          },
+                        ]
+                      }
+                    >
+                      CompanyProfile.labelTypeofCompany
+                    </Text>
+                    <Text
+                      style={
+                        [
+                          {
+                            "backgroundColor": "transparent",
+                            "color": "#20303C",
+                            "writingDirection": "ltr",
+                          },
+                          undefined,
+                          undefined,
+                          undefined,
+                          undefined,
+                          undefined,
+                          undefined,
+                          undefined,
+                          undefined,
+                          {
+                            "color": "#4d5963",
+                            "fontFamily": "Kanit-Regular",
+                            "fontSize": 20,
+                          },
+                        ]
+                      }
+                    />
+                  </View>
+                  <View
+                    style={
+                      [
+                        undefined,
+                        undefined,
+                        undefined,
+                        undefined,
+                        undefined,
+                        undefined,
+                        undefined,
+                        {
+                          "alignItems": "flex-start",
+                          "borderBottomWidth": 1,
+                          "justifyContent": "flex-start",
+                          "padding": 5,
+                        },
+                      ]
+                    }
+                  >
+                    <Text
+                      style={
+                        [
+                          {
+                            "backgroundColor": "transparent",
+                            "color": "#20303C",
+                            "writingDirection": "ltr",
+                          },
+                          undefined,
+                          undefined,
+                          undefined,
+                          undefined,
+                          undefined,
+                          undefined,
+                          undefined,
+                          undefined,
+                          {
+                            "color": "#216dab",
+                            "fontFamily": "Kanit-Regular",
+                            "fontSize": 22,
+                          },
+                        ]
+                      }
+                    >
+                      CompanyProfile.labelCompanyAddress
+                    </Text>
+                    <Text
+                      style={
+                        [
+                          {
+                            "backgroundColor": "transparent",
+                            "color": "#20303C",
+                            "writingDirection": "ltr",
+                          },
+                          undefined,
+                          undefined,
+                          undefined,
+                          undefined,
+                          undefined,
+                          undefined,
+                          undefined,
+                          undefined,
+                          {
+                            "color": "#4d5963",
+                            "fontFamily": "Kanit-Regular",
+                            "fontSize": 20,
+                          },
+                        ]
+                      }
+                    />
+                  </View>
+                </View>
+                <View
+                  accessibilityState={
+                    {
+                      "busy": undefined,
+                      "checked": undefined,
+                      "disabled": undefined,
+                      "expanded": undefined,
+                      "selected": undefined,
+                    }
+                  }
+                  accessibilityValue={
+                    {
+                      "max": undefined,
+                      "min": undefined,
+                      "now": undefined,
+                      "text": undefined,
+                    }
+                  }
+                  accessible={true}
+                  collapsable={false}
+                  focusable={true}
+                  onBlur={[Function]}
+                  onClick={[Function]}
+                  onFocus={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  testID="DocumentMenu-CompanyProfile.labelDocumentBusiness"
+                >
+                  <View
+                    style={
+                      [
+                        undefined,
+                        undefined,
+                        undefined,
+                        undefined,
+                        undefined,
+                        undefined,
+                        undefined,
+                        {
+                          "alignItems": "flex-start",
+                          "backgroundColor": "#dbdee0",
+                          "borderRadius": 6,
+                          "flexDirection": "row",
+                          "justifyContent": "space-between",
+                          "margin": 6,
+                          "padding": 10,
+                        },
+                      ]
+                    }
+                  >
+                    <View
+                      row={true}
+                      style={
+                        [
+                          undefined,
+                          undefined,
+                          undefined,
+                          undefined,
+                          {},
+                          {},
+                          {
+                            "flexDirection": "row",
+                          },
+                          {
+                            "alignItems": "center",
+                            "gap": 16,
+                          },
+                        ]
+                      }
+                    >
+                      <RNSVGSvgView
+                        align="xMidYMid"
+                        bbHeight="20"
+                        bbWidth="16"
+                        fill="none"
+                        focusable={false}
+                        height={20}
+                        meetOrSlice={0}
+                        minX={0}
+                        minY={0}
+                        style={
+                          [
+                            {
+                              "backgroundColor": "transparent",
+                              "borderWidth": 0,
+                            },
+                            {
+                              "flex": 0,
+                              "height": 20,
+                              "width": 16,
+                            },
+                          ]
+                        }
+                        vbHeight={20}
+                        vbWidth={16}
+                        width={16}
+                        xml="<svg width="16" height="20" viewBox="0 0 16 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M10.59 0.59C10.21 0.21 9.7 0 9.17 0H2C0.9 0 0 0.9 0 2V18C0 19.1 0.89 20 1.99 20H14C15.1 20 16 19.1 16 18V6.83C16 6.3 15.79 5.79 15.41 5.42L10.59 0.59ZM11 16H5C4.45 16 4 15.55 4 15C4 14.45 4.45 14 5 14H11C11.55 14 12 14.45 12 15C12 15.55 11.55 16 11 16ZM11 12H5C4.45 12 4 11.55 4 11C4 10.45 4.45 10 5 10H11C11.55 10 12 10.45 12 11C12 11.55 11.55 12 11 12ZM9 6V1.5L14.5 7H10C9.45 7 9 6.55 9 6Z" fill="#323232"/>
+    </svg>
+       
+    "
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <RNSVGGroup
+                          fill={null}
+                          propList={
+                            [
+                              "fill",
+                            ]
+                          }
+                        >
+                          <RNSVGPath
+                            d="M10.59 0.59C10.21 0.21 9.7 0 9.17 0H2C0.9 0 0 0.9 0 2V18C0 19.1 0.89 20 1.99 20H14C15.1 20 16 19.1 16 18V6.83C16 6.3 15.79 5.79 15.41 5.42L10.59 0.59ZM11 16H5C4.45 16 4 15.55 4 15C4 14.45 4.45 14 5 14H11C11.55 14 12 14.45 12 15C12 15.55 11.55 16 11 16ZM11 12H5C4.45 12 4 11.55 4 11C4 10.45 4.45 10 5 10H11C11.55 10 12 10.45 12 11C12 11.55 11.55 12 11 12ZM9 6V1.5L14.5 7H10C9.45 7 9 6.55 9 6Z"
+                            fill={
+                              {
+                                "payload": 4281479730,
+                                "type": 0,
+                              }
+                            }
+                            propList={
+                              [
+                                "fill",
+                              ]
+                            }
+                          />
+                        </RNSVGGroup>
+                      </RNSVGSvgView>
+                      <Text
+                        style={
+                          {
+                            "color": "#216dab",
+                            "fontFamily": "Kanit-Bold",
+                            "fontSize": 20,
+                          }
+                        }
+                      >
+                        CompanyProfile.labelDocumentBusiness
+                      </Text>
+                    </View>
+                    <View
+                      row={true}
+                      style={
+                        [
+                          undefined,
+                          undefined,
+                          undefined,
+                          undefined,
+                          {},
+                          {},
+                          {
+                            "flexDirection": "row",
+                          },
+                          {
+                            "gap": 6,
+                            "padding": 7,
+                          },
+                        ]
+                      }
+                    >
+                      <Text
+                        style={
+                          {
+                            "color": "#4d5963",
+                            "fontFamily": "Kanit-Regular",
+                            "fontSize": 14,
+                          }
+                        }
+                      >
+                        Detail
+                      </Text>
+                      <Text
+                        style={
+                          {
+                            "color": "#4d5963",
+                            "fontFamily": "Kanit-Regular",
+                            "fontSize": 14,
+                          }
+                        }
+                      >
+                        &gt;
+                      </Text>
+                    </View>
+                  </View>
+                </View>
+                <View
+                  accessibilityState={
+                    {
+                      "busy": undefined,
+                      "checked": undefined,
+                      "disabled": undefined,
+                      "expanded": undefined,
+                      "selected": undefined,
+                    }
+                  }
+                  accessibilityValue={
+                    {
+                      "max": undefined,
+                      "min": undefined,
+                      "now": undefined,
+                      "text": undefined,
+                    }
+                  }
+                  accessible={true}
+                  collapsable={false}
+                  focusable={true}
+                  onBlur={[Function]}
+                  onClick={[Function]}
+                  onFocus={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  testID="DocumentMenu-CompanyProfile.labelDocumentTaxID"
+                >
+                  <View
+                    style={
+                      [
+                        undefined,
+                        undefined,
+                        undefined,
+                        undefined,
+                        undefined,
+                        undefined,
+                        undefined,
+                        {
+                          "alignItems": "flex-start",
+                          "backgroundColor": "#dbdee0",
+                          "borderRadius": 6,
+                          "flexDirection": "row",
+                          "justifyContent": "space-between",
+                          "margin": 6,
+                          "padding": 10,
+                        },
+                      ]
+                    }
+                  >
+                    <View
+                      row={true}
+                      style={
+                        [
+                          undefined,
+                          undefined,
+                          undefined,
+                          undefined,
+                          {},
+                          {},
+                          {
+                            "flexDirection": "row",
+                          },
+                          {
+                            "alignItems": "center",
+                            "gap": 16,
+                          },
+                        ]
+                      }
+                    >
+                      <RNSVGSvgView
+                        align="xMidYMid"
+                        bbHeight="20"
+                        bbWidth="16"
+                        fill="none"
+                        focusable={false}
+                        height={20}
+                        meetOrSlice={0}
+                        minX={0}
+                        minY={0}
+                        style={
+                          [
+                            {
+                              "backgroundColor": "transparent",
+                              "borderWidth": 0,
+                            },
+                            {
+                              "flex": 0,
+                              "height": 20,
+                              "width": 16,
+                            },
+                          ]
+                        }
+                        vbHeight={20}
+                        vbWidth={16}
+                        width={16}
+                        xml="<svg width="16" height="20" viewBox="0 0 16 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M10.59 0.59C10.21 0.21 9.7 0 9.17 0H2C0.9 0 0 0.9 0 2V18C0 19.1 0.89 20 1.99 20H14C15.1 20 16 19.1 16 18V6.83C16 6.3 15.79 5.79 15.41 5.42L10.59 0.59ZM11 16H5C4.45 16 4 15.55 4 15C4 14.45 4.45 14 5 14H11C11.55 14 12 14.45 12 15C12 15.55 11.55 16 11 16ZM11 12H5C4.45 12 4 11.55 4 11C4 10.45 4.45 10 5 10H11C11.55 10 12 10.45 12 11C12 11.55 11.55 12 11 12ZM9 6V1.5L14.5 7H10C9.45 7 9 6.55 9 6Z" fill="#323232"/>
+    </svg>
+       
+    "
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <RNSVGGroup
+                          fill={null}
+                          propList={
+                            [
+                              "fill",
+                            ]
+                          }
+                        >
+                          <RNSVGPath
+                            d="M10.59 0.59C10.21 0.21 9.7 0 9.17 0H2C0.9 0 0 0.9 0 2V18C0 19.1 0.89 20 1.99 20H14C15.1 20 16 19.1 16 18V6.83C16 6.3 15.79 5.79 15.41 5.42L10.59 0.59ZM11 16H5C4.45 16 4 15.55 4 15C4 14.45 4.45 14 5 14H11C11.55 14 12 14.45 12 15C12 15.55 11.55 16 11 16ZM11 12H5C4.45 12 4 11.55 4 11C4 10.45 4.45 10 5 10H11C11.55 10 12 10.45 12 11C12 11.55 11.55 12 11 12ZM9 6V1.5L14.5 7H10C9.45 7 9 6.55 9 6Z"
+                            fill={
+                              {
+                                "payload": 4281479730,
+                                "type": 0,
+                              }
+                            }
+                            propList={
+                              [
+                                "fill",
+                              ]
+                            }
+                          />
+                        </RNSVGGroup>
+                      </RNSVGSvgView>
+                      <Text
+                        style={
+                          {
+                            "color": "#216dab",
+                            "fontFamily": "Kanit-Bold",
+                            "fontSize": 20,
+                          }
+                        }
+                      >
+                        CompanyProfile.labelDocumentTaxID
+                      </Text>
+                    </View>
+                    <View
+                      row={true}
+                      style={
+                        [
+                          undefined,
+                          undefined,
+                          undefined,
+                          undefined,
+                          {},
+                          {},
+                          {
+                            "flexDirection": "row",
+                          },
+                          {
+                            "gap": 6,
+                            "padding": 7,
+                          },
+                        ]
+                      }
+                    >
+                      <Text
+                        style={
+                          {
+                            "color": "#4d5963",
+                            "fontFamily": "Kanit-Regular",
+                            "fontSize": 14,
+                          }
+                        }
+                      >
+                        Detail
+                      </Text>
+                      <Text
+                        style={
+                          {
+                            "color": "#4d5963",
+                            "fontFamily": "Kanit-Regular",
+                            "fontSize": 14,
+                          }
+                        }
+                      >
+                        &gt;
+                      </Text>
+                    </View>
+                  </View>
+                </View>
+              </View>
+            </RCTScrollView>
+          </View>
+        </View>
+      </View>
+      <RNSScreenStackHeaderConfig
+        backButtonInCustomView={false}
+        backTitleVisible={true}
+        backgroundColor="rgb(255, 255, 255)"
+        color="rgb(0, 122, 255)"
+        direction="ltr"
+        disableBackButtonMenu={false}
+        hidden={false}
+        hideBackButton={false}
+        largeTitleHideShadow={false}
+        title="Company"
+        titleColor="rgb(28, 28, 30)"
+        topInsetEnabled={false}
+        translucent={false}
+      />
+    </RNSScreen>
+  </RNSScreenStack>
+</RNCSafeAreaProvider>
+`;

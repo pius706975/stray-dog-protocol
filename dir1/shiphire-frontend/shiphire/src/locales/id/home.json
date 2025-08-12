@@ -1,0 +1,31 @@
+{
+    "textGreet": "Halo, ",
+    "placeholderSearchBar": "Cari kapal",
+    "labelRecommendation": "Rekomendasi",
+    "textTopRatedShips": "Peringkat Teratas",
+    "labelPopularShips": "Kapal Populer",
+    "textViewAll": "Lihat Semua",
+    "labelRecomendation": "Rekomendasi",
+    "failedTokenExpired": "Token kadaluarsa, silakan login kembali",
+    "textTopRentedShips": "Disewa Teratas",
+    "textRented": "Disewa",
+    "ShipOwner": {
+        "buttonNext": "Selanjutnya",
+        "buttonAddNewShip": "Tambah Kapal Baru",
+        "textAddGeneralForm": "1. Informasi Umum Kapal",
+        "textAddSpecificForm": "Spesifikasi Kapal",
+        "textSelectFile": "Silahkan pilih file",
+        "toastUploading": "Mengunggah dokumen kapal",
+        "textShipAddedSuccessfully": "Kapal berhasil ditambahkan",
+        "textShipAddedFailedImage": "Tambah kapal gagal karena unggah gambar tidak sesuai",
+        "toastUploadingImage": "Mengunggah gambar kapal",
+        "textShipAddedFailedDocument": "Tambah kapal gagal karena unggah dokumen tidak sesuai",
+        "textShipAddedFailedShip": "Tambah kapal gagal karena kapal tidak sesuai",
+        "textNoShipData": "Tidak Ada Data Kapal",
+        "textSuccessAdd": "Kapal sedang ditambahkan, mohon jangan tinggalkan halaman ini"
+    },
+    "textApproved": "Disetujui",
+    "textNotApproved": "Tidak disetujui",
+    "textGuest": "Tamu",
+    "textNoLocation": "Lokasi tidak tersedia"
+}

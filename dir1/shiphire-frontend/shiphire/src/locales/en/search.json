@@ -1,0 +1,19 @@
+{
+    "searchFieldPlaceholder": "Search ship name or company",
+    "emptyList": "No ships or companies found.",
+    "filterModal": {
+        "title": "Ship Categories",
+        "location": "Ship Location",
+        "filterSubtitle": "Rent Date Availability",
+        "startDateLabel": "Select Start Date",
+        "startDatePlaceholder": "Select End Date",
+        "endDateLabel": "Select Start Date",
+        "endDatePlaceholder": "Select End Date",
+        "provincePlaceholder": "Select province",
+        "cityPlaceholder": "Select city",
+        "searchPlaceholder": "Search...",
+        "btnClose": "Close",
+        "btnApply": "Apply Filter"
+    },
+    "rentCount": "Rented"
+}

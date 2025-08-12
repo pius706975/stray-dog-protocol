@@ -1,0 +1,10 @@
+components:
+    schemas:
+        submitUserRole:
+            type: object
+            required:
+                - roleSubmitted
+            properties:
+                roleSubmitted:
+                    type: string
+                    default: ShipOwner

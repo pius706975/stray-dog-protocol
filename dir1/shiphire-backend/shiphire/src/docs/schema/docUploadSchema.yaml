@@ -1,0 +1,41 @@
+components:
+    schemas:
+        submitShipOwnerDocument:
+            type: object
+            required:
+                - document
+            properties:
+                document:
+                    type: string
+                    format: binary
+
+        submitShipDocument:
+            type: object
+            required:
+                - document
+            properties:
+                document:
+                    type: array
+                    description: List of files to be uploaded is SertifikatKapal.pdf & SertifikatOperasiKapal.pdf
+                    items:
+                        type: string
+                        format: binary
+                    example:
+                        - SertifikatKapal.pdf
+                        - SertifikatOperasiKapal.pdf
+                    xml:
+                        name: file
+                        wrapped: true
+
+        submitShipImage:
+            type: object
+            required:
+                - image
+                - name
+            properties:
+                image:
+                    type: string
+                    format: binary
+                name:
+                    type: string
+                    default: flying dutchman

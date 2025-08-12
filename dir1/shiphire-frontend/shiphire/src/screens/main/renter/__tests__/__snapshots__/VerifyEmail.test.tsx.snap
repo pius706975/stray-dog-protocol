@@ -1,0 +1,726 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Verif email screen should renders correctly 1`] = `
+<RNCSafeAreaProvider
+  onInsetsChange={[Function]}
+  style={
+    {
+      "flex": 1,
+    }
+  }
+>
+  <RNSScreenStack
+    style={
+      {
+        "flex": 1,
+      }
+    }
+  >
+    <RNSScreen
+      collapsable={false}
+      forwardedRef={[Function]}
+      gestureResponseDistance={
+        {
+          "bottom": -1,
+          "end": -1,
+          "start": -1,
+          "top": -1,
+        }
+      }
+      nativeBackButtonDismissalEnabled={false}
+      onAppear={[Function]}
+      onDisappear={[Function]}
+      onDismissed={[Function]}
+      onGestureCancel={[Function]}
+      onHeaderBackButtonClicked={[Function]}
+      onNativeDismissCancelled={[Function]}
+      onTransitionProgress={[Function]}
+      onWillDisappear={[Function]}
+      replaceAnimation="push"
+      sheetAllowedDetents="large"
+      sheetCornerRadius={-1}
+      sheetExpandsWhenScrolledToEdge={true}
+      sheetGrabberVisible={false}
+      sheetLargestUndimmedDetent="all"
+      stackPresentation="push"
+      style={
+        {
+          "bottom": 0,
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        }
+      }
+      swipeDirection="horizontal"
+    >
+      <View
+        accessibilityElementsHidden={false}
+        importantForAccessibility="auto"
+        style={
+          {
+            "flex": 1,
+            "flexDirection": "column-reverse",
+          }
+        }
+      >
+        <View
+          collapsable={false}
+          style={
+            [
+              {
+                "flex": 1,
+              },
+              {
+                "backgroundColor": "rgb(242, 242, 242)",
+              },
+              undefined,
+            ]
+          }
+        >
+          <View
+            style={
+              [
+                undefined,
+                undefined,
+                {
+                  "flex": 1,
+                },
+                undefined,
+                {},
+                {},
+                {},
+                {
+                  "backgroundColor": "#f0f6fb",
+                  "justifyContent": "space-between",
+                  "position": "relative",
+                },
+              ]
+            }
+            testID="VerifyEmailScreen"
+          >
+            <RCTScrollView
+              contentContainerStyle={
+                {
+                  "alignItems": "center",
+                  "flex": 1,
+                  "flexGrow": 1,
+                  "gap": undefined,
+                  "justifyContent": "center",
+                  "marginBottom": undefined,
+                  "padding": undefined,
+                  "paddingVertical": undefined,
+                }
+              }
+            >
+              <View>
+                <View
+                  center={true}
+                  style={
+                    [
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      {},
+                      {},
+                      {
+                        "alignItems": "center",
+                        "justifyContent": "center",
+                      },
+                      {
+                        "marginVertical": 30,
+                      },
+                    ]
+                  }
+                >
+                  <RNSVGSvgView
+                    align="xMidYMid"
+                    bbHeight="140"
+                    bbWidth="107"
+                    fill="none"
+                    focusable={false}
+                    height={140}
+                    meetOrSlice={0}
+                    minX={0}
+                    minY={0}
+                    style={
+                      [
+                        {
+                          "backgroundColor": "transparent",
+                          "borderWidth": 0,
+                        },
+                        {
+                          "flex": 0,
+                          "height": 140,
+                          "width": 107,
+                        },
+                      ]
+                    }
+                    vbHeight={140}
+                    vbWidth={107}
+                    width={107}
+                    xml="<svg width="107" height="140" viewBox="0 0 107 140" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M53.0315 42.4219L92.3808 65.9678C93.5829 66.6042 94.396 67.4704 94.8203 68.5664C95.2445 69.6624 95.4567 70.7407 95.4567 71.8013V120.908C95.4567 122.605 94.8203 124.09 93.5475 125.363C92.2748 126.636 90.7899 127.272 89.0929 127.272H16.9702C15.2732 127.272 13.7883 126.636 12.5155 125.363C11.2428 124.09 10.6064 122.605 10.6064 120.908V71.8013C10.6064 70.7407 10.8362 69.6624 11.2958 68.5664C11.7554 67.4704 12.5509 66.6042 13.6822 65.9678L53.0315 42.4219ZM53.0315 91.8472L88.6686 70.9528L53.0315 49.5281L17.3944 70.9528L53.0315 91.8472ZM53.0315 98.9534L16.9702 77.7408V120.908H89.0929V77.7408L53.0315 98.9534ZM53.0315 120.908H89.0929H16.9702H53.0315Z" fill="#4D5963" fill-opacity="0.588235"/>
+    <rect width="106.063" height="35.3543" rx="5" fill="#216DAB"/>
+    <path d="M36.9131 28.9699V26.3231H71.6246V28.9699H36.9131ZM38.5619 17.949L36.8263 16.9944L38.5619 14.044H35.1776V12.0914H38.5619L36.8263 9.14095L38.5619 8.18639L40.2107 11.0935L41.8595 8.18639L43.5951 9.14095L41.8595 12.0914H45.2439V14.044H41.8595L43.5951 16.9944L41.8595 17.949L40.2107 15.0419L38.5619 17.949ZM52.6201 17.949L50.8845 16.9076L52.6201 13.9572H49.2357V12.0047H52.6201L50.8845 9.05418L52.6201 8.09961L54.2689 11.0067L55.9177 8.09961L57.6532 9.05418L55.9177 12.0047H59.302V13.9572H55.9177L57.6532 16.9076L55.9177 17.949L54.2689 15.0419L52.6201 17.949ZM66.6782 17.949L64.9426 16.9076L66.6782 13.9572H63.2939V12.0047H66.6782L64.9426 9.05418L66.6782 8.09961L68.327 11.0067L69.9758 8.09961L71.7114 9.05418L69.9758 12.0047H73.3602V13.9572H69.9758L71.7114 16.9076L69.9758 17.949L68.327 15.0419L66.6782 17.949Z" fill="#F0F6FB"/>
+    </svg>        
+    "
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <RNSVGGroup
+                      fill={null}
+                      propList={
+                        [
+                          "fill",
+                        ]
+                      }
+                    >
+                      <RNSVGPath
+                        d="M53.0315 42.4219L92.3808 65.9678C93.5829 66.6042 94.396 67.4704 94.8203 68.5664C95.2445 69.6624 95.4567 70.7407 95.4567 71.8013V120.908C95.4567 122.605 94.8203 124.09 93.5475 125.363C92.2748 126.636 90.7899 127.272 89.0929 127.272H16.9702C15.2732 127.272 13.7883 126.636 12.5155 125.363C11.2428 124.09 10.6064 122.605 10.6064 120.908V71.8013C10.6064 70.7407 10.8362 69.6624 11.2958 68.5664C11.7554 67.4704 12.5509 66.6042 13.6822 65.9678L53.0315 42.4219ZM53.0315 91.8472L88.6686 70.9528L53.0315 49.5281L17.3944 70.9528L53.0315 91.8472ZM53.0315 98.9534L16.9702 77.7408V120.908H89.0929V77.7408L53.0315 98.9534ZM53.0315 120.908H89.0929H16.9702H53.0315Z"
+                        fill={
+                          {
+                            "payload": 4283259235,
+                            "type": 0,
+                          }
+                        }
+                        fillOpacity={0.588235}
+                        propList={
+                          [
+                            "fill",
+                            "fillOpacity",
+                          ]
+                        }
+                      />
+                      <RNSVGRect
+                        fill={
+                          {
+                            "payload": 4280380843,
+                            "type": 0,
+                          }
+                        }
+                        height="35.3543"
+                        propList={
+                          [
+                            "fill",
+                          ]
+                        }
+                        rx="5"
+                        width="106.063"
+                        x="0"
+                        y="0"
+                      />
+                      <RNSVGPath
+                        d="M36.9131 28.9699V26.3231H71.6246V28.9699H36.9131ZM38.5619 17.949L36.8263 16.9944L38.5619 14.044H35.1776V12.0914H38.5619L36.8263 9.14095L38.5619 8.18639L40.2107 11.0935L41.8595 8.18639L43.5951 9.14095L41.8595 12.0914H45.2439V14.044H41.8595L43.5951 16.9944L41.8595 17.949L40.2107 15.0419L38.5619 17.949ZM52.6201 17.949L50.8845 16.9076L52.6201 13.9572H49.2357V12.0047H52.6201L50.8845 9.05418L52.6201 8.09961L54.2689 11.0067L55.9177 8.09961L57.6532 9.05418L55.9177 12.0047H59.302V13.9572H55.9177L57.6532 16.9076L55.9177 17.949L54.2689 15.0419L52.6201 17.949ZM66.6782 17.949L64.9426 16.9076L66.6782 13.9572H63.2939V12.0047H66.6782L64.9426 9.05418L66.6782 8.09961L68.327 11.0067L69.9758 8.09961L71.7114 9.05418L69.9758 12.0047H73.3602V13.9572H69.9758L71.7114 16.9076L69.9758 17.949L68.327 15.0419L66.6782 17.949Z"
+                        fill={
+                          {
+                            "payload": 4293981947,
+                            "type": 0,
+                          }
+                        }
+                        propList={
+                          [
+                            "fill",
+                          ]
+                        }
+                      />
+                    </RNSVGGroup>
+                  </RNSVGSvgView>
+                  <Text
+                    numberOfLines={0}
+                    style={
+                      {
+                        "borderBottomWidth": 0,
+                        "borderColor": undefined,
+                        "color": "#4d5963",
+                        "fontFamily": "Kanit-Bold",
+                        "fontSize": 22,
+                        "lineHeight": undefined,
+                        "textAlign": undefined,
+                      }
+                    }
+                  >
+                    textEmailVerification
+                  </Text>
+                  <View
+                    paddingH-20={true}
+                    style={
+                      [
+                        undefined,
+                        undefined,
+                        undefined,
+                        undefined,
+                        {
+                          "paddingHorizontal": 20,
+                        },
+                        {},
+                        {},
+                        undefined,
+                      ]
+                    }
+                  >
+                    <Text
+                      numberOfLines={0}
+                      style={
+                        {
+                          "borderBottomWidth": 0,
+                          "borderColor": undefined,
+                          "color": "#4d5963",
+                          "fontFamily": "Kanit-Regular",
+                          "fontSize": 16,
+                          "lineHeight": undefined,
+                          "textAlign": "center",
+                        }
+                      }
+                    >
+                      textEnterOTP
+                       
+                      <Text
+                        style={
+                          {
+                            "fontFamily": "Kanit-Bold",
+                          }
+                        }
+                      />
+                       
+                      textToVerify
+                    </Text>
+                  </View>
+                  <View
+                    center={true}
+                    style={
+                      [
+                        undefined,
+                        undefined,
+                        undefined,
+                        undefined,
+                        {},
+                        {},
+                        {
+                          "alignItems": "center",
+                          "justifyContent": "center",
+                        },
+                        {
+                          "marginVertical": 30,
+                        },
+                      ]
+                    }
+                  >
+                    <View
+                      accessibilityState={
+                        {
+                          "busy": undefined,
+                          "checked": undefined,
+                          "disabled": undefined,
+                          "expanded": undefined,
+                          "selected": undefined,
+                        }
+                      }
+                      accessibilityValue={
+                        {
+                          "max": undefined,
+                          "min": undefined,
+                          "now": undefined,
+                          "text": undefined,
+                        }
+                      }
+                      accessible={true}
+                      collapsable={false}
+                      focusable={true}
+                      onBlur={[Function]}
+                      onClick={[Function]}
+                      onFocus={[Function]}
+                      onResponderGrant={[Function]}
+                      onResponderMove={[Function]}
+                      onResponderRelease={[Function]}
+                      onResponderTerminate={[Function]}
+                      onResponderTerminationRequest={[Function]}
+                      onStartShouldSetResponder={[Function]}
+                      style={
+                        {
+                          "flexDirection": "row",
+                          "justifyContent": "space-around",
+                          "width": "70%",
+                        }
+                      }
+                      testID="pressCode"
+                    >
+                      <View
+                        style={
+                          [
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            {
+                              "backgroundColor": "#f0f6fb",
+                              "borderColor": "#216dab",
+                              "borderRadius": 5,
+                              "borderWidth": 3,
+                              "minWidth": "15%",
+                              "padding": 12,
+                            },
+                          ]
+                        }
+                      >
+                        <Text
+                          numberOfLines={0}
+                          style={
+                            {
+                              "borderBottomWidth": 0,
+                              "borderColor": undefined,
+                              "color": "#4d5963",
+                              "fontFamily": "Kanit-SemiBold",
+                              "fontSize": 18,
+                              "lineHeight": undefined,
+                              "textAlign": "center",
+                            }
+                          }
+                        >
+                           
+                        </Text>
+                      </View>
+                      <View
+                        style={
+                          [
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            {
+                              "backgroundColor": "#f0f6fb",
+                              "borderColor": "#216dab",
+                              "borderRadius": 5,
+                              "borderWidth": 3,
+                              "minWidth": "15%",
+                              "padding": 12,
+                            },
+                          ]
+                        }
+                      >
+                        <Text
+                          numberOfLines={0}
+                          style={
+                            {
+                              "borderBottomWidth": 0,
+                              "borderColor": undefined,
+                              "color": "#4d5963",
+                              "fontFamily": "Kanit-SemiBold",
+                              "fontSize": 18,
+                              "lineHeight": undefined,
+                              "textAlign": "center",
+                            }
+                          }
+                        >
+                           
+                        </Text>
+                      </View>
+                      <View
+                        style={
+                          [
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            {
+                              "backgroundColor": "#f0f6fb",
+                              "borderColor": "#216dab",
+                              "borderRadius": 5,
+                              "borderWidth": 3,
+                              "minWidth": "15%",
+                              "padding": 12,
+                            },
+                          ]
+                        }
+                      >
+                        <Text
+                          numberOfLines={0}
+                          style={
+                            {
+                              "borderBottomWidth": 0,
+                              "borderColor": undefined,
+                              "color": "#4d5963",
+                              "fontFamily": "Kanit-SemiBold",
+                              "fontSize": 18,
+                              "lineHeight": undefined,
+                              "textAlign": "center",
+                            }
+                          }
+                        >
+                           
+                        </Text>
+                      </View>
+                      <View
+                        style={
+                          [
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            {
+                              "backgroundColor": "#f0f6fb",
+                              "borderColor": "#216dab",
+                              "borderRadius": 5,
+                              "borderWidth": 3,
+                              "minWidth": "15%",
+                              "padding": 12,
+                            },
+                          ]
+                        }
+                      >
+                        <Text
+                          numberOfLines={0}
+                          style={
+                            {
+                              "borderBottomWidth": 0,
+                              "borderColor": undefined,
+                              "color": "#4d5963",
+                              "fontFamily": "Kanit-SemiBold",
+                              "fontSize": 18,
+                              "lineHeight": undefined,
+                              "textAlign": "center",
+                            }
+                          }
+                        >
+                           
+                        </Text>
+                      </View>
+                    </View>
+                    <TextInput
+                      keyboardType="number-pad"
+                      maxLength={4}
+                      onBlur={[Function]}
+                      onChangeText={[Function]}
+                      returnKeyType="done"
+                      style={
+                        {
+                          "height": 10,
+                          "opacity": 0,
+                          "position": "absolute",
+                          "width": "70%",
+                        }
+                      }
+                      testID="codeInput"
+                      textContentType="oneTimeCode"
+                      value=""
+                    />
+                  </View>
+                  <Text
+                    numberOfLines={0}
+                    style={
+                      {
+                        "borderBottomWidth": 0,
+                        "borderColor": undefined,
+                        "color": "#4d5963",
+                        "fontFamily": "Kanit-SemiBold",
+                        "fontSize": 16,
+                        "lineHeight": undefined,
+                        "textAlign": undefined,
+                      }
+                    }
+                  >
+                    textDidnt
+                  </Text>
+                  <View
+                    accessibilityState={
+                      {
+                        "busy": undefined,
+                        "checked": undefined,
+                        "disabled": undefined,
+                        "expanded": undefined,
+                        "selected": undefined,
+                      }
+                    }
+                    accessibilityValue={
+                      {
+                        "max": undefined,
+                        "min": undefined,
+                        "now": undefined,
+                        "text": undefined,
+                      }
+                    }
+                    accessible={true}
+                    collapsable={false}
+                    focusable={true}
+                    onBlur={[Function]}
+                    onClick={[Function]}
+                    onFocus={[Function]}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    testID="btnCount"
+                  >
+                    <Text
+                      numberOfLines={0}
+                      style={
+                        {
+                          "borderBottomWidth": 1,
+                          "borderColor": "#216dab",
+                          "color": "#216dab",
+                          "fontFamily": "Kanit-SemiBold",
+                          "fontSize": 16,
+                          "lineHeight": undefined,
+                          "textAlign": undefined,
+                        }
+                      }
+                    >
+                      textResend
+                    </Text>
+                  </View>
+                  <View
+                    row={true}
+                    style={
+                      [
+                        undefined,
+                        undefined,
+                        undefined,
+                        undefined,
+                        {},
+                        {},
+                        {
+                          "flexDirection": "row",
+                        },
+                        {
+                          "marginTop": 20,
+                          "paddingHorizontal": 30,
+                        },
+                      ]
+                    }
+                  >
+                    <View
+                      style={
+                        [
+                          undefined,
+                          undefined,
+                          {
+                            "flex": 1,
+                          },
+                          undefined,
+                          {},
+                          {},
+                          {},
+                          undefined,
+                        ]
+                      }
+                    >
+                      <View
+                        accessibilityState={
+                          {
+                            "busy": undefined,
+                            "checked": undefined,
+                            "disabled": true,
+                            "expanded": undefined,
+                            "selected": undefined,
+                          }
+                        }
+                        accessibilityValue={
+                          {
+                            "max": undefined,
+                            "min": undefined,
+                            "now": undefined,
+                            "text": undefined,
+                          }
+                        }
+                        accessible={true}
+                        collapsable={false}
+                        focusable={true}
+                        onBlur={[Function]}
+                        onClick={[Function]}
+                        onFocus={[Function]}
+                        onResponderGrant={[Function]}
+                        onResponderMove={[Function]}
+                        onResponderRelease={[Function]}
+                        onResponderTerminate={[Function]}
+                        onResponderTerminationRequest={[Function]}
+                        onStartShouldSetResponder={[Function]}
+                        style={
+                          {
+                            "alignItems": "center",
+                            "backgroundColor": "#6499c4",
+                            "borderRadius": 6,
+                            "elevation": 2,
+                            "flexDirection": "row",
+                            "gap": 0,
+                            "justifyContent": "center",
+                            "paddingHorizontal": 10,
+                            "paddingVertical": 6,
+                          }
+                        }
+                        testID="buttonVerify"
+                      >
+                        <Text
+                          numberOfLines={0}
+                          style={
+                            {
+                              "borderBottomWidth": 0,
+                              "borderColor": undefined,
+                              "color": "#f0f6fb",
+                              "fontFamily": "Kanit-Medium",
+                              "fontSize": 18,
+                              "lineHeight": undefined,
+                              "textAlign": undefined,
+                            }
+                          }
+                        >
+                          labelButtonVerify
+                        </Text>
+                        <View
+                          style={
+                            [
+                              undefined,
+                              undefined,
+                              undefined,
+                              undefined,
+                              undefined,
+                              undefined,
+                              undefined,
+                              {
+                                "position": "absolute",
+                                "right": 20,
+                              },
+                            ]
+                          }
+                        />
+                      </View>
+                    </View>
+                  </View>
+                </View>
+              </View>
+            </RCTScrollView>
+          </View>
+        </View>
+      </View>
+      <RNSScreenStackHeaderConfig
+        backButtonInCustomView={false}
+        backTitleVisible={true}
+        backgroundColor="rgb(255, 255, 255)"
+        color="rgb(0, 122, 255)"
+        direction="ltr"
+        disableBackButtonMenu={false}
+        hidden={false}
+        hideBackButton={false}
+        largeTitleHideShadow={false}
+        title="VerifEmail"
+        titleColor="rgb(28, 28, 30)"
+        topInsetEnabled={false}
+        translucent={false}
+      />
+    </RNSScreen>
+  </RNSScreenStack>
+</RNCSafeAreaProvider>
+`;

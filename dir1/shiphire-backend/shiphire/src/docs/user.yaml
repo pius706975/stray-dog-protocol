@@ -1,0 +1,21 @@
+/api/user/get-user-profile:
+    get:
+        tags: [user]
+        summary: User Data
+        responses:
+            200:
+                description: Success get data
+
+/api/user/submit-user-role:
+    post:
+        tags: [user]
+        summary: Submit User Role
+        requestBody:
+            description: User Role
+            content:
+                application/json:
+                    schema:
+                        $ref: "#/components/schemas/submitUserRole"
+        responses:
+            200:
+                description: Success submit user role

@@ -1,0 +1,35 @@
+components:
+    schemas:
+        signUp:
+            type: object
+            required:
+                - name
+                - email
+                - phoneNumber
+                - password
+            properties:
+                name:
+                    type: string
+                    default: testingg
+                email:
+                    type: string
+                    default: testingg@email.com
+                phoneNumber:
+                    type: string
+                    default: 087473828838
+                password:
+                    type: string
+                    default: 123123
+
+        signIn:
+            type: object
+            required:
+                - email
+                - password
+            properties:
+                email:
+                    type: string
+                    default: gandhidwi11@gmail.com
+                password:
+                    type: string
+                    default: 123123

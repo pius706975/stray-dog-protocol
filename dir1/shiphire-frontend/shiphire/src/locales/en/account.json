@@ -1,0 +1,113 @@
+{
+    "textDocumentStatus": "Document Status",
+    "labelRequest": "Request",
+    "labelProposal": "Proposal",
+    "labelContract": "Contract",
+    "labelCompanyProfile": "Company Profile",
+    "labelAccountVerification": "Account Verification",
+    "labelCompanyRegistration": "Company Registration",
+    "labelSavedShips": "Saved Ships",
+    "labelEditProfile": "Add Phone Number",
+    "labelAboutUs": "About Us",
+    "labelRemindedShips":"Reminded Ships",
+    "labelDeleteAccount":"Delete Account",
+    "labelChangeLanguage": "Change Language",
+    "labelSignIn": "Sign In",
+    "buttonLogout": "Logout",
+    "successSignOut": "Sign out successful!",
+    "failedSignOut": "Sign out failed!",
+    "AccountHeader": {
+        "infoVerifyAccount": "Please verify your account!",
+        "infoVerifyEmail": "Please verify your email!",
+        "failedSendEmailVerif": "Can't send verification email!, please try again later",
+        "infoVerifyPhone": "Please verify your phone number!",
+        "failedSendPhoneVerif": "Can't send verification phone number!, please try again later",
+        "infoVerifyPhoneAndEmail": "Please verify your email and phone number!",
+        "infoAddPhoneNumber": "Please add your phone number!"
+    },
+    "CompanyProfile": {
+        "labelCompanyName": "Company Name",
+        "labelTypeofCompany": "Type of Company",
+        "labelCompanyAddress": "Company Address",
+        "labelDocumentBusiness": "Business License Document",
+        "labelDocumentDeed": "Tax ID Document",
+        "labelBankName": "Bank Name",
+        "labelBankAccountName": "Bank Account Name",
+        "labelDocumentTaxID": "Document Tax ID",
+        "btnView": "View"
+    },
+    "SavedShips": {
+        "textSavedShips": "This is about Saved Ship."
+    },
+    "RemindedShips":{
+        "textReminderSetOn":"Reminder set on:"
+    },
+    "DeleteAccount":{
+        "text1paragraph":"The account will no longer be available and all data in the account will be permanently deleted. there will be no way to recover your account.",
+        "text2paragraph":"The following data will be permanently deleted from the ShipHire App database",
+        "textAccount":"Account",
+        "textTransaction":"Transaction",
+        "textClosing1":"If you understand, please type the password to prove that the account owner will delete the account",
+        "textClosing2":"Type the password to prove that the account owner wants to delete the account",
+        "placeholderPassword":"Type your password here",
+        "btnDelete":"Delete Account",
+        "textConfirmTitle":"Please be careful as this action can only be done once and cannot be changed",
+        "btnCancel":"Cancel",
+        "btnSubmit":"Submit",
+        "textSuccessDelete":"Account has been deleted",
+        "textUnAuthorize":"Please login to delete account",
+        "textFailDelete":"Failed to delete account",
+        "textShipsData": "Ships Data",
+        "textTransactionHistory":"Transactions History",
+        "modalText": "Please be careful as this action can only be done once and cannot be changed",
+        "btnConfirm": "Confirm"
+    },
+    "EditProfile": {
+        "textName": "Name",
+        "textEmail": "Email",
+        "TextAddress": "Address",
+        "textPhoneNumber": "Phone Number",
+        "buttonSave": "Save",
+        "successText": "Phone number successful saved",
+        "failedText": "Phone number failed saved"
+    },
+    "AboutUs": {
+        "textWelcome": "Welcome to ShipHire - Your Premier Ship Hiring Platform",
+        "textTitleOurMission": "Our Mission",
+        "textContentOurMission": "At ShipHire, our mission is to revolutionize the ship hiring industry by providing a seamless and efficient platform that connects ship owners/operators with customers worldwide. We aim to simplify the process of hiring ships for various purposes while ensuring safety, reliability, and exceptional customer service.",
+        "textTitleOurValues": "Our Values",
+        "textContentOurValues1": "At ShipHire, our core values drive everything we do:",
+        "textContentOurValues2": "- Customer-Centric: We are committed to delivering an exceptional experience for our customers. Your needs and satisfaction are at the heart of our operations.",
+        "textContentOurValues3": "- Safety First: Your safety is paramount. We rigorously vet each ship on our platform to ensure they meet the highest safety standards.",
+        "textContentOurValues4": "- Transparency and Trust: We believe in transparent business practices, building trust with our users and partners alike.",
+        "textTitleGetInTouch": "Get In Touch",
+        "textContentGetInTouch": "We'd love to hear from you! If you have any questions, suggestions, or need assistance, please don't hesitate to contact our customer support team at"
+    },
+    "ChangeLanguage": {
+        "textSelectLanguage": "Select Language :",
+        "successLanguageChanged": "Language changed!",
+        "failedLanguageChanged": "Failed to change language!"
+    },
+    "RequestDetail": {
+        "textOnProgress": "On Progress",
+        "textCompleted": "Completed",
+        "textFailed": "Failed",
+        "textStatusTextOnProgress": "Waiting for ship owner respond"
+    },
+    "ProposalDetail": {
+        "textOnProgress": "On Progress",
+        "textCompleted": "Completed",
+        "textFailed": "Failed",
+        "textStatusTextOnProgress": "Waiting for ship owner respond"
+    },
+    "AccountVerification": {
+        "textAccountVerified": "This account is already verified",
+        "textSelectVerification": "Select Verification",
+        "labelButtonVerify": "Verify Email",
+        "labelButtonVerifyPhone": "Verify Phone Number",
+        "textContactAdminConfirm": "Send a request to the administration for phone number verification",
+        "textCancel": "Cancel",
+        "textSend": "Send",
+        "textVerificationReqSent": "Verification Request Sent to Admin"
+    }
+}

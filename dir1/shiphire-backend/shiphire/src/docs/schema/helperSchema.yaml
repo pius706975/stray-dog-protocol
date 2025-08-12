@@ -1,0 +1,14 @@
+components:
+    schemas:
+        helper:
+            type: object
+            required:
+                - name
+                - desc
+            properties:
+                name:
+                    type: string
+                    default: proposal 4
+                desc:
+                    type: string
+                    default: Waiting for your payment

@@ -1,0 +1,94 @@
+components:
+    schemas:
+        submitShip:
+            type: object
+            required:
+                - name
+                - desc
+                - category
+                - rating
+                - pricePerMonth
+                - totalRentalCount
+                - length
+                - width
+                - height
+                - facilities
+                - specifications
+            properties:
+                name:
+                    type: string
+                    default: flying dutchman
+                desc:
+                    type: string
+                    default: this ship has 7 captain and 50 crew and this ship made of steel
+                category:
+                    type: string
+                    default: Ferry
+                rating:
+                    type: string
+                    default: 4.8
+                pricePerMonth:
+                    type: string
+                    default: 3000000000
+                totalRentalCount:
+                    type: string
+                    default: 555
+                length:
+                    type: string
+                    default: 80
+                width:
+                    type: string
+                    default: 30
+                height:
+                    type: string
+                    default: 15
+                facilities:
+                    type: array
+                    items:
+                        type: object
+                        properties:
+                            name:
+                                type: string
+                                default: Entertainment
+                            desc:
+                                type: array
+                                items:
+                                    type: string
+                                default:
+                                    - Wifi
+                                    - kamar
+                specifications:
+                    type: array
+                    items:
+                        type: object
+                        properties:
+                            name:
+                                type: string
+                                default: Passenger Capacity
+                            value:
+                                type: string
+                                default: 1000
+        submitProposal:
+            type: object
+            required:
+                - document
+                - shipId
+                - renterId
+                - offeredPrice
+                - rentalId
+            properties:
+                document:
+                    type: string
+                    format: binary
+                shipId:
+                    type: string
+                    default: 64c76a2adb67b394e843b191
+                renterId:
+                    type: string
+                    default: 64dae651a086bc16806aea13
+                offeredPrice:
+                    type: string
+                    default: 300000000
+                rentalId:
+                    type: string
+                    default: SH-08182023-fada23b0

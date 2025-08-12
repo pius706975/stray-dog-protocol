@@ -1,0 +1,13 @@
+/api/helper/submit-status:
+    post:
+        tags: [helper]
+        summary: submit status
+        requestBody:
+            description: submit status
+            content:
+                application/json:
+                    schema:
+                        $ref: "#/components/schemas/helper"
+        responses:
+            200:
+                description: Success submit status

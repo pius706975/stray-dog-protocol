@@ -1,0 +1,23 @@
+/api/admin/get-list-user:
+    get:
+        tags: [admin]
+        summary: Get User List
+        responses:
+            200:
+                description: Success get user List
+
+/api/admin/activate-user/{id}:
+    post:
+        tags: [admin]
+        summary: Update Active User
+        parameters:
+            - $ref: "#parameters/userId"
+        requestBody:
+            description: user activate schema
+            content:
+                application/json:
+                    schema:
+                        $ref: "#/components/schemas/userActivate"
+        responses:
+            200:
+                description: Success update active user

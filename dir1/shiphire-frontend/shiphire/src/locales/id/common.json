@@ -1,0 +1,403 @@
+{
+    "MainScreenStack": {
+        "titleDetailShip": "Detail Kapal",
+        "titleRequestForAQuoteStack": "Permintaan Penawaran",
+        "titleTransactionStatusTabNav": "Status Transaksi",
+        "titleTransactionDetail": "Detail Transaksi",
+        "titleProposalPreview": "Proposal",
+        "titlePayment": "Pembayaran",
+        "titlePaymentHistory": "Riwayat",
+        "titleCompanyRegister": "Registrasi Perusahaan",
+        "titleSavedShips": "Kapal yang Disimpan",
+        "titleAboutUs": "Tentang Kami",
+        "titleEditProfile": "Tambah Nomor Telepon",
+        "titleVerifyEmail": "Verifikasi Email",
+        "titleCompanyProfile": "Profil Perusahaan",
+        "titleRequestDetail": "Permintaan",
+        "titleProposalDetail": "Proposal",
+        "titleContractDetail": "Kontrak",
+        "titleContractPreview": "Pratinjau Kontrak",
+        "titleTrackTransaction": "Lacak Transaksi",
+        "titleRemindedShips": "Pengingat Kapal",
+        "titleSearch": "Cari",
+        "titleChangeLanguage": "Pilih Bahasa",
+        "titleAddTransactionHistory": "Tambahkan Riwayat Transaksi",
+        "titleManageTransactionHistory": "Kelola Riwayat Transaksi",
+        "titleEditShipHistory": "Edit Riwayat Kapal",
+        "titleShipAvailability": "Ketersediaan Kapal",
+        "titleVerifyPhoneNumber": "Verifikasi Nomor Telepon",
+        "titleAccountVerification": "Verifikasi akun",
+        "titleShipOwnerCompany": "Profil Perusahaan",
+        "titleNegotiation": "Negosiasi",
+        "titlePreview": "Pratinjau",
+        "titlePaymentReceipt": "Bukti Pembayaran",
+        "titleShipByCategory": "Kapal Perkategori",
+        "titleDeleteAccount": "Hapus Akun",
+        "titleShipTrackingDetail": "Detail Pelacakan Kapal",
+        "titleShipTrackingForm": "Form Pelacakan Kapal",
+        "titleAddReview": "Ulasan"
+    },
+    "MainScreenTabNav": {
+        "titleHome": "Beranda",
+        "titleNotification": "Notifikasi",
+        "titleAccount": "Akun",
+        "titleUsers": "Pengguna"
+    },
+    "MainScreenOwnerStack": {
+        "titleDetailShip": "Detail Kapal",
+        "OwnerDocumentPreview": "Pratinjau Dokumen",
+        "EditImageForm": "Edit Gambar Kapal",
+        "titleEditGeneralForm": "Edit Kapal",
+        "EditDocumentForm": "Edit Dokumen Kapal",
+        "titleAddShip": "Menambahkan Kapal",
+        "titleProposalPreview": "Pratinjau Proposal",
+        "titlePaymentRenter": "Pembayaran Penyewa",
+        "titlePaymentHistory": "Riwayat",
+        "titlePaymentReceipt": "Bukti Pembayaran",
+        "titleTransactionStatus": "Status Transaksi",
+        "titleOwnerContractPreview": "Pratinjau Kontrak Pemilik",
+        "titleRFQTemplateManagement": "RFQ Template Management",
+        "titleRFQFormInputManagement": "Manajemen Templat RFQ",
+        "titleRFQInputForm": "RFQ Input Formulir",
+        "titleRFQFormInput": "RFQ Formulir Input",
+        "titleEditInputForm": "Ubah Input Formulir",
+        "titleTransactionDetail": "Detail Transaksi",
+        "titleShipPictures": "Foto Kapal Sebelum Disewa",
+        "titleShipPicturesAfterRent": "Foto Kapal Setelah Disewa",
+        "titleSeeShipPictures": "Lihat Foto Kapal",
+        "titleNegotiate": "Negosiasi",
+        "titleDeleteAccount": "Hapus Akun",
+        "titleSendContract": "Kirim Kontrak",
+        "titleAboutUs": "Tentang Kami",
+        "titleDocumentPreview": "Pratinjau Dokumen",
+        "titleShipTrackingDetail": "Detail Pelacakan Kapal"
+    },
+    "MainScreenOwnerTabNav": {
+        "titleShips": "Kapal"
+    },
+    "RfqForm": {
+        "titleRfqForm": "Informasi Sewa",
+        "descRfqForm": "Lengkapi dokumen berikut untuk menyelesaikan permintaan",
+        "btnContinue": "Lanjutkan"
+    },
+    "TransactionStatusTabNav": {
+        "titleRFQ": "PENAWARAN",
+        "titleProposal": "PROPOSAL",
+        "titleContract": "KONTRAK",
+        "titleComplete": "SELESAI",
+        "titleFailed": "GAGAL",
+        "titlePaymentOwner": "TERIMA PEMBAYARAN",
+        "titlePaymentRenter": "PEMBAYARAN",
+        "titleTracking": "PELACAKAN"
+    },
+    "TransactionCard": {
+        "completeFlagText": "Transaksi Selesai",
+        "failedFlagText": "Transaksi Gagal",
+        "textJustNow": "Baru Saja",
+        "textmAgo": "menit yang lalu",
+        "texthAgo": "jam yang lalu",
+        "textdAgo": "hari yang lalu",
+        "textCategory": "Kategori :",
+        "textSize": "Ukuran :",
+        "textRentalId": "ID Sewa",
+        "textNumber": "No.",
+        "textRentalPeriod": "Periode Sewa",
+        "textEmptyRFQ": "Anda tidak punya RFQ yang sedang berjalan",
+        "textEmptyProposal": "Anda tidak punya proposal yang sedang berjalan",
+        "textEmptyContract": "Anda tidak memiliki kontrak yang sedang berlangsung",
+        "textEmptyFailed": "Anda tidak memiliki transaksi yang gagal",
+        "textEmptyComplete": "Anda tidak memiliki transaksi yang selesai",
+        "textEmptyPayment": "Anda tidak memiliki pembayaran yang sedang berjalan",
+        "textEmptyTracking": "Anda tidak memiliki Riwayat Pelacakan",
+        "respondKeyProposal1": "Harap selesaikan negosiasi proposal anda!",
+        "respondKeyProposalWaiting1": "Menunggu respon dari pemilik kapal",
+        "respondKeyProposal2": "Menunggu kontrak dari pemilik kapal",
+        "respondKeyProposal3": "Bukti pembayaran telah dikirim!",
+        "respondKeyProposal4": "Pembayaran diterima!",
+        "respondKeyPayment1Owner": "Menunggu Pembayaran dari penyewa",
+        "respondKeyPayment2Owner": "Pembayaran telah disetujui",
+        "respondKeyElse": "Tanggapan pemilik kapal",
+        "respondValueProposal1": "Buka proposal",
+        "respondValueProposalWaiting1": "Lihat Riwayat",
+        "respondValueProposal2": "Buka proposal",
+        "respondValueProposal3/4": "Bukti Bayar",
+        "respondValueProposalElse": "Tidak terdefinisi",
+        "respondKeyContract1": "Harap lengkapi penandatanganan kontrak Anda!",
+        "respondKeyContract2": "Harap selesaikan pembayaran Anda!",
+        "respondKeyContractElse": "Tanggapan pemilik kapal",
+        "respondValueContract1": "Buka kontrak",
+        "respondValueContract2": "Bayar",
+        "respondValueContractElse": "Tidak terdefinisi",
+        "respondKeyPayment1": "Bukti pembayaran telah dikirim!",
+        "respondValuePayment1": "Bukti Bayar",
+        "respondKeyPayment2": "Bukti Bayar disetujui",
+        "respondKeyTracking": "Lihat Detail Pelacakan Kapal",
+        "respondKeyTracking2": "Perbarui Status Pelacakan Kapal",
+        "respondValueTracking": "Detail Pelacakan",
+        "labelBadeNewRespond": "Baru",
+        "respondValueNegotiateOwner": "Respon Negosiasi",
+        "respondValueHistoryNegotiate": "Lihat Riwayat"
+    },
+    "StatusText": {
+        "rfq 1": "Menunggu respon pemilik kapal",
+        "rfq 2": "Menunggu proposal",
+        "proposal 1": "Menunggu kesepakatan",
+        "proposal 2": "Menunggu kontrak",
+        "proposal 3": "Menunggu persetujuan Anda",
+        "proposal 4": "Menunggu kontrak",
+        "contract 1": "Menunggu tanda tangan Anda",
+        "contract 2": "Kontrak ditandatangani",
+        "payment 1": "Menunggu Pembayaran",
+        "payment 2": "Menunggu Konfirmasi Pembayaran",
+        "payment 3": "Pembayaran disetujui",
+        "sailing 1": "Kapal siap berlayar",
+        "sailing 2": "Kapal berlayar",
+        "sailing 3": "Kapal kembali",
+        "sailing 4": "Kapal telah kembali",
+        "complete": "Transaksi Selesai"
+    },
+    "OwnerStatusText": {
+        "rfq 1": "Menunggu respon anda",
+        "rfq 2": "Menunggu proposal anda",
+        "proposal 1": "Menunggu kesepakatan renter",
+        "proposal 2": "Menunggu kontrak anda",
+        "proposal 3": "Menunggu persetujuan pembayaran",
+        "proposal 4": "Menunggu kontrak anda",
+        "contract 1": "Menunggu tanda tangan penyewa kapal",
+        "negotiate 1": "Menunggu respon anda",
+        "negotiate 2": "Menunggu respon Penyewa",
+        "contract 2": "Kontrak ditandatangani",
+        "payment 1": "Menunggu pembayaran dari penyewa",
+        "payment 2": "Menunggu konfirmasi pembayaran",
+        "payment 3": "Pembayaran disetujui",
+        "sailing 1": "Kapal siap berlayar",
+        "sailing 2": "Kapal sedang berlayar",
+        "sailing 3": "Kapal sedang kembali",
+        "sailing 4": "Kapal telah kembali",
+        "complete": "Transaksi Selesai"
+    },
+    "StatusDesc": {
+        "rfqSent": "RFQ dikirim",
+        "rfqAccept": "RFQ diterima",
+        "draftContractSent": "Rancangan kontrak dikirim",
+        "contractReceived": "Kontrak diterima",
+        "paymentApproved": "Pembayaran disetujui",
+        "negotiateSent": "Negosiasi rancangan kontrak dikirim"
+    },
+    "RenterDocPreview": {
+        "failedLoad": "Gagal memuat dokumen. Silakan coba lagi nanti"
+    },
+    "ContractPreview": {
+        "labelButtonNegotiate": "Negosiasi",
+        "labelButtonAcceptContract": "Terima Kontrak"
+    },
+    "OTPModal": {
+        "successContractSign": "Penandatanganan kontrak berhasil!",
+        "failedInvalidOTP": "OTP tidak valid! Silakan periksa kembali email Anda!",
+        "textOTPVerif": "Verifikasi OTP",
+        "textEnterOTP": "Masukkan Kode OTP yang dikirimkan ke",
+        "textDidnt": "Tidak menerima kode OTP?",
+        "textResend": "Kirim Ulang Kode",
+        "textResendAgain": "Kirim ulang kode lagi pada",
+        "labelButtonVerify": "Verifikasi OTP"
+    },
+    "ShipInformationCard": {
+        "textVisitCompany": "Kunjungi Perusahaan",
+        "textType": "Tipe :",
+        "textSize": "Ukuran :",
+        "textShipInformation": "Informasi Kapal"
+    },
+    "TransactionProgress": {
+        "textRentalID": "ID Sewa"
+    },
+    "DocumentPreview": {
+        "failedLoad": "Gagal memuat dokumen. Silakan coba lagi nanti"
+    },
+    "ContractStats": {
+        "respondKeyProposal4": "Silakan kirim kontrak Anda",
+        "respondKeyContract1": "Kontrak dikirim",
+        "respondKeyProposal4NotOpened": "Harap kirim kontrak anda",
+        "respondValueProposal4": "Kirim Kontrak",
+        "respondValueContract1": "Lihat Kontrak"
+    },
+    "RFQStats": {
+        "respondKey": "RFQ belum diterima",
+        "respondValue": "Tanggapi RFQ",
+        "btnAcceptRFQ": "Terima RFQ"
+    },
+    "ProposalStats": {
+        "respondKey": "Harap buat proposal anda",
+        "respondValue": "Buat Proposal"
+    },
+    "AcceptPaymentStats": {
+        "respondKey": "Pembayaran belum diterima",
+        "respondValue": "Lihat Kuitansi",
+        "btnAcceptPayment": "Terima Pembayaran",
+        "textUploadPictures": "Harap upload gambar sebelum berlayar terlebih dahulu sebelum menerima pembayaran.",
+        "textSuccessAcceptPayment": "Pembayaran telah diterima, Harap upload gambar sebelum berlayar!",
+        "textFailedAcceptPayment": "Gagal menerima pembayaran. Silakan coba lagi."
+    },
+    "ShipInformation": {
+        "textShipInformation": "Informasi Kapal",
+        "textVisitCompany": "Kunjungi Perusahaan",
+        "textType": "Tipe :",
+        "textSize": "Ukuran :",
+        "textDocument": "Dokumen :",
+        "textPrice": "Harga per bulan:",
+        "textDraftContract": "Rancangan Kontrak"
+    },
+    "FormProposalOwner": {
+        "AdditionalDocument": {
+            "textDocumentName": "Nama Dokumen",
+            "validationDocumentName": "Nama dokumen wajib diisi.",
+            "textDocument": "Dokumen",
+            "validationDocument": "Dokumen wajib diisi.",
+            "textSelectFile": "Pilih File",
+            "textAdditionalDocument": "Dokumen tambahan",
+            "textCancel": "Batal",
+            "textAddDocument": "Tambah Dokumen",
+            "textDocumentList": "Daftar Dokumen"
+        },
+        "textProposalSent": "Proposal Dikirim!",
+        "textFailedSentProposal": "Gagal mengirim proposal. Silahkan coba lagi.",
+        "textProposalReply": "Balasan Proposal",
+        "textProposalReplyDesc": "Lengkapi Proposal ini untuk menyelesaikan permintaan penyewa:",
+        "textOfferedPrice": "Penawaran Harga",
+        "textInsertNote": "Masukkan catatan untuk penyewa",
+        "textNote": "Catatan",
+        "textDraftContract": "Rancangan Kontrak",
+        "textSubmit": "Kirim",
+        "textRequiredOfferPrice": "Harga Sewa wajib diisi",
+        "textRequiredNote": "Catatan wajib diisi"
+    },
+    "FormNegotiateRenter": {
+        "textNegotiate": "Negosiasi",
+        "textDocument": "Dokumen",
+        "textHistory": "Riwayat",
+        "NegotiateHistory": {
+            "textReadMore": "...Selengkapnya",
+            "textReadLess": "Lebih sedikit",
+            "textAttachment": "Lampiran",
+            "textImage": "Gambar",
+            "textDraftContract": "Rancangan Kontrak",
+            "textOfferPrice": "Penawaran Harga"
+        },
+        "NegotiateDocument": {
+            "textShipDocument": "Dokumen Kapal",
+            "textAdditionalDocument": "Dokumen Tambahan"
+        },
+        "NegotiateForm": {
+            "textHeaderNegotiate": "Balasan Negosiasi",
+            "textNegotiateReplyDesc": "Lengkapi formulir negosiasi. Anda dapat menambahkan catatan revisi rancangan kontrak kepada ship owner serta melampirkan screenshot untuk memperjelas poin revisi",
+            "placeholderNotes": "deskripsikan revisi",
+            "labelNotes": "Catatan",
+            "labelOfferPrice": "Penawaran Harga",
+            "labelImageAttachment": "Lampiran gambar",
+            "textAddImage": "Tambah gambar",
+            "textSend": "Kirim",
+            "textImageList": "Daftar Gambar",
+            "placeholderImageCaption": "Tambahkan keterangan gambar",
+            "labelimageCaption": "Keterangan Gambar",
+            "validationimageCaption": "Keterangan gambar wajib diisi",
+            "textUploadImage": "Unggah Gambar",
+            "textSelectImage": "Pilih Gambar",
+            "validationSelectImage": "Gambar wajib diisi",
+            "textSuccessForm": "Negosiasi berhasil dikirim",
+            "textErrorForm": "Gagal mengirim revisi rancangan kontrak",
+            "validateNote": "Catatan wajib diisi",
+            "btnComplete": "Selesaikan",
+            "textConfirmation": "Apakah Anda yakin ingin menyelesaikan negosiasi ini ?",
+            "textConfirmDesc": "Berhati-hatilah karena aksi ini hanya dapat dilakukan sekali and Anda tidak dapat melakukan negosiasi lagi dengan pemilik kapal",
+            "textCancel": "Batalkan"
+        }
+    },
+    "FormNegotiateOwner": {
+        "textNegotiate": "Negosiasi",
+        "textDocument": "Dokumen",
+        "textHistory": "Riwayat",
+        "NegotiateHistory": {
+            "textReadMore": "...Baca Selengkapnya",
+            "textReadLess": "Lebih sedikit",
+            "textAttachment": "Lampiran",
+            "textImage": "Gambar",
+            "textDraftContract": "Draf Kontrak",
+            "textOfferedPrice": "Penawaran Harga"
+        },
+        "NegotiateDocument": {
+            "textShipDocument": "Dokumen Kapal",
+            "textAdditionalDocument": "Dokumen Tambahan"
+        },
+        "NegotiateForm": {
+            "textHeaderNegotiate": "Balasan Negosiasi",
+            "textNegotiateReplyDesc": "ini adalah formulir untuk membalas respon dari renter. Silahkan diisi dengan melampirkan catatan dan rancangan kontrak terbaru.",
+            "textOfferedPrice": "Penawaran Harga",
+            "placeholderNotes": "Catatan",
+            "labelNotes": "Catatan",
+            "textSend": "Kirim",
+            "textSuccessForm": "Negosiasi berhasil dikirim",
+            "textErrorForm": "Gagal mengirim respon negosiasi",
+            "validateNote": "Harus diisi",
+            "documentPickerButton": "Pilih Dokumen",
+            "errorDocumentEmpty": "Dokumen draf kontrak diperlukan",
+            "errorSelectingPdf": "Kesalahan memilih dokumen",
+            "textLabelContract": "Rancangan Kontrak"
+        }
+    },
+    "OwnerContract": {
+        "labelAttachContract": "Lampirkan Kontrak",
+        "labelContractFile": "Berkas Kontrak",
+        "textSelectFile": "Pilih File",
+        "btnSubmit": "Kirim",
+        "textSuccessContract": "Kontrak Terkirim! Periksa status transaksi Anda sesering mungkin untuk mengetahui respons penyewa!",
+        "textFailedContract": "Gagal mengirim kontrak! Silakan coba lagi!"
+    },
+    "SaveShipPictures": {
+        "btnBefore": "Unggah Gambar Kapal Sebelum Disewa",
+        "btnAfter": "Unggah Gambar Kapal Setelah Disewa",
+        "btnDone": "Lihat Gambar Kapal"
+    },
+    "AddReview": {
+        "titleReview": "Ulasan",
+        "btnReview": "Beri Ulasan",
+        "btnCancel": "Cancel",
+        "btnConfirm": "Add",
+        "textSuccessAddReview": "Review is submitted",
+        "textPlaceholder": "Tulis review disini...",
+        "veryBad": "Sangat Buruk",
+        "bad": "Buruk",
+        "ok": "Cukup",
+        "good": "Puas",
+        "awesome": "Sangat Puas"
+    },
+    "RenterInformation": {
+        "textRenterInformation": "Informasi Penyewa",
+        "textRenterName": "Nama Penyewa",
+        "textCompany": "Perusahaan",
+        "textCompanyAddress": "Alamat Perusahaan"
+    },
+    "DynamicCalendar": {
+        "textSelectDate": "Pilih tanggal",
+        "textSelect": "Pilih",
+        "errorDateNotAvail": "Tanggal tidak tersedia",
+        "errorRequired": "Anda harus mengisi tanggal mulai dan selesai",
+        "errorDateAvail": "Tanggal tersedia",
+        "errorDateUnavailable": "Tanggal tidak tersedia",
+        "errorDateMonthly": "Tanggal selesai setidaknya 2 bulan dari tanggal mulai",
+        "errordateBeforeStart": "Tidak dapat memilih tanggal sebelum tanggal mulai"
+    },
+    "AddShip": {
+        "titleSpecificAdd": "Pilih satu atau lebih",
+        "placeholderSpecificAdd": "Silahkan pilih"
+    },
+    "PaymentHistory": {
+        "btnReceipt": "Kuitansi",
+        "titleOTR": "Satu kali sewa",
+        "titleRFOM": "Sewa selama 1 bulan"
+    },
+    "NetworkError": {
+        "textServerDownTitle": "Server Sedang Down!",
+        "textServerDownBody": "Kami sedang menghadapi beberapa masalah teknis. Mohon bersabar dan coba lagi beberapa saat lagi",
+        "textServerDownBtn": "Coba Lagi!",
+        "textServerDownFail": "Server Down, Silakan coba lagi nanti!"
+    }
+}

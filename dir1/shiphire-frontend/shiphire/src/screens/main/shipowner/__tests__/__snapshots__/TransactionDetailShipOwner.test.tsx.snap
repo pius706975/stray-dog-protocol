@@ -1,0 +1,2873 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing Transaction Detail Ship Owner Snapshot Testing should render correctly 1`] = `
+<RNCSafeAreaProvider
+  onInsetsChange={[Function]}
+  style={
+    {
+      "flex": 1,
+    }
+  }
+>
+  <RNSScreenStack
+    style={
+      {
+        "flex": 1,
+      }
+    }
+  >
+    <RNSScreen
+      collapsable={false}
+      forwardedRef={[Function]}
+      gestureResponseDistance={
+        {
+          "bottom": -1,
+          "end": -1,
+          "start": -1,
+          "top": -1,
+        }
+      }
+      nativeBackButtonDismissalEnabled={false}
+      onAppear={[Function]}
+      onDisappear={[Function]}
+      onDismissed={[Function]}
+      onGestureCancel={[Function]}
+      onHeaderBackButtonClicked={[Function]}
+      onNativeDismissCancelled={[Function]}
+      onTransitionProgress={[Function]}
+      onWillDisappear={[Function]}
+      replaceAnimation="push"
+      sheetAllowedDetents="large"
+      sheetCornerRadius={-1}
+      sheetExpandsWhenScrolledToEdge={true}
+      sheetGrabberVisible={false}
+      sheetLargestUndimmedDetent="all"
+      stackPresentation="push"
+      style={
+        {
+          "bottom": 0,
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        }
+      }
+      swipeDirection="horizontal"
+    >
+      <View
+        accessibilityElementsHidden={false}
+        importantForAccessibility="auto"
+        style={
+          {
+            "flex": 1,
+            "flexDirection": "column-reverse",
+          }
+        }
+      >
+        <View
+          collapsable={false}
+          style={
+            [
+              {
+                "flex": 1,
+              },
+              {
+                "backgroundColor": "rgb(242, 242, 242)",
+              },
+              undefined,
+            ]
+          }
+        >
+          <View
+            style={
+              [
+                undefined,
+                undefined,
+                {
+                  "flex": 1,
+                },
+                undefined,
+                {},
+                {},
+                {},
+                {
+                  "backgroundColor": "#f0f6fb",
+                  "justifyContent": "space-between",
+                  "position": "relative",
+                },
+              ]
+            }
+            testID="ShipOwnerTransactionDetailScreen"
+          >
+            <RCTScrollView
+              contentContainerStyle={
+                {
+                  "alignItems": undefined,
+                  "flex": undefined,
+                  "flexGrow": 1,
+                  "gap": 10,
+                  "justifyContent": undefined,
+                  "marginBottom": undefined,
+                  "padding": 10,
+                  "paddingVertical": undefined,
+                }
+              }
+            >
+              <View>
+                <View
+                  style={
+                    [
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      {
+                        "backgroundColor": "#216dab",
+                        "borderRadius": 6,
+                        "padding": 16,
+                      },
+                    ]
+                  }
+                >
+                  <View
+                    row={true}
+                    spread={true}
+                    style={
+                      [
+                        undefined,
+                        undefined,
+                        undefined,
+                        undefined,
+                        {},
+                        {},
+                        {
+                          "flexDirection": "row",
+                          "justifyContent": "space-between",
+                        },
+                        {
+                          "alignItems": "center",
+                          "borderBottomWidth": 0.5,
+                          "borderColor": "#cbcdd1",
+                          "paddingBottom": 16,
+                        },
+                      ]
+                    }
+                  >
+                    <Text
+                      style={
+                        [
+                          {
+                            "backgroundColor": "transparent",
+                            "color": "#20303C",
+                            "writingDirection": "ltr",
+                          },
+                          undefined,
+                          undefined,
+                          undefined,
+                          undefined,
+                          undefined,
+                          undefined,
+                          undefined,
+                          undefined,
+                          {
+                            "color": "#f0f6fb",
+                            "fontFamily": "Kanit-Medium",
+                            "fontSize": 20,
+                          },
+                        ]
+                      }
+                    >
+                      PT. Purgatory
+                    </Text>
+                    <View
+                      row={true}
+                      style={
+                        [
+                          undefined,
+                          undefined,
+                          undefined,
+                          undefined,
+                          {},
+                          {},
+                          {
+                            "flexDirection": "row",
+                          },
+                          {
+                            "alignItems": "center",
+                            "gap": 6,
+                          },
+                        ]
+                      }
+                    >
+                      <Text
+                        style={
+                          [
+                            {
+                              "backgroundColor": "transparent",
+                              "color": "#20303C",
+                              "writingDirection": "ltr",
+                            },
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            {
+                              "color": "#d7edff",
+                              "fontFamily": "Kanit-Regular",
+                              "fontSize": 14,
+                            },
+                          ]
+                        }
+                      >
+                        ShipInformationCard.textVisitCompany
+                      </Text>
+                      <Text
+                        style={
+                          [
+                            {
+                              "backgroundColor": "transparent",
+                              "color": "#20303C",
+                              "writingDirection": "ltr",
+                            },
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            {
+                              "color": "#d7edff",
+                              "fontFamily": "Kanit-Regular",
+                              "fontSize": 14,
+                            },
+                          ]
+                        }
+                      >
+                        &gt;
+                      </Text>
+                    </View>
+                  </View>
+                  <View
+                    row={true}
+                    style={
+                      [
+                        undefined,
+                        undefined,
+                        undefined,
+                        undefined,
+                        {},
+                        {},
+                        {
+                          "flexDirection": "row",
+                        },
+                        {
+                          "alignItems": "flex-start",
+                          "borderBottomWidth": 0.5,
+                          "borderColor": "#cbcdd1",
+                          "gap": 16,
+                          "paddingVertical": 10,
+                        },
+                      ]
+                    }
+                  >
+                    <Image
+                      accessibilityRole="image"
+                      accessible={false}
+                      assetGroup="icons"
+                      onError={[Function]}
+                      source={
+                        {
+                          "uri": "imageUrl",
+                        }
+                      }
+                      style={
+                        [
+                          undefined,
+                          undefined,
+                          undefined,
+                          undefined,
+                          undefined,
+                          undefined,
+                          undefined,
+                          undefined,
+                          false,
+                          {
+                            "height": 80,
+                            "width": 100,
+                          },
+                          false,
+                        ]
+                      }
+                    />
+                    <View
+                      style={
+                        [
+                          undefined,
+                          undefined,
+                          {
+                            "flex": 1,
+                          },
+                          undefined,
+                          {},
+                          {},
+                          {},
+                          undefined,
+                        ]
+                      }
+                    >
+                      <Text
+                        ellipsizeMode="tail"
+                        numberOfLines={1}
+                        style={
+                          [
+                            {
+                              "backgroundColor": "transparent",
+                              "color": "#20303C",
+                              "writingDirection": "ltr",
+                            },
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            {
+                              "color": "#f0f6fb",
+                              "fontFamily": "Kanit-Medium",
+                              "fontSize": 20,
+                            },
+                          ]
+                        }
+                      >
+                        shipName
+                      </Text>
+                      <View
+                        row={true}
+                        style={
+                          [
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            {},
+                            {},
+                            {
+                              "flexDirection": "row",
+                            },
+                            {
+                              "gap": 8,
+                            },
+                          ]
+                        }
+                      >
+                        <Text
+                          style={
+                            [
+                              {
+                                "backgroundColor": "transparent",
+                                "color": "#20303C",
+                                "writingDirection": "ltr",
+                              },
+                              undefined,
+                              undefined,
+                              undefined,
+                              undefined,
+                              undefined,
+                              undefined,
+                              undefined,
+                              undefined,
+                              {
+                                "color": "#9cd2ff",
+                                "fontFamily": "Kanit-Regular",
+                                "fontSize": 16,
+                              },
+                            ]
+                          }
+                        >
+                          ShipInformationCard.textType
+                        </Text>
+                        <Text
+                          style={
+                            [
+                              {
+                                "backgroundColor": "transparent",
+                                "color": "#20303C",
+                                "writingDirection": "ltr",
+                              },
+                              undefined,
+                              undefined,
+                              undefined,
+                              undefined,
+                              undefined,
+                              undefined,
+                              undefined,
+                              undefined,
+                              {
+                                "color": "#9cd2ff",
+                                "fontFamily": "Kanit-Regular",
+                                "fontSize": 16,
+                              },
+                            ]
+                          }
+                        >
+                          categoryName
+                        </Text>
+                      </View>
+                      <View
+                        row={true}
+                        style={
+                          [
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            {},
+                            {},
+                            {
+                              "flexDirection": "row",
+                            },
+                            {
+                              "gap": 8,
+                            },
+                          ]
+                        }
+                      >
+                        <Text
+                          style={
+                            [
+                              {
+                                "backgroundColor": "transparent",
+                                "color": "#20303C",
+                                "writingDirection": "ltr",
+                              },
+                              undefined,
+                              undefined,
+                              undefined,
+                              undefined,
+                              undefined,
+                              undefined,
+                              undefined,
+                              undefined,
+                              {
+                                "color": "#9cd2ff",
+                                "fontFamily": "Kanit-Regular",
+                                "fontSize": 16,
+                              },
+                            ]
+                          }
+                        >
+                          ShipInformationCard.textSize
+                        </Text>
+                        <Text
+                          style={
+                            [
+                              {
+                                "backgroundColor": "transparent",
+                                "color": "#20303C",
+                                "writingDirection": "ltr",
+                              },
+                              undefined,
+                              undefined,
+                              undefined,
+                              undefined,
+                              undefined,
+                              undefined,
+                              undefined,
+                              undefined,
+                              {
+                                "color": "#9cd2ff",
+                                "fontFamily": "Kanit-Regular",
+                                "fontSize": 16,
+                              },
+                            ]
+                          }
+                        >
+                          12 m x 12 m x 12 m
+                        </Text>
+                      </View>
+                    </View>
+                  </View>
+                  <View
+                    style={
+                      [
+                        undefined,
+                        undefined,
+                        undefined,
+                        undefined,
+                        undefined,
+                        undefined,
+                        undefined,
+                        undefined,
+                      ]
+                    }
+                  />
+                </View>
+                <View
+                  accessibilityState={
+                    {
+                      "busy": undefined,
+                      "checked": undefined,
+                      "disabled": undefined,
+                      "expanded": undefined,
+                      "selected": undefined,
+                    }
+                  }
+                  accessibilityValue={
+                    {
+                      "max": undefined,
+                      "min": undefined,
+                      "now": undefined,
+                      "text": undefined,
+                    }
+                  }
+                  accessible={true}
+                  collapsable={false}
+                  focusable={true}
+                  onBlur={[Function]}
+                  onClick={[Function]}
+                  onFocus={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    {
+                      "alignItems": "center",
+                      "backgroundColor": "#216dab",
+                      "borderRadius": 6,
+                      "elevation": 2,
+                      "flexDirection": "row",
+                      "gap": 0,
+                      "justifyContent": "center",
+                      "paddingHorizontal": 10,
+                      "paddingVertical": 6,
+                    }
+                  }
+                >
+                  <Text
+                    numberOfLines={0}
+                    style={
+                      {
+                        "borderBottomWidth": 0,
+                        "borderColor": undefined,
+                        "color": "#f0f6fb",
+                        "fontFamily": "Kanit-Medium",
+                        "fontSize": 18,
+                        "lineHeight": undefined,
+                        "textAlign": undefined,
+                      }
+                    }
+                  >
+                    Save Ship Pictures Before Rent
+                  </Text>
+                  <View
+                    style={
+                      [
+                        undefined,
+                        undefined,
+                        undefined,
+                        undefined,
+                        undefined,
+                        undefined,
+                        undefined,
+                        {
+                          "position": "absolute",
+                          "right": 20,
+                        },
+                      ]
+                    }
+                  />
+                </View>
+                <View
+                  accessibilityState={
+                    {
+                      "busy": undefined,
+                      "checked": undefined,
+                      "disabled": undefined,
+                      "expanded": undefined,
+                      "selected": undefined,
+                    }
+                  }
+                  accessibilityValue={
+                    {
+                      "max": undefined,
+                      "min": undefined,
+                      "now": undefined,
+                      "text": undefined,
+                    }
+                  }
+                  accessible={true}
+                  collapsable={false}
+                  focusable={true}
+                  onBlur={[Function]}
+                  onClick={[Function]}
+                  onFocus={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    {
+                      "backgroundColor": "#dbdee0",
+                      "borderRadius": 6,
+                      "padding": 20,
+                    }
+                  }
+                >
+                  <View
+                    row={true}
+                    spread={true}
+                    style={
+                      [
+                        undefined,
+                        undefined,
+                        {
+                          "flex": 1,
+                        },
+                        undefined,
+                        {},
+                        {},
+                        {
+                          "flexDirection": "row",
+                          "justifyContent": "space-between",
+                        },
+                        undefined,
+                      ]
+                    }
+                  >
+                    <View
+                      centerV={true}
+                      row={true}
+                      style={
+                        [
+                          undefined,
+                          undefined,
+                          undefined,
+                          undefined,
+                          {},
+                          {},
+                          {
+                            "alignItems": "center",
+                            "flexDirection": "row",
+                          },
+                          {
+                            "gap": 16,
+                          },
+                        ]
+                      }
+                    >
+                      <RNSVGSvgView
+                        align="xMidYMid"
+                        bbHeight="20"
+                        bbWidth="20"
+                        fill="none"
+                        focusable={false}
+                        height={20}
+                        meetOrSlice={0}
+                        minX={0}
+                        minY={0}
+                        style={
+                          [
+                            {
+                              "backgroundColor": "transparent",
+                              "borderWidth": 0,
+                            },
+                            {
+                              "flex": 0,
+                              "height": 20,
+                              "width": 20,
+                            },
+                          ]
+                        }
+                        vbHeight={20}
+                        vbWidth={20}
+                        width={20}
+                        xml="<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M9.552 0.867626L9.54 1.73872L7.556 1.75825C5.872 1.77388 5.56 1.78559 5.5 1.83638C5.336 1.96919 5.32 2.09809 5.32 3.24263V4.33638H5.012C4.604 4.33638 4.268 4.39106 4.064 4.49653C3.824 4.61372 3.54 4.90669 3.432 5.13325C3.34 5.33247 3.34 5.33638 3.32 7.59419L3.3 9.85981L2.088 10.3911C1.38 10.7036 0.832 10.9653 0.772 11.0239C0.688 11.1059 0.668 11.1645 0.672 11.2973C0.676 11.4067 1.14 12.8247 1.976 15.2739C2.696 17.3676 3.28 19.0942 3.28 19.1098C3.28 19.1489 2.86 19.102 2.584 19.0356C2.456 19.0043 2.172 18.895 1.96 18.7895C1.204 18.4184 0.74 18.2817 0.24 18.2817H0V18.7114V19.1411H0.192C0.512 19.1411 0.876 19.2504 1.44 19.5122C1.736 19.6528 2.084 19.8012 2.212 19.8442C2.76 20.0239 3.684 20.0434 4.28 19.8833C4.444 19.8364 4.84 19.6801 5.16 19.5317C5.844 19.2153 6.12 19.1411 6.66 19.1411C7.204 19.1411 7.476 19.2153 8.2 19.5473C8.904 19.8754 9.196 19.9575 9.772 19.9887C10.544 20.0317 11.06 19.9145 11.896 19.5043C12.456 19.2309 12.812 19.1411 13.336 19.1411C13.884 19.1411 14.156 19.2153 14.84 19.5317C15.16 19.6801 15.556 19.8364 15.72 19.8833C16.316 20.0434 17.24 20.0239 17.788 19.8442C17.916 19.8012 18.264 19.6528 18.56 19.5122C19.124 19.2504 19.488 19.1411 19.812 19.1411H20V18.7114V18.2817H19.76C19.26 18.2817 18.796 18.4184 18.04 18.7895C17.828 18.895 17.544 19.0043 17.416 19.0356C17.14 19.102 16.72 19.1489 16.72 19.1098C16.72 19.0942 17.304 17.3676 18.024 15.2739C18.86 12.8247 19.324 11.4067 19.328 11.2973C19.332 11.1645 19.312 11.1059 19.228 11.0239C19.168 10.9653 18.62 10.7036 17.912 10.3911L16.7 9.85981L16.68 7.59419C16.66 5.33638 16.66 5.33247 16.568 5.13325C16.46 4.90669 16.176 4.61372 15.936 4.49653C15.732 4.39106 15.396 4.33638 14.992 4.33638H14.68V3.24263C14.68 2.09809 14.664 1.96919 14.5 1.83638C14.44 1.78559 14.128 1.77388 12.444 1.75825L10.46 1.73872L10.448 0.867626L10.44 0.00043869H10H9.56L9.552 0.867626ZM13.8 3.477V4.33638H10H6.2V3.477V2.61763H10H13.8V3.477ZM15.604 5.31294C15.668 5.35981 15.736 5.45356 15.76 5.5395C15.824 5.76606 15.816 9.46919 15.752 9.44185C15.724 9.43013 14.436 8.86763 12.896 8.18794C11.352 7.50825 10.048 6.95356 10 6.95356C9.952 6.95356 8.648 7.50825 7.104 8.18794C5.564 8.86763 4.276 9.43013 4.252 9.44185C4.212 9.45747 4.2 9.06685 4.2 7.57466C4.2 6.44966 4.216 5.62935 4.24 5.54731C4.26 5.4731 4.328 5.37153 4.388 5.32466L4.5 5.23481H9.992C15.464 5.23481 15.488 5.23481 15.604 5.31294ZM9.552 8.58247L9.54 9.07466L5.764 10.77C3.688 11.6997 1.984 12.4575 1.976 12.4497C1.952 12.4301 1.64 11.5512 1.648 11.5434C1.672 11.52 9.504 8.08638 9.532 8.08638C9.548 8.08638 9.556 8.30903 9.552 8.58247ZM14.416 9.80903C16.576 10.7543 18.344 11.5356 18.352 11.5434C18.36 11.5512 18.048 12.4301 18.024 12.4497C18.016 12.4575 16.312 11.6997 14.236 10.77L10.46 9.07466L10.448 8.58247C10.444 8.30903 10.452 8.08638 10.464 8.08638C10.48 8.08638 12.26 8.85981 14.416 9.80903ZM9.56 12.6372V15.2348H10H10.44V12.6333C10.44 10.5668 10.452 10.0356 10.492 10.0512C10.588 10.0864 17.464 13.1762 17.608 13.2465L17.752 13.3208L16.788 16.1528C16.076 18.2309 15.804 18.9848 15.76 18.9848C15.728 18.9848 15.54 18.9028 15.34 18.8012C14.504 18.3793 14.108 18.2778 13.316 18.2778C12.568 18.2778 12.244 18.3637 11.396 18.7739C10.84 19.0434 10.568 19.1098 10.02 19.1137C9.468 19.1176 9.12 19.0356 8.648 18.8012C7.832 18.3833 7.424 18.2778 6.66 18.2778C5.896 18.2778 5.524 18.3754 4.672 18.7934C4.456 18.8989 4.26 18.9848 4.232 18.9848C4.2 18.9848 3.816 17.9223 3.212 16.1528L2.244 13.3168L2.532 13.1801C2.984 12.9653 9.496 10.0434 9.532 10.0434C9.548 10.0395 9.56 11.2075 9.56 12.6372Z" fill="black"/>
+    <path d="M6.88 3.47656V3.90625H7.32H7.76V3.47656V3.04688H7.32H6.88V3.47656Z" fill="black"/>
+    <path d="M8.20001 3.47656V3.90625H8.66001H9.12001V3.47656V3.04688H8.66001H8.20001V3.47656Z" fill="black"/>
+    <path d="M9.56 3.47656V3.90625H10H10.44V3.47656V3.04688H10H9.56V3.47656Z" fill="black"/>
+    <path d="M10.88 3.47656V3.90625H11.34H11.8V3.47656V3.04688H11.34H10.88V3.47656Z" fill="black"/>
+    <path d="M12.24 3.47656V3.90625H12.68H13.12V3.47656V3.04688H12.68H12.24V3.47656Z" fill="black"/>
+    <path d="M5.12 6.30859V6.75781H10H14.88V6.30859V5.85938H10H5.12V6.30859Z" fill="black"/>
+    <path d="M5.12 7.61719V8.04688H5.56H6V7.61719V7.1875H5.56H5.12V7.61719Z" fill="black"/>
+    <path d="M14 7.61719V8.04688H14.44H14.88V7.61719V7.1875H14.44H14V7.61719Z" fill="#d0dbf5"/>
+    </svg>
+    
+    "
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <RNSVGGroup
+                          fill={null}
+                          propList={
+                            [
+                              "fill",
+                            ]
+                          }
+                        >
+                          <RNSVGPath
+                            d="M9.552 0.867626L9.54 1.73872L7.556 1.75825C5.872 1.77388 5.56 1.78559 5.5 1.83638C5.336 1.96919 5.32 2.09809 5.32 3.24263V4.33638H5.012C4.604 4.33638 4.268 4.39106 4.064 4.49653C3.824 4.61372 3.54 4.90669 3.432 5.13325C3.34 5.33247 3.34 5.33638 3.32 7.59419L3.3 9.85981L2.088 10.3911C1.38 10.7036 0.832 10.9653 0.772 11.0239C0.688 11.1059 0.668 11.1645 0.672 11.2973C0.676 11.4067 1.14 12.8247 1.976 15.2739C2.696 17.3676 3.28 19.0942 3.28 19.1098C3.28 19.1489 2.86 19.102 2.584 19.0356C2.456 19.0043 2.172 18.895 1.96 18.7895C1.204 18.4184 0.74 18.2817 0.24 18.2817H0V18.7114V19.1411H0.192C0.512 19.1411 0.876 19.2504 1.44 19.5122C1.736 19.6528 2.084 19.8012 2.212 19.8442C2.76 20.0239 3.684 20.0434 4.28 19.8833C4.444 19.8364 4.84 19.6801 5.16 19.5317C5.844 19.2153 6.12 19.1411 6.66 19.1411C7.204 19.1411 7.476 19.2153 8.2 19.5473C8.904 19.8754 9.196 19.9575 9.772 19.9887C10.544 20.0317 11.06 19.9145 11.896 19.5043C12.456 19.2309 12.812 19.1411 13.336 19.1411C13.884 19.1411 14.156 19.2153 14.84 19.5317C15.16 19.6801 15.556 19.8364 15.72 19.8833C16.316 20.0434 17.24 20.0239 17.788 19.8442C17.916 19.8012 18.264 19.6528 18.56 19.5122C19.124 19.2504 19.488 19.1411 19.812 19.1411H20V18.7114V18.2817H19.76C19.26 18.2817 18.796 18.4184 18.04 18.7895C17.828 18.895 17.544 19.0043 17.416 19.0356C17.14 19.102 16.72 19.1489 16.72 19.1098C16.72 19.0942 17.304 17.3676 18.024 15.2739C18.86 12.8247 19.324 11.4067 19.328 11.2973C19.332 11.1645 19.312 11.1059 19.228 11.0239C19.168 10.9653 18.62 10.7036 17.912 10.3911L16.7 9.85981L16.68 7.59419C16.66 5.33638 16.66 5.33247 16.568 5.13325C16.46 4.90669 16.176 4.61372 15.936 4.49653C15.732 4.39106 15.396 4.33638 14.992 4.33638H14.68V3.24263C14.68 2.09809 14.664 1.96919 14.5 1.83638C14.44 1.78559 14.128 1.77388 12.444 1.75825L10.46 1.73872L10.448 0.867626L10.44 0.00043869H10H9.56L9.552 0.867626ZM13.8 3.477V4.33638H10H6.2V3.477V2.61763H10H13.8V3.477ZM15.604 5.31294C15.668 5.35981 15.736 5.45356 15.76 5.5395C15.824 5.76606 15.816 9.46919 15.752 9.44185C15.724 9.43013 14.436 8.86763 12.896 8.18794C11.352 7.50825 10.048 6.95356 10 6.95356C9.952 6.95356 8.648 7.50825 7.104 8.18794C5.564 8.86763 4.276 9.43013 4.252 9.44185C4.212 9.45747 4.2 9.06685 4.2 7.57466C4.2 6.44966 4.216 5.62935 4.24 5.54731C4.26 5.4731 4.328 5.37153 4.388 5.32466L4.5 5.23481H9.992C15.464 5.23481 15.488 5.23481 15.604 5.31294ZM9.552 8.58247L9.54 9.07466L5.764 10.77C3.688 11.6997 1.984 12.4575 1.976 12.4497C1.952 12.4301 1.64 11.5512 1.648 11.5434C1.672 11.52 9.504 8.08638 9.532 8.08638C9.548 8.08638 9.556 8.30903 9.552 8.58247ZM14.416 9.80903C16.576 10.7543 18.344 11.5356 18.352 11.5434C18.36 11.5512 18.048 12.4301 18.024 12.4497C18.016 12.4575 16.312 11.6997 14.236 10.77L10.46 9.07466L10.448 8.58247C10.444 8.30903 10.452 8.08638 10.464 8.08638C10.48 8.08638 12.26 8.85981 14.416 9.80903ZM9.56 12.6372V15.2348H10H10.44V12.6333C10.44 10.5668 10.452 10.0356 10.492 10.0512C10.588 10.0864 17.464 13.1762 17.608 13.2465L17.752 13.3208L16.788 16.1528C16.076 18.2309 15.804 18.9848 15.76 18.9848C15.728 18.9848 15.54 18.9028 15.34 18.8012C14.504 18.3793 14.108 18.2778 13.316 18.2778C12.568 18.2778 12.244 18.3637 11.396 18.7739C10.84 19.0434 10.568 19.1098 10.02 19.1137C9.468 19.1176 9.12 19.0356 8.648 18.8012C7.832 18.3833 7.424 18.2778 6.66 18.2778C5.896 18.2778 5.524 18.3754 4.672 18.7934C4.456 18.8989 4.26 18.9848 4.232 18.9848C4.2 18.9848 3.816 17.9223 3.212 16.1528L2.244 13.3168L2.532 13.1801C2.984 12.9653 9.496 10.0434 9.532 10.0434C9.548 10.0395 9.56 11.2075 9.56 12.6372Z"
+                            fill={
+                              {
+                                "payload": 4278190080,
+                                "type": 0,
+                              }
+                            }
+                            propList={
+                              [
+                                "fill",
+                              ]
+                            }
+                          />
+                          <RNSVGPath
+                            d="M6.88 3.47656V3.90625H7.32H7.76V3.47656V3.04688H7.32H6.88V3.47656Z"
+                            fill={
+                              {
+                                "payload": 4278190080,
+                                "type": 0,
+                              }
+                            }
+                            propList={
+                              [
+                                "fill",
+                              ]
+                            }
+                          />
+                          <RNSVGPath
+                            d="M8.20001 3.47656V3.90625H8.66001H9.12001V3.47656V3.04688H8.66001H8.20001V3.47656Z"
+                            fill={
+                              {
+                                "payload": 4278190080,
+                                "type": 0,
+                              }
+                            }
+                            propList={
+                              [
+                                "fill",
+                              ]
+                            }
+                          />
+                          <RNSVGPath
+                            d="M9.56 3.47656V3.90625H10H10.44V3.47656V3.04688H10H9.56V3.47656Z"
+                            fill={
+                              {
+                                "payload": 4278190080,
+                                "type": 0,
+                              }
+                            }
+                            propList={
+                              [
+                                "fill",
+                              ]
+                            }
+                          />
+                          <RNSVGPath
+                            d="M10.88 3.47656V3.90625H11.34H11.8V3.47656V3.04688H11.34H10.88V3.47656Z"
+                            fill={
+                              {
+                                "payload": 4278190080,
+                                "type": 0,
+                              }
+                            }
+                            propList={
+                              [
+                                "fill",
+                              ]
+                            }
+                          />
+                          <RNSVGPath
+                            d="M12.24 3.47656V3.90625H12.68H13.12V3.47656V3.04688H12.68H12.24V3.47656Z"
+                            fill={
+                              {
+                                "payload": 4278190080,
+                                "type": 0,
+                              }
+                            }
+                            propList={
+                              [
+                                "fill",
+                              ]
+                            }
+                          />
+                          <RNSVGPath
+                            d="M5.12 6.30859V6.75781H10H14.88V6.30859V5.85938H10H5.12V6.30859Z"
+                            fill={
+                              {
+                                "payload": 4278190080,
+                                "type": 0,
+                              }
+                            }
+                            propList={
+                              [
+                                "fill",
+                              ]
+                            }
+                          />
+                          <RNSVGPath
+                            d="M5.12 7.61719V8.04688H5.56H6V7.61719V7.1875H5.56H5.12V7.61719Z"
+                            fill={
+                              {
+                                "payload": 4278190080,
+                                "type": 0,
+                              }
+                            }
+                            propList={
+                              [
+                                "fill",
+                              ]
+                            }
+                          />
+                          <RNSVGPath
+                            d="M14 7.61719V8.04688H14.44H14.88V7.61719V7.1875H14.44H14V7.61719Z"
+                            fill={
+                              {
+                                "payload": 4291877877,
+                                "type": 0,
+                              }
+                            }
+                            propList={
+                              [
+                                "fill",
+                              ]
+                            }
+                          />
+                        </RNSVGGroup>
+                      </RNSVGSvgView>
+                      <Text
+                        numberOfLines={0}
+                        style={
+                          {
+                            "borderBottomWidth": 0,
+                            "borderColor": undefined,
+                            "color": "#216dab",
+                            "fontFamily": "Kanit-Bold",
+                            "fontSize": 22,
+                            "lineHeight": undefined,
+                            "textAlign": undefined,
+                          }
+                        }
+                      >
+                        TransactionStatusCard.textTransactionStatus
+                      </Text>
+                    </View>
+                    <View
+                      centerV={true}
+                      row={true}
+                      style={
+                        [
+                          undefined,
+                          undefined,
+                          undefined,
+                          undefined,
+                          {},
+                          {},
+                          {
+                            "alignItems": "center",
+                            "flexDirection": "row",
+                          },
+                          {
+                            "gap": 6,
+                          },
+                        ]
+                      }
+                    >
+                      <Text
+                        numberOfLines={0}
+                        style={
+                          {
+                            "borderBottomWidth": 0,
+                            "borderColor": undefined,
+                            "color": "#4d5963",
+                            "fontFamily": "Kanit-Regular",
+                            "fontSize": 14,
+                            "lineHeight": undefined,
+                            "textAlign": undefined,
+                          }
+                        }
+                      >
+                        TransactionStatusCard.textTrack
+                      </Text>
+                      <Text
+                        numberOfLines={0}
+                        style={
+                          {
+                            "borderBottomWidth": 0,
+                            "borderColor": undefined,
+                            "color": "#4d5963",
+                            "fontFamily": "Kanit-Regular",
+                            "fontSize": 14,
+                            "lineHeight": undefined,
+                            "textAlign": undefined,
+                          }
+                        }
+                      >
+                        &gt;
+                      </Text>
+                    </View>
+                  </View>
+                  <View
+                    paddingV-20={true}
+                    style={
+                      [
+                        undefined,
+                        undefined,
+                        {
+                          "flex": 1,
+                        },
+                        undefined,
+                        {
+                          "paddingVertical": 20,
+                        },
+                        {},
+                        {},
+                        {
+                          "gap": 16,
+                        },
+                      ]
+                    }
+                  >
+                    <View
+                      row={true}
+                      spread={true}
+                      style={
+                        [
+                          undefined,
+                          undefined,
+                          undefined,
+                          undefined,
+                          {},
+                          {},
+                          {
+                            "flexDirection": "row",
+                            "justifyContent": "space-between",
+                          },
+                          undefined,
+                        ]
+                      }
+                    >
+                      <Text
+                        numberOfLines={0}
+                        style={
+                          {
+                            "borderBottomWidth": 0,
+                            "borderColor": undefined,
+                            "color": "#828b92",
+                            "fontFamily": "Kanit-Regular",
+                            "fontSize": 16,
+                            "lineHeight": undefined,
+                            "textAlign": undefined,
+                          }
+                        }
+                      >
+                        TransactionStatusCard.textRentalID
+                      </Text>
+                      <Text
+                        numberOfLines={0}
+                        style={
+                          {
+                            "borderBottomWidth": 0,
+                            "borderColor": undefined,
+                            "color": "#4d5963",
+                            "fontFamily": "Kanit-Regular",
+                            "fontSize": 16,
+                            "lineHeight": undefined,
+                            "textAlign": undefined,
+                          }
+                        }
+                      >
+                        No. 
+                        SH-02012024-500a5886
+                      </Text>
+                    </View>
+                    <View
+                      row={true}
+                      spread={true}
+                      style={
+                        [
+                          undefined,
+                          undefined,
+                          undefined,
+                          undefined,
+                          {},
+                          {},
+                          {
+                            "flexDirection": "row",
+                            "justifyContent": "space-between",
+                          },
+                          undefined,
+                        ]
+                      }
+                    >
+                      <Text
+                        numberOfLines={0}
+                        style={
+                          {
+                            "borderBottomWidth": 0,
+                            "borderColor": undefined,
+                            "color": "#828b92",
+                            "fontFamily": "Kanit-Regular",
+                            "fontSize": 16,
+                            "lineHeight": undefined,
+                            "textAlign": undefined,
+                          }
+                        }
+                      >
+                        TransactionStatusCard.textRentalPeriod
+                      </Text>
+                      <Text
+                        numberOfLines={0}
+                        style={
+                          {
+                            "borderBottomWidth": 0,
+                            "borderColor": undefined,
+                            "color": "#4d5963",
+                            "fontFamily": "Kanit-Regular",
+                            "fontSize": 16,
+                            "lineHeight": undefined,
+                            "textAlign": undefined,
+                          }
+                        }
+                      >
+                        60
+                        d
+                      </Text>
+                    </View>
+                    <View
+                      row={true}
+                      spread={true}
+                      style={
+                        [
+                          undefined,
+                          undefined,
+                          undefined,
+                          undefined,
+                          {},
+                          {},
+                          {
+                            "flexDirection": "row",
+                            "justifyContent": "space-between",
+                          },
+                          undefined,
+                        ]
+                      }
+                    >
+                      <Text
+                        numberOfLines={0}
+                        style={
+                          {
+                            "borderBottomWidth": 0,
+                            "borderColor": undefined,
+                            "color": "#828b92",
+                            "fontFamily": "Kanit-Regular",
+                            "fontSize": 16,
+                            "lineHeight": undefined,
+                            "textAlign": undefined,
+                          }
+                        }
+                      >
+                        TransactionStatusCard.textTotalPrice
+                      </Text>
+                      <Text
+                        numberOfLines={0}
+                        style={
+                          {
+                            "borderBottomWidth": 0,
+                            "borderColor": undefined,
+                            "color": "#216dab",
+                            "fontFamily": "Kanit-SemiBold",
+                            "fontSize": 16,
+                            "lineHeight": undefined,
+                            "textAlign": undefined,
+                          }
+                        }
+                      >
+                        Rp
+                        12
+                      </Text>
+                    </View>
+                    <View
+                      row={true}
+                      spread={true}
+                      style={
+                        [
+                          undefined,
+                          undefined,
+                          undefined,
+                          undefined,
+                          {},
+                          {},
+                          {
+                            "flexDirection": "row",
+                            "justifyContent": "space-between",
+                          },
+                          undefined,
+                        ]
+                      }
+                    >
+                      <Text
+                        numberOfLines={0}
+                        style={
+                          {
+                            "borderBottomWidth": 0,
+                            "borderColor": undefined,
+                            "color": "#828b92",
+                            "fontFamily": "Kanit-Regular",
+                            "fontSize": 16,
+                            "lineHeight": undefined,
+                            "textAlign": undefined,
+                          }
+                        }
+                      >
+                        TransactionStatusCard.textReceiptSent
+                      </Text>
+                      <Text
+                        numberOfLines={0}
+                        style={
+                          {
+                            "borderBottomWidth": 0,
+                            "borderColor": undefined,
+                            "color": "#216dab",
+                            "fontFamily": "Kanit-Regular",
+                            "fontSize": 16,
+                            "lineHeight": undefined,
+                            "textAlign": undefined,
+                          }
+                        }
+                      >
+                        29-01-2024 16:49
+                      </Text>
+                    </View>
+                    <View
+                      row={true}
+                      spread={true}
+                      style={
+                        [
+                          undefined,
+                          undefined,
+                          undefined,
+                          undefined,
+                          {},
+                          {},
+                          {
+                            "flexDirection": "row",
+                            "justifyContent": "space-between",
+                          },
+                          undefined,
+                        ]
+                      }
+                    >
+                      <Text
+                        numberOfLines={0}
+                        style={
+                          {
+                            "borderBottomWidth": 0,
+                            "borderColor": undefined,
+                            "color": "#828b92",
+                            "fontFamily": "Kanit-Regular",
+                            "fontSize": 16,
+                            "lineHeight": undefined,
+                            "textAlign": undefined,
+                          }
+                        }
+                      >
+                        TransactionStatusCard.textReceiptApproved
+                      </Text>
+                      <Text
+                        numberOfLines={0}
+                        style={
+                          {
+                            "borderBottomWidth": 0,
+                            "borderColor": undefined,
+                            "color": "#216dab",
+                            "fontFamily": "Kanit-Regular",
+                            "fontSize": 16,
+                            "lineHeight": undefined,
+                            "textAlign": undefined,
+                          }
+                        }
+                      >
+                        Invalid date
+                      </Text>
+                    </View>
+                  </View>
+                  <View
+                    style={
+                      [
+                        undefined,
+                        undefined,
+                        undefined,
+                        undefined,
+                        undefined,
+                        undefined,
+                        undefined,
+                        {
+                          "backgroundColor": "#dbdee0",
+                          "borderBottomLeftRadius": 6,
+                          "borderBottomRightRadius": 6,
+                          "marginTop": 10,
+                          "padding": 10,
+                        },
+                      ]
+                    }
+                  >
+                    <View
+                      style={
+                        [
+                          {
+                            "backgroundColor": "rgba(1,0,0,0)",
+                          },
+                          {
+                            "flexDirection": "column",
+                          },
+                        ]
+                      }
+                    >
+                      <View
+                        onLayout={[Function]}
+                        style={
+                          [
+                            {
+                              "alignItems": "center",
+                              "backgroundColor": "rgba(1,0,0,0)",
+                              "flexDirection": "row",
+                              "justifyContent": "space-around",
+                            },
+                            {
+                              "flexDirection": "row",
+                              "height": 30,
+                            },
+                          ]
+                        }
+                      >
+                        <View
+                          accessibilityState={
+                            {
+                              "busy": undefined,
+                              "checked": undefined,
+                              "disabled": undefined,
+                              "expanded": undefined,
+                              "selected": undefined,
+                            }
+                          }
+                          accessible={true}
+                          focusable={true}
+                          onClick={[Function]}
+                          onResponderGrant={[Function]}
+                          onResponderMove={[Function]}
+                          onResponderRelease={[Function]}
+                          onResponderTerminate={[Function]}
+                          onResponderTerminationRequest={[Function]}
+                          onStartShouldSetResponder={[Function]}
+                          style={
+                            [
+                              {
+                                "alignItems": "center",
+                                "flex": 1,
+                                "flexDirection": "row",
+                                "justifyContent": "center",
+                              },
+                              {
+                                "flexDirection": "row",
+                              },
+                            ]
+                          }
+                        >
+                          <View
+                            collapsable={false}
+                            style={
+                              {
+                                "alignItems": "center",
+                                "backgroundColor": "#aaaaaa",
+                                "borderColor": "#aaaaaa",
+                                "borderRadius": 12.5,
+                                "borderWidth": 1,
+                                "height": 25,
+                                "justifyContent": "center",
+                                "overflow": "hidden",
+                                "width": 25,
+                                "zIndex": 2,
+                              }
+                            }
+                          >
+                            <Text
+                              style={
+                                [
+                                  {
+                                    "backgroundColor": "transparent",
+                                    "color": "#20303C",
+                                    "writingDirection": "ltr",
+                                  },
+                                  undefined,
+                                  undefined,
+                                  undefined,
+                                  undefined,
+                                  undefined,
+                                  undefined,
+                                  undefined,
+                                  undefined,
+                                  {
+                                    "color": "#f0f6fb",
+                                  },
+                                ]
+                              }
+                            />
+                          </View>
+                        </View>
+                        <View
+                          accessibilityState={
+                            {
+                              "busy": undefined,
+                              "checked": undefined,
+                              "disabled": undefined,
+                              "expanded": undefined,
+                              "selected": undefined,
+                            }
+                          }
+                          accessible={true}
+                          focusable={true}
+                          onClick={[Function]}
+                          onResponderGrant={[Function]}
+                          onResponderMove={[Function]}
+                          onResponderRelease={[Function]}
+                          onResponderTerminate={[Function]}
+                          onResponderTerminationRequest={[Function]}
+                          onStartShouldSetResponder={[Function]}
+                          style={
+                            [
+                              {
+                                "alignItems": "center",
+                                "flex": 1,
+                                "flexDirection": "row",
+                                "justifyContent": "center",
+                              },
+                              {
+                                "flexDirection": "row",
+                              },
+                            ]
+                          }
+                        >
+                          <View
+                            collapsable={false}
+                            style={
+                              {
+                                "alignItems": "center",
+                                "backgroundColor": "#aaaaaa",
+                                "borderColor": "#aaaaaa",
+                                "borderRadius": 12.5,
+                                "borderWidth": 1,
+                                "height": 25,
+                                "justifyContent": "center",
+                                "overflow": "hidden",
+                                "width": 25,
+                                "zIndex": 2,
+                              }
+                            }
+                          >
+                            <Text
+                              style={
+                                [
+                                  {
+                                    "backgroundColor": "transparent",
+                                    "color": "#20303C",
+                                    "writingDirection": "ltr",
+                                  },
+                                  undefined,
+                                  undefined,
+                                  undefined,
+                                  undefined,
+                                  undefined,
+                                  undefined,
+                                  undefined,
+                                  undefined,
+                                  {
+                                    "color": "#f0f6fb",
+                                  },
+                                ]
+                              }
+                            />
+                          </View>
+                        </View>
+                        <View
+                          accessibilityState={
+                            {
+                              "busy": undefined,
+                              "checked": undefined,
+                              "disabled": undefined,
+                              "expanded": undefined,
+                              "selected": undefined,
+                            }
+                          }
+                          accessible={true}
+                          focusable={true}
+                          onClick={[Function]}
+                          onResponderGrant={[Function]}
+                          onResponderMove={[Function]}
+                          onResponderRelease={[Function]}
+                          onResponderTerminate={[Function]}
+                          onResponderTerminationRequest={[Function]}
+                          onStartShouldSetResponder={[Function]}
+                          style={
+                            [
+                              {
+                                "alignItems": "center",
+                                "flex": 1,
+                                "flexDirection": "row",
+                                "justifyContent": "center",
+                              },
+                              {
+                                "flexDirection": "row",
+                              },
+                            ]
+                          }
+                        >
+                          <View
+                            collapsable={false}
+                            style={
+                              {
+                                "alignItems": "center",
+                                "backgroundColor": "#4cd669",
+                                "borderColor": "#4cd669",
+                                "borderRadius": 12.5,
+                                "borderWidth": 5,
+                                "height": 25,
+                                "justifyContent": "center",
+                                "overflow": "hidden",
+                                "width": 25,
+                                "zIndex": 2,
+                              }
+                            }
+                          >
+                            <RNSVGSvgView
+                              align="xMidYMid"
+                              bbHeight="24"
+                              bbWidth="24"
+                              fill="none"
+                              focusable={false}
+                              height={24}
+                              meetOrSlice={0}
+                              minX={0}
+                              minY={0}
+                              style={
+                                [
+                                  {
+                                    "backgroundColor": "transparent",
+                                    "borderWidth": 0,
+                                  },
+                                  {
+                                    "flex": 0,
+                                    "height": 24,
+                                    "width": 24,
+                                  },
+                                ]
+                              }
+                              vbHeight={24}
+                              vbWidth={24}
+                              width={24}
+                              xml="<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <g clip-path="url(#clip0_77_28301)">
+    <path d="M11.99 2C6.47 2 2 6.48 2 12C2 17.52 6.47 22 11.99 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 11.99 2ZM12 20C7.58 20 4 16.42 4 12C4 7.58 7.58 4 12 4C16.42 4 20 7.58 20 12C20 16.42 16.42 20 12 20ZM11.78 7H11.72C11.32 7 11 7.32 11 7.72V12.44C11 12.79 11.18 13.12 11.49 13.3L15.64 15.79C15.98 15.99 16.42 15.89 16.62 15.55C16.83 15.21 16.72 14.76 16.37 14.56L12.5 12.26V7.72C12.5 7.32 12.18 7 11.78 7Z" fill="white"/>
+    </g>
+    <defs>
+    <clipPath id="clip0_77_28301">
+    <rect width="24" height="24" fill="white"/>
+    </clipPath>
+    </defs>
+    </svg>
+    "
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <RNSVGGroup
+                                fill={null}
+                                propList={
+                                  [
+                                    "fill",
+                                  ]
+                                }
+                              >
+                                <RNSVGGroup
+                                  clipPath="clip0_77_28301"
+                                  fill={
+                                    {
+                                      "payload": 4278190080,
+                                      "type": 0,
+                                    }
+                                  }
+                                >
+                                  <RNSVGPath
+                                    d="M11.99 2C6.47 2 2 6.48 2 12C2 17.52 6.47 22 11.99 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 11.99 2ZM12 20C7.58 20 4 16.42 4 12C4 7.58 7.58 4 12 4C16.42 4 20 7.58 20 12C20 16.42 16.42 20 12 20ZM11.78 7H11.72C11.32 7 11 7.32 11 7.72V12.44C11 12.79 11.18 13.12 11.49 13.3L15.64 15.79C15.98 15.99 16.42 15.89 16.62 15.55C16.83 15.21 16.72 14.76 16.37 14.56L12.5 12.26V7.72C12.5 7.32 12.18 7 11.78 7Z"
+                                    fill={
+                                      {
+                                        "payload": 4294967295,
+                                        "type": 0,
+                                      }
+                                    }
+                                    propList={
+                                      [
+                                        "fill",
+                                      ]
+                                    }
+                                  />
+                                </RNSVGGroup>
+                                <RNSVGDefs>
+                                  <RNSVGClipPath
+                                    fill={
+                                      {
+                                        "payload": 4278190080,
+                                        "type": 0,
+                                      }
+                                    }
+                                    name="clip0_77_28301"
+                                  >
+                                    <RNSVGRect
+                                      fill={
+                                        {
+                                          "payload": 4294967295,
+                                          "type": 0,
+                                        }
+                                      }
+                                      height="24"
+                                      propList={
+                                        [
+                                          "fill",
+                                        ]
+                                      }
+                                      width="24"
+                                      x="0"
+                                      y="0"
+                                    />
+                                  </RNSVGClipPath>
+                                </RNSVGDefs>
+                              </RNSVGGroup>
+                            </RNSVGSvgView>
+                          </View>
+                        </View>
+                      </View>
+                      <View
+                        style={
+                          [
+                            {
+                              "justifyContent": "space-around",
+                            },
+                            {
+                              "flexDirection": "row",
+                              "paddingVertical": 4,
+                            },
+                            {
+                              "alignItems": "center",
+                            },
+                          ]
+                        }
+                      >
+                        <View
+                          accessibilityState={
+                            {
+                              "busy": undefined,
+                              "checked": undefined,
+                              "disabled": undefined,
+                              "expanded": undefined,
+                              "selected": undefined,
+                            }
+                          }
+                          accessible={true}
+                          focusable={true}
+                          onClick={[Function]}
+                          onResponderGrant={[Function]}
+                          onResponderMove={[Function]}
+                          onResponderRelease={[Function]}
+                          onResponderTerminate={[Function]}
+                          onResponderTerminationRequest={[Function]}
+                          onStartShouldSetResponder={[Function]}
+                          style={
+                            {
+                              "alignItems": "center",
+                              "flex": 1,
+                              "justifyContent": "center",
+                            }
+                          }
+                        >
+                          <Text
+                            style={
+                              [
+                                {
+                                  "fontSize": 12,
+                                  "fontWeight": "500",
+                                  "textAlign": "center",
+                                },
+                                {
+                                  "color": "#4d5963",
+                                },
+                                {
+                                  "fontFamily": "Kanit-SemiBold",
+                                  "fontSize": 16,
+                                },
+                              ]
+                            }
+                          >
+                            . . .
+                          </Text>
+                        </View>
+                        <View
+                          accessibilityState={
+                            {
+                              "busy": undefined,
+                              "checked": undefined,
+                              "disabled": undefined,
+                              "expanded": undefined,
+                              "selected": undefined,
+                            }
+                          }
+                          accessible={true}
+                          focusable={true}
+                          onClick={[Function]}
+                          onResponderGrant={[Function]}
+                          onResponderMove={[Function]}
+                          onResponderRelease={[Function]}
+                          onResponderTerminate={[Function]}
+                          onResponderTerminationRequest={[Function]}
+                          onStartShouldSetResponder={[Function]}
+                          style={
+                            {
+                              "alignItems": "center",
+                              "flex": 1,
+                              "justifyContent": "center",
+                            }
+                          }
+                        >
+                          <Text
+                            style={
+                              [
+                                {
+                                  "fontSize": 12,
+                                  "fontWeight": "500",
+                                  "textAlign": "center",
+                                },
+                                {
+                                  "color": "#4d5963",
+                                },
+                                {
+                                  "fontFamily": "Kanit-SemiBold",
+                                  "fontSize": 16,
+                                },
+                              ]
+                            }
+                          >
+                            . . .
+                          </Text>
+                        </View>
+                        <View
+                          accessibilityState={
+                            {
+                              "busy": undefined,
+                              "checked": undefined,
+                              "disabled": undefined,
+                              "expanded": undefined,
+                              "selected": undefined,
+                            }
+                          }
+                          accessible={true}
+                          focusable={true}
+                          onClick={[Function]}
+                          onResponderGrant={[Function]}
+                          onResponderMove={[Function]}
+                          onResponderRelease={[Function]}
+                          onResponderTerminate={[Function]}
+                          onResponderTerminationRequest={[Function]}
+                          onStartShouldSetResponder={[Function]}
+                          style={
+                            {
+                              "alignItems": "center",
+                              "flex": 1,
+                              "justifyContent": "center",
+                            }
+                          }
+                        >
+                          <Text
+                            style={
+                              [
+                                {
+                                  "fontSize": 12,
+                                  "fontWeight": "500",
+                                  "textAlign": "center",
+                                },
+                                {
+                                  "color": "#1fcc44",
+                                },
+                                {
+                                  "fontFamily": "Kanit-SemiBold",
+                                  "fontSize": 16,
+                                },
+                              ]
+                            }
+                          >
+                            StatusText.contract 2
+                          </Text>
+                        </View>
+                      </View>
+                    </View>
+                  </View>
+                </View>
+                <View
+                  accessibilityState={
+                    {
+                      "busy": undefined,
+                      "checked": undefined,
+                      "disabled": undefined,
+                      "expanded": undefined,
+                      "selected": undefined,
+                    }
+                  }
+                  accessibilityValue={
+                    {
+                      "max": undefined,
+                      "min": undefined,
+                      "now": undefined,
+                      "text": undefined,
+                    }
+                  }
+                  accessible={true}
+                  collapsable={false}
+                  focusable={true}
+                  onBlur={[Function]}
+                  onClick={[Function]}
+                  onFocus={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  testID="DocumentCardRFQ"
+                >
+                  <View
+                    row={true}
+                    spread={true}
+                    style={
+                      [
+                        undefined,
+                        undefined,
+                        {
+                          "flex": 1,
+                        },
+                        undefined,
+                        {},
+                        {},
+                        {
+                          "flexDirection": "row",
+                          "justifyContent": "space-between",
+                        },
+                        {
+                          "alignItems": "center",
+                          "backgroundColor": "#dbdee0",
+                          "borderRadius": 6,
+                          "padding": 16,
+                        },
+                      ]
+                    }
+                  >
+                    <View
+                      row={true}
+                      style={
+                        [
+                          undefined,
+                          undefined,
+                          undefined,
+                          undefined,
+                          {},
+                          {},
+                          {
+                            "flexDirection": "row",
+                          },
+                          {
+                            "alignItems": "center",
+                            "flex": 1,
+                            "gap": 16,
+                          },
+                        ]
+                      }
+                    >
+                      <RNSVGSvgView
+                        align="xMidYMid"
+                        bbHeight="20"
+                        bbWidth="20"
+                        fill="none"
+                        focusable={false}
+                        height={20}
+                        meetOrSlice={0}
+                        minX={0}
+                        minY={0}
+                        style={
+                          [
+                            {
+                              "backgroundColor": "transparent",
+                              "borderWidth": 0,
+                            },
+                            {
+                              "flex": 0,
+                              "height": 20,
+                              "width": 20,
+                            },
+                          ]
+                        }
+                        vbHeight={20}
+                        vbWidth={20}
+                        width={20}
+                        xml="<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <g clip-path="url(#clip0_763_315)">
+    <path d="M0.833333 0.833277L0 1.63328V10.1333V18.6333L0.866667 19.2999C2.03333 20.1999 6.23333 20.3333 6.56667 19.4666C6.86667 18.6666 6.06667 18.3333 3.76667 18.3333H1.66667V9.99994V1.66661H5.5H9.33333V3.16661C9.33333 5.23328 10.4 6.33328 12.4 6.33328C13.4667 6.33328 13.9333 6.49994 14.2667 6.99994C14.8333 7.93328 15.6667 7.49994 15.6667 6.19994C15.6667 5.33328 15.2333 4.69994 13.0667 2.56661L10.5 -5.59774e-05H6.06667C1.8 -5.59774e-05 1.6 0.0332774 0.833333 0.833277ZM12.3333 4.59994C11.6667 4.83328 11 4.36661 11 3.63328V2.89994L11.8667 3.69994C12.3333 4.13328 12.5333 4.53328 12.3333 4.59994Z" fill="black"/>
+    <path d="M3.60021 7.7C3.26687 7.86667 3.10021 8.23333 3.20021 8.5C3.36688 8.9 4.23354 9 7.86688 9C12.0335 9 12.3335 8.96667 12.3335 8.36667C12.3335 8.03333 12.1002 7.63333 11.8002 7.53333C10.9335 7.2 4.20021 7.33333 3.60021 7.7Z" fill="black"/>
+    <path d="M12.7667 12.0667C9.96673 14.9333 9.00006 16.1667 8.70006 17.1667C7.96673 19.8333 8.33339 20.3 10.7001 19.6667C11.9001 19.3667 12.8667 18.5667 16.1001 15.4C18.2334 13.2667 20.0001 11.3667 20.0001 11.1667C20.0001 10.6333 17.5334 8.33332 16.9667 8.33332C16.7001 8.33332 14.8001 10.0333 12.7667 12.0667ZM17.7001 10.8667C18.0667 11.3333 17.7001 11.8333 14.8001 14.7C12.6667 16.8 11.1667 18 10.7334 18C10.2001 18 10.0667 17.8667 10.2334 17.4C10.4334 16.8 16.6667 10.3333 17.0334 10.3333C17.1667 10.3333 17.4334 10.5667 17.7001 10.8667Z" fill="black"/>
+    <path d="M3.23325 11.1333C2.86658 12.0333 3.79992 12.3333 6.99992 12.3333C10.3332 12.3333 11.2332 12.0666 10.8999 11.1999C10.7332 10.7666 10.0666 10.6666 7.03325 10.6666C4.26658 10.6666 3.36658 10.7666 3.23325 11.1333Z" fill="black"/>
+    <path d="M3.40017 14.0666C2.66684 14.9666 3.46684 15.3666 5.70017 15.2666C7.56684 15.1666 7.8335 15.0999 7.8335 14.4999C7.8335 13.9333 7.56684 13.8333 5.80017 13.7333C4.4335 13.6666 3.66684 13.7666 3.40017 14.0666Z" fill="black"/>
+    </g>
+    <defs>
+    <clipPath id="clip0_763_315">
+    <rect width="20" height="20" fill="black"/>
+    </clipPath>
+    </defs>
+    </svg>
+    
+    "
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <RNSVGGroup
+                          fill={null}
+                          propList={
+                            [
+                              "fill",
+                            ]
+                          }
+                        >
+                          <RNSVGGroup
+                            clipPath="clip0_763_315"
+                            fill={
+                              {
+                                "payload": 4278190080,
+                                "type": 0,
+                              }
+                            }
+                          >
+                            <RNSVGPath
+                              d="M0.833333 0.833277L0 1.63328V10.1333V18.6333L0.866667 19.2999C2.03333 20.1999 6.23333 20.3333 6.56667 19.4666C6.86667 18.6666 6.06667 18.3333 3.76667 18.3333H1.66667V9.99994V1.66661H5.5H9.33333V3.16661C9.33333 5.23328 10.4 6.33328 12.4 6.33328C13.4667 6.33328 13.9333 6.49994 14.2667 6.99994C14.8333 7.93328 15.6667 7.49994 15.6667 6.19994C15.6667 5.33328 15.2333 4.69994 13.0667 2.56661L10.5 -5.59774e-05H6.06667C1.8 -5.59774e-05 1.6 0.0332774 0.833333 0.833277ZM12.3333 4.59994C11.6667 4.83328 11 4.36661 11 3.63328V2.89994L11.8667 3.69994C12.3333 4.13328 12.5333 4.53328 12.3333 4.59994Z"
+                              fill={
+                                {
+                                  "payload": 4278190080,
+                                  "type": 0,
+                                }
+                              }
+                              propList={
+                                [
+                                  "fill",
+                                ]
+                              }
+                            />
+                            <RNSVGPath
+                              d="M3.60021 7.7C3.26687 7.86667 3.10021 8.23333 3.20021 8.5C3.36688 8.9 4.23354 9 7.86688 9C12.0335 9 12.3335 8.96667 12.3335 8.36667C12.3335 8.03333 12.1002 7.63333 11.8002 7.53333C10.9335 7.2 4.20021 7.33333 3.60021 7.7Z"
+                              fill={
+                                {
+                                  "payload": 4278190080,
+                                  "type": 0,
+                                }
+                              }
+                              propList={
+                                [
+                                  "fill",
+                                ]
+                              }
+                            />
+                            <RNSVGPath
+                              d="M12.7667 12.0667C9.96673 14.9333 9.00006 16.1667 8.70006 17.1667C7.96673 19.8333 8.33339 20.3 10.7001 19.6667C11.9001 19.3667 12.8667 18.5667 16.1001 15.4C18.2334 13.2667 20.0001 11.3667 20.0001 11.1667C20.0001 10.6333 17.5334 8.33332 16.9667 8.33332C16.7001 8.33332 14.8001 10.0333 12.7667 12.0667ZM17.7001 10.8667C18.0667 11.3333 17.7001 11.8333 14.8001 14.7C12.6667 16.8 11.1667 18 10.7334 18C10.2001 18 10.0667 17.8667 10.2334 17.4C10.4334 16.8 16.6667 10.3333 17.0334 10.3333C17.1667 10.3333 17.4334 10.5667 17.7001 10.8667Z"
+                              fill={
+                                {
+                                  "payload": 4278190080,
+                                  "type": 0,
+                                }
+                              }
+                              propList={
+                                [
+                                  "fill",
+                                ]
+                              }
+                            />
+                            <RNSVGPath
+                              d="M3.23325 11.1333C2.86658 12.0333 3.79992 12.3333 6.99992 12.3333C10.3332 12.3333 11.2332 12.0666 10.8999 11.1999C10.7332 10.7666 10.0666 10.6666 7.03325 10.6666C4.26658 10.6666 3.36658 10.7666 3.23325 11.1333Z"
+                              fill={
+                                {
+                                  "payload": 4278190080,
+                                  "type": 0,
+                                }
+                              }
+                              propList={
+                                [
+                                  "fill",
+                                ]
+                              }
+                            />
+                            <RNSVGPath
+                              d="M3.40017 14.0666C2.66684 14.9666 3.46684 15.3666 5.70017 15.2666C7.56684 15.1666 7.8335 15.0999 7.8335 14.4999C7.8335 13.9333 7.56684 13.8333 5.80017 13.7333C4.4335 13.6666 3.66684 13.7666 3.40017 14.0666Z"
+                              fill={
+                                {
+                                  "payload": 4278190080,
+                                  "type": 0,
+                                }
+                              }
+                              propList={
+                                [
+                                  "fill",
+                                ]
+                              }
+                            />
+                          </RNSVGGroup>
+                          <RNSVGDefs>
+                            <RNSVGClipPath
+                              fill={
+                                {
+                                  "payload": 4278190080,
+                                  "type": 0,
+                                }
+                              }
+                              name="clip0_763_315"
+                            >
+                              <RNSVGRect
+                                fill={
+                                  {
+                                    "payload": 4278190080,
+                                    "type": 0,
+                                  }
+                                }
+                                height="20"
+                                propList={
+                                  [
+                                    "fill",
+                                  ]
+                                }
+                                width="20"
+                                x="0"
+                                y="0"
+                              />
+                            </RNSVGClipPath>
+                          </RNSVGDefs>
+                        </RNSVGGroup>
+                      </RNSVGSvgView>
+                      <Text
+                        ellipsizeMode="tail"
+                        numberOfLines={1}
+                        style={
+                          [
+                            {
+                              "backgroundColor": "transparent",
+                              "color": "#20303C",
+                              "writingDirection": "ltr",
+                            },
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            {
+                              "color": "#216dab",
+                              "fontFamily": "Kanit-Bold",
+                              "fontSize": 22,
+                            },
+                          ]
+                        }
+                      >
+                        DocumentCard.textRFQ
+                      </Text>
+                    </View>
+                    <View
+                      row={true}
+                      style={
+                        [
+                          undefined,
+                          undefined,
+                          undefined,
+                          undefined,
+                          {},
+                          {},
+                          {
+                            "flexDirection": "row",
+                          },
+                          {
+                            "alignItems": "center",
+                            "gap": 6,
+                          },
+                        ]
+                      }
+                    >
+                      <Text
+                        style={
+                          [
+                            {
+                              "backgroundColor": "transparent",
+                              "color": "#20303C",
+                              "writingDirection": "ltr",
+                            },
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            {
+                              "color": "#4d5963",
+                              "fontFamily": "Kanit-Regular",
+                              "fontSize": 14,
+                            },
+                          ]
+                        }
+                      >
+                        DocumentCard.textOpen
+                      </Text>
+                      <Text
+                        style={
+                          [
+                            {
+                              "backgroundColor": "transparent",
+                              "color": "#20303C",
+                              "writingDirection": "ltr",
+                            },
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            {
+                              "color": "#4d5963",
+                              "fontFamily": "Kanit-Regular",
+                              "fontSize": 14,
+                            },
+                          ]
+                        }
+                      >
+                        &gt;
+                      </Text>
+                    </View>
+                  </View>
+                </View>
+                <View
+                  accessibilityState={
+                    {
+                      "busy": undefined,
+                      "checked": undefined,
+                      "disabled": undefined,
+                      "expanded": undefined,
+                      "selected": undefined,
+                    }
+                  }
+                  accessibilityValue={
+                    {
+                      "max": undefined,
+                      "min": undefined,
+                      "now": undefined,
+                      "text": undefined,
+                    }
+                  }
+                  accessible={true}
+                  collapsable={false}
+                  focusable={true}
+                  onBlur={[Function]}
+                  onClick={[Function]}
+                  onFocus={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                >
+                  <View
+                    row={true}
+                    spread={true}
+                    style={
+                      [
+                        undefined,
+                        undefined,
+                        {
+                          "flex": 1,
+                        },
+                        undefined,
+                        {},
+                        {},
+                        {
+                          "flexDirection": "row",
+                          "justifyContent": "space-between",
+                        },
+                        {
+                          "alignItems": "center",
+                          "backgroundColor": "#dbdee0",
+                          "borderRadius": 6,
+                          "padding": 16,
+                        },
+                      ]
+                    }
+                  >
+                    <View
+                      row={true}
+                      style={
+                        [
+                          undefined,
+                          undefined,
+                          undefined,
+                          undefined,
+                          {},
+                          {},
+                          {
+                            "flexDirection": "row",
+                          },
+                          {
+                            "alignItems": "center",
+                            "flex": 1,
+                            "gap": 16,
+                          },
+                        ]
+                      }
+                    >
+                      <RNSVGSvgView
+                        align="xMidYMid"
+                        bbHeight="20"
+                        bbWidth="20"
+                        fill="none"
+                        focusable={false}
+                        height={20}
+                        meetOrSlice={0}
+                        minX={0}
+                        minY={0}
+                        style={
+                          [
+                            {
+                              "backgroundColor": "transparent",
+                              "borderWidth": 0,
+                            },
+                            {
+                              "flex": 0,
+                              "height": 20,
+                              "width": 20,
+                            },
+                          ]
+                        }
+                        vbHeight={20}
+                        vbWidth={20}
+                        width={20}
+                        xml="<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <g clip-path="url(#clip0_763_322)">
+    <path d="M1.43341 0.633375C1.33341 0.966708 0.966748 1.33338 0.633414 1.43338C8.0806e-05 1.60004 8.07981e-05 1.96671 0.0667475 10.7334L0.166747 19.8334L6.60008 19.9334C12.7334 20 13.0667 19.9667 13.2334 19.3667C13.3334 19.0334 13.6667 18.6667 14.0334 18.5667C14.6001 18.4 14.6667 18.0667 14.6667 15.7334V13.0667L17.3667 8.40004C20.2334 3.43338 20.3667 2.76671 18.8001 2.06671C17.3001 1.36671 16.8334 1.56671 15.8001 3.40004L14.8334 5.16671L14.6667 2.66671L14.5001 0.166709L8.06675 0.0667085C1.93341 4.18797e-05 1.60008 0.0333752 1.43341 0.633375ZM14.0001 3.63338C14.0001 6.46671 13.9334 6.73338 12.7667 8.70004C12.0001 10.0667 11.5001 11.3667 11.4001 12.4L11.2334 14H7.30008C4.86675 14 3.33341 14.1334 3.33341 14.3334C3.33341 14.9 12.0334 14.7334 12.8001 14.1667C13.8667 13.3667 14.0001 13.5667 14.0001 15.8334V18H9.20008H4.36675L4.26675 16.9C4.16675 15.9667 4.03341 15.8334 3.10008 15.7334L2.00008 15.6334V8.13338V0.666709H8.00008H14.0001V3.63338ZM1.33341 9.06671V16.1334L2.56675 17.4L3.80008 18.6667H8.23341C10.9667 18.6667 12.6667 18.8 12.6667 19C12.6667 19.2 10.4334 19.3334 6.66675 19.3334H0.666748V10.6667C0.666748 5.10004 0.800081 2.00004 1.00008 2.00004C1.20008 2.00004 1.33341 4.56671 1.33341 9.06671ZM18.7001 2.66671C19.3667 3.03338 19.5334 3.83338 19.0001 4.16671C18.4667 4.50004 16.6667 3.40004 16.8667 2.83338C17.1001 2.23338 17.7667 2.20004 18.7001 2.66671ZM17.3334 4.50004C18.3001 5.00004 18.6667 5.66671 18.0001 5.66671C17.3334 5.66671 16.0001 4.86671 16.0001 4.43338C16.0001 3.86671 16.1334 3.90004 17.3334 4.50004ZM16.0001 5.73338C15.9667 6.50004 12.9667 11.3667 12.6334 11.1334C12.3667 10.9667 13.5001 8.60004 15.1334 5.90004C15.5667 5.23338 16.0001 5.13338 16.0001 5.73338ZM16.4334 8.63338C14.4001 12.2 14.4001 12.2 14.0334 11.8334C13.5334 11.3334 16.6001 6.00004 17.2334 6.23338C17.5667 6.36671 17.3667 6.93338 16.4334 8.63338ZM13.1334 12.1667C13.8001 12.6667 13.8001 12.6667 13.1334 13.1667C12.2001 13.8667 12.0001 13.7667 12.0001 12.6667C12.0001 11.5667 12.2001 11.4667 13.1334 12.1667ZM3.66675 16.8667C3.66675 17.3334 3.56675 17.3334 3.16675 17C2.90008 16.7667 2.66675 16.5334 2.66675 16.4667C2.66675 16.4 2.90008 16.3334 3.16675 16.3334C3.43341 16.3334 3.66675 16.5667 3.66675 16.8667Z" fill="black"/>
+    <path d="M3.76662 2.56666C2.79995 3.66666 2.79995 4.46666 3.69995 5.29999C4.16662 5.73333 4.33329 6.19999 4.23329 6.86666C4.09995 7.79999 4.06662 7.79999 3.83329 7.06666C3.69995 6.66666 3.46662 6.33333 3.29995 6.33333C2.73329 6.33333 2.99995 7.23333 3.83329 8.13333L4.66662 9.03333L5.49995 8.13333C6.49995 7.03333 6.56662 6.23333 5.63329 5.36666C5.16662 4.93332 4.99995 4.46666 5.09995 3.79999C5.23329 2.86666 5.26662 2.86666 5.49995 3.56666C5.76662 4.39999 6.33329 4.59999 6.33329 3.86666C6.33329 3.49999 4.86662 1.63332 4.59995 1.69999C4.53329 1.69999 4.16662 2.09999 3.76662 2.56666ZM4.23329 4.56666C4.09995 5.13332 4.09995 5.13332 3.83329 4.56666C3.69995 4.26666 3.69995 3.73332 3.83329 3.39999C4.09995 2.86666 4.09995 2.86666 4.23329 3.39999C4.33329 3.73332 4.33329 4.26666 4.23329 4.56666ZM5.66662 6.66666C5.66662 6.99999 5.53329 7.39999 5.33329 7.49999C5.13329 7.63333 4.99995 7.26666 4.99995 6.66666C4.99995 6.06666 5.13329 5.69999 5.33329 5.83333C5.53329 5.93333 5.66662 6.33333 5.66662 6.66666Z" fill="black"/>
+    <path d="M7.3335 2.66667C7.3335 2.86667 8.4335 3 10.0002 3C11.5668 3 12.6668 2.86667 12.6668 2.66667C12.6668 2.46667 11.5668 2.33333 10.0002 2.33333C8.4335 2.33333 7.3335 2.46667 7.3335 2.66667Z" fill="black"/>
+    <path d="M7.3335 4.33341C7.3335 4.53341 8.4335 4.66675 10.0002 4.66675C11.5668 4.66675 12.6668 4.53341 12.6668 4.33341C12.6668 4.13341 11.5668 4.00008 10.0002 4.00008C8.4335 4.00008 7.3335 4.13341 7.3335 4.33341Z" fill="black"/>
+    <path d="M7.3335 6.00004C7.3335 6.20004 8.4335 6.33337 10.0002 6.33337C11.5668 6.33337 12.6668 6.20004 12.6668 6.00004C12.6668 5.80004 11.5668 5.66671 10.0002 5.66671C8.4335 5.66671 7.3335 5.80004 7.3335 6.00004Z" fill="black"/>
+    <path d="M7.3335 7.66667C7.3335 7.86667 8.4335 8 10.0002 8C11.5668 8 12.6668 7.86667 12.6668 7.66667C12.6668 7.46667 11.5668 7.33333 10.0002 7.33333C8.4335 7.33333 7.3335 7.46667 7.3335 7.66667Z" fill="black"/>
+    <path d="M7.3335 9.33341C7.3335 9.53341 8.2335 9.66675 9.3335 9.66675C10.4335 9.66675 11.3335 9.53341 11.3335 9.33341C11.3335 9.13341 10.4335 9.00008 9.3335 9.00008C8.2335 9.00008 7.3335 9.13341 7.3335 9.33341Z" fill="black"/>
+    <path d="M3.3335 11C3.3335 11.2 4.76683 11.3334 7.00016 11.3334C9.2335 11.3334 10.6668 11.2 10.6668 11C10.6668 10.8 9.2335 10.6667 7.00016 10.6667C4.76683 10.6667 3.3335 10.8 3.3335 11Z" fill="black"/>
+    <path d="M3.3335 12.6667C3.3335 12.8667 4.76683 13 7.00016 13C9.2335 13 10.6668 12.8667 10.6668 12.6667C10.6668 12.4667 9.2335 12.3333 7.00016 12.3333C4.76683 12.3333 3.3335 12.4667 3.3335 12.6667Z" fill="black"/>
+    </g>
+    <defs>
+    <clipPath id="clip0_763_322">
+    <rect width="20" height="20" fill="black"/>
+    </clipPath>
+    </defs>
+    </svg>
+    
+    "
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <RNSVGGroup
+                          fill={null}
+                          propList={
+                            [
+                              "fill",
+                            ]
+                          }
+                        >
+                          <RNSVGGroup
+                            clipPath="clip0_763_322"
+                            fill={
+                              {
+                                "payload": 4278190080,
+                                "type": 0,
+                              }
+                            }
+                          >
+                            <RNSVGPath
+                              d="M1.43341 0.633375C1.33341 0.966708 0.966748 1.33338 0.633414 1.43338C8.0806e-05 1.60004 8.07981e-05 1.96671 0.0667475 10.7334L0.166747 19.8334L6.60008 19.9334C12.7334 20 13.0667 19.9667 13.2334 19.3667C13.3334 19.0334 13.6667 18.6667 14.0334 18.5667C14.6001 18.4 14.6667 18.0667 14.6667 15.7334V13.0667L17.3667 8.40004C20.2334 3.43338 20.3667 2.76671 18.8001 2.06671C17.3001 1.36671 16.8334 1.56671 15.8001 3.40004L14.8334 5.16671L14.6667 2.66671L14.5001 0.166709L8.06675 0.0667085C1.93341 4.18797e-05 1.60008 0.0333752 1.43341 0.633375ZM14.0001 3.63338C14.0001 6.46671 13.9334 6.73338 12.7667 8.70004C12.0001 10.0667 11.5001 11.3667 11.4001 12.4L11.2334 14H7.30008C4.86675 14 3.33341 14.1334 3.33341 14.3334C3.33341 14.9 12.0334 14.7334 12.8001 14.1667C13.8667 13.3667 14.0001 13.5667 14.0001 15.8334V18H9.20008H4.36675L4.26675 16.9C4.16675 15.9667 4.03341 15.8334 3.10008 15.7334L2.00008 15.6334V8.13338V0.666709H8.00008H14.0001V3.63338ZM1.33341 9.06671V16.1334L2.56675 17.4L3.80008 18.6667H8.23341C10.9667 18.6667 12.6667 18.8 12.6667 19C12.6667 19.2 10.4334 19.3334 6.66675 19.3334H0.666748V10.6667C0.666748 5.10004 0.800081 2.00004 1.00008 2.00004C1.20008 2.00004 1.33341 4.56671 1.33341 9.06671ZM18.7001 2.66671C19.3667 3.03338 19.5334 3.83338 19.0001 4.16671C18.4667 4.50004 16.6667 3.40004 16.8667 2.83338C17.1001 2.23338 17.7667 2.20004 18.7001 2.66671ZM17.3334 4.50004C18.3001 5.00004 18.6667 5.66671 18.0001 5.66671C17.3334 5.66671 16.0001 4.86671 16.0001 4.43338C16.0001 3.86671 16.1334 3.90004 17.3334 4.50004ZM16.0001 5.73338C15.9667 6.50004 12.9667 11.3667 12.6334 11.1334C12.3667 10.9667 13.5001 8.60004 15.1334 5.90004C15.5667 5.23338 16.0001 5.13338 16.0001 5.73338ZM16.4334 8.63338C14.4001 12.2 14.4001 12.2 14.0334 11.8334C13.5334 11.3334 16.6001 6.00004 17.2334 6.23338C17.5667 6.36671 17.3667 6.93338 16.4334 8.63338ZM13.1334 12.1667C13.8001 12.6667 13.8001 12.6667 13.1334 13.1667C12.2001 13.8667 12.0001 13.7667 12.0001 12.6667C12.0001 11.5667 12.2001 11.4667 13.1334 12.1667ZM3.66675 16.8667C3.66675 17.3334 3.56675 17.3334 3.16675 17C2.90008 16.7667 2.66675 16.5334 2.66675 16.4667C2.66675 16.4 2.90008 16.3334 3.16675 16.3334C3.43341 16.3334 3.66675 16.5667 3.66675 16.8667Z"
+                              fill={
+                                {
+                                  "payload": 4278190080,
+                                  "type": 0,
+                                }
+                              }
+                              propList={
+                                [
+                                  "fill",
+                                ]
+                              }
+                            />
+                            <RNSVGPath
+                              d="M3.76662 2.56666C2.79995 3.66666 2.79995 4.46666 3.69995 5.29999C4.16662 5.73333 4.33329 6.19999 4.23329 6.86666C4.09995 7.79999 4.06662 7.79999 3.83329 7.06666C3.69995 6.66666 3.46662 6.33333 3.29995 6.33333C2.73329 6.33333 2.99995 7.23333 3.83329 8.13333L4.66662 9.03333L5.49995 8.13333C6.49995 7.03333 6.56662 6.23333 5.63329 5.36666C5.16662 4.93332 4.99995 4.46666 5.09995 3.79999C5.23329 2.86666 5.26662 2.86666 5.49995 3.56666C5.76662 4.39999 6.33329 4.59999 6.33329 3.86666C6.33329 3.49999 4.86662 1.63332 4.59995 1.69999C4.53329 1.69999 4.16662 2.09999 3.76662 2.56666ZM4.23329 4.56666C4.09995 5.13332 4.09995 5.13332 3.83329 4.56666C3.69995 4.26666 3.69995 3.73332 3.83329 3.39999C4.09995 2.86666 4.09995 2.86666 4.23329 3.39999C4.33329 3.73332 4.33329 4.26666 4.23329 4.56666ZM5.66662 6.66666C5.66662 6.99999 5.53329 7.39999 5.33329 7.49999C5.13329 7.63333 4.99995 7.26666 4.99995 6.66666C4.99995 6.06666 5.13329 5.69999 5.33329 5.83333C5.53329 5.93333 5.66662 6.33333 5.66662 6.66666Z"
+                              fill={
+                                {
+                                  "payload": 4278190080,
+                                  "type": 0,
+                                }
+                              }
+                              propList={
+                                [
+                                  "fill",
+                                ]
+                              }
+                            />
+                            <RNSVGPath
+                              d="M7.3335 2.66667C7.3335 2.86667 8.4335 3 10.0002 3C11.5668 3 12.6668 2.86667 12.6668 2.66667C12.6668 2.46667 11.5668 2.33333 10.0002 2.33333C8.4335 2.33333 7.3335 2.46667 7.3335 2.66667Z"
+                              fill={
+                                {
+                                  "payload": 4278190080,
+                                  "type": 0,
+                                }
+                              }
+                              propList={
+                                [
+                                  "fill",
+                                ]
+                              }
+                            />
+                            <RNSVGPath
+                              d="M7.3335 4.33341C7.3335 4.53341 8.4335 4.66675 10.0002 4.66675C11.5668 4.66675 12.6668 4.53341 12.6668 4.33341C12.6668 4.13341 11.5668 4.00008 10.0002 4.00008C8.4335 4.00008 7.3335 4.13341 7.3335 4.33341Z"
+                              fill={
+                                {
+                                  "payload": 4278190080,
+                                  "type": 0,
+                                }
+                              }
+                              propList={
+                                [
+                                  "fill",
+                                ]
+                              }
+                            />
+                            <RNSVGPath
+                              d="M7.3335 6.00004C7.3335 6.20004 8.4335 6.33337 10.0002 6.33337C11.5668 6.33337 12.6668 6.20004 12.6668 6.00004C12.6668 5.80004 11.5668 5.66671 10.0002 5.66671C8.4335 5.66671 7.3335 5.80004 7.3335 6.00004Z"
+                              fill={
+                                {
+                                  "payload": 4278190080,
+                                  "type": 0,
+                                }
+                              }
+                              propList={
+                                [
+                                  "fill",
+                                ]
+                              }
+                            />
+                            <RNSVGPath
+                              d="M7.3335 7.66667C7.3335 7.86667 8.4335 8 10.0002 8C11.5668 8 12.6668 7.86667 12.6668 7.66667C12.6668 7.46667 11.5668 7.33333 10.0002 7.33333C8.4335 7.33333 7.3335 7.46667 7.3335 7.66667Z"
+                              fill={
+                                {
+                                  "payload": 4278190080,
+                                  "type": 0,
+                                }
+                              }
+                              propList={
+                                [
+                                  "fill",
+                                ]
+                              }
+                            />
+                            <RNSVGPath
+                              d="M7.3335 9.33341C7.3335 9.53341 8.2335 9.66675 9.3335 9.66675C10.4335 9.66675 11.3335 9.53341 11.3335 9.33341C11.3335 9.13341 10.4335 9.00008 9.3335 9.00008C8.2335 9.00008 7.3335 9.13341 7.3335 9.33341Z"
+                              fill={
+                                {
+                                  "payload": 4278190080,
+                                  "type": 0,
+                                }
+                              }
+                              propList={
+                                [
+                                  "fill",
+                                ]
+                              }
+                            />
+                            <RNSVGPath
+                              d="M3.3335 11C3.3335 11.2 4.76683 11.3334 7.00016 11.3334C9.2335 11.3334 10.6668 11.2 10.6668 11C10.6668 10.8 9.2335 10.6667 7.00016 10.6667C4.76683 10.6667 3.3335 10.8 3.3335 11Z"
+                              fill={
+                                {
+                                  "payload": 4278190080,
+                                  "type": 0,
+                                }
+                              }
+                              propList={
+                                [
+                                  "fill",
+                                ]
+                              }
+                            />
+                            <RNSVGPath
+                              d="M3.3335 12.6667C3.3335 12.8667 4.76683 13 7.00016 13C9.2335 13 10.6668 12.8667 10.6668 12.6667C10.6668 12.4667 9.2335 12.3333 7.00016 12.3333C4.76683 12.3333 3.3335 12.4667 3.3335 12.6667Z"
+                              fill={
+                                {
+                                  "payload": 4278190080,
+                                  "type": 0,
+                                }
+                              }
+                              propList={
+                                [
+                                  "fill",
+                                ]
+                              }
+                            />
+                          </RNSVGGroup>
+                          <RNSVGDefs>
+                            <RNSVGClipPath
+                              fill={
+                                {
+                                  "payload": 4278190080,
+                                  "type": 0,
+                                }
+                              }
+                              name="clip0_763_322"
+                            >
+                              <RNSVGRect
+                                fill={
+                                  {
+                                    "payload": 4278190080,
+                                    "type": 0,
+                                  }
+                                }
+                                height="20"
+                                propList={
+                                  [
+                                    "fill",
+                                  ]
+                                }
+                                width="20"
+                                x="0"
+                                y="0"
+                              />
+                            </RNSVGClipPath>
+                          </RNSVGDefs>
+                        </RNSVGGroup>
+                      </RNSVGSvgView>
+                      <Text
+                        ellipsizeMode="tail"
+                        numberOfLines={1}
+                        style={
+                          [
+                            {
+                              "backgroundColor": "transparent",
+                              "color": "#20303C",
+                              "writingDirection": "ltr",
+                            },
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            {
+                              "color": "#216dab",
+                              "fontFamily": "Kanit-Bold",
+                              "fontSize": 22,
+                            },
+                          ]
+                        }
+                      >
+                        DocumentCard.textProposal
+                      </Text>
+                    </View>
+                    <View
+                      row={true}
+                      style={
+                        [
+                          undefined,
+                          undefined,
+                          undefined,
+                          undefined,
+                          {},
+                          {},
+                          {
+                            "flexDirection": "row",
+                          },
+                          {
+                            "alignItems": "center",
+                            "gap": 6,
+                          },
+                        ]
+                      }
+                    >
+                      <Text
+                        style={
+                          [
+                            {
+                              "backgroundColor": "transparent",
+                              "color": "#20303C",
+                              "writingDirection": "ltr",
+                            },
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            {
+                              "color": "#4d5963",
+                              "fontFamily": "Kanit-Regular",
+                              "fontSize": 14,
+                            },
+                          ]
+                        }
+                      >
+                        DocumentCard.textOpen
+                      </Text>
+                      <Text
+                        style={
+                          [
+                            {
+                              "backgroundColor": "transparent",
+                              "color": "#20303C",
+                              "writingDirection": "ltr",
+                            },
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            {
+                              "color": "#4d5963",
+                              "fontFamily": "Kanit-Regular",
+                              "fontSize": 14,
+                            },
+                          ]
+                        }
+                      >
+                        &gt;
+                      </Text>
+                    </View>
+                  </View>
+                </View>
+                <View
+                  accessibilityState={
+                    {
+                      "busy": undefined,
+                      "checked": undefined,
+                      "disabled": undefined,
+                      "expanded": undefined,
+                      "selected": undefined,
+                    }
+                  }
+                  accessibilityValue={
+                    {
+                      "max": undefined,
+                      "min": undefined,
+                      "now": undefined,
+                      "text": undefined,
+                    }
+                  }
+                  accessible={true}
+                  collapsable={false}
+                  focusable={true}
+                  onBlur={[Function]}
+                  onClick={[Function]}
+                  onFocus={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                >
+                  <View
+                    row={true}
+                    spread={true}
+                    style={
+                      [
+                        undefined,
+                        undefined,
+                        {
+                          "flex": 1,
+                        },
+                        undefined,
+                        {},
+                        {},
+                        {
+                          "flexDirection": "row",
+                          "justifyContent": "space-between",
+                        },
+                        {
+                          "alignItems": "center",
+                          "backgroundColor": "#dbdee0",
+                          "borderRadius": 6,
+                          "padding": 16,
+                        },
+                      ]
+                    }
+                  >
+                    <View
+                      row={true}
+                      style={
+                        [
+                          undefined,
+                          undefined,
+                          undefined,
+                          undefined,
+                          {},
+                          {},
+                          {
+                            "flexDirection": "row",
+                          },
+                          {
+                            "alignItems": "center",
+                            "flex": 1,
+                            "gap": 16,
+                          },
+                        ]
+                      }
+                    >
+                      <RNSVGSvgView
+                        align="xMidYMid"
+                        bbHeight="20"
+                        bbWidth="20"
+                        fill="none"
+                        focusable={false}
+                        height={20}
+                        meetOrSlice={0}
+                        minX={0}
+                        minY={0}
+                        style={
+                          [
+                            {
+                              "backgroundColor": "transparent",
+                              "borderWidth": 0,
+                            },
+                            {
+                              "flex": 0,
+                              "height": 20,
+                              "width": 20,
+                            },
+                          ]
+                        }
+                        vbHeight={20}
+                        vbWidth={20}
+                        width={20}
+                        xml="<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <g clip-path="url(#clip0_763_343)">
+    <path d="M0.675 0.449998C0.3 0.874998 0.25 1.9 0.25 10.05C0.25 18.575 0.275 19.2 0.7 19.575C1.1 19.95 1.95 20 7.65 20C11.2 20 14.25 19.9 14.4 19.8C15.025 19.4 15.25 18.425 15.25 16.275C15.25 14.425 15.175 14 14.875 14C14.575 14 14.5 14.45 14.5 16.5C14.5 18.7 14.45 19 14.025 19.25C13.375 19.6 1.875 19.6 1.225 19.25C0.775 19 0.75 18.625 0.75 10C0.75 1.375 0.775 0.999998 1.225 0.749998C1.525 0.599998 4.025 0.499998 7.625 0.499998C11.225 0.499998 13.725 0.599998 14.025 0.749998C14.425 0.974998 14.5 1.3 14.5 2.85C14.5 4.6 14.4 4.9 12.25 9.85C10.125 14.75 10 15.15 10 16.775C10 18.85 10.325 19 11.925 17.55C12.85 16.725 13.275 15.875 15.75 10.125C17.275 6.55 18.65 3.525 18.775 3.375C19.225 2.9 18.975 3.75 18 6.025C17 8.35 16.825 9 17.2 9C17.4 9 19.75 3.75 19.75 3.325C19.75 3.2 19.525 2.925 19.25 2.675C18.9 2.375 18.8 2.075 18.9 1.55C19.075 0.749998 18.525 -1.78814e-06 17.775 -1.78814e-06C17.325 -1.78814e-06 16.125 1.15 15.6 2.075C15.35 2.5 15.3 2.45 15.15 1.55C15.05 0.899998 14.825 0.424998 14.525 0.249998C14.225 0.0999982 11.525 -1.78814e-06 7.55 -1.78814e-06C1.6 -1.78814e-06 1.05 0.0249982 0.675 0.449998ZM18.25 1.275C18.25 1.575 18.075 1.75 17.775 1.75C17.1 1.75 16.925 1.375 17.4 0.899998C17.875 0.424998 18.25 0.599998 18.25 1.275ZM17.525 2.375C18.225 2.75 18.25 2.8 17.9 3.575C17.725 4 17.2 5.25 16.75 6.3C16.3 7.375 15.825 8.25 15.7 8.25C15.175 8.25 13.975 7.45 14.075 7.175C15.1 4.65 16.35 2 16.55 2C16.675 2 17.1 2.175 17.525 2.375ZM14.725 8.525C15.15 8.675 15.5 8.875 15.5 8.975C15.5 9.25 12.725 15.6 12.5 15.825C12.3 16.05 10.75 15.375 10.75 15.05C10.75 14.675 13.6 8.25 13.75 8.25C13.85 8.25 14.275 8.375 14.725 8.525ZM11.825 16.475C11.925 16.575 11.675 16.975 11.25 17.375L10.5 18.1V17.025C10.5 16.05 10.55 15.975 11.075 16.125C11.375 16.225 11.7 16.375 11.825 16.475Z" fill="black"/>
+    <path d="M4 2.75V3.75H6.125C7.375 3.75 8.25 3.65 8.25 3.5C8.25 3.35 7.45 3.25 6.375 3.25C4.675 3.25 4.5 3.2 4.5 2.75C4.5 2.275 4.675 2.25 7.625 2.25C10.575 2.25 10.75 2.275 10.75 2.75C10.75 3.15 10.575 3.25 10 3.25C9.6 3.25 9.25 3.35 9.25 3.5C9.25 3.625 9.7 3.75 10.25 3.75H11.25V2.75V1.75H7.625H4V2.75Z" fill="black"/>
+    <path d="M2.62515 5.24996C2.55015 5.39996 2.62515 5.54996 2.80015 5.62496C3.42515 5.87496 12.5002 5.62496 12.5752 5.37496C12.6502 5.02496 2.85015 4.89996 2.62515 5.24996Z" fill="black"/>
+    <path d="M2.62521 7.25C2.52521 7.425 4.25021 7.5 7.60021 7.5C10.8752 7.5 12.7502 7.4 12.7502 7.25C12.7502 6.9 2.82521 6.9 2.62521 7.25Z" fill="black"/>
+    <path d="M2.62481 9.25C2.72481 9.4 4.32481 9.5 6.64981 9.5C9.04981 9.5 10.4998 9.4 10.4998 9.25C10.4998 9.1 8.99981 9 6.47481 9C3.87481 9 2.52481 9.075 2.62481 9.25Z" fill="black"/>
+    <path d="M2.62521 11C2.55021 11.125 2.62521 11.325 2.82521 11.4C3.42521 11.625 6.87521 11.4 6.87521 11.125C6.87521 10.775 2.85021 10.65 2.62521 11Z" fill="black"/>
+    <path d="M2.9 16.275C2.55 16.55 2.25 16.9 2.25 17.025C2.25 17.4 2.925 17.275 3.1 16.875C3.275 16.4 4.225 16.4 4.85 16.875C5.6 17.425 6.65 17.35 7.125 16.7C7.575 16.025 7.2 15.775 6.6 16.35C6.1 16.875 5.925 16.85 4.95 16.25C3.925 15.625 3.725 15.625 2.9 16.275Z" fill="black"/>
+    </g>
+    <defs>
+    <clipPath id="clip0_763_343">
+    <rect width="20" height="20" fill="black"/>
+    </clipPath>
+    </defs>
+    </svg>
+    
+    "
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <RNSVGGroup
+                          fill={null}
+                          propList={
+                            [
+                              "fill",
+                            ]
+                          }
+                        >
+                          <RNSVGGroup
+                            clipPath="clip0_763_343"
+                            fill={
+                              {
+                                "payload": 4278190080,
+                                "type": 0,
+                              }
+                            }
+                          >
+                            <RNSVGPath
+                              d="M0.675 0.449998C0.3 0.874998 0.25 1.9 0.25 10.05C0.25 18.575 0.275 19.2 0.7 19.575C1.1 19.95 1.95 20 7.65 20C11.2 20 14.25 19.9 14.4 19.8C15.025 19.4 15.25 18.425 15.25 16.275C15.25 14.425 15.175 14 14.875 14C14.575 14 14.5 14.45 14.5 16.5C14.5 18.7 14.45 19 14.025 19.25C13.375 19.6 1.875 19.6 1.225 19.25C0.775 19 0.75 18.625 0.75 10C0.75 1.375 0.775 0.999998 1.225 0.749998C1.525 0.599998 4.025 0.499998 7.625 0.499998C11.225 0.499998 13.725 0.599998 14.025 0.749998C14.425 0.974998 14.5 1.3 14.5 2.85C14.5 4.6 14.4 4.9 12.25 9.85C10.125 14.75 10 15.15 10 16.775C10 18.85 10.325 19 11.925 17.55C12.85 16.725 13.275 15.875 15.75 10.125C17.275 6.55 18.65 3.525 18.775 3.375C19.225 2.9 18.975 3.75 18 6.025C17 8.35 16.825 9 17.2 9C17.4 9 19.75 3.75 19.75 3.325C19.75 3.2 19.525 2.925 19.25 2.675C18.9 2.375 18.8 2.075 18.9 1.55C19.075 0.749998 18.525 -1.78814e-06 17.775 -1.78814e-06C17.325 -1.78814e-06 16.125 1.15 15.6 2.075C15.35 2.5 15.3 2.45 15.15 1.55C15.05 0.899998 14.825 0.424998 14.525 0.249998C14.225 0.0999982 11.525 -1.78814e-06 7.55 -1.78814e-06C1.6 -1.78814e-06 1.05 0.0249982 0.675 0.449998ZM18.25 1.275C18.25 1.575 18.075 1.75 17.775 1.75C17.1 1.75 16.925 1.375 17.4 0.899998C17.875 0.424998 18.25 0.599998 18.25 1.275ZM17.525 2.375C18.225 2.75 18.25 2.8 17.9 3.575C17.725 4 17.2 5.25 16.75 6.3C16.3 7.375 15.825 8.25 15.7 8.25C15.175 8.25 13.975 7.45 14.075 7.175C15.1 4.65 16.35 2 16.55 2C16.675 2 17.1 2.175 17.525 2.375ZM14.725 8.525C15.15 8.675 15.5 8.875 15.5 8.975C15.5 9.25 12.725 15.6 12.5 15.825C12.3 16.05 10.75 15.375 10.75 15.05C10.75 14.675 13.6 8.25 13.75 8.25C13.85 8.25 14.275 8.375 14.725 8.525ZM11.825 16.475C11.925 16.575 11.675 16.975 11.25 17.375L10.5 18.1V17.025C10.5 16.05 10.55 15.975 11.075 16.125C11.375 16.225 11.7 16.375 11.825 16.475Z"
+                              fill={
+                                {
+                                  "payload": 4278190080,
+                                  "type": 0,
+                                }
+                              }
+                              propList={
+                                [
+                                  "fill",
+                                ]
+                              }
+                            />
+                            <RNSVGPath
+                              d="M4 2.75V3.75H6.125C7.375 3.75 8.25 3.65 8.25 3.5C8.25 3.35 7.45 3.25 6.375 3.25C4.675 3.25 4.5 3.2 4.5 2.75C4.5 2.275 4.675 2.25 7.625 2.25C10.575 2.25 10.75 2.275 10.75 2.75C10.75 3.15 10.575 3.25 10 3.25C9.6 3.25 9.25 3.35 9.25 3.5C9.25 3.625 9.7 3.75 10.25 3.75H11.25V2.75V1.75H7.625H4V2.75Z"
+                              fill={
+                                {
+                                  "payload": 4278190080,
+                                  "type": 0,
+                                }
+                              }
+                              propList={
+                                [
+                                  "fill",
+                                ]
+                              }
+                            />
+                            <RNSVGPath
+                              d="M2.62515 5.24996C2.55015 5.39996 2.62515 5.54996 2.80015 5.62496C3.42515 5.87496 12.5002 5.62496 12.5752 5.37496C12.6502 5.02496 2.85015 4.89996 2.62515 5.24996Z"
+                              fill={
+                                {
+                                  "payload": 4278190080,
+                                  "type": 0,
+                                }
+                              }
+                              propList={
+                                [
+                                  "fill",
+                                ]
+                              }
+                            />
+                            <RNSVGPath
+                              d="M2.62521 7.25C2.52521 7.425 4.25021 7.5 7.60021 7.5C10.8752 7.5 12.7502 7.4 12.7502 7.25C12.7502 6.9 2.82521 6.9 2.62521 7.25Z"
+                              fill={
+                                {
+                                  "payload": 4278190080,
+                                  "type": 0,
+                                }
+                              }
+                              propList={
+                                [
+                                  "fill",
+                                ]
+                              }
+                            />
+                            <RNSVGPath
+                              d="M2.62481 9.25C2.72481 9.4 4.32481 9.5 6.64981 9.5C9.04981 9.5 10.4998 9.4 10.4998 9.25C10.4998 9.1 8.99981 9 6.47481 9C3.87481 9 2.52481 9.075 2.62481 9.25Z"
+                              fill={
+                                {
+                                  "payload": 4278190080,
+                                  "type": 0,
+                                }
+                              }
+                              propList={
+                                [
+                                  "fill",
+                                ]
+                              }
+                            />
+                            <RNSVGPath
+                              d="M2.62521 11C2.55021 11.125 2.62521 11.325 2.82521 11.4C3.42521 11.625 6.87521 11.4 6.87521 11.125C6.87521 10.775 2.85021 10.65 2.62521 11Z"
+                              fill={
+                                {
+                                  "payload": 4278190080,
+                                  "type": 0,
+                                }
+                              }
+                              propList={
+                                [
+                                  "fill",
+                                ]
+                              }
+                            />
+                            <RNSVGPath
+                              d="M2.9 16.275C2.55 16.55 2.25 16.9 2.25 17.025C2.25 17.4 2.925 17.275 3.1 16.875C3.275 16.4 4.225 16.4 4.85 16.875C5.6 17.425 6.65 17.35 7.125 16.7C7.575 16.025 7.2 15.775 6.6 16.35C6.1 16.875 5.925 16.85 4.95 16.25C3.925 15.625 3.725 15.625 2.9 16.275Z"
+                              fill={
+                                {
+                                  "payload": 4278190080,
+                                  "type": 0,
+                                }
+                              }
+                              propList={
+                                [
+                                  "fill",
+                                ]
+                              }
+                            />
+                          </RNSVGGroup>
+                          <RNSVGDefs>
+                            <RNSVGClipPath
+                              fill={
+                                {
+                                  "payload": 4278190080,
+                                  "type": 0,
+                                }
+                              }
+                              name="clip0_763_343"
+                            >
+                              <RNSVGRect
+                                fill={
+                                  {
+                                    "payload": 4278190080,
+                                    "type": 0,
+                                  }
+                                }
+                                height="20"
+                                propList={
+                                  [
+                                    "fill",
+                                  ]
+                                }
+                                width="20"
+                                x="0"
+                                y="0"
+                              />
+                            </RNSVGClipPath>
+                          </RNSVGDefs>
+                        </RNSVGGroup>
+                      </RNSVGSvgView>
+                      <Text
+                        ellipsizeMode="tail"
+                        numberOfLines={1}
+                        style={
+                          [
+                            {
+                              "backgroundColor": "transparent",
+                              "color": "#20303C",
+                              "writingDirection": "ltr",
+                            },
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            {
+                              "color": "#216dab",
+                              "fontFamily": "Kanit-Bold",
+                              "fontSize": 22,
+                            },
+                          ]
+                        }
+                      >
+                        DocumentCard.textContract
+                      </Text>
+                    </View>
+                    <View
+                      row={true}
+                      style={
+                        [
+                          undefined,
+                          undefined,
+                          undefined,
+                          undefined,
+                          {},
+                          {},
+                          {
+                            "flexDirection": "row",
+                          },
+                          {
+                            "alignItems": "center",
+                            "gap": 6,
+                          },
+                        ]
+                      }
+                    >
+                      <Text
+                        style={
+                          [
+                            {
+                              "backgroundColor": "transparent",
+                              "color": "#20303C",
+                              "writingDirection": "ltr",
+                            },
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            {
+                              "color": "#4d5963",
+                              "fontFamily": "Kanit-Regular",
+                              "fontSize": 14,
+                            },
+                          ]
+                        }
+                      >
+                        DocumentCard.textOpen
+                      </Text>
+                      <Text
+                        style={
+                          [
+                            {
+                              "backgroundColor": "transparent",
+                              "color": "#20303C",
+                              "writingDirection": "ltr",
+                            },
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            {
+                              "color": "#4d5963",
+                              "fontFamily": "Kanit-Regular",
+                              "fontSize": 14,
+                            },
+                          ]
+                        }
+                      >
+                        &gt;
+                      </Text>
+                    </View>
+                  </View>
+                </View>
+              </View>
+            </RCTScrollView>
+          </View>
+        </View>
+      </View>
+      <RNSScreenStackHeaderConfig
+        backButtonInCustomView={false}
+        backTitleVisible={true}
+        backgroundColor="rgb(255, 255, 255)"
+        color="rgb(0, 122, 255)"
+        direction="ltr"
+        disableBackButtonMenu={false}
+        hidden={false}
+        hideBackButton={false}
+        largeTitleHideShadow={false}
+        title="ShipOwnerTransactionDetail"
+        titleColor="rgb(28, 28, 30)"
+        topInsetEnabled={false}
+        translucent={false}
+      />
+    </RNSScreen>
+  </RNSScreenStack>
+</RNCSafeAreaProvider>
+`;

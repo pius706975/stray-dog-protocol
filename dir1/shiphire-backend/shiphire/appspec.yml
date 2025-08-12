@@ -1,0 +1,21 @@
+version: 0.0
+os: linux
+files:
+  - source: /
+    destination: /home/ubuntu/shiphire
+hooks:
+  BeforeInstall:
+    - location: scripts/codedeploy_before_install.sh
+      timeout: 300
+      runas: ubuntu
+  AfterInstall:
+    - location: scripts/codedeploy_after_install.sh
+      timeout: 300
+      runas: ubuntu
+    - location: scripts/codedeploy_after_install_change_permission.sh
+      timeout: 300
+      runas: root
+  ApplicationStart:
+    - location: scripts/codedeploy_application_start.sh
+      timeout: 300
+      runas: ubuntu

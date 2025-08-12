@@ -1,0 +1,1682 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing transaction detail screen Snapshot testing should render transaction detail screen corectly 1`] = `
+<RNCSafeAreaProvider
+  onInsetsChange={[Function]}
+  style={
+    {
+      "flex": 1,
+    }
+  }
+>
+  <RNSScreenStack
+    style={
+      {
+        "flex": 1,
+      }
+    }
+  >
+    <RNSScreen
+      collapsable={false}
+      forwardedRef={[Function]}
+      gestureResponseDistance={
+        {
+          "bottom": -1,
+          "end": -1,
+          "start": -1,
+          "top": -1,
+        }
+      }
+      nativeBackButtonDismissalEnabled={false}
+      onAppear={[Function]}
+      onDisappear={[Function]}
+      onDismissed={[Function]}
+      onGestureCancel={[Function]}
+      onHeaderBackButtonClicked={[Function]}
+      onNativeDismissCancelled={[Function]}
+      onTransitionProgress={[Function]}
+      onWillDisappear={[Function]}
+      replaceAnimation="push"
+      sheetAllowedDetents="large"
+      sheetCornerRadius={-1}
+      sheetExpandsWhenScrolledToEdge={true}
+      sheetGrabberVisible={false}
+      sheetLargestUndimmedDetent="all"
+      stackPresentation="push"
+      style={
+        {
+          "bottom": 0,
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        }
+      }
+      swipeDirection="horizontal"
+    >
+      <View
+        accessibilityElementsHidden={false}
+        importantForAccessibility="auto"
+        style={
+          {
+            "flex": 1,
+            "flexDirection": "column-reverse",
+          }
+        }
+      >
+        <View
+          collapsable={false}
+          style={
+            [
+              {
+                "flex": 1,
+              },
+              {
+                "backgroundColor": "rgb(242, 242, 242)",
+              },
+              undefined,
+            ]
+          }
+        >
+          <View
+            style={
+              [
+                undefined,
+                undefined,
+                {
+                  "flex": 1,
+                },
+                undefined,
+                {},
+                {},
+                {},
+                {
+                  "backgroundColor": "#f0f6fb",
+                  "justifyContent": "space-between",
+                  "position": "relative",
+                },
+              ]
+            }
+            testID="adminHomeScreen"
+          >
+            <RCTScrollView
+              contentContainerStyle={
+                {
+                  "alignItems": undefined,
+                  "flex": undefined,
+                  "flexGrow": 1,
+                  "gap": undefined,
+                  "justifyContent": undefined,
+                  "marginBottom": 40,
+                  "padding": undefined,
+                  "paddingVertical": 40,
+                }
+              }
+            >
+              <View>
+                <View
+                  style={
+                    [
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      {
+                        "backgroundColor": "#216dab",
+                        "borderTopLeftRadius": 10,
+                        "borderTopRightRadius": 10,
+                        "marginHorizontal": 12,
+                      },
+                    ]
+                  }
+                >
+                  <View
+                    row={true}
+                    style={
+                      [
+                        undefined,
+                        undefined,
+                        {
+                          "flex": 1,
+                        },
+                        undefined,
+                        {},
+                        {},
+                        {
+                          "flexDirection": "row",
+                        },
+                        {
+                          "alignContent": "space-between",
+                        },
+                      ]
+                    }
+                  >
+                    <View
+                      center={true}
+                      style={
+                        [
+                          undefined,
+                          undefined,
+                          undefined,
+                          undefined,
+                          {},
+                          {},
+                          {
+                            "alignItems": "center",
+                            "justifyContent": "center",
+                          },
+                          {
+                            "backgroundColor": "#d9a318",
+                            "borderBottomEndRadius": 10,
+                            "borderTopStartRadius": 10,
+                            "borderWidth": 1,
+                            "minWidth": 250,
+                          },
+                        ]
+                      }
+                    >
+                      <Text
+                        numberOfLines={0}
+                        style={
+                          {
+                            "borderBottomWidth": 0,
+                            "borderColor": undefined,
+                            "color": "#f0f6fb",
+                            "fontFamily": "Kanit-Medium",
+                            "fontSize": 14,
+                            "lineHeight": undefined,
+                            "textAlign": undefined,
+                          }
+                        }
+                      >
+                        Waiting Proposal
+                         
+                      </Text>
+                    </View>
+                    <View
+                      paddingR-8={true}
+                      style={
+                        [
+                          undefined,
+                          undefined,
+                          {
+                            "flex": 1,
+                          },
+                          undefined,
+                          {
+                            "paddingRight": 8,
+                          },
+                          {},
+                          {},
+                          undefined,
+                        ]
+                      }
+                    >
+                      <Text
+                        numberOfLines={0}
+                        style={
+                          {
+                            "borderBottomWidth": 0,
+                            "borderColor": undefined,
+                            "color": "#f0f6fb",
+                            "fontFamily": "Kanit-Medium",
+                            "fontSize": 14,
+                            "lineHeight": undefined,
+                            "textAlign": "right",
+                          }
+                        }
+                      >
+                        test company
+                      </Text>
+                    </View>
+                  </View>
+                  <View
+                    row={true}
+                    style={
+                      [
+                        undefined,
+                        undefined,
+                        undefined,
+                        undefined,
+                        {},
+                        {},
+                        {
+                          "flexDirection": "row",
+                        },
+                        undefined,
+                      ]
+                    }
+                  >
+                    <Image
+                      source={
+                        {
+                          "uri": "",
+                        }
+                      }
+                      style={
+                        {
+                          "borderRadius": 12,
+                          "height": 80,
+                          "margin": 12,
+                          "width": 80,
+                        }
+                      }
+                    />
+                    <View
+                      style={
+                        [
+                          undefined,
+                          undefined,
+                          undefined,
+                          undefined,
+                          undefined,
+                          undefined,
+                          undefined,
+                          {
+                            "justifyContent": "center",
+                          },
+                        ]
+                      }
+                    >
+                      <View
+                        marginV-4={true}
+                        style={
+                          [
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            {},
+                            {
+                              "marginVertical": 4,
+                            },
+                            {},
+                            undefined,
+                          ]
+                        }
+                      >
+                        <Text
+                          numberOfLines={0}
+                          style={
+                            {
+                              "borderBottomWidth": 0,
+                              "borderColor": undefined,
+                              "color": "#f0f6fb",
+                              "fontFamily": "Kanit-Medium",
+                              "fontSize": 14,
+                              "lineHeight": undefined,
+                              "textAlign": undefined,
+                            }
+                          }
+                        >
+                          Ship Name
+                        </Text>
+                      </View>
+                      <View
+                        marginV-4={true}
+                        style={
+                          [
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            {},
+                            {
+                              "marginVertical": 4,
+                            },
+                            {},
+                            undefined,
+                          ]
+                        }
+                      >
+                        <Text
+                          numberOfLines={0}
+                          style={
+                            {
+                              "borderBottomWidth": 0,
+                              "borderColor": undefined,
+                              "color": "#f0f6fb",
+                              "fontFamily": "Kanit-Medium",
+                              "fontSize": 14,
+                              "lineHeight": undefined,
+                              "textAlign": undefined,
+                            }
+                          }
+                        >
+                          Rental ID
+                        </Text>
+                      </View>
+                      <View
+                        marginV-4={true}
+                        style={
+                          [
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            {},
+                            {
+                              "marginVertical": 4,
+                            },
+                            {},
+                            undefined,
+                          ]
+                        }
+                      >
+                        <Text
+                          numberOfLines={0}
+                          style={
+                            {
+                              "borderBottomWidth": 0,
+                              "borderColor": undefined,
+                              "color": "#f0f6fb",
+                              "fontFamily": "Kanit-Medium",
+                              "fontSize": 14,
+                              "lineHeight": undefined,
+                              "textAlign": undefined,
+                            }
+                          }
+                        >
+                          Total Rental
+                        </Text>
+                      </View>
+                    </View>
+                    <View
+                      style={
+                        [
+                          undefined,
+                          undefined,
+                          undefined,
+                          undefined,
+                          undefined,
+                          undefined,
+                          undefined,
+                          {
+                            "justifyContent": "center",
+                            "paddingStart": 4,
+                          },
+                        ]
+                      }
+                    >
+                      <View
+                        marginV-4={true}
+                        style={
+                          [
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            {},
+                            {
+                              "marginVertical": 4,
+                            },
+                            {},
+                            undefined,
+                          ]
+                        }
+                      >
+                        <Text
+                          numberOfLines={0}
+                          style={
+                            {
+                              "borderBottomWidth": 0,
+                              "borderColor": undefined,
+                              "color": "#f0f6fb",
+                              "fontFamily": "Kanit-Medium",
+                              "fontSize": 14,
+                              "lineHeight": undefined,
+                              "textAlign": undefined,
+                            }
+                          }
+                        >
+                          : 
+                          Ship 1
+                        </Text>
+                      </View>
+                      <View
+                        marginV-4={true}
+                        style={
+                          [
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            {},
+                            {
+                              "marginVertical": 4,
+                            },
+                            {},
+                            undefined,
+                          ]
+                        }
+                      >
+                        <Text
+                          numberOfLines={0}
+                          style={
+                            {
+                              "borderBottomWidth": 0,
+                              "borderColor": undefined,
+                              "color": "#f0f6fb",
+                              "fontFamily": "Kanit-Medium",
+                              "fontSize": 14,
+                              "lineHeight": undefined,
+                              "textAlign": undefined,
+                            }
+                          }
+                        >
+                          : 
+                          SH-4567
+                        </Text>
+                      </View>
+                      <View
+                        marginV-4={true}
+                        style={
+                          [
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            {},
+                            {
+                              "marginVertical": 4,
+                            },
+                            {},
+                            undefined,
+                          ]
+                        }
+                      >
+                        <Text
+                          numberOfLines={0}
+                          style={
+                            {
+                              "borderBottomWidth": 0,
+                              "borderColor": undefined,
+                              "color": "#f0f6fb",
+                              "fontFamily": "Kanit-Medium",
+                              "fontSize": 14,
+                              "lineHeight": undefined,
+                              "textAlign": undefined,
+                            }
+                          }
+                        >
+                          : Rp. 
+                          1112222333
+                        </Text>
+                      </View>
+                    </View>
+                  </View>
+                  <View
+                    row={true}
+                    style={
+                      [
+                        undefined,
+                        undefined,
+                        undefined,
+                        undefined,
+                        {},
+                        {},
+                        {
+                          "flexDirection": "row",
+                        },
+                        {
+                          "marginBottom": 8,
+                          "marginHorizontal": 8,
+                        },
+                      ]
+                    }
+                  >
+                    <View
+                      style={
+                        [
+                          undefined,
+                          undefined,
+                          {
+                            "flex": 1,
+                          },
+                          undefined,
+                          {},
+                          {},
+                          {},
+                          {
+                            "justifyContent": "center",
+                          },
+                        ]
+                      }
+                    >
+                      <Text
+                        numberOfLines={0}
+                        style={
+                          {
+                            "borderBottomWidth": 0,
+                            "borderColor": undefined,
+                            "color": "#f0f6fb",
+                            "fontFamily": "Kanit-Medium",
+                            "fontSize": 14,
+                            "lineHeight": undefined,
+                            "textAlign": undefined,
+                          }
+                        }
+                      >
+                        Invalid date
+                      </Text>
+                    </View>
+                  </View>
+                </View>
+                <View
+                  style={
+                    [
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      {
+                        "backgroundColor": "white",
+                        "borderBottomLeftRadius": 10,
+                        "borderBottomRightRadius": 10,
+                        "borderWidth": 1,
+                        "marginHorizontal": 12,
+                        "padding": 12,
+                      },
+                    ]
+                  }
+                >
+                  <Text
+                    numberOfLines={0}
+                    style={
+                      {
+                        "borderBottomWidth": 0,
+                        "borderColor": undefined,
+                        "color": "#4d5963",
+                        "fontFamily": "Kanit-Medium",
+                        "fontSize": 22,
+                        "lineHeight": undefined,
+                        "textAlign": undefined,
+                      }
+                    }
+                  >
+                    Transaction Details
+                  </Text>
+                  <Text
+                    numberOfLines={0}
+                    style={
+                      {
+                        "borderBottomWidth": 0,
+                        "borderColor": undefined,
+                        "color": "#4d5963",
+                        "fontFamily": "Kanit-Medium",
+                        "fontSize": 18,
+                        "lineHeight": undefined,
+                        "textAlign": undefined,
+                      }
+                    }
+                  >
+                    Needs
+                    :
+                  </Text>
+                  <View
+                    style={
+                      {
+                        "borderColor": "#828b92",
+                        "borderRadius": 8,
+                        "borderWidth": 1,
+                        "padding": 8,
+                      }
+                    }
+                  >
+                    <Text
+                      numberOfLines={0}
+                      style={
+                        {
+                          "borderBottomWidth": 0,
+                          "borderColor": undefined,
+                          "color": "#4d5963",
+                          "fontFamily": "Kanit-Medium",
+                          "fontSize": 14,
+                          "lineHeight": undefined,
+                          "textAlign": undefined,
+                        }
+                      }
+                    />
+                  </View>
+                  <Text
+                    numberOfLines={0}
+                    style={
+                      {
+                        "borderBottomWidth": 0,
+                        "borderColor": undefined,
+                        "color": "#4d5963",
+                        "fontFamily": "Kanit-Medium",
+                        "fontSize": 18,
+                        "lineHeight": undefined,
+                        "textAlign": undefined,
+                      }
+                    }
+                  >
+                    Rental Duration
+                    :
+                  </Text>
+                  <View
+                    style={
+                      {
+                        "borderColor": "#828b92",
+                        "borderRadius": 8,
+                        "borderWidth": 1,
+                        "padding": 8,
+                      }
+                    }
+                  >
+                    <Text
+                      numberOfLines={0}
+                      style={
+                        {
+                          "borderBottomWidth": 0,
+                          "borderColor": undefined,
+                          "color": "#4d5963",
+                          "fontFamily": "Kanit-Medium",
+                          "fontSize": 14,
+                          "lineHeight": undefined,
+                          "textAlign": undefined,
+                        }
+                      }
+                    >
+                      2 days
+                    </Text>
+                  </View>
+                  <Text
+                    numberOfLines={0}
+                    style={
+                      {
+                        "borderBottomWidth": 0,
+                        "borderColor": undefined,
+                        "color": "#4d5963",
+                        "fontFamily": "Kanit-Medium",
+                        "fontSize": 18,
+                        "lineHeight": undefined,
+                        "textAlign": undefined,
+                      }
+                    }
+                  >
+                    Rental Start Date
+                    :
+                  </Text>
+                  <View
+                    style={
+                      {
+                        "borderColor": "#828b92",
+                        "borderRadius": 8,
+                        "borderWidth": 1,
+                        "padding": 8,
+                      }
+                    }
+                  >
+                    <Text
+                      numberOfLines={0}
+                      style={
+                        {
+                          "borderBottomWidth": 0,
+                          "borderColor": undefined,
+                          "color": "#4d5963",
+                          "fontFamily": "Kanit-Medium",
+                          "fontSize": 14,
+                          "lineHeight": undefined,
+                          "textAlign": undefined,
+                        }
+                      }
+                    >
+                      Wed Jan 24 2024 09:49:05 GMT+0800 (Central Indonesia Time)
+                    </Text>
+                  </View>
+                  <Text
+                    numberOfLines={0}
+                    style={
+                      {
+                        "borderBottomWidth": 0,
+                        "borderColor": undefined,
+                        "color": "#4d5963",
+                        "fontFamily": "Kanit-Medium",
+                        "fontSize": 18,
+                        "lineHeight": undefined,
+                        "textAlign": undefined,
+                      }
+                    }
+                  >
+                    Rental End Date
+                    :
+                  </Text>
+                  <View
+                    style={
+                      {
+                        "borderColor": "#828b92",
+                        "borderRadius": 8,
+                        "borderWidth": 1,
+                        "padding": 8,
+                      }
+                    }
+                  >
+                    <Text
+                      numberOfLines={0}
+                      style={
+                        {
+                          "borderBottomWidth": 0,
+                          "borderColor": undefined,
+                          "color": "#4d5963",
+                          "fontFamily": "Kanit-Medium",
+                          "fontSize": 14,
+                          "lineHeight": undefined,
+                          "textAlign": undefined,
+                        }
+                      }
+                    >
+                      Wed Jan 24 2024 09:49:05 GMT+0800 (Central Indonesia Time)
+                    </Text>
+                  </View>
+                  <Text
+                    numberOfLines={0}
+                    style={
+                      {
+                        "borderBottomWidth": 0,
+                        "borderColor": undefined,
+                        "color": "#4d5963",
+                        "fontFamily": "Kanit-Medium",
+                        "fontSize": 18,
+                        "lineHeight": undefined,
+                        "textAlign": undefined,
+                      }
+                    }
+                  >
+                    Deport Location
+                    :
+                  </Text>
+                  <View
+                    style={
+                      {
+                        "borderColor": "#828b92",
+                        "borderRadius": 8,
+                        "borderWidth": 1,
+                        "padding": 8,
+                      }
+                    }
+                  >
+                    <Text
+                      numberOfLines={0}
+                      style={
+                        {
+                          "borderBottomWidth": 0,
+                          "borderColor": undefined,
+                          "color": "#4d5963",
+                          "fontFamily": "Kanit-Medium",
+                          "fontSize": 14,
+                          "lineHeight": undefined,
+                          "textAlign": undefined,
+                        }
+                      }
+                    />
+                  </View>
+                  <Text
+                    numberOfLines={0}
+                    style={
+                      {
+                        "borderBottomWidth": 0,
+                        "borderColor": undefined,
+                        "color": "#4d5963",
+                        "fontFamily": "Kanit-Medium",
+                        "fontSize": 18,
+                        "lineHeight": undefined,
+                        "textAlign": undefined,
+                      }
+                    }
+                  >
+                    Destination Location
+                    :
+                  </Text>
+                  <View
+                    style={
+                      {
+                        "borderColor": "#828b92",
+                        "borderRadius": 8,
+                        "borderWidth": 1,
+                        "padding": 8,
+                      }
+                    }
+                  >
+                    <Text
+                      numberOfLines={0}
+                      style={
+                        {
+                          "borderBottomWidth": 0,
+                          "borderColor": undefined,
+                          "color": "#4d5963",
+                          "fontFamily": "Kanit-Medium",
+                          "fontSize": 14,
+                          "lineHeight": undefined,
+                          "textAlign": undefined,
+                        }
+                      }
+                    />
+                  </View>
+                  <View
+                    marginT-16={true}
+                    style={
+                      [
+                        undefined,
+                        undefined,
+                        undefined,
+                        undefined,
+                        {},
+                        {
+                          "marginTop": 16,
+                        },
+                        {},
+                        undefined,
+                      ]
+                    }
+                  >
+                    <Text
+                      numberOfLines={0}
+                      style={
+                        {
+                          "borderBottomWidth": 0,
+                          "borderColor": undefined,
+                          "color": "#4d5963",
+                          "fontFamily": "Kanit-Medium",
+                          "fontSize": 22,
+                          "lineHeight": undefined,
+                          "textAlign": undefined,
+                        }
+                      }
+                    >
+                      RFQ
+                       Details
+                    </Text>
+                    <View
+                      row={true}
+                      style={
+                        [
+                          undefined,
+                          undefined,
+                          undefined,
+                          undefined,
+                          {},
+                          {},
+                          {
+                            "flexDirection": "row",
+                          },
+                          undefined,
+                        ]
+                      }
+                    >
+                      <View
+                        style={
+                          [
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                          ]
+                        }
+                      >
+                        <Text
+                          numberOfLines={0}
+                          style={
+                            {
+                              "borderBottomWidth": 0,
+                              "borderColor": undefined,
+                              "color": "#4d5963",
+                              "fontFamily": "Kanit-Regular",
+                              "fontSize": 16,
+                              "lineHeight": undefined,
+                              "textAlign": undefined,
+                            }
+                          }
+                        >
+                          RFQ
+                           Proposed
+                        </Text>
+                        <Text
+                          numberOfLines={0}
+                          style={
+                            {
+                              "borderBottomWidth": 0,
+                              "borderColor": undefined,
+                              "color": "#4d5963",
+                              "fontFamily": "Kanit-Regular",
+                              "fontSize": 16,
+                              "lineHeight": undefined,
+                              "textAlign": undefined,
+                            }
+                          }
+                        >
+                          RFQ
+                           Accepted
+                        </Text>
+                      </View>
+                      <View
+                        style={
+                          [
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                          ]
+                        }
+                      >
+                        <Text
+                          numberOfLines={0}
+                          style={
+                            {
+                              "borderBottomWidth": 0,
+                              "borderColor": undefined,
+                              "color": "#4d5963",
+                              "fontFamily": "Kanit-Regular",
+                              "fontSize": 16,
+                              "lineHeight": undefined,
+                              "textAlign": undefined,
+                            }
+                          }
+                        >
+                          : 
+                          24/01/2024
+                        </Text>
+                        <Text
+                          numberOfLines={0}
+                          style={
+                            {
+                              "borderBottomWidth": 0,
+                              "borderColor": undefined,
+                              "color": "#4d5963",
+                              "fontFamily": "Kanit-Regular",
+                              "fontSize": 16,
+                              "lineHeight": undefined,
+                              "textAlign": undefined,
+                            }
+                          }
+                        >
+                          : 
+                          24/01/2024
+                        </Text>
+                      </View>
+                    </View>
+                    <Text
+                      numberOfLines={0}
+                      style={
+                        {
+                          "borderBottomWidth": 0,
+                          "borderColor": undefined,
+                          "color": "#4d5963",
+                          "fontFamily": "Kanit-Medium",
+                          "fontSize": 18,
+                          "lineHeight": undefined,
+                          "textAlign": undefined,
+                        }
+                      }
+                    >
+                      RFQ
+                       Document
+                    </Text>
+                    <View
+                      accessibilityState={
+                        {
+                          "busy": undefined,
+                          "checked": undefined,
+                          "disabled": undefined,
+                          "expanded": undefined,
+                          "selected": undefined,
+                        }
+                      }
+                      accessibilityValue={
+                        {
+                          "max": undefined,
+                          "min": undefined,
+                          "now": undefined,
+                          "text": undefined,
+                        }
+                      }
+                      accessible={true}
+                      collapsable={false}
+                      focusable={true}
+                      onBlur={[Function]}
+                      onClick={[Function]}
+                      onFocus={[Function]}
+                      onResponderGrant={[Function]}
+                      onResponderMove={[Function]}
+                      onResponderRelease={[Function]}
+                      onResponderTerminate={[Function]}
+                      onResponderTerminationRequest={[Function]}
+                      onStartShouldSetResponder={[Function]}
+                      style={
+                        {
+                          "alignContent": "space-between",
+                          "borderColor": "#828b92",
+                          "borderRadius": 8,
+                          "borderWidth": 1,
+                          "flex": 1,
+                          "flexDirection": "row",
+                          "marginTop": 8,
+                          "padding": 8,
+                        }
+                      }
+                      testID="RFQ-document-preview"
+                    >
+                      <View
+                        style={
+                          [
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            {
+                              "alignContent": "center",
+                              "flex": 1,
+                            },
+                          ]
+                        }
+                      >
+                        <Text
+                          numberOfLines={0}
+                          style={
+                            {
+                              "borderBottomWidth": 0,
+                              "borderColor": undefined,
+                              "color": "#4d5963",
+                              "fontFamily": "Kanit-Medium",
+                              "fontSize": 14,
+                              "lineHeight": undefined,
+                              "textAlign": undefined,
+                            }
+                          }
+                        >
+                          Transaction 
+                          RFQ
+                           Document
+                        </Text>
+                      </View>
+                      <Text
+                        numberOfLines={0}
+                        style={
+                          {
+                            "borderBottomWidth": 0,
+                            "borderColor": undefined,
+                            "color": "#4d5963",
+                            "fontFamily": "Kanit-Bold",
+                            "fontSize": 18,
+                            "lineHeight": undefined,
+                            "textAlign": "right",
+                          }
+                        }
+                      >
+                        &gt;
+                      </Text>
+                    </View>
+                  </View>
+                  <View
+                    marginT-16={true}
+                    style={
+                      [
+                        undefined,
+                        undefined,
+                        undefined,
+                        undefined,
+                        {},
+                        {
+                          "marginTop": 16,
+                        },
+                        {},
+                        undefined,
+                      ]
+                    }
+                  >
+                    <Text
+                      numberOfLines={0}
+                      style={
+                        {
+                          "borderBottomWidth": 0,
+                          "borderColor": undefined,
+                          "color": "#4d5963",
+                          "fontFamily": "Kanit-Medium",
+                          "fontSize": 22,
+                          "lineHeight": undefined,
+                          "textAlign": undefined,
+                        }
+                      }
+                    >
+                      Proposal
+                       Details
+                    </Text>
+                    <View
+                      row={true}
+                      style={
+                        [
+                          undefined,
+                          undefined,
+                          undefined,
+                          undefined,
+                          {},
+                          {},
+                          {
+                            "flexDirection": "row",
+                          },
+                          undefined,
+                        ]
+                      }
+                    >
+                      <View
+                        style={
+                          [
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                          ]
+                        }
+                      >
+                        <Text
+                          numberOfLines={0}
+                          style={
+                            {
+                              "borderBottomWidth": 0,
+                              "borderColor": undefined,
+                              "color": "#4d5963",
+                              "fontFamily": "Kanit-Regular",
+                              "fontSize": 16,
+                              "lineHeight": undefined,
+                              "textAlign": undefined,
+                            }
+                          }
+                        >
+                          Proposal
+                           Proposed
+                        </Text>
+                        <Text
+                          numberOfLines={0}
+                          style={
+                            {
+                              "borderBottomWidth": 0,
+                              "borderColor": undefined,
+                              "color": "#4d5963",
+                              "fontFamily": "Kanit-Regular",
+                              "fontSize": 16,
+                              "lineHeight": undefined,
+                              "textAlign": undefined,
+                            }
+                          }
+                        >
+                          Proposal
+                           Accepted
+                        </Text>
+                      </View>
+                      <View
+                        style={
+                          [
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                          ]
+                        }
+                      >
+                        <Text
+                          numberOfLines={0}
+                          style={
+                            {
+                              "borderBottomWidth": 0,
+                              "borderColor": undefined,
+                              "color": "#4d5963",
+                              "fontFamily": "Kanit-Regular",
+                              "fontSize": 16,
+                              "lineHeight": undefined,
+                              "textAlign": undefined,
+                            }
+                          }
+                        >
+                          : 
+                          24/01/2024
+                        </Text>
+                        <Text
+                          numberOfLines={0}
+                          style={
+                            {
+                              "borderBottomWidth": 0,
+                              "borderColor": undefined,
+                              "color": "#4d5963",
+                              "fontFamily": "Kanit-Regular",
+                              "fontSize": 16,
+                              "lineHeight": undefined,
+                              "textAlign": undefined,
+                            }
+                          }
+                        >
+                          : 
+                          24/01/2024
+                        </Text>
+                      </View>
+                    </View>
+                    <Text
+                      numberOfLines={0}
+                      style={
+                        {
+                          "borderBottomWidth": 0,
+                          "borderColor": undefined,
+                          "color": "#4d5963",
+                          "fontFamily": "Kanit-Medium",
+                          "fontSize": 18,
+                          "lineHeight": undefined,
+                          "textAlign": undefined,
+                        }
+                      }
+                    >
+                      Proposal
+                       Document
+                    </Text>
+                    <View
+                      accessibilityState={
+                        {
+                          "busy": undefined,
+                          "checked": undefined,
+                          "disabled": undefined,
+                          "expanded": undefined,
+                          "selected": undefined,
+                        }
+                      }
+                      accessibilityValue={
+                        {
+                          "max": undefined,
+                          "min": undefined,
+                          "now": undefined,
+                          "text": undefined,
+                        }
+                      }
+                      accessible={true}
+                      collapsable={false}
+                      focusable={true}
+                      onBlur={[Function]}
+                      onClick={[Function]}
+                      onFocus={[Function]}
+                      onResponderGrant={[Function]}
+                      onResponderMove={[Function]}
+                      onResponderRelease={[Function]}
+                      onResponderTerminate={[Function]}
+                      onResponderTerminationRequest={[Function]}
+                      onStartShouldSetResponder={[Function]}
+                      style={
+                        {
+                          "alignContent": "space-between",
+                          "borderColor": "#828b92",
+                          "borderRadius": 8,
+                          "borderWidth": 1,
+                          "flex": 1,
+                          "flexDirection": "row",
+                          "marginTop": 8,
+                          "padding": 8,
+                        }
+                      }
+                      testID="Proposal-document-preview"
+                    >
+                      <View
+                        style={
+                          [
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            {
+                              "alignContent": "center",
+                              "flex": 1,
+                            },
+                          ]
+                        }
+                      >
+                        <Text
+                          numberOfLines={0}
+                          style={
+                            {
+                              "borderBottomWidth": 0,
+                              "borderColor": undefined,
+                              "color": "#4d5963",
+                              "fontFamily": "Kanit-Medium",
+                              "fontSize": 14,
+                              "lineHeight": undefined,
+                              "textAlign": undefined,
+                            }
+                          }
+                        >
+                          Transaction 
+                          Proposal
+                           Document
+                        </Text>
+                      </View>
+                      <Text
+                        numberOfLines={0}
+                        style={
+                          {
+                            "borderBottomWidth": 0,
+                            "borderColor": undefined,
+                            "color": "#4d5963",
+                            "fontFamily": "Kanit-Bold",
+                            "fontSize": 18,
+                            "lineHeight": undefined,
+                            "textAlign": "right",
+                          }
+                        }
+                      >
+                        &gt;
+                      </Text>
+                    </View>
+                  </View>
+                  <View
+                    marginT-16={true}
+                    style={
+                      [
+                        undefined,
+                        undefined,
+                        undefined,
+                        undefined,
+                        {},
+                        {
+                          "marginTop": 16,
+                        },
+                        {},
+                        undefined,
+                      ]
+                    }
+                  >
+                    <Text
+                      numberOfLines={0}
+                      style={
+                        {
+                          "borderBottomWidth": 0,
+                          "borderColor": undefined,
+                          "color": "#4d5963",
+                          "fontFamily": "Kanit-Medium",
+                          "fontSize": 22,
+                          "lineHeight": undefined,
+                          "textAlign": undefined,
+                        }
+                      }
+                    >
+                      Contract
+                       Details
+                    </Text>
+                    <View
+                      row={true}
+                      style={
+                        [
+                          undefined,
+                          undefined,
+                          undefined,
+                          undefined,
+                          {},
+                          {},
+                          {
+                            "flexDirection": "row",
+                          },
+                          undefined,
+                        ]
+                      }
+                    >
+                      <View
+                        style={
+                          [
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                          ]
+                        }
+                      >
+                        <Text
+                          numberOfLines={0}
+                          style={
+                            {
+                              "borderBottomWidth": 0,
+                              "borderColor": undefined,
+                              "color": "#4d5963",
+                              "fontFamily": "Kanit-Regular",
+                              "fontSize": 16,
+                              "lineHeight": undefined,
+                              "textAlign": undefined,
+                            }
+                          }
+                        >
+                          Contract
+                           Proposed
+                        </Text>
+                        <Text
+                          numberOfLines={0}
+                          style={
+                            {
+                              "borderBottomWidth": 0,
+                              "borderColor": undefined,
+                              "color": "#4d5963",
+                              "fontFamily": "Kanit-Regular",
+                              "fontSize": 16,
+                              "lineHeight": undefined,
+                              "textAlign": undefined,
+                            }
+                          }
+                        >
+                          Contract
+                           Accepted
+                        </Text>
+                      </View>
+                      <View
+                        style={
+                          [
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                          ]
+                        }
+                      >
+                        <Text
+                          numberOfLines={0}
+                          style={
+                            {
+                              "borderBottomWidth": 0,
+                              "borderColor": undefined,
+                              "color": "#4d5963",
+                              "fontFamily": "Kanit-Regular",
+                              "fontSize": 16,
+                              "lineHeight": undefined,
+                              "textAlign": undefined,
+                            }
+                          }
+                        >
+                          : 
+                          24/01/2024
+                        </Text>
+                        <Text
+                          numberOfLines={0}
+                          style={
+                            {
+                              "borderBottomWidth": 0,
+                              "borderColor": undefined,
+                              "color": "#4d5963",
+                              "fontFamily": "Kanit-Regular",
+                              "fontSize": 16,
+                              "lineHeight": undefined,
+                              "textAlign": undefined,
+                            }
+                          }
+                        >
+                          : 
+                          24/01/2024
+                        </Text>
+                      </View>
+                    </View>
+                    <Text
+                      numberOfLines={0}
+                      style={
+                        {
+                          "borderBottomWidth": 0,
+                          "borderColor": undefined,
+                          "color": "#4d5963",
+                          "fontFamily": "Kanit-Medium",
+                          "fontSize": 18,
+                          "lineHeight": undefined,
+                          "textAlign": undefined,
+                        }
+                      }
+                    >
+                      Contract
+                       Document
+                    </Text>
+                    <View
+                      accessibilityState={
+                        {
+                          "busy": undefined,
+                          "checked": undefined,
+                          "disabled": undefined,
+                          "expanded": undefined,
+                          "selected": undefined,
+                        }
+                      }
+                      accessibilityValue={
+                        {
+                          "max": undefined,
+                          "min": undefined,
+                          "now": undefined,
+                          "text": undefined,
+                        }
+                      }
+                      accessible={true}
+                      collapsable={false}
+                      focusable={true}
+                      onBlur={[Function]}
+                      onClick={[Function]}
+                      onFocus={[Function]}
+                      onResponderGrant={[Function]}
+                      onResponderMove={[Function]}
+                      onResponderRelease={[Function]}
+                      onResponderTerminate={[Function]}
+                      onResponderTerminationRequest={[Function]}
+                      onStartShouldSetResponder={[Function]}
+                      style={
+                        {
+                          "alignContent": "space-between",
+                          "borderColor": "#828b92",
+                          "borderRadius": 8,
+                          "borderWidth": 1,
+                          "flex": 1,
+                          "flexDirection": "row",
+                          "marginTop": 8,
+                          "padding": 8,
+                        }
+                      }
+                      testID="Contract-document-preview"
+                    >
+                      <View
+                        style={
+                          [
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            {
+                              "alignContent": "center",
+                              "flex": 1,
+                            },
+                          ]
+                        }
+                      >
+                        <Text
+                          numberOfLines={0}
+                          style={
+                            {
+                              "borderBottomWidth": 0,
+                              "borderColor": undefined,
+                              "color": "#4d5963",
+                              "fontFamily": "Kanit-Medium",
+                              "fontSize": 14,
+                              "lineHeight": undefined,
+                              "textAlign": undefined,
+                            }
+                          }
+                        >
+                          Transaction 
+                          Contract
+                           Document
+                        </Text>
+                      </View>
+                      <Text
+                        numberOfLines={0}
+                        style={
+                          {
+                            "borderBottomWidth": 0,
+                            "borderColor": undefined,
+                            "color": "#4d5963",
+                            "fontFamily": "Kanit-Bold",
+                            "fontSize": 18,
+                            "lineHeight": undefined,
+                            "textAlign": "right",
+                          }
+                        }
+                      >
+                        &gt;
+                      </Text>
+                    </View>
+                  </View>
+                </View>
+              </View>
+            </RCTScrollView>
+          </View>
+        </View>
+      </View>
+      <RNSScreenStackHeaderConfig
+        backButtonInCustomView={false}
+        backTitleVisible={true}
+        backgroundColor="rgb(255, 255, 255)"
+        color="rgb(0, 122, 255)"
+        direction="ltr"
+        disableBackButtonMenu={false}
+        hidden={false}
+        hideBackButton={false}
+        largeTitleHideShadow={false}
+        title="DetailTransaction"
+        titleColor="rgb(28, 28, 30)"
+        topInsetEnabled={false}
+        translucent={false}
+      />
+    </RNSScreen>
+  </RNSScreenStack>
+</RNCSafeAreaProvider>
+`;

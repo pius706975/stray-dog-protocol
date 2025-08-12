@@ -1,0 +1,40 @@
+{
+    "CompleteFlag": {
+        "textTransactionDone": "Transaksi selesai!",
+        "textTransactionHistory": "Transaksi Anda telah selesai! Periksa riwayat transaksi Anda",
+        "textHere": "disini."
+    },
+    "ShipInformationCard": {
+        "textShipInformation":"Informasi Kapal",
+        "textVisitCompany": "Kunjungi Perusahaan",
+        "textType": "Tipe :",
+        "textSize": "Ukuran :"
+    },
+    "TransactionStatusCard": {
+        "textTransactionStatus": "Status Transaksi",
+        "textTrack": "Lacak",
+        "textRentalID": "ID Sewa",
+        "textRentalPeriod": "Periode Sewa",
+        "textTotalPrice": "Harga Total",
+        "textReceiptSent": "Tanda Terima Dikirim pada",
+        "textReceiptApproved": "Tanda Terima Disetujui pada"
+    },
+    "DocumentCard": {
+        "textRFQ": "Permintaan Penawaran",
+        "textProposal": "Proposal",
+        "textContract": "Kontrak",
+        "textReceipt": "Bukti Pembayaran",
+        "textOpen": "Buka"
+    },
+    "ButtonTitle": {
+        "btnOpenProposal": "Lihat Proposal",
+        "btnPay": "Bayar",
+        "btnOpenContract": "Lihat Kontrak",
+        "btnOpenRfq": "Lihat RFQ",
+        "btnCreateProposal": "Buat Proposal",
+        "btnAcceptPayment": "Terima Pembayaran",
+        "btnOpenResponse": "Buka Respon"
+    },
+    "textDay": "hari",
+    "labelLegend": "Baru"  
+}

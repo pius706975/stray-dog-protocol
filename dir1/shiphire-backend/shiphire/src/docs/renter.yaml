@@ -1,0 +1,118 @@
+/api/renter/get-renter-data:
+    get:
+        tags: [renter]
+        summary: Renter Data
+        responses:
+            200:
+                description: Success get data
+
+/api/renter/submit-renter-preference:
+    post:
+        tags: [renter]
+        summary: Renter Preference User
+        requestBody:
+            description: Renter Preference user
+            content:
+                application/json:
+                    schema:
+                        $ref: "#/components/schemas/submitRenterPreference"
+        responses:
+            200:
+                description: Success submit renter preference
+
+/api/renter/submit-request-for-quote:
+    post:
+        tags: [renter]
+        summary: Renter request for quote
+        requestBody:
+            description: Renter request for quote
+            content:
+                multipart/form-data:
+                    schema:
+                        $ref: "#/components/schemas/submitRequestForQuote"
+        responses:
+            200:
+                description: Success submit request for quote
+
+/api/renter/submit-company-profile:
+    post:
+        tags: [renter]
+        summary: Renter submit company
+        requestBody:
+            description: Renter submit company
+            content:
+                multipart/form-data:
+                    schema:
+                        $ref: "#/components/schemas/submitCompanyProfile"
+        responses:
+            200:
+                description: Success submit request for quote
+
+/api/renter/get-all-transaction:
+    get:
+        tags: [renter]
+        summary: renter all transaction
+        responses:
+            200:
+                description: Success get transaction
+
+/api/renter/get-transaction-by-id/{id}:
+    get:
+        tags: [renter]
+        summary: get transaction by id
+        parameters:
+            - $ref: "#parameters/transactionId"
+
+        responses:
+            200:
+                description: Success get transaction by id
+
+/api/renter/send-otp-email-verif:
+    post:
+        tags: [renter]
+        summary: sending otp email verif
+        requestBody:
+            description: send otp email verif
+            content:
+                application/json:
+                    schema:
+                        $ref: "#/components/schemas/sendOtpEmailVerif"
+        responses:
+            200:
+                description: Success sending otp email verif
+
+/api/renter/verify-email-otp:
+    post:
+        tags: [renter]
+        summary: verify email otp
+        requestBody:
+            description: verify email otp
+            content:
+                application/json:
+                    schema:
+                        $ref: "#/components/schemas/verifyEmailOtp"
+        responses:
+            200:
+                description: Success verify email otp
+
+/api/renter/send-otp-sign-proposal:
+    post:
+        tags: [renter]
+        summary: send otp sign proposal
+        responses:
+            200:
+                description: Success send otp sign proposal
+
+/api/renter/verify-sign-proposal-otp:
+    post:
+        tags: [renter]
+        summary: verify sign proposal otp
+        requestBody:
+            description: verify sign proposal otp
+            content:
+                application/json:
+                    schema:
+                        $ref: "#/components/schemas/verifySignProposalOtp"
+        responses:
+            200:
+                description: Success verify sign proposal otp
